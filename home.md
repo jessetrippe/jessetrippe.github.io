@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+excerpt: Website of Jesse Trippe&mdash;a Product and UI Designer living in Chicago, IL, working at Coyote Logistics.
 permalink: /
 sort_order: 1
 display-title: Hello!

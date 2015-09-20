@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Selected work
+excerpt: Selected portfolio pieces of Jesse Trippe.
 permalink: /selected-work/
 sort_order: 2
 ---

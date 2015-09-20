@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Get in touch
+excerpt: Get in touch with Jesse Trippe.
 permalink: /get-in-touch/
 sort_order: 4
 ---

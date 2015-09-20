@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About me
+excerpt: A brief profile of Jesse Trippe.
 permalink: /about-me/
 sort_order: 3
 ---
