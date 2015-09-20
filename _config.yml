@@ -1,9 +1,0 @@
-# Site settings
-title: Jesse Trippe, Product Designer
-
-# Build settings
-markdown: kramdown
-
-collections:
-  projects:
-    output: false
