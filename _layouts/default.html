@@ -1,34 +1,34 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
-  {% include head.html %}
+{% include head.html %}
 
 <body>
+    <header class="header" id="header">
+        {% include header.html %}
+    </header>
 
-  {% include header.html %}
+    <div class="main off-page" role="main" id="main">
+        <div class="segment">
+            <h2 class="font-md font-lg@md{% if page.tagline %} push-half-bottom{% endif %}">
+                {% if page.display-title %}
+                {{ page.display-title }}
+                {% else %}
+                {{ page.title }}
+                {% endif %}
+            </h2>
 
+            {% if page.tagline %}
+            <p class="font-xs flush">
+                {{ page.tagline }}
+            </p>
+            {% endif %}
 
-  <div class="main off-page" role="main" id="main">
-    <div class="segment">
-      <h2 class="font-md font-lg@md{% if page.tagline %} push-half-bottom{% endif %}">
-        {% if page.display-title %}
-          {{ page.display-title }}
-        {% else %}
-            {{ page.title }}
-        {% endif %}
-      </h2>
-
-        {% if page.tagline %}
-          <p class="font-xs flush">
-            {{ page.tagline }}
-          </p>
-        {% endif %}
-
+        </div>
+        {{ content }}
     </div>
-      {{ content }}
-  </div>
 
-  {% include footer.html %}
+    {% include footer.html %}
 
 </body>
 </html>

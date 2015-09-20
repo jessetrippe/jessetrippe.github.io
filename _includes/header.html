@@ -1,30 +1,28 @@
-<header class="header" id="header">
-    <div class="cf">
-        <h1 class="fl soft-half-ends hard@md 1/1@md font-sm@md">
-            <a href="/" class="border-none text-white">Jesse Trippe</a>
-        </h1>
-        <button type="button" class="fr soft-half-ends soft-right hidden@md text-white" id="menu-toggle">
-            Menu
-            <span class="nav-icon" aria-hidden="true"></span>
-        </button>
-    </div>
-    <nav id="menu-container" class="menu-container">
+<div class="cf">
+    <h1 class="fl soft-half-ends hard@md 1/1@md font-sm@md">
+        <a href="/" class="border-none text-white">Jesse Trippe</a>
+    </h1>
+    <button type="button" class="fr soft-half-ends soft-right hidden@md text-white" id="menu-toggle">
+        Menu
+        <span class="nav-icon" aria-hidden="true"></span>
+    </button>
+</div>
+<nav id="menu-container" class="menu-container">
 
-        <ul class="menu-list push-double-top push-quad-bottom">
-            {% assign pages = site.pages | sort:'sort_order'  %}
-            {% for page in pages %}
-                {% if page.title %}
-                    <li>
-                        <a class="block soft-half-ends text-white border-none" href="{{ page.url }}">
-                            {{ page.title }}
-                        </a>
-                    </li>
-                {% endif %}    
-            {% endfor %}
-        </ul>
+    <ul class="menu-list push-double-top push-quad-bottom">
+        {% assign pages = site.pages | sort:'sort_order'  %}
+        {% for page in pages %}
+            {% if page.title %}
+                <li>
+                    <a class="block soft-half-ends text-white border-none" href="{{ page.url }}">
+                        {{ page.title }}
+                    </a>
+                </li>
+            {% endif %}    
+        {% endfor %}
+    </ul>
 
-        <footer class="text-white push-bottom soft-double-top" id="footer">
-            <small>&copy; Copyright Jesse Trippe, 2015.</small>
-        </footer>
-    </nav>
-</header>
+    <footer class="text-white push-bottom soft-double-top" id="footer">
+        <small>&copy; Copyright Jesse Trippe, 2015.</small>
+    </footer>
+</nav>
