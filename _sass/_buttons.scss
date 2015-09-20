@@ -1,0 +1,36 @@
+// Nav Menu
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+button {
+    font: inherit;
+    color: inherit;
+	background: none;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+
+    &:focus,
+    &:active {
+        outline: 0;
+    }
+}
+
+.back-to-top {
+    bottom: $base-spacing-unit;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    position: fixed;
+    right: $base-spacing-unit;
+    transition: transform .2s linear, opacity .15s linear;
+    width: $base-spacing-unit;
+
+    &:hover {
+        transform: scale(1.25);
+    }
+
+    &.fade-in {
+        opacity: 1;
+        height: $base-spacing-unit;
+    }
+}

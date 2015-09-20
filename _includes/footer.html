@@ -1,0 +1,81 @@
+<!-- Back to top button -->
+<button id="back-to-top" title="To the top" class="back-to-top">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-gray">
+        <title>Back to Top</title>
+        <path d="M2.582,13.891c-0.272,0.268-0.709,0.268-0.979,0s-0.271-0.701,0-0.969l7.908-7.83c0.27-0.268,0.707-0.268,0.979,0
+        l7.908,7.83c0.27,0.268,0.27,0.701,0,0.969c-0.271,0.268-0.709,0.268-0.978,0L10,6.75L2.582,13.891z"/>
+    </svg>
+</button>
+
+<!-- Page Scripts -->
+<script>
+    /*global window, document*/
+    (function (window, document) {
+        "use strict";
+
+        var menuToggle = document.getElementById('menu-toggle'),
+            backToTop = document.getElementById('back-to-top'),
+            header = document.getElementById('header'),
+            main = document.getElementById('main'),
+            // Throttle window scroll
+            throttle = function (callback, wait) {
+                var go = true,
+                    throttledFn = function () {
+                        if (go) {
+                            go = false;
+                            window.setTimeout(function () {
+                                go = true;
+                                callback.call();
+                            }, wait);
+                        }
+                    };
+
+                return throttledFn;
+            },
+            // Show scroll-to-top arrow after 400px
+            scrollHandler = throttle(function () {
+                if (window.pageYOffset < 400) {
+                    backToTop.classList.remove('fade-in');
+                } else {
+                    backToTop.classList.add('fade-in');
+                }
+            }, 300),
+            scrollToTop = function scrollToTop() {
+                var timeOut;
+                if (document.body.scrollTop !== 0 || document.documentElement.scrollTop !== 0) {
+                    window.scrollBy(0, -200);
+                    timeOut = window.setTimeout(scrollToTop, 10);
+                } else {
+                    window.clearTimeout(timeOut);
+                }
+            };
+
+        window.onscroll = scrollHandler;
+
+        // Toggle Mobile Navigation Menu
+        menuToggle.addEventListener('click', function () {
+            if (header.classList.contains('is-open')) {
+                header.classList.remove('is-open');
+            } else {
+                header.classList.add('is-open');
+            }
+        });
+
+        // Smooth scroll-to-top after clicking
+        backToTop.addEventListener("click", scrollToTop, false);
+
+        // Once everything's loaded bring in main content
+        main.classList.remove('off-page');
+
+    }(window, document));
+</script>
+
+<!-- Google Analytics -->
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-54788171-1','auto');ga('send','pageview');
+</script>

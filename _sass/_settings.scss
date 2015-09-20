@@ -1,0 +1,70 @@
+// Settings
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+$base-font-size: 16px;
+$base-line-height: 25px;
+$base-spacing-unit: $base-line-height;
+$half-spacing-unit: $base-spacing-unit / 2;
+$base-text-color: #222;
+$base-ui-color: #f0f0f0;
+
+// colors
+
+$aqua:  #7fdbff;
+$blue:  #0074d9;
+$navy:  #001f3f;
+$teal:  #39cccc;
+$green: #2ecc40;
+$olive: #3d9970;
+$lime:  #01ff70;
+
+// warm
+
+$yellow:  #ffdc00;
+$orange:  #ff851b;
+$red:     #ff4136;
+$fuchsia: #f012be;
+$purple:  #b10dc9;
+$maroon:  #85144b;
+
+// gray scale
+
+$white:  #fff;
+$silver: #ddd;
+$gray:   #aaa;
+$black:  #111;
+
+// new colors
+$material-blue: #03a9f4;
+
+// Media Queries
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+$small: 500px !default;
+$medium: 800px !default;
+$large: 1050px !default;
+
+@mixin media-query($media-query) {
+
+    @if $media-query == xsmall {
+        @media only screen and (max-width: $small - 1) { @content; }
+    }
+
+    @if $media-query == small {
+        @media only screen and (min-width: $small) { @content; }
+    }
+
+    @if $media-query == medium {
+        @media only screen and (min-width: $medium) { @content; }
+    }
+
+    @if $media-query == large {
+        @media only screen and (min-width: $large) { @content; }
+    }
+}
+
+// Just some helpers...
+@mixin xsmall { @include media-query(xsmall) { @content }; }
+@mixin small { @include media-query(small) { @content }; }
+@mixin medium { @include media-query(medium) { @content }; }
+@mixin large { @include media-query(large) { @content }; }
