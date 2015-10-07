@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="../css/main.css">
-    <script src="js/modernizr-2.8.3.min.js"></script>
+    <script src="../js/modernizr-2.8.3.min.js"></script>
 
     <!-- Font-->
     <script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
@@ -33,21 +33,22 @@
                 2015
             </div>
             <div class="grid-cell 3/4">
-                <p class="push-bottom font-sm">There's various types of shipping within the 3PL industry and Coyote was missing out big on one of them: Less than truckload shipping (LTL). Coyote needed a tool to give shippers quotes and allow them to book LTL freight.</p>
+                <p class="push-bottom font-sm">Coyote was losing significant business because it lacked a less than truckload (LTL) quoting and shipping tool so we decided to build one.</p>
                 <div class="grid grid--with-gutter">
                     <div class="grid-cell 1/2">
-                        I worked with various stakeholders&mdash;some familiar and others brand new to LTL, a business analyst, a product manager, and a development team overseas in Pune, Maharashtra, India. The tool was built over the course of 4 months and is included in Coyote.com, Coyote's web app for shippers and carriers.
+                        I worked with a Business Analyst, a Product Manager, an overseas development team, and various stakeholders&mdash;some familiar and others brand new to LTL. The tool was built over the course of 4 months and is included in Coyote.com, Coyote's web app for shippers and carriers.
                     </div>
                     <div class="grid-cell 1/2">
-                        The requirements shifted often, first starting out as a quick tool for unauthorized, potential customers to get a quote for a shipment, and later being limited to customers already partnered with Coyote to quote and book LTL shipments. My role, as Product Designer, included requirements gathering, user testing, front-end development, and design.
+                        The requirements shifted often, first as a tool for potential customers to quote shipments, and later restricted to customers already partnered with Coyote to quote and book LTL shipments. My role included requirements gathering, user testing, front-end development, and design.
                     </div>
                 </div>
             </div>
         </div>
+        <hr class="push-triple-top push-double-bottom">
         <div class="grid grid--with-gutter">
             <div class="grid-cell 1/4 sticky soft-top">
-                <h2 class="cd-aside-title font-sm push-bottom">Paper & Pen Sketches</h2>
-                <p>This phase of the design process revealed the most about the type of project, and the stakeholders we were working with. Even though the business had a tight timeline of 3 months for development and release, walking stakeholders through paper and pen sketches exposed the lack of knowledge and unified vision for this tool. As this phase tends to do, it forced all parties involved to come to a conclusion on what would be, and most importantly what wouldn't be part of this tool. It was here that a quick quote tool for unauthorized users was split from this project and is now planned as a follow-up feature.</p>
+                <h2 class="cd-aside-title font-sm push-bottom">Sketches</h2>
+                <p>Even though the business had a tight timeline of three months for development, walking stakeholders through paper and pen sketches exposed the lack of shared knowledge and unified vision for this tool. It forced the stakeholders to come to an agreement on what would and would not be included. Eventually the quick quote for unauthorized users was cut from this project.</p>
             </div>
             <div class="grid-cell 3/4 soft-top">
                 <div class="grid grid--with-gutter">
@@ -66,11 +67,11 @@
                 </div>
             </div>
         </div>
+        <hr class="push-triple-top push-double-bottom">
         <div class="grid grid--with-gutter">
             <div class="grid-cell 1/4 sticky soft-top">
-                <h2 class="cd-aside-title font-sm push-bottom">Moqups</h2>
-                <p>Developing mockups and sharing them with stakeholders was the best way to get form field requirements for this project. Unfortunetely that meant that this stage of the process took far longer than expected. This tool was built to utilize an external API for gathering and presenting quotes from carriers to shippers. There were a lot of unknowns and discoverings along the way that added, moved, and removed fields from our form.</p>
-                <p>We settled on a wizard-like interface quickly, but what fields needed to be answered at what step changed constantly as the development team learned more about the API. While the development team explored and defined the API requirements, I designed many different versions of the timeline and form steps and user tested these to make decisions based on usability.</p>
+                <h2 class="cd-aside-title font-sm push-bottom">Mockups</h2>
+                <p>Early on we decided on a step form wizard. While I was designing workflow for this, our in-house development team started work on implementing a 3rd party API to collect and present carrier quotes. Combinging the team's API findings and the stakeholders' evolving requirements based on mockup discussion and feedback meant much time was spent adding, moving, and removing fields from our form.</p>
             </div>
             <div class="grid-cell 3/4 soft-top">
                 <div class="grid grid--with-gutter">
@@ -104,21 +105,23 @@
                 </div>
             </div>
         </div>
+        <hr class="push-triple-top push-double-bottom">
         <div class="grid grid--with-gutter">
             <div class="grid-cell 1/4 sticky soft-top">
                 <h2 class="cd-aside-title font-sm push-bottom">Early Designs</h2>
-                <p>Initially I designed a final step that combined pickup and delivery details with the shipment summary. During user testing this proved to be quite confusing so I broke up the steps into a more traditional process with one of these sections displayed at a time.</p>
-                <p>This first design also featured a slightly different, unrefined version of the timeline. Although the final traversable timeline isn't immediately discoverable, it was even less so during user testing so I redesigned this element as well.</p>
+                <p>I built a working prototype on Bootstrap that roughly matched our app and began user testing various form designs. Initially I designed a step that combined pickup and delivery details with the summary but user testing proved this to be quite confusing so each step was moved to it's own page.</p>
+                <p>This design also featured an unrefinded version of the timeline that had navigation issue during user testing so a new design was implemented that improved on this slightly.</p>
             </div>
             <div class="grid-cell 3/4 soft-top">
                 <img class="push-bottom" src="../img/ltl-initial-3b.png">
             </div>
         </div>
+        <hr class="push-triple-top push-double-bottom">
         <div class="grid grid--with-gutter">
             <div class="grid-cell 1/4 sticky soft-top">
-                <h2 class="cd-aside-title font-sm push-bottom">Production</h2>
-                <p>Once the API requirements had been resolved, the Pune team built out a rough, working version of the wizard which I later refined and added subtle animations to. I also ran a few user tests and revealed a usability issues regarding shipping to an already saved address verse creating a new one which was worked out.</p>
-                <p>The tool was released to a limited beta group and later to all of Coyote's shippers. It's now being used hundreds of times daily and the follow-up quick quote tool is now being built.</p>
+                <h2 class="cd-aside-title font-sm push-bottom">Final Design</h2>
+                <p>Once the API requirements had been resolved, the Pune team built out a rough version of the step form wizard which I later refined and added subtle animations to. I also ran a few user tests and revealed usability issues regarding shipping to an already saved address verse creating a new one which was worked out.</p>
+                <p>The tool was released first to a limited set of beta users and later to all of Coyote's shippers. It's now being used countless times daily.</p>
             </div>
             <div class="grid-cell 3/4 soft-top">
                 <img class="push-bottom" src="../img/ltl-1.png">
@@ -129,10 +132,16 @@
                 <img src="../img/ltl-6.png">
             </div>
         </div>
-        <footer>
-
-        </footer>
     </div>
+
+    <footer class="push-double-top soft-double-ends">
+        <div class="container">
+            <a href="../my-tasks/">
+                <h1 class="font-xs">Next</h1>
+                <h2 class="font-sm">My Tasks</h2>
+            </a>
+        </div>
+    </footer>
     <script src="../js/jquery-2.1.4.min.js"></script>
     <script src="../js/jquery.hc-sticky.min.js"></script>
     <script src="../js/plugins.js"></script>

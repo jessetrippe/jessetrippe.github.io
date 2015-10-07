@@ -54,7 +54,7 @@ table {
  * appropriate elements.
  */
 html {
-  background: inherit;
+  background: whitesmoke;
   color: inherit;
   font: 16px sans-serif; }
 
@@ -141,7 +141,7 @@ html {
   position: relative; }
 
 body {
-  background: inherit;
+  background: whitesmoke;
   color: inherit;
   font: 400 1rem/20px "Source Sans Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
@@ -175,46 +175,12 @@ img {
 footer {
   background: whitesmoke;
   border-top: 1px solid rgba(0, 0, 0, 0.1); }
-
-footer nav a {
-  background: #fff;
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-  border-radius: 3px;
-  padding: 20px;
-  margin: 0 5px;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  position: relative;
-  transition: all 0.15s;
-  background: #67ff4f; }
-  footer nav a img {
-    max-width: 100%;
-    width: auto;
-    max-height: 100%;
-    border: 0;
-    transition: all 0.15s; }
-  footer nav a .hover-text {
-    position: absolute;
-    top: -25%;
-    font-size: .75rem;
-    white-space: nowrap;
-    display: block;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0;
+  footer a,
+  footer a:hover {
+    color: #555; }
+  footer a:hover {
     color: #000;
-    transition: all 0.15s;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    opacity: 1;
-    font-weight: 500; }
-  footer nav a img {
-    opacity: .075; }
-  footer nav a:hover {
-    background: #41ff23; }
-    footer nav a:hover img {
-      opacity: .15; }
+    text-decoration: none; }
 
 /**
  * This component lets you lay out a row of cells in various ways. You can
