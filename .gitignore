@@ -1,6 +1,5 @@
 .sass-cache/**.*
 app.yaml
 assets/**.*
-amazon/amazon.txt
-
-amazon/gulpfile.js
+amazon/**.*
+boarding-pass/**.*
