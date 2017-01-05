@@ -17,7 +17,7 @@ html {
 
 body {
 	margin: 0;
-	font: 300 16px/1.7 Roboto,"Helvetica Neue",Helvetica,arial,sans-serif;
+	font: 300 16px/1.7 Roboto, "Helvetica Neue", Helvetica, sans-serif;
 	color: #333;
 }
 
@@ -27,7 +27,7 @@ section {
 	display: block;
 }
 
-svg:not(:root) {
+svg::not(::root) {
 	overflow: hidden;
 }
 
@@ -46,8 +46,8 @@ input::-moz-focus-inner {
 	padding: 0;
 }
 
-.grid-frame:after,
-.nav:after {
+.grid-frame::after,
+.nav::after {
 	content: "";
 	display: table;
 	clear: both;
@@ -275,7 +275,7 @@ input::-moz-focus-inner {
 	display: inline-block;
 }
 
-.footer-links li + li:before {
+.footer-links li + li::before {
 	content: '\a0\b7\a0';
 }
 
