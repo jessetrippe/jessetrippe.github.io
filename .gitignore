@@ -1,4 +1,5 @@
 .sass-cache/**.*
 app.yaml
-amazon/**.*
-boarding-pass/**.*
+_site
+amazon
+boarding-pass
