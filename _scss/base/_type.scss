@@ -1,0 +1,131 @@
+html,
+.root {
+    font-size: 24px; // set REM unit
+    line-height: 24px;
+
+    @include mq(md-viewport) {
+        font-size: 27px; // set REM unit
+        line-height: 27px;
+    }
+}
+
+body {
+    font-family: Sintony, serif;
+    font-size: 16px;
+    line-height: 1rem;
+    max-width: 50rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+
+    @include mq(md-viewport) {
+        font-size: 18px;
+        line-height: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+h1,
+.h1 {
+    font-size: 40px;
+    line-height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-family: Rufina, sans-serif;
+
+    @include mq(md-viewport) {
+        font-size: 63px;
+        line-height: 3rem;
+    }
+}
+
+h2,
+.h2 {
+    font-size: 30px;
+    line-height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    @include mq(md-viewport) {
+        font-size: 42px;
+    }
+}
+
+h3,
+.h3 {
+    font-size: 22px;
+    line-height: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+
+    @include mq(md-viewport) {
+        font-size: 1rem;
+    }
+}
+
+h4,
+.h4 {
+    font-size: 16px;
+    line-height: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+
+    @include mq(md-viewport) {
+        font-size: 18px;
+    }
+}
+
+h5,
+.h5 {
+    font-size: 16px;
+    line-height: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+
+    @include mq(md-viewport) {
+        font-size: 18px;
+    }
+}
+
+p, ul, ol, pre, table, blockquote {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+ul ul, ol ol, ul ol, ol ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Let's make sure all's aligned */
+hr,
+.hr {
+    opacity: .2;
+    border: 0;
+    margin: 0;
+    height: 1px;
+}
+
+sub, sup {
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+strong {
+    font-weight: 900;
+}

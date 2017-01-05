@@ -1,0 +1,78 @@
+---
+layout: default
+title: "Home"
+description: "Website of Jesse Trippe—Product and UI Designer living in Seattle, WA, working at Amazon."
+permalink: /
+---
+<div class="masthead bg-gradient">
+	<div class="grid-frame soft-quad-ends text-center">
+		<div class="grid grid-without-gutter">
+			<div class="grid-cell 4/5@md">
+				<h2 class="masthead-title soft-double-sides push-double-bottom text-center">Hello! I'm Jesse Trippe—a Product and UI Designer living in Seattle, WA, working at Amazon.</h2>
+			</div>
+		</div>
+		<a class="button push-half-right" href="/coyote-howl/">View my work</a>
+		<a class="button button--inverted push-half-left" href="/get-in-touch/">Get in touch</a>
+	</div>
+</div>
+<section class="border-bottom-gray">
+	<div class="grid-frame soft-triple-ends soft-double-sides soft-triple-sides@md">
+		<div class="grid grid-with-gutter-spacious">
+			<div class="grid-cell 1/2@md push-triple-bottom">
+				<svg class="fill-blue-dark" height="102" viewbox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+					<title>UI Design Icon</title>
+					<path d="M88.99 87.836c3.972 0 7.3-3.33 7.3-7.3V20.3c0-4.08-3.328-7.3-7.3-7.3H16.3C12.33 13 9 16.328 9 20.3v60.235c0 3.972 3.328 7.3 7.3 7.3h72.69z"></path>
+					<path fill="#fff" d="M16.194 84.185c-2.04 0-3.65-1.61-3.65-3.65v-50.14h79.99V80.64c0 2.04-1.612 3.65-3.652 3.65l-72.688-.107zM12.544 20.3c0-2.04 1.61-3.65 3.65-3.65h72.69c2.04 0 3.65 1.61 3.65 3.65v6.336h-79.99V20.3z"></path>
+					<path class="fill-green" d="M54.524 34.903h34.68v25.554h-34.68zm-38.33 29.204h73.01v16.427h-73.01zm0-29.204h34.68v25.554h-34.68z"></path>
+					<circle cx="18.019" cy="22.126" r="1.825"></circle>
+					<circle cx="23.495" cy="22.126" r="1.825"></circle>
+					<circle cx="28.971" cy="22.126" r="1.825"></circle>
+					<path d="M81.044 44.137c-3.972 0-7.3 3.328-7.3 7.3v47.458c0 3.972 3.328 7.3 7.3 7.3h21.903c3.973 0 7.3-3.328 7.3-7.3V51.438c0-4.08-3.327-7.3-7.3-7.3H81.044z"></path>
+					<path fill="#fff" d="M106.598 98.895c0 2.04-1.61 3.65-3.65 3.65H81.043c-2.04 0-3.65-1.61-3.65-3.65V93.42h29.204v5.475zm0-41.98H77.394v-5.477c0-2.04 1.61-3.65 3.65-3.65h21.903c2.04 0 3.65 1.61 3.65 3.65v5.476z"></path>
+					<circle cx="88.131" cy="52.297" r=".966"></circle>
+					<path d="M95.86 53.263h-4.508c-.537 0-.967-.322-.967-.86 0-.536.322-.858.967-.858h4.51c.536 0 .858.322.858.86 0 .536-.322.858-.86.858z"></path>
+					<path fill="#fff" d="M106.598 89.768H77.394V60.564h29.204v29.204z"></path>
+					<path class="fill-green" d="M81.044 76.884h21.903v9.126H81.044zm0-12.777h21.903v9.126H81.044z"></path>
+				</svg>
+				<h2>UI Design</h2>
+				<p>I simplify interfaces by asking questions and analyzing every scenario. This often leads to fixing things earlier in the process thus avoiding adding unncessary complexicty. Other times it leads to implementing a design that fits perfectly with what the user hopes to accomplish.</p>
+			</div>
+			<div class="grid-cell 1/2@md push-triple-bottom">
+				<svg class="fill-blue-dark" height="102" viewbox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+					<title>UX Design Icon</title>
+					<path class="fill-green" d="M35 22h9.6v9.8H35zm13.5 0h14v2h-14zm0 4h24v2h-24zm0 4h20v2h-20zm0 46h14v2h-14zm0 4h22v2h-22zm0 4h17v2h-17zM35 76h9.6v9.8H35zm13.5-18h14v2h-14zm0 4h24v2h-24zm0 4h20v2h-20zM35 40h9.6v9.8H35zm13.5 0h14v2h-14zm0 4h24v2h-24zm0 4h20v2h-20zM35 58h9.6v9.8H35z"></path>
+					<path d="M111.5 57c0-.6-.2-1.1-.6-1.4l-6-6c-.4-.4-.9-.6-1.4-.6-.6 0-1.1.2-1.4.6l-6.5 6.5c-1.4-.4-2.9-.1-4 1 0 0 0 .1-.1.1l-1 1V10c0-3.9-3.1-7-7-7h-63c-1.1 0-2 .9-2 2v98c0 1.1.9 2 2 2h28l-2.9 7.2v.2c-.1.2-.1.4-.1.6 0 1.1.9 2 2 2 .2 0 .4 0 .6-.1h.2l14.8-5.9c.3-.1.6-.3.8-.5l3.5-3.5h16.1c3.9 0 7-3.1 7-7V82l12.9-12.9s.1 0 .1-.1c1.1-1.1 1.4-2.6 1-4l6.5-6.5c.3-.5.5-1 .5-1.5zm-89 44V7h61c1.7 0 3 1.3 3 3v52.2L52 96.6c-.2.2-.4.5-.5.8l-1.4 3.6H22.5zm28.5 8.3l3.2-7.8 4.7 4.7-7.9 3.1zm11.2-5.3L56 97.8l2.4-2.4 6.2 6.2-2.4 2.4zm24.3-6c0 1.7-1.3 3-3 3H71.4l15.1-15v12zm-20.4 2.1l-6.2-6.2 31.4-31.4 6.2 6.2-31.4 31.4zm35.8-38.6l-.2.2-3.2-3.2.2-.2 4.6-4.6 3.2 3.2-4.6 4.6z"></path>
+				</svg>
+				<h2>UX Design</h2>
+				<p>In order to deliver user experiences with as few barriers as possible, my design process usually involves pen and paper, online mockup tools, and user interviews and tests with the goal to fail fast and iterate. Once the flow has been decided I turn to Illustrator or Sketch for finishing touches.</p>
+			</div>
+			<div class="grid-cell 1/2@md push-triple-bottom flush@md">
+				<svg class="fill-blue-dark" height="102" viewbox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+					<title>Visual Design Icon</title>
+					<circle cx="60" cy="84" r="5"></circle>
+					<path d="M108 6H12c-4.4 0-8 3.6-8 8v74c0 4.4 3.6 8 8 8h36.6c-2.6 6.9-7.5 14-16.6 14-1.1 0-2 .9-2 2s.9 2 2 2h56c1.1 0 2-.9 2-2s-.9-2-2-2c-9.2 0-14.1-7.1-16.6-14H108c4.4 0 8-3.6 8-8V14c0-4.4-3.6-8-8-8zm-96 4h96c2.2 0 4 1.8 4 4v58h-4V14H12v58H8V14c0-2.2 1.8-4 4-4zm94 6v56H14V16h92zm-29.8 94H43.9c3.5-2.7 6.7-7.1 9-14h14.3c2.3 6.9 5.5 11.3 9 14zM108 92H12c-2.2 0-4-1.8-4-4V76h104v12c0 2.2-1.8 4-4 4z"></path>
+					<path d="M12 14h10v58H12z"></path>
+					<path class="fill-green" d="M53.5 52h21v3h-21zM46 58h36v3H46zm3 6h30v3H49zm-9-43h48v28H40V21zm45 25V24H43v22h42z"></path>
+					<path class="fill-green" d="M72.8 38.4l-1.3 1.3-6.3-5.7-8.2 7.6-3.2-3.2-8.8 8.9h36.6l-8.8-8.9z"></path>
+					<circle class="fill-green" cx="52" cy="30" r="4"></circle>
+				</svg>
+				<h2>Visual Design</h2>
+				<p>I'm passionate about designing beautiful, highly usable websites and apps that inspire curiosity in new customers without letting the existing ones fall by the wayside.</p>
+			</div>
+			<div class="grid-cell 1/2@md">
+				<svg class="fill-blue-dark" height="102" viewbox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+					<title>Development Icon</title>
+					<path d="M108 19c2.2 0 4 1.8 4 4v74c0 2.2-1.8 4-4 4H12c-2.2 0-4-1.8-4-4V23c0-2.2 1.8-4 4-4h96zm0-4H12c-4.4 0-8 3.6-8 8v74c0 4.4 3.6 8 8 8h96c4.4 0 8-3.6 8-8V23c0-4.5-3.6-8-8-8z"></path>
+					<path d="M8 31h104v4H8z"></path>
+					<path d="M34 33h4v71h-4z"></path>
+					<path class="fill-green" d="M71 85c-.2 0-.3 0-.5-.1-1.1-.3-1.7-1.4-1.4-2.4l8-30c.3-1.1 1.4-1.7 2.4-1.4 1.1.3 1.7 1.4 1.4 2.4l-8 30c-.2.9-1 1.5-1.9 1.5zm15-5c-.5 0-1-.2-1.4-.6-.8-.8-.8-2 0-2.8l8.6-8.6-8.6-8.6c-.8-.8-.8-2 0-2.8.8-.8 2-.8 2.8 0l10 10c.8.8.8 2 0 2.8l-10 10c-.4.4-.9.6-1.4.6zm-22 0c-.5 0-1-.2-1.4-.6l-10-10c-.8-.8-.8-2 0-2.8l10-10c.8-.8 2-.8 2.8 0 .8.8.8 2 0 2.8L56.8 68l8.6 8.6c.8.8.8 2 0 2.8-.4.4-.9.6-1.4.6zM12 39h18v4H12zm0 6h14v4H12zm0 6h16v4H12zm0 6h16v4H12zm0 12h18v4H12zm0 6h14v4H12zm0-12h10v4H12z"></path>
+					<circle cx="14" cy="25" r="2"></circle>
+					<circle cx="20" cy="25" r="2"></circle>
+					<circle cx="26" cy="25" r="2"></circle>
+				</svg>
+				<h2>Development</h2>
+				<p>Using current and modern standards, I take pixel-perfect designs and code them into working, full-fledged websites and apps that are highly accessible. My skillset includes HTML5, CSS3, jQuery, and WordPress.</p>
+			</div>
+		</div>
+	</div>
+</section>

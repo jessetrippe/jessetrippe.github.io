@@ -1,0 +1,63 @@
+---
+layout: post
+title: "Deb Reinhart"
+description: "Portfolio website for a Chicago interior design firm"
+permalink: /deb-reinhart/
+---
+
+<div class="masthead bg-gradient">
+	<div class="grid-frame soft-double-sides soft-triple-sides@md soft-double-top soft-triple-bottom">
+		<h1 class="masthead-title flush soft-half-top">Deb Reinhart</h1>
+		<p class="masthead-lead flush">Portfolio website for a Chicago interior design firm</p>
+	</div>
+</div>
+<section class="border-bottom-gray">
+	<div class="grid-frame soft-sides hard@md">
+		<div class="col-group">
+			<div class="col hard-bottom soft-triple-bottom@md">
+				<h3>Description</h3>
+				<p>Deb Reinhart Interior Design Group Inc. needed an elegant site to showcase their work and easily update it. With provided Photoshop files, I coded it so that nearly every item on the elegant site can be updated by the client through a WordPress backend, including their interior design blog.</p>
+			</div>
+			<div class="col soft-double-top soft-triple-top@md 1/3@md">
+				<h3>Specifics</h3>
+				<table>
+					<tbody>
+						<tr>
+							<th>Client</th>
+							<td>Deb Reinhart Interior Design Group Inc.</td>
+						</tr>
+						<tr>
+							<th>Media</th>
+							<td>Website</td>
+						</tr>
+						<tr>
+							<th>Role</th>
+							<td>UI Designer, Front-End Developer</td>
+						</tr>
+						<tr>
+							<th>Date</th>
+							<td>April 2010</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="border-bottom-gray bg-silver@md">
+	<div class="grid-frame soft-triple-ends soft-double-sides soft-triple-sides@md">
+		<div class="grid grid-with-gutter">
+			<div class="grid-cell">
+				<img src="https://jessetrippecdn.appspot.com/images/deb-reinhart-1.png" alt="Deb Reinhart Screenshot 1" class="project-img">
+				<div class="grid grid-with-gutter">
+					<div class="grid-cell 1/2@md">
+						<img src="https://jessetrippecdn.appspot.com/images/deb-reinhart-2.png" alt="Deb Reinhart Screenshot 2" class="project-img flush-bottom@md">
+					</div>
+					<div class="grid-cell 1/2@md">
+						<img src="https://jessetrippecdn.appspot.com/images/deb-reinhart-3.png" alt="Deb Reinhart Screenshot 3" class="project-img flush-bottom">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
