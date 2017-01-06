@@ -5,20 +5,14 @@ description: "Website for a Chicago based law firm"
 permalink: /brigitte-bell/
 ---
 
-<div class="masthead bg-gradient">
-	<div class="grid-frame soft-double-sides soft-triple-sides@md soft-double-top soft-triple-bottom">
-		<h1 class="masthead-title flush soft-half-top">Brigitte Bell</h1>
-		<p class="masthead-lead flush">Website for a Chicago based law firm</p>
-	</div>
-</div>
 <section class="border-bottom-gray">
 	<div class="grid-frame soft-sides hard@md">
-		<div class="col-group">
-			<div class="col hard-bottom soft-triple-bottom@md">
+		<div class="grid">
+			<div class="grid-cell soft-triple-top soft-sides soft-triple-sides@md soft-triple-bottom@md 2/3@md">
 				<h3>Description</h3>
 				<p>With the help of another designer, I built Brigitte Bell a website to highlight their law services and provide client testimonials to prospective clients. The site is easily maintained using WordPress by myself and the staff at Brigitte Bell.</p>
 			</div>
-			<div class="col soft-double-top soft-triple-top@md 1/3@md">
+			<div class="grid-cell soft-sides soft-triple-bottom soft-double-top soft-triple-sides@md soft-triple-top@md 1/3@md">
 				<h3>Specifics</h3>
 				<table>
 					<tbody>

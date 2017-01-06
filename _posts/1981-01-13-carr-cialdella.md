@@ -5,20 +5,14 @@ description: "Portfolio website for a Chicago photography studio"
 permalink: /carr-cialdella/
 ---
 
-<div class="masthead bg-gradient">
-	<div class="grid-frame soft-double-sides soft-triple-sides@md soft-double-top soft-triple-bottom">
-		<h1 class="masthead-title flush soft-half-top">Carr Cialdella</h1>
-		<p class="masthead-lead flush">Portfolio website for a Chicago photography studio</p>
-	</div>
-</div>
 <section class="border-bottom-gray">
 	<div class="grid-frame soft-sides hard@md">
-		<div class="col-group">
-			<div class="col hard-bottom soft-triple-bottom@md">
+		<div class="grid">
+			<div class="grid-cell soft-triple-top soft-sides soft-triple-sides@md soft-triple-bottom@md 2/3@md">
 				<h3>Description</h3>
 				<p>Carr Cialdella, an architectural and interiors photography studio, needed a home to showcase their beautiful photographs, advertise their small collection of books, and share their services with prospective clients. Along with another designer, I built a simple solution that accomplishes all three while also allowing easy updates by the Carr Cialdella team.</p>
 			</div>
-			<div class="col soft-double-top soft-triple-top@md 1/3@md">
+			<div class="grid-cell soft-sides soft-triple-bottom soft-double-top soft-triple-sides@md soft-triple-top@md 1/3@md">
 				<h3>Specifics</h3>
 				<table>
 					<tbody>

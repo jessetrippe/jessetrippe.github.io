@@ -46,6 +46,73 @@ input::-moz-focus-inner {
 	padding: 0;
 }
 
+img {
+	border: 0;
+}
+
+a {
+	background-color: transparent;
+	color: #80b636;
+	text-decoration: none;
+	transition: all .15s linear;
+}
+
+a:active,
+a:hover {
+	outline: 0;
+}
+
+a:hover,
+a:focus {
+	color: #73a431;
+}
+
+table {
+	margin: .5em 0 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+th,
+td {
+	padding: 0;
+	vertical-align: top;
+}
+
+th {
+	text-align: right;
+	padding-right: .5rem;
+	font-weight: 500;
+}
+
+h1,
+h2,
+h3 {
+	margin-top: 0;
+	font-weight: 300;
+}
+
+h1 {
+	margin-bottom: .18rem;
+	font-size: 3rem;
+}
+
+h2 {
+	margin-bottom: .18rem;
+	font-size: 1.6rem;
+}
+
+h3 {
+	margin-bottom: .15rem;
+	font-size: 1.3rem;
+}
+
+p {
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+	font-size: 1rem;
+}
+
 .grid-frame::after,
 .nav::after {
 	content: "";
@@ -284,10 +351,6 @@ input::-moz-focus-inner {
 	max-width: 1040px;
 }
 
-.col {
-	padding: 3rem 1rem;
-}
-
 .grid {
 	font-size: 0;
 	text-align: center;
@@ -321,10 +384,6 @@ input::-moz-focus-inner {
 	max-width: 50%;
 }
 
-img {
-	border: 0;
-}
-
 .project-img {
 	border-radius: 5px;
 	border: 1px solid #ddd;
@@ -332,23 +391,6 @@ img {
 	vertical-align: top;
 	width: 100%;
 	margin-bottom: 3rem;
-}
-
-a {
-	background-color: transparent;
-	color: #80b636;
-	text-decoration: none;
-	transition: all .15s linear;
-}
-
-a:active,
-a:hover {
-	outline: 0;
-}
-
-a:hover,
-a:focus {
-	color: #73a431;
 }
 
 .masthead {
@@ -414,52 +456,6 @@ a:focus {
 .pagination-next {
 	float: right;
 	text-align: right;
-}
-
-table {
-	margin: .5em 0 0;
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-th,
-td {
-	padding: 0;
-	vertical-align: top;
-}
-
-th {
-	text-align: right;
-	padding-right: .5rem;
-	font-weight: 500;
-}
-
-h1,
-h2,
-h3 {
-	margin-top: 0;
-	font-weight: 300;
-}
-
-h1 {
-	margin-bottom: .18rem;
-	font-size: 3rem;
-}
-
-h2 {
-	margin-bottom: .18rem;
-	font-size: 1.6rem;
-}
-
-h3 {
-	margin-bottom: .15rem;
-	font-size: 1.3rem;
-}
-
-p {
-	margin-top: .5rem;
-	margin-bottom: .5rem;
-	font-size: 1rem;
 }
 
 .bg-gradient {
@@ -545,8 +541,16 @@ p {
 	padding-right: 2rem !important;
 }
 
+.soft-triple {
+	padding: 3rem !important;
+}
+
 .soft-triple-bottom {
 	padding-bottom: 3rem !important;
+}
+
+.soft-triple-top {
+	padding-top: 3rem !important;
 }
 
 .soft-triple-ends {
@@ -576,20 +580,6 @@ p {
 }
 
 @media only screen and (min-width: 700px) {
-	.col-group { 
-		display: -webkit-flex;
-		display: -ms-flexbox;
-		display: flex;
-	}
-
-	.col {
-		min-width: 0;
-		padding-right: 3rem;
-		padding-left: 3rem;
-		-webkit-flex: 1;
-		-ms-flex: 1;
-		flex: 1;
-	}
 
 	[class~='4/5\@md'] {
 		max-width: 80%;
@@ -656,6 +646,10 @@ p {
 
 	.flush-bottom\@md {
 		margin-bottom: 0 !important;
+	}
+
+	.soft-triple\@md {
+		padding: 3rem !important;
 	}
 
 	.soft-triple-bottom\@md {

@@ -5,20 +5,14 @@ description: "Portfolio website for a Chicago interior design firm"
 permalink: /deb-reinhart/
 ---
 
-<div class="masthead bg-gradient">
-	<div class="grid-frame soft-double-sides soft-triple-sides@md soft-double-top soft-triple-bottom">
-		<h1 class="masthead-title flush soft-half-top">Deb Reinhart</h1>
-		<p class="masthead-lead flush">Portfolio website for a Chicago interior design firm</p>
-	</div>
-</div>
 <section class="border-bottom-gray">
 	<div class="grid-frame soft-sides hard@md">
-		<div class="col-group">
-			<div class="col hard-bottom soft-triple-bottom@md">
+		<div class="grid">
+			<div class="grid-cell soft-triple-top soft-sides soft-triple-sides@md soft-triple-bottom@md 2/3@md">
 				<h3>Description</h3>
 				<p>Deb Reinhart Interior Design Group Inc. needed an elegant site to showcase their work and easily update it. With provided Photoshop files, I coded it so that nearly every item on the elegant site can be updated by the client through a WordPress backend, including their interior design blog.</p>
 			</div>
-			<div class="col soft-double-top soft-triple-top@md 1/3@md">
+			<div class="grid-cell soft-sides soft-triple-bottom soft-double-top soft-triple-sides@md soft-triple-top@md 1/3@md">
 				<h3>Specifics</h3>
 				<table>
 					<tbody>

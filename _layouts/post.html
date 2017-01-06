@@ -8,6 +8,13 @@
 
     {% include nav.html %}
 
+    <div class="masthead bg-gradient">
+	<div class="grid-frame soft-double-sides soft-triple-sides@md soft-double-top soft-triple-bottom">
+			<h1 class="masthead-title flush soft-half-top">{{ page.title }}</h1>
+			<p class="masthead-lead flush">{{ page.description }}</p>
+		</div>
+	</div>
+
     {{ content }}
 
     {% include pagination.html %}
