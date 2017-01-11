@@ -9,11 +9,9 @@ permalink: /barack-obamas-tumblr/
 	<div class="grid-frame soft-sides hard@md">
 		<div class="grid">
 			<div class="grid-cell soft-triple-top soft-sides soft-triple-sides@md soft-triple-bottom@md 2/3@md">
-				<h3>Description</h3>
 				<p>I joined the Barack Obama Reelection Campaign as a Front-End Developer. My main responsibilities included the creation and maintenance of donation forms. This included front-end form validation, error handling, embedded video, mobile layout considerations, A/B testing and constant modifications and troubleshooting. I was also solely in charge of the development of Barack Obama's Tumblr blog which required learning Tumbr's templating language as well as defining mobile breakpoints and layouts.</p>
 			</div>
 			<div class="grid-cell soft-sides soft-triple-bottom soft-double-top soft-triple-sides@md soft-triple-top@md 1/3@md">
-				<h3>Specifics</h3>
 				<table>
 					<tbody>
 						<tr>

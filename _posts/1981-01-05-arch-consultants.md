@@ -9,11 +9,9 @@ permalink: /arch-consultants/
 	<div class="grid-frame soft-sides hard@md">
 		<div class="grid">
 			<div class="grid-cell soft-triple-top soft-sides soft-triple-sides@md soft-triple-bottom@md 2/3@md">
-				<h3>Description</h3>
 				<p>Working with another designer and the client, I built this brochure and portfolio site that portrays ARCH Consultants Ltd.'s reliability, thoughtful planning, and deep understanding of project management. I was consulted on many of the user interace elements and built the site inside of a content management system. The project went so well that I've stayed on to help with maintance and implement additional features.</p>
 			</div>
 			<div class="grid-cell soft-sides soft-triple-bottom soft-double-top soft-triple-sides@md soft-triple-top@md 1/3@md">
-				<h3>Specifics</h3>
 				<table>
 					<tbody>
 						<tr>

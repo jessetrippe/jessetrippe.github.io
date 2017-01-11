@@ -9,11 +9,9 @@ permalink: /green-bridge-white-house/
 	<div class="grid-frame soft-sides hard@md">
 		<div class="grid">
 			<div class="grid-cell soft-triple-top soft-sides soft-triple-sides@md soft-triple-bottom@md 2/3@md">
-				<h3>Description</h3>
 				<p>Green Bridge, White House needed a home. As interior designers, they knew how to fill it with their concepts and photos, but needed the framework to create within. I designed and developed their logo, business cards and blog to represent who they are.</p>
 			</div>
 			<div class="grid-cell soft-sides soft-triple-bottom soft-double-top soft-triple-sides@md soft-triple-top@md 1/3@md">
-				<h3>Specifics</h3>
 				<table>
 					<tbody>
 						<tr>

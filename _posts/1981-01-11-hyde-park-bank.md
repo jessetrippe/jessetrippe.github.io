@@ -9,11 +9,9 @@ permalink: /hyde-park-bank/
 	<div class="grid-frame soft-sides hard@md">
 		<div class="grid">
 			<div class="grid-cell soft-triple-top soft-sides soft-triple-sides@md soft-triple-bottom@md 2/3@md">
-				<h3>Description</h3>
 				<p>Hyde Park Bank's website needed a makeover. Using previously created HTML files and other Photoshop files, I brought the entire site up to current web standards. I moved them away from the previously coded table based layout and finished the site that was on hold mid-production. Now the site is simpler for online customers to engage with content, including hours/location and an online banking demo created in Flash.</p>
 			</div>
 			<div class="grid-cell soft-sides soft-triple-bottom soft-double-top soft-triple-sides@md soft-triple-top@md 1/3@md">
-				<h3>Specifics</h3>
 				<table>
 					<tbody>
 						<tr>

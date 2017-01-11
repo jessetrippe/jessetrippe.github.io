@@ -15,7 +15,6 @@ permalink: /coyote-ltl-quote/
 				<p>The requirements shifted often, first as a tool for potential customers to quote shipments, and later restricted to customers already partnered with Coyote to quote and book LTL shipments. My role included requirements gathering, user testing, front-end development, and design.</p>
 			</div>
 			<div class="grid-cell soft-sides soft-triple-bottom soft-double-top soft-triple-sides@md soft-triple-top@md 1/3@md">
-				<h3>Specifics</h3>
 				<table>
 					<tbody>
 						<tr>

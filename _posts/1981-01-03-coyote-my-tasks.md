@@ -15,7 +15,6 @@ permalink: /coyote-my-tasks/
 				<p>Stakeholders predicted that an improved experience and workflow for updating loads could double self-tracking to 40%. This problem was given to me, a Stakeholder, a Business Analyst, and a development team in Pune, Maharashtra, India to solve. Our solution was a landing page where users are presented with outstanding tasks and a quick way for them to complete them.</p>
 			</div>
 			<div class="grid-cell soft-sides soft-triple-bottom soft-double-top soft-triple-sides@md soft-triple-top@md 1/3@md">
-				<h3>Specifics</h3>
 				<table>
 					<tbody>
 						<tr>

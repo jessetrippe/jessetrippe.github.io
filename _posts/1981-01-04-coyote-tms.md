@@ -9,11 +9,9 @@ permalink: /coyote-tms/
 	<div class="grid-frame soft-sides hard@md">
 		<div class="grid">
 			<div class="grid-cell soft-triple-top soft-sides soft-triple-sides@md soft-triple-bottom@md 2/3@md">
-				<h3>Description</h3>
 				<p>My position at Coyote allows me to work on many projects, the largest of which is their business-to-business Transportation Management System (TMS). Working with a team of over 20 developers, I am responsible for every page's overall design and user interface, the implementation, development, and maintenance of the app's CSS framework and HTML, and the occassional copy-writing. This requires great team-working and communication skills as well as an extremely acute attention to detail. As with most projects at Coyote, my responsibilites on this project have grown to span across many roles including Business Analyst, Quality Assurance Tester, and User Experience Designer.</p>
 			</div>
 			<div class="grid-cell soft-sides soft-triple-bottom soft-double-top soft-triple-sides@md soft-triple-top@md 1/3@md">
-				<h3>Specifics</h3>
 				<table>
 					<tbody>
 						<tr>

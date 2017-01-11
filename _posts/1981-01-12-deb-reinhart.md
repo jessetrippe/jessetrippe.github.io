@@ -9,11 +9,9 @@ permalink: /deb-reinhart/
 	<div class="grid-frame soft-sides hard@md">
 		<div class="grid">
 			<div class="grid-cell soft-triple-top soft-sides soft-triple-sides@md soft-triple-bottom@md 2/3@md">
-				<h3>Description</h3>
 				<p>Deb Reinhart Interior Design Group Inc. needed an elegant site to showcase their work and easily update it. With provided Photoshop files, I coded it so that nearly every item on the elegant site can be updated by the client through a WordPress backend, including their interior design blog.</p>
 			</div>
 			<div class="grid-cell soft-sides soft-triple-bottom soft-double-top soft-triple-sides@md soft-triple-top@md 1/3@md">
-				<h3>Specifics</h3>
 				<table>
 					<tbody>
 						<tr>

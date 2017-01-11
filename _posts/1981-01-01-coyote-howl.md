@@ -15,7 +15,6 @@ permalink: /coyote-howl/
 				<p>Howl's purpose was twofold: first, to give shippers a tool to help manage and view their day-to-day freight; and secondly, to provide customer sales reps with a tool to help sell Coyote to potential customers.</p>
 			</div>
 			<div class="grid-cell soft-sides soft-triple-bottom soft-double-top soft-triple-sides@md soft-triple-top@md 1/3@md">
-				<h3>Specifics</h3>
 				<table>
 					<tbody>
 						<tr>
