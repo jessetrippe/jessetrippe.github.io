@@ -481,6 +481,10 @@ p {
 	margin-top: 1rem !important;
 }
 
+.push-half-top {
+	margin-top: .5rem !important;
+}
+
 .push-half-left {
 	margin-left: .5rem !important;
 }

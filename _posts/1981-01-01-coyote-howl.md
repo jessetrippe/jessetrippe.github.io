@@ -9,7 +9,7 @@ permalink: /coyote-howl/
 	<div class="grid-frame soft-sides hard@md">
 		<div class="grid">
 			<div class="grid-cell soft-triple-top soft-sides soft-triple-sides@md soft-triple-bottom@md 2/3@md">
-				<h3>Coyote needed a customer focused mobile app to give shippers visibility and insight into their freight network.</h3>
+				<h3 class="push-half-top">Coyote needed a customer focused mobile app to give shippers visibility and insight into their freight network.</h3>
 				<hr>
 				<p>Along with Coyote's mobile team, a Product Manager, and a Stakeholder, I designed and help build Coyote Howl. The app was built from start to finish in about 3 months, launching first internally to sales reps and later externally to customers.</p>
 				<p>Howl's purpose was twofold: first, to give shippers a tool to help manage and view their day-to-day freight; and secondly, to provide customer sales reps with a tool to help sell Coyote to potential customers.</p>
