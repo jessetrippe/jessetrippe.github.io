@@ -113,16 +113,21 @@ p {
 	font-size: 1rem;
 }
 
-.grid-frame::after,
-.nav::after {
+.grid-frame::after {
 	content: "";
 	display: table;
 	clear: both;
 }
 
-.masthead .masthead-title,
-.masthead .masthead-lead,
-.masthead .button { 
+.masthead-title {
+	font-size: 2.5rem;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	line-height: 1.5;
+	margin-bottom: 0;
+}
+
+.masthead-title { 
 	opacity: 0;
 	-webkit-animation-duration: .8s;
 	animation-duration: .8s;
@@ -132,32 +137,14 @@ p {
 	animation-fill-mode: forwards;
 }
 
-.masthead .masthead-title {
+.masthead-title {
 	-webkit-animation-name: bounce-right;
 	animation-name: bounce-right;
 }
 
-.masthead .masthead-lead {
-	-webkit-animation-name: bounce-left;
-	animation-name: bounce-left;
-}
-
-.masthead .masthead-title,
-.masthead .masthead-lead {
+.masthead-title {
 	-webkit-animation-duration: .6s;
 	animation-duration: .6s;
-}
-
-.masthead .button {
-	-webkit-animation-name: bounce-rotate;
-	animation-name: bounce-rotate;
-	-webkit-animation-duration: .5s;
-	animation-duration: .5s;
-}
-
-.masthead .button:last-of-type {
-	-webkit-animation-delay: .4s;
-	animation-delay: .4s;
 }
 
 @-webkit-keyframes bounce-right {
@@ -396,15 +383,7 @@ p {
 .masthead {
 	text-shadow: 0 0 1rem rgba(0,0,0,.15);
 	color: #fff;
-}
-
-.masthead-lead {
-	font-size: 1.3rem;
-	color: rgba(255,255,255,.8);
-}
-
-.masthead-title {
-	font-size: 1.5rem;
+	padding: 4rem 0;
 }
 
 .nav {
@@ -602,25 +581,24 @@ p {
 	}
 
 	.masthead-title {
-		font-size: 2rem;
+		font-size: 3.25rem;
 	}
 
 	.title {
-		float: left;
+		flex: 1;
+	}
+
+	.nav {
+		display: flex;
+		align-items: center;
 	}
 
 	.nav-item {
-		float: left;
 		margin-right: 3rem;
 	}
 
 	.nav-item:last-child {
 		margin-right: 0;
-	}
-
-	.nav-group {
-		margin-top: .5rem;
-		float: right;
 	}
 
 	.bg-silver-half\@md {

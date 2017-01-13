@@ -9,10 +9,8 @@ permalink: /coyote-my-tasks/
 	<div class="grid-frame soft-sides hard@md">
 		<div class="grid">
 			<div class="grid-cell soft-triple-top soft-sides soft-triple-sides@md soft-triple-bottom@md 2/3@md">
-				<h3 class="push-half-top">To increase the amount of time Coyote reps spend booking new freight we needed to increase carrier self-tracking.</h3>
-				<hr>
-				<p>Coyote provides shippers with up-to-the-minute tracking information of their shipments through web and mobile apps. If carriers aren't providing this via our mobile app or website, representatives have to call drivers and update tracking notes manually, taking time away from booking new freight.</p>
-				<p>Stakeholders predicted that an improved experience and workflow for updating loads could double self-tracking to 40%. This problem was given to me, a Stakeholder, a Business Analyst, and a development team in Pune, Maharashtra, India to solve. Our solution was a landing page where users are presented with outstanding tasks and a quick way for them to complete them.</p>
+				<p>Coyote provides shippers with up-to-the-minute delivery tracking information through web and mobile apps. Location information is provided by drivers using Coyote's mobile app or website but if carriers fail to do this, Coyote representatives have to call drivers for location updates, taking time away from booking new freight.</p>
+				<p>Stakeholders predicted that an improved experience and workflow for updating loads could double self-tracking to 40%. This problem was given to me, a Stakeholder, a Business Analyst, and a development team in Pune, Maharashtra, India to solve. Our solution was a landing page where users are presented with outstanding tasks and a quick way to complete them.</p>
 			</div>
 			<div class="grid-cell soft-sides soft-triple-bottom soft-double-top soft-triple-sides@md soft-triple-top@md 1/3@md">
 				<table>

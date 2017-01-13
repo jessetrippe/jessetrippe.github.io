@@ -9,9 +9,7 @@ permalink: /coyote-ltl-quote/
 	<div class="grid-frame soft-sides hard@md">
 		<div class="grid">
 			<div class="grid-cell soft-triple-top soft-sides soft-triple-sides@md soft-triple-bottom@md 2/3@md">
-				<h3 class="push-half-top">Coyote was losing significant business because it lacked a less than truckload (LTL) quoting and shipping tool so we decided to build one.</h3>
-				<hr>
-				<p>I worked with a Business Analyst, a Product Manager, an overseas development team, and various stakeholders—some familiar and others brand new to LTL. The tool was built over the course of 4 months and is included in Coyote.com, Coyote's web app for shippers and carriers.</p>
+				<p>Coyote was losing significant business because it lacked a less than truckload (LTL) quoting and shipping tool. I worked with a Business Analyst, a Product Manager, an overseas development team, and various stakeholders&mdash;some familiar and others brand new to the world of LTL. The tool was built over the course of 4 months within Coyote.com, Coyote's web app for shippers and carriers.</p>
 				<p>The requirements shifted often, first as a tool for potential customers to quote shipments, and later restricted to customers already partnered with Coyote to quote and book LTL shipments. My role included requirements gathering, user testing, front-end development, and design.</p>
 			</div>
 			<div class="grid-cell soft-sides soft-triple-bottom soft-double-top soft-triple-sides@md soft-triple-top@md 1/3@md">

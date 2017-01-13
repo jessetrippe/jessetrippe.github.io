@@ -3,12 +3,27 @@
 <head>
 	{% include header.html %}
 </head>
-<body>
+<body class="{{ page.title | slugify }}">
 
 	{% include nav.html %}
 
-	{{ content }}
-
+	<div class="masthead bg-gradient">
+		<div class="grid-frame soft-double-sides soft-triple-sides@md">
+			<h2 class="masthead-title 4/5@md">
+				{% if page.intro %}
+					{{ page.intro }}
+				{% else %}
+					{{ page.title }}
+				{% endif %}
+			</h2>
+		</div>
+	</div>
+	<section class="border-bottom-gray">
+		<div class="grid-frame soft-triple-ends soft-double-sides soft-triple-sides@md">
+			{{ content }}
+		</div>
+	</section>
+	
 	{% include footer.html %}
 
 </body>
