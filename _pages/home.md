@@ -3,7 +3,7 @@ layout: default
 title: "Home"
 description: "Website of Jesse Trippe—Product and UI Designer living in Seattle, WA, working at Amazon."
 permalink: /
-intro: "Hello! I'm Jesse Trippe&mdash;a Product and UI Designer living in Seattle, WA, working at Amazon."
+intro: "Hello! I'm Jesse Trippe&mdash;a Product and UX Designer living in Seattle, WA, working at Amazon."
 ---
 
 <div class="grid grid-with-gutter-spacious">
