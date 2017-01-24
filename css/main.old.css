@@ -18,7 +18,7 @@ html {
 body {
 	margin: 0;
 	font: 300 16px/1.7 Roboto, "Helvetica Neue", Helvetica, sans-serif;
-	color: #333;
+	color: #213444;
 }
 
 footer,
@@ -29,6 +29,10 @@ section {
 
 svg::not(::root) {
 	overflow: hidden;
+}
+
+svg {
+	fill: #213444;
 }
 
 hr {
@@ -51,10 +55,10 @@ img {
 }
 
 a {
+	color: #F1615C;
 	background-color: transparent;
-	color: #80b636;
 	text-decoration: none;
-	transition: all .15s linear;
+	transition: color .15s linear;
 }
 
 a:active,
@@ -64,7 +68,7 @@ a:hover {
 
 a:hover,
 a:focus {
-	color: #73a431;
+	color: #CD534E;
 }
 
 table {
@@ -381,7 +385,7 @@ p {
 }
 
 .masthead {
-	text-shadow: 0 0 1rem rgba(0,0,0,.15);
+	text-shadow: 0 0 1rem rgba(0,0,0,.1);
 	color: #fff;
 	padding: 4rem 0;
 }
@@ -390,46 +394,26 @@ p {
 	font-weight: 500;
 }
 
-.title {
-	font-size: 1rem;
-}
-
-.title,
-.nav-item {
-	color: #23262e;
-}
-
-.title:hover,
-.title:focus,
-.nav-item:hover,
-.nav-item:focus {
-	color: #23262e;
-	opacity: 1;
-}
-
 .nav-item {
 	margin-right: .7rem;
 	font-size: .8rem;
 	transition: all .15s linear;
-	line-height: 1;
-	opacity: .8;
 }
 
 .pagination-item {
-	color: #80b636;
 	text-align: right;
 	float: left;
 }
 
 .pagination-item svg {
 	height: 2rem;
-	fill: #80b636;
+	fill: #F1615C;
 	vertical-align: middle;
-	transition: all .15s linear;
+	transition: background .15s linear;
 }
 
 .pagination-item:hover svg {
-	fill: #73a431;
+	fill: #CD534E;
 }
 
 .pagination-next {
@@ -438,14 +422,12 @@ p {
 }
 
 .bg-gradient {
-	background: #3d4351;
-	background-image: url(https://jessetrippecdn.appspot.com/images/icon-bg.svg),
-					  linear-gradient(45deg,#3d4351 0,#23262e 100%);
-	box-shadow: inset 0 0 10px 0 rgba(0,0,0,.3);
+	background: #213444;
+	color: #F1615C;
 }
 
 .border-bottom-gray {
-	border-bottom: 1px solid #ddd !important;
+	border-bottom: 1px solid #D2D6D9 !important;
 }
 
 .fill-green {

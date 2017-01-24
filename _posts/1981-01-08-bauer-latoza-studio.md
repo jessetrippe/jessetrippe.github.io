@@ -32,6 +32,7 @@ permalink: /bauer-latoza-studio/
 						</tr>
 					</tbody>
 				</table>
+				<a class="button button--inverted push-top" href="http://www.bauerlatozastudio.com">Visit the site</a>
 			</div>
 		</div>
 	</div>
