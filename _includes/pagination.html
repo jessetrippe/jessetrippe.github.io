@@ -2,14 +2,14 @@
     <div class="grid-frame soft-sides hard@md">
         <nav class="pagination">
             {% if page.previous.url %}
-                <a href="{{page.previous.url}}" class="small pagination-item pagination-prev soft-double soft-triple-sides@md" title="Previous">{% include svg/prev.svg %}Previous</a>
+                <a href="{{page.previous.url}}" class="pagination-item pagination-prev soft-double soft-triple-sides@md" title="Previous">{% include svg/prev.svg %}Previous</a>
             {% else %}
-                <span aria-hidden="true" class="small pagination-item pagination-prev soft-double soft-triple-sides@md is-disabled">{% include svg/prev.svg %}Previous</span>
+                <span aria-hidden="true" class="pagination-item pagination-prev soft-double soft-triple-sides@md is-disabled">{% include svg/prev.svg %}Previous</span>
             {% endif %}
             {% if page.next.url %}
-                <a href="{{page.next.url}}" class="small pagination-item pagination-next soft-double soft-triple-sides@md" title="Next">Next {% include svg/next.svg %}</a>
+                <a href="{{page.next.url}}" class="pagination-item pagination-next soft-double soft-triple-sides@md" title="Next">Next {% include svg/next.svg %}</a>
             {% else %}
-                <span aria-hidden="true" class="small pagination-item pagination-next soft-double soft-triple-sides@md is-disabled">Next {% include svg/next.svg %}</span>
+                <span aria-hidden="true" class="pagination-item pagination-next soft-double soft-triple-sides@md is-disabled">Next {% include svg/next.svg %}</span>
             {% endif %}
         </nav>
     </div>
