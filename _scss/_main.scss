@@ -67,7 +67,7 @@ a {
   background-color: transparent;
   color: $brand-color;
   text-decoration: none;
-  transition: color .15s linear;
+  transition: all .15s linear;
 
   &:focus {
     outline: 0;
@@ -119,9 +119,14 @@ h3 {
 }
 
 p {
-  font-size: 1rem;
   margin-bottom: .5rem;
   margin-top: .5rem;
+}
+
+.small,
+small {
+  font-size: .8rem;
+  line-height: 27.2px;
 }
 
 .masthead-title {
@@ -132,17 +137,9 @@ p {
   line-height: 1.5;
   margin-bottom: 0;
   opacity: 0;
-  -moz-animation-duration: .6s;
-  -webkit-animation-duration: .6s;
   animation-duration: .6s;
-  -moz-animation-delay: .3s;
-  -webkit-animation-delay: .3s;
   animation-delay: .3s;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -moz-animation-name: bounce-right;
-  -webkit-animation-name: bounce-right;
   animation-name: bounce-right;
 }
 
@@ -272,7 +269,7 @@ p {
   color: $brand-color;
   display: inline-block;
   font: inherit;
-  font-weight: 400;
+  font-weight: 500;
   margin: 0;
   padding: .5rem 1.25rem;
   position: relative;
@@ -281,30 +278,21 @@ p {
   transition: all .15s linear;
   vertical-align: middle;
   white-space: nowrap;
-}
 
-.button:focus,
-.button:hover {
-  border-color: $brand-color-dark;
-  color: $brand-color-dark;
-  outline: none;
-}
-
-.footer-content {
-  font-weight: 400;
-  opacity: .8;
-}
-
-.footer-content,
-.footer-content p {
-  font-size: .8rem;
+  &:focus,
+  &:hover {
+    border-color: $brand-color-dark;
+    color: $brand-color-dark;
+    outline: none;
+  }
 }
 
 .footer-links {
   list-style: none;
+  display: flex;
+  justify-content: center;
 
   li {
-    display: inline-block;
 
     + li::before {
       content: '\a0\b7\a0';
@@ -315,24 +303,32 @@ p {
 .grid-frame {
   margin: 0 auto;
   max-width: 1040px;
-
-  &::after {
-    clear: both;
-    content: '';
-    display: table;
-  }
 }
 
 .grid {
-  font-size: 0;
-  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.grid--align-center {
+  justify-content: center;
+}
+
+.grid--align-right {
+  justify-content: flex-end;
+}
+
+.grid--align-middle {
+  align-items: center;
+}
+
+.grid--align-bottom {
+  align-items: flex-end;
 }
 
 .grid-cell {
-  display: inline-block;
-  font-size: 1rem;
-  text-align: left;
-  vertical-align: top;
   width: 100%;
 }
 
@@ -353,7 +349,7 @@ p {
 }
 
 [class~='1/2'] {
-  max-width: 50%;
+  width: 50%;
 }
 
 .project-img {
@@ -366,7 +362,8 @@ p {
 }
 
 .masthead {
-  color: $white;
+  background: $base-font-color;
+  color: $brand-color;
   padding: 4rem 0;
   text-shadow: 0 0 1rem rgba($black, .1);
 
@@ -375,30 +372,40 @@ p {
   }
 
   .pagination {
-    align-items: center;
-    display: flex;
     width: 25%;
   }
 
-  .pagination-next,
-  .pagination-prev {
-    float: none;
+  .pagination-next {
+    margin: 0;
   }
 }
 
-.nav {
+.pagination {
+  align-items: center;
+  display: flex;
+}
+
+.nav,
+.footer-content {
   font-weight: 500;
 }
 
-.nav-item {
-  font-size: .8rem;
+.nav-item:not(:last-child) {
   margin-right: .7rem;
-  transition: all .15s linear;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-title {
+  align-self: flex-start;
+  flex-grow: 1;
 }
 
 .pagination-item {
-  float: left;
-  text-align: right;
+  color: $brand-color;
 
   svg {
     fill: $brand-color;
@@ -422,17 +429,15 @@ p {
 }
 
 .pagination-next {
-  float: right;
-  text-align: right;
-}
-
-.bg-gradient {
-  background: $base-font-color;
-  color: $brand-color;
+  margin-left: auto;
 }
 
 .border-bottom-gray {
   border-bottom: 1px solid $gray-3 !important;
+}
+
+.push-bottom {
+  margin-bottom: 1rem !important;
 }
 
 .push-top {
@@ -470,6 +475,10 @@ p {
 
 .flush-bottom {
   margin-bottom: 0 !important;
+}
+
+.flush-top {
+  margin-top: 0 !important;
 }
 
 .soft {
@@ -547,41 +556,32 @@ p {
 
 @media only screen and (min-width: 700px) {
 
-  [class~='4/5\@md'] {
-    max-width: 80%;
-  }
-
-  [class~='2/3\@md'] {
-    max-width: 66.66666666%;
-  }
-
-  [class~='1/2\@md'] {
-    max-width: 50%;
-  }
-
-  [class~='1/3\@md'] {
-    max-width: 33.33333334%;
-  }
-
-  .masthead-title {
-    font-size: 3.25rem;
-  }
-
-  .title {
-    flex: 1;
-  }
-
   .nav {
-    align-items: center;
-    display: flex;
+    flex-direction: row;
   }
 
   .nav-item:not(:last-child) {
     margin-right: 3rem;
   }
 
-  .nav-item:last-child {
-    margin-right: 0;
+  [class~='4/5\@md'] {
+    width: 80%;
+  }
+
+  [class~='2/3\@md'] {
+    width: 66.66666666%;
+  }
+
+  [class~='1/2\@md'] {
+    width: 50%;
+  }
+
+  [class~='1/3\@md'] {
+    width: 33.33333334%;
+  }
+
+  .masthead-title {
+    font-size: 3.25rem;
   }
 
   .bg-silver-half\@md {
