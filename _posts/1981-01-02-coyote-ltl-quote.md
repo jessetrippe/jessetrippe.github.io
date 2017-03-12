@@ -3,6 +3,7 @@ layout: post
 title: "Coyote LTL Quote"
 description: "Case study of an LTL quoting tool added to Coyote's TMS"
 permalink: /coyote-ltl-quote/
+tag: case-study
 ---
 
 <section class="border-bottom-gray">

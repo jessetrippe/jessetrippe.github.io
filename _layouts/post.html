@@ -7,16 +7,20 @@
 <body>
 
     {% include nav.html %}
-    
+
     <div class="masthead bg-gradient">
-        <div class="grid-frame soft-double-sides soft-triple-sides@md">
-            <h2 class="masthead-title 4/5@md">
+        <div class="grid-frame soft-sides hard@md">
+            <h2 class="masthead-title soft-sides soft-triple-sides@md">
                 {% if page.intro %}
                     {{ page.intro }}
                 {% else %}
                     {{ page.title }}
                 {% endif %}
+                {% if page.tag == "case-study" %}
+                    <span class="title-tag">Case Study</span>
+                {% endif %}
             </h2>
+            {% include header-pagination.html %}
         </div>
     </div>
 

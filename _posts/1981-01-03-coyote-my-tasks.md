@@ -3,6 +3,7 @@ layout: post
 title: "Coyote My Tasks"
 description: "Case study of task management added to Coyote's TMS"
 permalink: /coyote-my-tasks/
+tag: case-study
 ---
 
 <section class="border-bottom-gray">

@@ -3,6 +3,7 @@ layout: post
 title: "Coyote Howl"
 description: "Case study of Coyote's mobile shipper app"
 permalink: /coyote-howl/
+tag: case-study
 ---
 
 <section class="border-bottom-gray">
