@@ -5,7 +5,7 @@ description: "Who I am and how I got here."
 permalink: /about-me/
 ---
 
-<div class="grid grid-with-gutter-spacious text-left">
+<div class="grid grid-with-gutter-spacious">
 	<div class="grid-cell 2/3@md">
 		<p>Computer dork meets social butterfly. This unique personality of opposites allows me to successfully combine serious work skills while multi-tasking with style and ease. Combine the diplomacy of Madeline Albright with the humanitarian vision of President Jimmy Carter and add the flexibility of Spider-Man and you've&nbsp;got&nbsp;me.</p>
 		<p>You've heard it all before—a young guy with small town Michigan roots moves to the big city to chase his dreams and mostly finds jobs stuffing envelopes and foaming lattes. So I hit the books and keyboard at <a href="http://www.saic.edu/" target="_blank">The School of the Art Institute of Chicago</a> for a BA in Fine Arts, and now I design and redesign in my sleep.</p>

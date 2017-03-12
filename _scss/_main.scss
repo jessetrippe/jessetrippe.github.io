@@ -35,12 +35,6 @@ section {
   display: block;
 }
 
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
 svg {
   fill: $base-font-color;
 
@@ -80,13 +74,6 @@ th {
   text-align: right;
 }
 
-h1 {
-  font-size: 3rem;
-  font-weight: 300;
-  margin-bottom: .18rem;
-  margin-top: 0;
-}
-
 h2 {
   font-size: 1.6rem;
   font-weight: 300;
@@ -106,8 +93,7 @@ p {
   margin-top: .5rem;
 }
 
-.small,
-small {
+.small {
   font-size: .8rem;
   line-height: 27.2px;
 }
@@ -295,22 +281,6 @@ small {
   padding: 0;
 }
 
-.grid--align-center {
-  justify-content: center;
-}
-
-.grid--align-right {
-  justify-content: flex-end;
-}
-
-.grid--align-middle {
-  align-items: center;
-}
-
-.grid--align-bottom {
-  align-items: flex-end;
-}
-
 .grid-cell {
   width: 100%;
 }
@@ -427,27 +397,6 @@ small {
   margin-top: 1rem !important;
 }
 
-.push-half-top {
-  margin-top: .5rem !important;
-}
-
-.push-half-left {
-  margin-left: .5rem !important;
-}
-
-.push-half-right {
-  margin-right: .5rem !important;
-}
-
-.push-double-bottom {
-  margin-bottom: 2rem !important;
-}
-
-.push-double-sides {
-  margin-left: 2rem !important;
-  margin-right: 2rem !important;
-}
-
 .push-triple-bottom {
   margin-bottom: 3rem !important;
 }
@@ -482,10 +431,6 @@ small {
   padding: .5rem !important;
 }
 
-.soft-half-top {
-  padding-top: .5rem !important;
-}
-
 .soft-double {
   padding: 2rem !important;
 }
@@ -497,10 +442,6 @@ small {
 .soft-double-sides {
   padding-left: 2rem !important;
   padding-right: 2rem !important;
-}
-
-.soft-triple {
-  padding: 3rem !important;
 }
 
 .soft-triple-bottom {
@@ -516,21 +457,8 @@ small {
   padding-top: 3rem !important;
 }
 
-.soft-quad-ends {
-  padding-bottom: 4rem !important;
-  padding-top: 4rem !important;
-}
-
 .hard {
   padding: 0 !important;
-}
-
-.hard-bottom {
-  padding-bottom: 0 !important;
-}
-
-.text-left {
-  text-align: left;
 }
 
 .text-center {
@@ -581,11 +509,6 @@ small {
 
   .border-none\@md {
     border: 0 !important;
-  }
-
-  .push-triple-sides\@md {
-    margin-left: 3rem !important;
-    margin-right: 3rem !important;
   }
 
   .flush\@md {
