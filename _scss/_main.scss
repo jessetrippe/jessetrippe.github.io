@@ -19,7 +19,6 @@ $gray-3: #d2d6d9;
 }
 
 html {
-  font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -36,31 +35,18 @@ section {
   display: block;
 }
 
-svg:not(:root) {
-  overflow: hidden;
-}
-
-svg {
-  fill: $base-font-color;
-}
-
-hr {
-  background: 0 0;
-  border: 0;
-  border-bottom: 1px solid  $gray-2;
-  height: 0;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-img {
-  border: 0;
+svg {
+  fill: $base-font-color;
+
+  &:not(:root) {
+    overflow: hidden;
+  }
 }
 
 a {
@@ -69,12 +55,9 @@ a {
   text-decoration: none;
   transition: all .15s linear;
 
-  &:focus {
-    outline: 0;
-  }
-
   &:hover,
   &:focus {
+    outline: 0;
     color: $brand-color-dark;
   }
 }
