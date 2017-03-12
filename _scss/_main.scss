@@ -259,13 +259,12 @@ p {
 .footer-links {
   list-style: none;
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
+  white-space: nowrap;
 
-  li {
-
-    + li::before {
+  li + li::before {
       content: '\a0\b7\a0';
-    }
   }
 }
 
