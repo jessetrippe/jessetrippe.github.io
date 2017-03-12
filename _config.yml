@@ -1,6 +1,3 @@
 title: Jesse Trippe
 
-sass:
-    sass_dir: ./_scss
-
 include: ['_pages']
