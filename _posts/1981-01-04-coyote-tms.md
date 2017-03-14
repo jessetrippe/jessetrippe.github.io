@@ -18,17 +18,14 @@ permalink: /coyote-tms/
 							<th>Client</th>
 							<td>Coyote Logistics</td>
 						</tr>
-						<tr></tr>
 						<tr>
 							<th>Media</th>
 							<td>Website</td>
 						</tr>
-						<tr></tr>
 						<tr>
 							<th>Role</th>
 							<td>Designer, Front-End Developer</td>
 						</tr>
-						<tr></tr>
 						<tr>
 							<th>Date</th>
 							<td>2012–2015</td>
