@@ -197,3 +197,15 @@ small {
 .hard-top       { padding-top: 0 !important; }
 .hard-ends        { padding-top: 0 !important; padding-bottom: 0 !important; }
 .hard-sides       { padding-left: 0 !important; padding-right: 0 !important; }
+
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6,
+.reveal {
+  color: #213444;
+  font-family: 'Roboto Slab', serif;
+}
