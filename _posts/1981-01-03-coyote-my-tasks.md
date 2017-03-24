@@ -38,7 +38,7 @@ tag: case-study
 		</div>
 	</div>
 </section>
-<section class="bg-silver-half@md border-bottom-gray border-none@md">
+<section class="bg-silver-half@md border-none@md">
 	<div class="grid-frame soft-sides hard@md">
 		<div class="grid">
 			<div class="grid-cell soft-sides soft-triple-ends soft-triple-sides@md soft-triple-bottom@md 1/3@md">
@@ -51,7 +51,7 @@ tag: case-study
 		</div>
 	</div>
 </section>
-<section class="bg-silver-half@md border-bottom-gray border-none@md">
+<section class="bg-silver-half@md border-none@md">
 	<div class="grid-frame soft-sides hard@md">
 		<div class="grid">
 			<div class="grid-cell soft-sides soft-triple-ends soft-triple-sides@md soft-triple-bottom@md 1/3@md">
@@ -66,7 +66,7 @@ tag: case-study
 		</div>
 	</div>
 </section>
-<section class="bg-silver-half@md border-bottom-gray">
+<section class="bg-silver-half@md">
 	<div class="grid-frame soft-sides hard@md">
 		<div class="grid">
 			<div class="grid-cell soft-sides soft-triple-ends soft-triple-sides@md soft-triple-bottom@md 1/3@md">

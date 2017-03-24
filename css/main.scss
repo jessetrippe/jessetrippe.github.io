@@ -348,7 +348,7 @@ p {
   margin-left: auto;
 }
 
-.border-bottom-gray {
+section {
   border-bottom: 1px solid #d2d6d9 !important;
 }
 
@@ -505,4 +505,9 @@ p {
   .hard\@md {
     padding: 0 !important;
   }
+}
+
+
+body {
+  display: grid;
 }
