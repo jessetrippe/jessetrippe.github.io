@@ -1,0 +1,26 @@
+.messages .message.message-selected > article {
+	background: #eef7ff;
+}
+
+.messages>.message.message-selected>aside section:before {
+	border-right-color: #eef7ff;
+}
+
+.js-message * {
+	user-select: none;
+}
+
+.js-bulk-actions-section {
+	padding: 0 10px 15px;
+}
+.js-bulk-actions-section .bubble-meta {
+	padding-left: 0;
+	margin-bottom: 0;
+	margin-top: 15px;
+}
+
+.js-bulk-actions-section p > em {
+	font-size: 13px;
+    color: #929a9b;
+    text-shadow: none;
+}

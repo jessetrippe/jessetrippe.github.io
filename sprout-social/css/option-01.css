@@ -1,0 +1,18 @@
+.message-buttons.quarter {
+	position: absolute;
+	top: -5px;
+	right: 0;
+	bottom: auto;
+	right: 30px;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.messages>section .message_actions {
+	margin-top: -11px;
+}
+
+.messages > section:hover .message-buttons.quarter {
+    opacity: 1;
+    visibility: visible;
+}

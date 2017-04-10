@@ -1,0 +1,27 @@
+.messages .message {
+	padding-bottom: 8px;
+    background-color: #fff;
+    border: 1px solid #dee1e1;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.messages section.message > article {
+	border: 0;
+	padding: 0;
+	margin-left: 65px;
+}
+
+.messages>section aside:before,
+.messages>section>aside section:before {
+	display: none;
+}
+
+.message-text {
+	padding-top: 0;
+}
+
+.messages>section>aside {
+	width: auto;
+}
