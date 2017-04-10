@@ -113,3 +113,27 @@ $( document ).ready(function() {
         $('.message-selected').find('.js-complete').click();
     });
 });
+
+$(".bubble-meta .message-buttons a").click(function(event){
+    event.stopPropagation();
+});
+
+$(".bubble-meta section a").click(function(event){
+    event.stopPropagation();
+});
+
+$(".message-text a").click(function(event){
+    event.stopPropagation();
+});
+
+$("section article a").click(function(event){
+    event.stopPropagation();
+});
+
+$(".message_actions a").click(function(event){
+    event.stopPropagation();
+});
+
+$(".js-message aside").click(function(event){
+    event.stopPropagation();
+});
