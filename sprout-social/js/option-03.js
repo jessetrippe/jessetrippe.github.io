@@ -1,45 +1,3 @@
-// $(document).ready(function() {
-
-//     $('.js-message').click(function(e) {
-//     	if(e.shiftKey) {
-//     		console.log('shift click')
-//     		$('.message-selected-first').nextUntil('.message-selected').addClass('message-selected');
-//     	} else {
-//     		console.log('not shift click')
-//     		$('.message-selected-first').removeClass('message-selected-first');
-// 			$(this).toggleClass('message-selected message-selected-first');
-// 		}
-// 	});
-// 	$('.js-message *').click(function() {
-// 		$(this).closest('.js-message').click();
-// 	});
-// 	$('.js-toggle-message-text').click(function() {
-// 		$(this).closest('.js-message').click();
-// 	});
-// 	$('.message-text').click(function() {
-// 		$(this).closest('.js-message').click();
-// 	});
-// 	$('.bubble-meta').click(function() {
-// 		$(this).closest('.js-message').click();
-// 	});
-// 	$('.bubble-meta article').click(function() {
-// 		$(this).closest('.js-message').click();
-// 	});
-// 	$('.js-message-aux').click(function() {
-// 		$(this).closest('.js-message').click();
-// 	});
-// 	$('.bubble-meta article').click(function() {
-// 		$(this).closest('.js-message').click();
-// 	});
-// 	$('.bubble-meta article').click(function() {
-// 		$(this).closest('.js-message').click();
-// 	});
-// 	$('.js-message > article').click(function() {
-// 		$(this).closest('.js-message').click();
-// 	});
-// });
-
-
 $(function() {
     var $lastSelected = [],
         container     = $('.js-exoSubBucket.messages.messages-bucket'),
@@ -115,19 +73,6 @@ $(function() {
     });
 });
 
-$('.js-mark-complete').click(function() {
-	$("header .passive_alert").show();
-	$('.js-marked-complete-count').html($('.message-selected').length);
-	$('.message-selected').find('.js-complete').click();
-	$('.js-filters-section-mount').show();
-	$('.js-smart-inbox-header').show();
-	$('.js-bulk-actions-section').hide();
-	$('.js-bulk-actions-header').hide();
-	setTimeout(function() {
-        $("header .passive_alert").hide()
-    }, 4000);
-});
-
 $('.js-deselect-bulk').click(function() {
 	$('.message').removeClass('message-selected');
 	$('.js-filters-section-mount').show();
@@ -136,7 +81,35 @@ $('.js-deselect-bulk').click(function() {
 	$('.js-bulk-actions-header').hide();
 });
 
-$('.js-select-all-bulk').click(function() {
-    $('.message').addClass('message-selected');
-    $('.js-selected-count').html($('.message-selected').length);
+
+$( document ).ready(function() {
+    $('.js-complete').click(function() {
+        var currentMessage = $(this).closest('.js-message');
+
+        $('header .passive_alert').show();
+        $('.js-marked-complete-count').html($('.message-selected').length);
+        $(this).addClass('dismiss_complete');
+        $(this).closest('.js-message').addClass('collapse');
+        $(this).closest('.js-message').addClass('collapse-collapsed');
+        currentMessage.one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',   
+        function(e) {
+            $(this).remove();
+        });
+        $('.js-filters-section-mount').show();
+        $('.js-smart-inbox-header').show();
+        $('.js-bulk-actions-section').hide();
+        $('.js-bulk-actions-header').hide();
+        setTimeout(function() {
+            $("header .passive_alert").hide()
+        }, 4000);
+        $('.js-selected-count').html($('.message-selected').length);
+    });
+
+    $('.js-select-all-bulk').click(function() {
+        $('.message:not(.message-selected)').click();
+    });
+
+    $('.js-mark-complete').click(function() {
+        $('.message-selected').find('.js-complete').click();
+    });
 });
