@@ -1,18 +1,75 @@
 .message-buttons.quarter {
 	position: absolute;
-	top: -5px;
+	top: -11px;
 	right: 0;
 	bottom: auto;
 	right: 30px;
 	visibility: hidden;
 	opacity: 0;
+	right: 37px;
 }
 
 .messages>section .message_actions {
-	margin-top: -11px;
+	margin-top: -16px;
+	right: 10px;
 }
 
 .messages > section:hover .message-buttons.quarter {
     opacity: 1;
     visibility: visible;
+}
+
+.message-buttons li a {
+	overflow: hidden;
+}
+
+.message-buttons li {
+	left: -6px;
+}
+.message-buttons li:first-child {
+	left: 0px;
+}
+.message-buttons li:last-child {
+	left: -4px;
+}
+
+.message-buttons li a,
+.message_actions .gear_small {
+	border: 1px solid #C6C6C6;
+	display: block;
+	border-radius: 50%;
+	height: 21px;
+	width: 21px;
+	position: relative;
+	background: white !important;
+	display: block;
+}
+
+.ficon.not-completed,
+.ficon.is-completed {
+	font-size: 32px;
+    position: relative;
+    left: -8px;
+    top: -1px;
+}
+
+.ficon.task_idle span {
+	font-size: 21px;
+    position: relative;
+    top: 3px;
+    left: 0px;
+}
+
+.message-buttons .reply span.ficon {
+	font-size: 21px;
+    left: 0px;
+    top: 3px;
+    position: relative;
+}
+
+.message_actions .gear_small .ficon {
+	position: relative;
+    top: 6px;
+    font-size: 19px;
+    left: 1px;
 }
