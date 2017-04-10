@@ -77,7 +77,6 @@ $('.js-complete').click(function() {
     var currentMessage = $(this).closest('.js-message');
 
     $('header .passive_alert').show();
-    $('.js-marked-complete-count').html($('.message-selected').length);
     $(this).addClass('dismiss_complete');
     $(this).closest('.js-message').addClass('collapse');
     $(this).closest('.js-message').addClass('collapse-collapsed');
