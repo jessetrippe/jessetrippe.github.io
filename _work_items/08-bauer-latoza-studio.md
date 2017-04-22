@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Bauer Latoza Studio"
 description: "Website for Chicago architecture firm"
 permalink: /bauer-latoza-studio/

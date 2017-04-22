@@ -1,3 +1,7 @@
 title: Jesse Trippe
 
 include: ['_pages']
+
+collections:
+  work_items:
+    output: true

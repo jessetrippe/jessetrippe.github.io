@@ -1,30 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	{% include header.html %}
+    {% include header.html %}
+
+    {% if page.id %}
+        <meta name="robots" content="noindex, nofollow">
+    {% endif %}
 </head>
-<body class="{{ page.title | slugify }}">
+<body>
 
-	{% include nav.html %}
+    {% include nav.html %}
 
-	<div class="masthead">
-		<div class="grid-frame soft-double-sides soft-triple-sides@md">
-			<h2 class="masthead-title 4/5@md">
-				{% if page.intro %}
-					{{ page.intro }}
-				{% else %}
-					{{ page.title }}
-				{% endif %}
-			</h2>
-		</div>
-	</div>
-	<section>
-		<div class="grid-frame soft-triple-ends soft-double-sides soft-triple-sides@md">
-			{{ content }}
-		</div>
-	</section>
-	
-	{% include footer.html %}
+    <div class="masthead">
+        <div class="grid-frame soft-sides hard@md">
+            <h2 class="masthead-title soft-sides soft-triple-sides@md">
+                {% if page.intro %}
+                    {{ page.intro }}
+                {% else %}
+                    {{ page.title }}
+                {% endif %}
+                {% if page.tag == "case-study" %}
+                    <span class="title-tag">Case Study</span>
+                {% endif %}
+            </h2>
+            {% if page.id %}
+                {% include header-pagination.html %}
+            {% endif %}
+        </div>
+    </div>
+
+    {{ content }}
+
+    {% if page.id %}
+        {% include pagination.html %}
+    {% endif %}
+
+    {% include footer.html %}
 
 </body>
 </html>

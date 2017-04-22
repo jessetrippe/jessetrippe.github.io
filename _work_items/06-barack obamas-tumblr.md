@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Barack Obama's Tumblr"
 description: "Tumblr design and templating for Barack Obama's campaign"
 permalink: /barack-obamas-tumblr/

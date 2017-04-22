@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Coyote Howl"
 description: "Case study of Coyote's mobile shipper app"
 permalink: /coyote-howl/

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Northwind Farms"
 description: "Identity for a Burlington, WI garden center and farm"
 permalink: /northwind-farms/

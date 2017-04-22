@@ -3,8 +3,20 @@
 		<a href="/">Jesse Trippe</a>
 	</div>
 	<div class="nav-group small">
-		<a class="nav-item" href="/coyote-howl/">Selected Work</a>
-		<a class="nav-item" href="/about-me/">About Me</a>
-		<a class="nav-item" href="/get-in-touch/">Get In Touch</a>
+		{% assign pages = site.pages | sort:"weight"  %}
+		{% for page in pages %}
+		    {% unless page.title == "Home" %}
+		        {% if page.title == "About Me" %}
+		            <a href="{{ page.url }}" class="nav-item">{{ page.title }}</a>
+		        {% elsif page.title == "Selected Work" %}
+		            {% assign work_items = site.work_items | sort:"weight"  %}
+		            {% for work_item in work_items limit:1 %}
+		                <a href="{{ work_item.permalink }}" class="nav-item">{{ page.title }}</a>
+		            {% endfor %}
+		        {% else %}
+		            <a href="{{ page.url }}" class="nav-item">{{ page.title }}</a>
+		        {% endif %}
+		    {% endunless %}
+		{% endfor %}
 	</div>
 </nav>

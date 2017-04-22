@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Coyote TMS"
 description: "Large website application for freight management"
 permalink: /coyote-tms/

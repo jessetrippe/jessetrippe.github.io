@@ -3,8 +3,10 @@ layout: default
 title: "About Me"
 description: "Who I am and how I got here."
 permalink: /about-me/
+weight: 3
 ---
-
+<section>
+	<div class="grid-frame soft-triple-ends soft-double-sides soft-triple-sides@md">
 <div class="grid grid-with-gutter-spacious">
 	<div class="grid-cell 2/3@md">
 		<p>Computer dork meets social butterfly. This unique personality of opposites allows me to successfully combine serious work skills while multi-tasking with style and ease. Combine the diplomacy of Madeline Albright with the humanitarian vision of President Jimmy Carter and add the flexibility of Spider-Man and you've&nbsp;got&nbsp;me.</p>
@@ -13,3 +15,5 @@ permalink: /about-me/
 		<p>In 2016 I joined Amazon in Seattle, WA in their Human Centered Design department, focusing on delivery tools for drivers and partner companies.</p>
 	</div>
 </div>
+</div>
+</section>

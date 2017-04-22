@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "ARCH Consultants"
 description: "Website for a Lincolnshire, IL construction and project management company."
 permalink: /arch-consultants/

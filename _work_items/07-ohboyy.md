@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "OhBoyy"
 description: "Branding, t-shirt, and website for a small design group"
 permalink: /ohboyy/

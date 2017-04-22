@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Coyote LTL Quote"
 description: "Case study of an LTL quoting tool added to Coyote's TMS"
 permalink: /coyote-ltl-quote/

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Hyde Park Bank"
 description: "Website for a Chicago bank"
 permalink: /hyde-park-bank/

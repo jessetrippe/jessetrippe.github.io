@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Grillo Group"
 description: "Portfolio website for a Chicago advertising and design agency"
 permalink: /grillo-group/

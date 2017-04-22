@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Green Bridge White House"
 description: "Identity and website for a Denver interious design company"
 permalink: /green-bridge-white-house/

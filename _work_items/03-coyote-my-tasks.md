@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Coyote My Tasks"
 description: "Case study of task management added to Coyote's TMS"
 permalink: /coyote-my-tasks/
