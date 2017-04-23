@@ -5,53 +5,40 @@ description: "Branding, t-shirt, and website for a small design group"
 permalink: /ohboyy/
 ---
 
-<section class="border-bottom-gray">
-	<div class="grid-frame soft-sides hard@md">
-		<div class="grid">
-			<div class="grid-cell soft-triple-top soft-sides soft-triple-sides@md soft-triple-bottom@md 2/3@md">
-				<p>A friend and I started making killer homemade t-shirts. People always asked where we bought them and we morphed from there into a design/development company, small website with e-commerce functionality, logo and brand development, and a core product we love.</p>
-			</div>
-			<div class="grid-cell soft-sides soft-triple-bottom soft-double-top soft-triple-sides@md soft-triple-top@md 1/3@md">
-				<table>
-					<tbody>
-						<tr>
-							<th>Client</th>
-							<td>OhBoyy</td>
-						</tr>
-						<tr>
-							<th>Media</th>
-							<td>Website, Identity, T-Shirt, Packaging</td>
-						</tr>
-						<tr>
-							<th>Role</th>
-							<td>Designer, Front-End Developer, Copy-Writer</td>
-						</tr>
-						<tr>
-							<th>Date</th>
-							<td>April 2011</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
+<section>
+	<div>
+		<p>A friend and I started making killer homemade t-shirts. People always asked where we bought them and we morphed from there into a design/development company, small website with e-commerce functionality, logo and brand development, and a core product we love.</p>
+	</div>
+	<table>
+		<tbody>
+			<tr>
+				<th>Client</th>
+				<td>OhBoyy</td>
+			</tr>
+			<tr>
+				<th>Media</th>
+				<td>Website, Identity, T-Shirt, Packaging</td>
+			</tr>
+			<tr>
+				<th>Role</th>
+				<td>Designer, Front-End Developer, Copy-Writer</td>
+			</tr>
+			<tr>
+				<th>Date</th>
+				<td>April 2011</td>
+			</tr>
+		</tbody>
+	</table>
+</section>
+<section>
+	<div class="span-2">
+		<img src="https://jessetrippecdn.appspot.com/images/ohboyy-1.png" alt="OhBoyy Screenshot 1">
+	</div>
+	<div>
+		<img src="https://jessetrippecdn.appspot.com/images/ohboyy-2.png" alt="OhBoyy Screenshot 2">
+	</div>
+	<div>
+		<img src="https://jessetrippecdn.appspot.com/images/ohboyy-3.png" alt="OhBoyy Wordmark">
+		<img src="https://jessetrippecdn.appspot.com/images/ohboyy-4.jpg" alt="OhBoyy Packaging">
 	</div>
 </section>
-<section class="border-bottom-gray bg-silver@md">
-	<div class="grid-frame soft-triple-ends soft-double-sides soft-triple-sides@md">
-		<div class="grid grid-with-gutter">
-			<div class="grid-cell">
-				<img src="https://jessetrippecdn.appspot.com/images/ohboyy-1.png" alt="OhBoyy Screenshot 1" class="project-img">
-				<div class="grid grid-with-gutter">
-					<div class="grid-cell 1/2@md">
-						<img src="https://jessetrippecdn.appspot.com/images/ohboyy-2.png" alt="OhBoyy Screenshot 2" class="project-img flush-bottom@md">
-					</div>
-					<div class="grid-cell 1/2@md">
-						<img src="https://jessetrippecdn.appspot.com/images/ohboyy-3.png" alt="OhBoyy Wordmark" class="project-img soft">
-						<img src="https://jessetrippecdn.appspot.com/images/ohboyy-4.jpg" alt="OhBoyy Packaging" class="project-img flush-bottom">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-	

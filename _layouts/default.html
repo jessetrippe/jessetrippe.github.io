@@ -7,29 +7,29 @@
         <meta name="robots" content="noindex, nofollow">
     {% endif %}
 </head>
-<body>
+<body class="{{ page.title | slugify }}">
 
     {% include nav.html %}
 
-    <div class="masthead">
-        <div class="grid-frame soft-sides hard@md">
-            <h2 class="masthead-title soft-sides soft-triple-sides@md">
-                {% if page.intro %}
-                    {{ page.intro }}
-                {% else %}
-                    {{ page.title }}
-                {% endif %}
-                {% if page.tag == "case-study" %}
-                    <span class="title-tag">Case Study</span>
-                {% endif %}
-            </h2>
-            {% if page.id %}
-                {% include header-pagination.html %}
+    <header role="banner">
+        <h1 class="h2 masthead-title">
+            {% if page.intro %}
+                {{ page.intro }}
+            {% else %}
+                {{ page.title }}
             {% endif %}
-        </div>
-    </div>
+            {% if page.tag == "case-study" %}
+                <span class="title-tag">Case Study</span>
+            {% endif %}
+        </h1>
+        {% if page.id %}
+            {% include header-pagination.html %}
+        {% endif %}
+    </header>
 
-    {{ content }}
+    <main class="{% if page.id %}post{% else %}page{% endif %}{% if page.tag == "case-study" %} case-study{% endif %}">
+        {{ content }}
+    </main>
 
     {% if page.id %}
         {% include pagination.html %}
