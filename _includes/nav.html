@@ -1,15 +1,13 @@
-<nav class="site-nav">
-	{% assign pages = site.html_pages | sort:"weight"  %}
-	{% for page in pages %}
-        {% if page.title == "Home" %}
-            <a href="{{ page.url }}" class="{{ page.title | slugify }}">Jesse Trippe</a>
-        {% elsif page.title == "Selected Work" %}
-            {% assign work_items = site.work_items | sort:"weight"  %}
-            {% for work_item in work_items limit:1 %}
-                <a href="{{ work_item.permalink }}" class="{{ page.title | slugify }}">{{ page.title }}</a>
-            {% endfor %}
-        {% else %}
-            <a href="{{ page.url }}" class="{{ page.title | slugify }}">{{ page.title }}</a>
-        {% endif %}
-	{% endfor %}
-</nav>
+{% assign pages = site.html_pages | sort:"weight"  %}
+{% for page in pages %}
+    {% if page.title == "Home" %}
+        <a href="{{ page.url }}" class="{{ page.title | slugify }}">Jesse Trippe</a>
+    {% elsif page.title == "Selected Work" %}
+        {% assign work_items = site.work_items | sort:"weight"  %}
+        {% for work_item in work_items limit:1 %}
+            <a href="{{ work_item.permalink }}" class="{{ page.title | slugify }}">{{ page.title }}</a>
+        {% endfor %}
+    {% else %}
+        <a href="{{ page.url }}" class="{{ page.title | slugify }}">{{ page.title }}</a>
+    {% endif %}
+{% endfor %}

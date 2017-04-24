@@ -258,7 +258,7 @@ svg {
   font-weight: 400;
 }
 
-.site-footer ul {
+.footer-links {
   margin-top: .5rem;
   display: -ms-flexbox;
   display: flex;
@@ -268,7 +268,7 @@ svg {
       justify-content: center;
 }
 
-.site-footer ul li:not(:last-child):after {
+.footer-links li:not(:last-child):after {
   content: "•";
   padding: 0 .25rem;
 }

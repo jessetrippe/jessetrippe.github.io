@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
     {% include header.html %}
-
     {% if page.id %}
         <meta name="robots" content="noindex, nofollow">
     {% endif %}
 </head>
 <body class="{{ page.title | slugify }}">
 
-    {% include nav.html %}
-
+    <nav class="site-nav">
+        {% include nav.html %}
+    </nav>
     <header class="site-header">
         <h1 class="h2 masthead-title">
             {% if page.intro %}
@@ -26,7 +26,6 @@
             {% include pagination.html %}
         {% endif %}
     </header>
-
     <main class="{% if page.id %}post{% else %}page{% endif %}{% if page.tag == "case-study" %} case-study{% endif %}">
         {{ content }}
 
@@ -34,8 +33,10 @@
             {% include pagination.html %}
         {% endif %}
     </main>
-
-    {% include footer.html %}
+    <footer class="site-footer">
+        {% include footer.html %}
+    </footer>
+    <script>!function(e,t,a,n,c,o){e.GoogleAnalyticsObject=n,e[n]||(e[n]=function(){(e[n].q=e[n].q||[]).push(arguments)}),e[n].l=+new Date,c=t.createElement(a),o=t.getElementsByTagName(a)[0],c.src="https://www.google-analytics.com/analytics.js",o.parentNode.insertBefore(c,o)}(window,document,"script","ga"),ga("create","UA-54788171-1","auto"),ga("send","pageview");</script>
 
 </body>
 </html>
