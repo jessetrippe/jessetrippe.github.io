@@ -234,11 +234,17 @@ svg {
   font-size: 0.5185185185rem;
 }
 
-@media only screen and (min-width: 700px) {
-  .get-in-touch main p,
-  .about-me main p {
-    max-width: 64%;
+.about-me main.page,
+.get-in-touch main.page {
+  grid-row-gap: 0;
+
+  @media only screen and (min-width: 700px) {
+    grid-template-columns: 2fr 1fr;
   }
+}
+
+.about-me main.page p {
+  grid-column-start: 1;
 }
 
 footer[role="contentinfo"] {
@@ -278,7 +284,8 @@ footer[role="contentinfo"] ul li:not(:last-child):after {
   vertical-align: middle;
 }
 
-main section {
+main section,
+main.page {
   display: -ms-grid;
   display: grid;
   grid-gap: 2rem;
@@ -299,7 +306,7 @@ main section {
 }
 
 @media only screen and (min-width: 700px) {
-  .home main section {
+  .home main.page {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
   }

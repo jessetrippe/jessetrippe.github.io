@@ -6,7 +6,7 @@ permalink: /
 intro: "Hello! I'm Jesse Trippe&mdash;a Product and UX Designer living in Seattle, WA, working at Amazon."
 weight: 1
 ---
-<section>
+
 <div>
 	{% include svg/ui-design.svg %}
 	<h2 class="h3">UI Design</h2>
@@ -27,4 +27,3 @@ weight: 1
 	<h2 class="h3">Development</h2>
 	<p>Using current and modern standards, I take pixel-perfect designs and code them into working, full-fledged websites and apps that are highly accessible. My skillset includes HTML5, CSS3, jQuery, and WordPress.</p>
 </div>
-</section>
