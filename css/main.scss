@@ -42,7 +42,6 @@ footer, header, hgroup, menu, nav, section {
 html {
   font-size: 24px;
   height: 100%;
-  overflow-x: hidden;
 }
 
 @media only screen and (min-width: 700px) {
@@ -337,7 +336,8 @@ img + img {
   display: -ms-flexbox;
   display: flex;
 }
-.pagination .is-disabled {
+
+.pagination-item.is-disabled {
   cursor: not-allowed;
   opacity: .5;
 }
