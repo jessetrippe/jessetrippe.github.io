@@ -41,8 +41,8 @@ footer, header, hgroup, menu, nav, section {
 
 html {
   font-size: 24px;
-  line-height: 1;
   height: 100%;
+  overflow-x: hidden;
 }
 
 @media only screen and (min-width: 700px) {
