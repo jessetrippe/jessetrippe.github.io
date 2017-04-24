@@ -113,8 +113,8 @@ h3,
   font-family: 'Roboto Slab', serif;
 }
 
-header[role="banner"],
-footer[role="contentinfo"],
+.site-header,
+.site-footer,
 main,
 main .pagination {
   padding: 2rem 0;
@@ -124,14 +124,14 @@ section + section {
   margin-top: 2rem;
 }
 
-header[role="banner"] {
+.site-header {
   color: #f1615c;
   display: -ms-flexbox;
   display: flex;
 }
 
 @media only screen and (min-width: 700px) {
-  header[role="banner"] {
+  .site-header {
     display: -ms-grid;
     display: grid;
     grid-gap: 2rem;
@@ -140,8 +140,8 @@ header[role="banner"] {
   }
 }
 
-header[role="banner"]::before,
-footer[role="contentinfo"]::before {
+.site-header::before,
+.site-footer::before {
   background: #213444;
   content: '';
   height: 100%;
@@ -154,7 +154,7 @@ footer[role="contentinfo"]::before {
   z-index: -1;
 }
 
-footer[role="contentinfo"]::before {
+.site-footer::before {
   background: #d2d6d9;
   height: 1px;
   z-index: -1;
@@ -246,19 +246,19 @@ svg {
   grid-column-start: 1;
 }
 
-footer[role="contentinfo"] {
+.site-footer {
   padding: 1rem 0;
   font-size: .5185185185rem;
   grid-row-start: 4;
   grid-row-end: 5;
 }
 
-footer[role="contentinfo"] p {
+.site-footer p {
   text-align: center;
   font-weight: 400;
 }
 
-footer[role="contentinfo"] ul {
+.site-footer ul {
   margin-top: .5rem;
   display: -ms-flexbox;
   display: flex;
@@ -268,7 +268,7 @@ footer[role="contentinfo"] ul {
       justify-content: center;
 }
 
-footer[role="contentinfo"] ul li:not(:last-child):after {
+.site-footer ul li:not(:last-child):after {
   content: "•";
   padding: 0 .25rem;
 }
