@@ -6,6 +6,7 @@ permalink: /brigitte-bell/
 ---
 
 <section>
+	<h2 class="visually-hidden">Introduction</h2>
 	<div>
 		<p>With the help of another designer, I built Brigitte Bell a website to highlight their law services and provide client testimonials to prospective clients. The site is easily maintained using WordPress by myself and the staff at Brigitte Bell.</p>
 	</div>

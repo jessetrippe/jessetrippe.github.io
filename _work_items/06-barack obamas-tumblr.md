@@ -6,6 +6,7 @@ permalink: /barack-obamas-tumblr/
 ---
 
 <section>
+	<h2 class="visually-hidden">Introduction</h2>
 	<div>
 		<p>I joined the Barack Obama Reelection Campaign as a Front-End Developer. My main responsibilities included the creation and maintenance of donation forms. This included front-end form validation, error handling, embedded video, mobile layout considerations, A/B testing and constant modifications and troubleshooting. I was also solely in charge of the development of Barack Obama's Tumblr blog which required learning Tumbr's templating language as well as defining mobile breakpoints and layouts.</p>
 	</div>

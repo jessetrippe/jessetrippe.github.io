@@ -7,6 +7,7 @@ tag: case-study
 ---
 
 <section>
+	<h2 class="visually-hidden">Introduction</h2>
 	<div>
 		<p>Coyote was losing significant business because it lacked a less than truckload (LTL) quoting and shipping tool. I worked with a Business Analyst, a Product Manager, an overseas development team, and various stakeholders&mdash;some familiar and others brand new to the world of LTL. The tool was built over the course of 4 months within Coyote.com, Coyote's web app for shippers and carriers.</p>
 		<p>The requirements shifted often, first as a tool for potential customers to quote shipments, and later restricted to customers already partnered with Coyote to quote and book LTL shipments. My role included requirements gathering, user testing, front-end development, and design.</p>

@@ -6,6 +6,7 @@ permalink: /grillo-group/
 ---
 
 <section>
+	<h2 class="visually-hidden">Introduction</h2>
 	<div>
 		<p>Some clients know exactly what they want, and the Grillo Group absolutely had to have a horizontal scrolling website with an implemented content management system. In case you hadn't noticed, almost every website goes up and down for a reason&mdash;when the width of pages are unknown, it's difficult to manage the experience for users. Using JavaScript and HTML standards, I started with an already designed Photoshop file and coded the site to the exact look and feel the client was after. The site was built into a content management system which allows for easy updating by the client. Once I created a rough prototype I provided advice and insight on the site's user interface and animation to get it feeling and working just right.</p>
 	</div>

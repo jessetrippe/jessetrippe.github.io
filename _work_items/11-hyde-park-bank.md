@@ -6,6 +6,7 @@ permalink: /hyde-park-bank/
 ---
 
 <section>
+	<h2 class="visually-hidden">Introduction</h2>
 	<div>
 		<p>Hyde Park Bank's website needed a makeover. Using previously created HTML files and other Photoshop files, I brought the entire site up to current web standards. I moved them away from the previously coded table based layout and finished the site that was on hold mid-production. Now the site is simpler for online customers to engage with content, including hours/location and an online banking demo created in Flash.</p>
 	</div>

@@ -6,6 +6,7 @@ permalink: /deb-reinhart/
 ---
 
 <section>
+	<h2 class="visually-hidden">Introduction</h2>
 	<div>
 		<p>Deb Reinhart Interior Design Group Inc. needed an elegant site to showcase their work and easily update it. With provided Photoshop files, I coded it so that nearly every item on the elegant site can be updated by the client through a WordPress backend, including their interior design blog.</p>
 	</div>

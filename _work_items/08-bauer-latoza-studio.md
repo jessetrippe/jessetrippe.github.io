@@ -6,6 +6,7 @@ permalink: /bauer-latoza-studio/
 ---
 
 <section>
+	<h2 class="visually-hidden">Introduction</h2>
 	<div>
 		<p>Working with the content of an original website, I designed and coded an extensive portfolio and blog for Chicago architecture firm BauerLatoza Studio. The final design needed to fit within the company's already designed logo, letterhead, invoicing and marketing materials. The results is a site with modern navigation, improved overall functionality and, of course, easier on the eyes without getting in the way of their work.</p>
 	</div>

@@ -6,6 +6,7 @@ permalink: /ohboyy/
 ---
 
 <section>
+	<h2 class="visually-hidden">Introduction</h2>
 	<div>
 		<p>A friend and I started making killer homemade t-shirts. People always asked where we bought them and we morphed from there into a design/development company, small website with e-commerce functionality, logo and brand development, and a core product we love.</p>
 	</div>

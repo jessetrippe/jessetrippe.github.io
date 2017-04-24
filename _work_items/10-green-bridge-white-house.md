@@ -6,6 +6,7 @@ permalink: /green-bridge-white-house/
 ---
 
 <section>
+	<h2 class="visually-hidden">Introduction</h2>
 	<div>
 		<p>Green Bridge, White House needed a home. As interior designers, they knew how to fill it with their concepts and photos, but needed the framework to create within. I designed and developed their logo, business cards and blog to represent who they are.</p>
 	</div>

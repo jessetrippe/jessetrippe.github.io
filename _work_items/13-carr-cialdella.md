@@ -6,6 +6,7 @@ permalink: /carr-cialdella/
 ---
 
 <section>
+	<h2 class="visually-hidden">Introduction</h2>
 	<div>
 		<p>Carr Cialdella, an architectural and interiors photography studio, needed a home to showcase their beautiful photographs, advertise their small collection of books, and share their services with prospective clients. Along with another designer, I built a simple solution that accomplishes all three while also allowing easy updates by the Carr Cialdella team.</p>
 	</div>
