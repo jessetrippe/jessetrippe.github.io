@@ -23,17 +23,17 @@
             {% endif %}
         </h1>
         {% if page.id %}
-            {% include header-pagination.html %}
+            {% include pagination.html %}
         {% endif %}
     </header>
 
     <main class="{% if page.id %}post{% else %}page{% endif %}{% if page.tag == "case-study" %} case-study{% endif %}">
         {{ content }}
-    </main>
 
-    {% if page.id %}
-        {% include pagination.html %}
-    {% endif %}
+        {% if page.id %}
+            {% include pagination.html %}
+        {% endif %}
+    </main>
 
     {% include footer.html %}
 
