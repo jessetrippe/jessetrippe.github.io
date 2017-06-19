@@ -11,30 +11,34 @@
     <nav class="site-nav">
         {% include nav.html %}
     </nav>
-    <header class="site-header">
-        <h1 class="h2 masthead-title">
-            {% if page.intro %}
-                {{ page.intro }}
-            {% else %}
-                {{ page.title }}
+    <header class="site-header-container">
+        <div class="site-header">
+            <h1 class="h2 masthead-title">
+                {% if page.intro %}
+                    {{ page.intro }}
+                {% else %}
+                    {{ page.title }}
+                {% endif %}
+                {% if page.tag == "case-study" %}
+                    <span class="title-tag">Case Study</span>
+                {% endif %}
+            </h1>
+            {% if page.id %}
+                {% include pagination.html %}
             {% endif %}
-            {% if page.tag == "case-study" %}
-                <span class="title-tag">Case Study</span>
-            {% endif %}
-        </h1>
-        {% if page.id %}
-            {% include pagination.html %}
-        {% endif %}
+        </div>
     </header>
-    <main class="{% if page.id %}post{% else %}page{% endif %}{% if page.tag == "case-study" %} case-study{% endif %}">
+    <main class="site-main {% if page.id %}post{% else %}page{% endif %}{% if page.tag == "case-study" %} case-study{% endif %}">
         {{ content }}
 
         {% if page.id %}
             {% include pagination.html %}
         {% endif %}
     </main>
-    <footer class="site-footer">
-        {% include footer.html %}
+    <footer class="site-footer-container">
+        <div class="site-footer">
+            {% include footer.html %}
+        </div>
     </footer>
     <script>!function(e,t,a,n,c,o){e.GoogleAnalyticsObject=n,e[n]||(e[n]=function(){(e[n].q=e[n].q||[]).push(arguments)}),e[n].l=+new Date,c=t.createElement(a),o=t.getElementsByTagName(a)[0],c.src="https://www.google-analytics.com/analytics.js",o.parentNode.insertBefore(c,o)}(window,document,"script","ga"),ga("create","UA-54788171-1","auto"),ga("send","pageview");</script>
 
