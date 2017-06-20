@@ -12,26 +12,28 @@ tag: case-study
 		<p>Along with Coyote's mobile development team, a Product Manager, and a Stakeholder, I designed and help build Coyote Howl&mdash;a customer focused mobile app to give shippers visibility and insight into their freight network. The app was built from start to finish in about 3 months, launching first internally to sales reps and later externally to customers.</p>
 		<p>Howl's purpose was twofold: first, to give shippers a tool to help manage and view their day-to-day freight; and secondly, to provide customer sales reps with a tool to help sell Coyote to potential customers.</p>
 	</div>
-	<table>
-		<tbody>
-			<tr>
-				<th>Client</th>
-				<td>Coyote Logistics</td>
-			</tr>
-			<tr>
-				<th>Media</th>
-				<td>Mobile App</td>
-			</tr>
-			<tr>
-				<th>Role</th>
-				<td>Designer, Front-End Developer</td>
-			</tr>
-			<tr>
-				<th>Date</th>
-				<td>2014–2015</td>
-			</tr>
-		</tbody>
-	</table>
+	<div>
+		<table>
+			<tbody>
+				<tr>
+					<th>Client</th>
+					<td>Coyote Logistics</td>
+				</tr>
+				<tr>
+					<th>Media</th>
+					<td>Mobile App</td>
+				</tr>
+				<tr>
+					<th>Role</th>
+					<td>Designer, Front-End Developer</td>
+				</tr>
+				<tr>
+					<th>Date</th>
+					<td>2014–2015</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 </section>
 <section>
 	<div>

@@ -2,6 +2,11 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+// $dark-blue: #213444;
+// $red: #f1615c;
+// $dark-red: #cd534e;
+// $gray: #d2d6d9;
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -15,15 +20,14 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
   margin: 0;
   padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -32,40 +36,33 @@ footer, header, hgroup, menu, nav, section {
 * {
   box-sizing: border-box;
   position: relative;
-}
 
-*::before, *::after {
-  box-sizing: inherit;
-  position: inherit;
+  &::before,
+  &::after {
+    box-sizing: inherit;
+    position: inherit;
+  }
 }
 
 html {
   font-size: 24px;
   height: 100%;
-}
 
-@media only screen and (min-width: 700px) {
-  html {
+  @media only screen and (min-width: 700px) {
     font-size: 27px;
   }
 }
 
 body {
-  color: #213444;
+  color: $dark-blue;
   display: grid;
   display: -ms-grid;
   font: 400 .6666666667rem/1.5 Roboto, "Helvetica Neue", Helvetica, sans-serif;
-  min-height: 100%;
-  grid-template-columns:
-    minmax(0, 1fr)
-    minmax(0, 40rem)
-    minmax(0, 1fr);
-  -ms-grid-columns:
-    minmax(0, 1fr)
-    minmax(0, 40rem)
-    minmax(0, 1fr);
-  grid-template-rows: auto auto 1fr auto;
+  -ms-grid-columns: minmax(0, 1fr) minmax(0, 40rem) minmax(0, 1fr);
   -ms-grid-rows: auto auto 1fr auto;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 40rem) minmax(0, 1fr);
+  grid-template-rows: auto auto 1fr auto;
+  min-height: 100%;
 }
 
 .site-main,
@@ -83,40 +80,40 @@ body {
 
 .site-nav,
 .site-main {
-  grid-column: 2 ;
+  grid-column: 2;
 }
 
 .site-header-container {
+  background: $dark-blue;
   grid-column: 1 / 4;
-  background: #213444;
 }
 
 .site-footer-container {
+  border-top: 1px solid $gray;
   grid-column: 1 / 4;
-  border-top: 1px solid #d2d6d9;
 }
 
 .site-header,
 .site-footer,
 .site-main,
 .site-main .pagination {
-  padding-top: 2rem;
   padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 .site-header {
-  color: #f1615c;
+  color: $red;
   display: -ms-flexbox;
   display: flex;
-  max-width: 40rem;
   margin-left: auto;
   margin-right: auto;
+  max-width: 40rem;
 
   @media only screen and (min-width: 700px) {
     display: -ms-grid;
     display: grid;
-    grid-gap: 2rem;
     -ms-grid-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
@@ -171,8 +168,8 @@ section + section {
 }
 
 .masthead-title {
-  -ms-flex-positive: 1;
   flex-grow: 1;
+  -ms-flex-positive: 1;
   max-width: 34rem;
 }
 
@@ -187,41 +184,45 @@ section + section {
 }
 
 a {
-  color: #f1615c;
+  color: $red;
   text-decoration: none;
   transition: all .15s linear;
-}
 
-a:hover,
-a:focus {
-  color: #cd534e;
-  outline: 0;
+  &:hover,
+  &:focus {
+    color: $dark-red;
+    outline: 0;
+  }
 }
 
 svg {
-  fill: #213444;
+  fill: $dark-blue;
 }
 
 .site-nav {
+  align-items: center;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -ms-flex-align: center;
-  align-items: center;
-}
 
-.site-nav a {
-  padding: .125rem 0 .5rem;
-}
+  a {
+    padding: .125rem 0 .5rem;
 
-.site-nav a[href="/about-me/"] {
-  margin: 0 1rem;
-}
+    &[href="/about-me/"] {
+      margin: 0 1rem;
+    }
 
-.site-nav a:first-child {
-  padding: .5rem 0 .125rem;
-  width: 100%;
+    &:first-child {
+      padding: .5rem 0 .125rem;
+      width: 100%;
+    }
+
+    &:not(:first-child) {
+      font-size: .5185185185rem;
+    }
+  }
 }
 
 @media only screen and (min-width: 700px) {
@@ -233,14 +234,10 @@ svg {
 
 @media only screen and (min-width: 700px) {
   .site-nav a:first-child {
-    -ms-flex-positive: 1;
     flex-grow: 1;
+    -ms-flex-positive: 1;
     width: auto;
   }
-}
-
-.site-nav a:not(:first-child) {
-  font-size: 0.5185185185rem;
 }
 
 .about-me .site-main.page,
@@ -258,36 +255,36 @@ svg {
 }
 
 .site-footer {
-  padding: 1rem 0;
   font-size: .5185185185rem;
-  grid-row-start: 4;
   grid-row-end: 5;
-}
+  grid-row-start: 4;
+  padding: 1rem 0;
 
-.site-footer p {
-  text-align: center;
-  font-weight: 400;
+  p {
+    font-weight: 400;
+    text-align: center;
+  }
 }
 
 .footer-links {
-  margin-top: .5rem;
-  display: -ms-flexbox;
   display: flex;
+  display: -ms-flexbox;
+  -ms-flex-pack: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -ms-flex-pack: center;
   justify-content: center;
-}
+  margin-top: .5rem;
 
-.footer-links li:not(:last-child):after {
-  content: "•";
-  padding: 0 .25rem;
+  li:not(:last-child)::after {
+    content: '•';
+    padding: 0 .25rem;
+  }
 }
 
 .title-tag {
-  background: #f1615c;
+  background: $red;
   border-radius: .25rem;
-  color: #213444;
+  color: $dark-blue;
   display: inline-block;
   font-size: .6666666667rem;
   padding: 0 .25rem;
@@ -333,31 +330,42 @@ th {
 }
 
 img {
-  max-width: 100%;
   display: block;
-}
+  max-width: 100%;
 
-img + img {
-  margin-top: 2rem;
+  + img {
+    margin-top: 2rem;
+  }
 }
 
 .pagination {
-  -ms-flex-align: center;
   align-items: center;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
 }
 
-.pagination-item.is-disabled {
-  cursor: not-allowed;
-  opacity: .5;
+.pagination-item {
+  color: $red;
+
+  &.is-disabled {
+    cursor: not-allowed;
+    opacity: .5;
+  }
+
+  svg {
+    fill: $red;
+    height: 1.5rem;
+    transition: background .15s linear;
+    vertical-align: middle;
+  }
 }
 
 .site-main .pagination {
-  -ms-flex-align: center;
   align-items: center;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
   padding-bottom: 0;
 }
 
@@ -365,23 +373,12 @@ img + img {
   margin-left: auto;
 }
 
-.site-main .pagination-prev:after {
+.site-main .pagination-prev::after {
   content: attr(title);
 }
 
-.site-main .pagination-next:before {
+.site-main .pagination-next::before {
   content: attr(title);
-}
-
-.pagination-item {
-  color: #f1615c;
-}
-
-.pagination-item svg {
-  fill: #f1615c;
-  height: 1.5rem;
-  transition: background .15s linear;
-  vertical-align: middle;
 }
 
 @media only screen and (min-width: 700px) {
@@ -400,50 +397,53 @@ img + img {
 
 .button {
   -webkit-backface-visibility: hidden;
-  -webkit-transition: all .15s linear;
   background: transparent;
+  border: 1px solid $red;
   border-radius: 5px;
-  border: 1px solid #f1615c;
-  color: #f1615c;
+  color: $red;
   display: inline-block;
-  font-weight: 500;
   font: inherit;
+  font-weight: 500;
   margin: 0;
   padding: .25rem .75rem;
   position: relative;
   text-align: center;
   text-shadow: none;
+  -webkit-transition: all .15s linear;
   transition: all .15s linear;
   vertical-align: middle;
   white-space: nowrap;
-}
 
-.button:focus,
-.button:hover {
-  border-color: #cd534e;
-  color: #cd534e;
-  outline: none;
+  &:focus,
+  &:hover {
+    border-color: $dark-red;
+    color: $dark-red;
+    outline: none;
+  }
 }
 
 td .button {
   margin-top: 1rem;
 }
 
-.post img {
-  border-radius: 3px;
-  border: 1px solid #d2d6d9;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.025);
-  vertical-align: top;
-}
+.post {
 
-.post section:first-child {
-  grid-row-gap: 1rem;
+  img {
+    border: 1px solid $gray;
+    border-radius: 3px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .025);
+    vertical-align: top;
+  }
+
+  section:first-child {
+    grid-row-gap: 1rem;
+  }
 }
 
 .visually-hidden {
-  position: absolute !important;
-  width: 1px;
+  clip: rect(0, 0, 0, 0);
   height: 1px;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
+  position: absolute !important;
+  width: 1px;
 }

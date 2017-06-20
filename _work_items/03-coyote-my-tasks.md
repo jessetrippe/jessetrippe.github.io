@@ -12,26 +12,28 @@ tag: case-study
 		<p>Coyote provides shippers with up-to-the-minute delivery tracking information through web and mobile apps. Location information is provided by drivers using Coyote's mobile app or website but if carriers fail to do this, Coyote representatives have to call drivers for location updates, taking time away from booking new freight.</p>
 		<p>Stakeholders predicted that an improved experience and workflow for updating loads could double self-tracking to 40%. This problem was given to me, a Stakeholder, a Business Analyst, and a development team in Pune, Maharashtra, India to solve. Our solution was a landing page where users are presented with outstanding tasks and a quick way to complete them.</p>
 	</div>
-	<table>
-		<tbody>
-			<tr>
-				<th>Client</th>
-				<td>Coyote Logistics</td>
-			</tr>
-			<tr>
-				<th>Media</th>
-				<td>Website</td>
-			</tr>
-			<tr>
-				<th>Role</th>
-				<td>Designer, Front-End Developer</td>
-			</tr>
-			<tr>
-				<th>Date</th>
-				<td>July 2015</td>
-			</tr>
-		</tbody>
-	</table>
+	<div>
+		<table>
+			<tbody>
+				<tr>
+					<th>Client</th>
+					<td>Coyote Logistics</td>
+				</tr>
+				<tr>
+					<th>Media</th>
+					<td>Website</td>
+				</tr>
+				<tr>
+					<th>Role</th>
+					<td>Designer, Front-End Developer</td>
+				</tr>
+				<tr>
+					<th>Date</th>
+					<td>July 2015</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 </section>
 <section>
 	<div>

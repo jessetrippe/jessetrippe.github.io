@@ -10,26 +10,28 @@ permalink: /green-bridge-white-house/
 	<div>
 		<p>Green Bridge, White House needed a home. As interior designers, they knew how to fill it with their concepts and photos, but needed the framework to create within. I designed and developed their logo, business cards and blog to represent who they are.</p>
 	</div>
-	<table>
-		<tbody>
-			<tr>
-				<th>Client</th>
-				<td>Kelli Holtz, Interior Designer</td>
-			</tr>
-			<tr>
-				<th>Media</th>
-				<td>Identity, Website</td>
-			</tr>
-			<tr>
-				<th>Role</th>
-				<td>Designer, Front-End Developer</td>
-			</tr>
-			<tr>
-				<th>Date</th>
-				<td>April 2010</td>
-			</tr>
-		</tbody>
-	</table>
+	<div>
+		<table>
+			<tbody>
+				<tr>
+					<th>Client</th>
+					<td>Kelli Holtz, Interior Designer</td>
+				</tr>
+				<tr>
+					<th>Media</th>
+					<td>Identity, Website</td>
+				</tr>
+				<tr>
+					<th>Role</th>
+					<td>Designer, Front-End Developer</td>
+				</tr>
+				<tr>
+					<th>Date</th>
+					<td>April 2010</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 </section>
 <section>
 	<div class="span-2">

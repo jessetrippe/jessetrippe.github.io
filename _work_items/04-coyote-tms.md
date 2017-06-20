@@ -10,26 +10,28 @@ permalink: /coyote-tms/
 	<div>
 		<p>My position at Coyote allowed me to work on many projects, the largest of which is their business-to-business Transportation Management System (TMS). Working with a team of over 20 developers, I was responsible for every page's overall design and user interface, the implementation, development, and maintenance of the app's CSS framework and HTML, and the occassional copy-writing. This required great team-working and communication skills as well as an extremely acute attention to detail. As with most projects at Coyote, my responsibilites on this project grew to span across many roles including Business Analyst, Quality Assurance Tester, and User Experience Designer.</p>
 	</div>
-	<table>
-		<tbody>
-			<tr>
-				<th>Client</th>
-				<td>Coyote Logistics</td>
-			</tr>
-			<tr>
-				<th>Media</th>
-				<td>Website</td>
-			</tr>
-			<tr>
-				<th>Role</th>
-				<td>Designer, Front-End Developer</td>
-			</tr>
-			<tr>
-				<th>Date</th>
-				<td>2012–2015</td>
-			</tr>
-		</tbody>
-	</table>
+	<div>
+		<table>
+			<tbody>
+				<tr>
+					<th>Client</th>
+					<td>Coyote Logistics</td>
+				</tr>
+				<tr>
+					<th>Media</th>
+					<td>Website</td>
+				</tr>
+				<tr>
+					<th>Role</th>
+					<td>Designer, Front-End Developer</td>
+				</tr>
+				<tr>
+					<th>Date</th>
+					<td>2012–2015</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 </section>
 <section>
 	<div>

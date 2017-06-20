@@ -10,26 +10,28 @@ permalink: /northwind-farms/
 	<div>
 		<p>Complete redesign from concept to brand for Wisconsin based Northwind Perennial Farm Nursery &amp; Garden. The project required extensive market research and historical analysis of the company. The final product communicated the research journey to creating a stunning new design while keeping Northwind's traditions as inspiration for guiding principles. The design included letterhead, logo, and brand book.</p>
 	</div>
-	<table>
-		<tbody>
-			<tr>
-				<th>Client</th>
-				<td>Northwind Perennial Farm</td>
-			</tr>
-			<tr>
-				<th>Media</th>
-				<td>Identity, Business Cards, 8.5&#8243;&times;11&#8243; Casebook</td>
-			</tr>
-			<tr>
-				<th>Role</th>
-				<td>Designer, Photographer</td>
-			</tr>
-			<tr>
-				<th>Date</th>
-				<td>March 2008</td>
-			</tr>
-		</tbody>
-	</table>
+	<div>
+		<table>
+			<tbody>
+				<tr>
+					<th>Client</th>
+					<td>Northwind Perennial Farm</td>
+				</tr>
+				<tr>
+					<th>Media</th>
+					<td>Identity, Business Cards, 8.5&#8243;&times;11&#8243; Casebook</td>
+				</tr>
+				<tr>
+					<th>Role</th>
+					<td>Designer, Photographer</td>
+				</tr>
+				<tr>
+					<th>Date</th>
+					<td>March 2008</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 </section>
 <section>
 	<div>
