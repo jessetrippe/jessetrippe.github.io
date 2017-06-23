@@ -57,12 +57,12 @@ tag: case-study
 		<p>While the development team started building out the backend services and the framework in Ionic and AngularJS, I built a working prototype with actual content and started testing it with users. Eventually this code was merged with the development team's framework, as it was also built on Ionic, and is now in the production version of the app. During this round of user testing I discovered, among other things, that our menus were way too deep for external customer users and vital load information was far too many taps away for it to be useful. I modified the prototype and final design to feature contact information and primary load information directly on the load details screen.</p>
 	</div>
 	<div>
-		<img src="https://jessetrippecdn.appspot.com/images/howl-moqup-1.png" alt="Howl Moqup 1">
-		<img src="https://jessetrippecdn.appspot.com/images/howl-moqup-2.png" alt="Howl Moqup 2">
+		<img style="width:100%" src="https://jessetrippecdn.appspot.com/images/howl-moqup-1.png" alt="Howl Moqup 1">
+		<img style="width:100%" src="https://jessetrippecdn.appspot.com/images/howl-moqup-2.png" alt="Howl Moqup 2">
 	</div>
 	<div>
-		<img src="https://jessetrippecdn.appspot.com/images/howl-moqup-3.png" alt="Howl Moqup 3">
-		<img src="https://jessetrippecdn.appspot.com/images/howl-moqup-4.png" alt="Howl Moqup 4">
+		<img style="width:100%" src="https://jessetrippecdn.appspot.com/images/howl-moqup-3.png" alt="Howl Moqup 3">
+		<img style="width:100%" src="https://jessetrippecdn.appspot.com/images/howl-moqup-4.png" alt="Howl Moqup 4">
 	</div>
 </section>
 <section>
