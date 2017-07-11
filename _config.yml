@@ -4,6 +4,13 @@ include: ['_pages']
 
 exclude: [presentation, sprout-social]
 
+plugins:
+- jekyll-autoprefixer
+
+autoprefixer:
+  browsers:
+  - last 2 versions
+
 collections:
   work_items:
     output: true

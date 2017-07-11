@@ -52,7 +52,7 @@ tag: case-study
 <section>
 	<div>
 		<h2>Wireframes</h2>
-		<p>Early on we decided on a step form wizard. While I was designing workflow for this, our in-house development team started work on implementing a 3rd party API to collect and present carrier quotes. Combinging the team's API findings and the stakeholders' evolving requirements based on mockup discussion and feedback meant much time was spent adding, moving, and removing fields from our form.</p>
+		<p>Early on we decided on a step form wizard. While I was designing workflow for this, our in-house development team started work on implementing a 3rd party API to collect and present carrier quotes. Combining the team's API findings and the stakeholders' evolving requirements based on mockup discussion and feedback meant much time was spent adding, moving, and removing fields from our form.</p>
 	</div>
 	<div>
 		<img src="https://jessetrippecdn.appspot.com/images/ltl-moqup-0.png" alt="LTL Quote Moqup 1">
@@ -71,8 +71,8 @@ tag: case-study
 <section>
 	<div>
 		<h2>Early Design</h2>
-		<p>I built a working prototype on Bootstrap that roughly matched our app and began user testing various form designs. Initially I designed a step that combined pickup and delivery details with the summary but user testing proved this to be quite confusing so each step was moved to it's own page.</p>
-		<p>This design also featured an unrefinded version of the timeline that had navigation issue during user testing so a new design was implemented that improved on this slightly.</p>
+		<p>I built a working prototype on Bootstrap that roughly matched our app and began user testing various form designs. Initially I designed a step that combined pickup and delivery details with the summary but user testing proved this to be quite confusing so each step was moved to its own page.</p>
+		<p>This design also featured an unrefined version of the timeline that had navigation issue during user testing so a new design was implemented that improved on this slightly.</p>
 	</div>
 	<div class="span-2">
 		<img src="https://jessetrippecdn.appspot.com/images/ltl-initial-3b.png" alt="LTL Quote Initial Design">

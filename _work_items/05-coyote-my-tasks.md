@@ -49,10 +49,12 @@ tag: case-study
 		<h2>Wireframes</h2>
 		<p>After putting together wireframes of our solution and running user tests with carrier and the reps that manually track them, we quickly found a problem with our solution—while gathering all the tasks into one, easy to use interface solved half the problem, sending them to other areas of the site to complete the task slowed them down. So we decided to implement an actionable sidebar to complete each task without having to leave this page.</p>
 	</div>
-	<div class="span-2">
+	<div>
 		<img src="https://jessetrippecdn.appspot.com/images/my-tasks-moqup-0.png" alt="My Tasks Moqup 1">
-		<img src="https://jessetrippecdn.appspot.com/images/my-tasks-moqup-1.png" alt="My Tasks Moqup 2">
 		<img src="https://jessetrippecdn.appspot.com/images/my-tasks-moqup-2.png" alt="My Tasks Moqup 3">
+	</div>
+	<div>
+		<img src="https://jessetrippecdn.appspot.com/images/my-tasks-moqup-1.png" alt="My Tasks Moqup 2">
 	</div>
 </section>
 <section>
