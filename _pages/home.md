@@ -25,5 +25,5 @@ weight: 1
 <div>
 	{% include svg/development.svg %}
 	<h2 class="h3">Development</h2>
-	<p>Using current and modern standards, I take pixel-perfect designs and code them into working, full-fledged websites and apps that are highly accessible. My skillset includes HTML5, CSS3, jQuery, and WordPress.</p>
+	<p>Using current and modern standards, I take pixel-perfect designs and code them into working, full-fledged websites and apps that are highly accessible. My skill set includes HTML5, CSS3, jQuery, and WordPress.</p>
 </div>
