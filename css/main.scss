@@ -56,10 +56,7 @@ html {
 body {
   color: $dark-blue;
   display: grid;
-  display: -ms-grid;
   font: 400 .6666666667rem/1.5 Roboto, "Helvetica Neue", Helvetica, sans-serif;
-  -ms-grid-columns: minmax(0, 1fr) minmax(0, 40rem) minmax(0, 1fr);
-  -ms-grid-rows: auto auto 1fr auto;
   grid-template-columns: minmax(0, 1fr) minmax(0, 40rem) minmax(0, 1fr);
   grid-template-rows: auto auto 1fr auto;
   min-height: 100%;
@@ -103,19 +100,10 @@ body {
 
 .site-header {
   color: $red;
-  display: -ms-flexbox;
   display: flex;
   margin-left: auto;
   margin-right: auto;
   max-width: 40rem;
-
-  @media only screen and (min-width: 700px) {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr 1fr;
-    grid-gap: 2rem;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
 }
 
 ol,
@@ -169,7 +157,6 @@ section + section {
 
 .masthead-title {
   flex-grow: 1;
-  -ms-flex-positive: 1;
   max-width: 34rem;
 }
 
@@ -201,10 +188,7 @@ svg {
 
 .site-nav {
   align-items: center;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 
   a {
@@ -235,7 +219,6 @@ svg {
 @media only screen and (min-width: 700px) {
   .site-nav a:first-child {
     flex-grow: 1;
-    -ms-flex-positive: 1;
     width: auto;
   }
 }
@@ -245,7 +228,6 @@ svg {
   grid-row-gap: 0;
 
   @media only screen and (min-width: 700px) {
-    -ms-grid-columns: 2fr 1fr;
     grid-template-columns: 2fr 1fr;
   }
 }
@@ -268,9 +250,6 @@ svg {
 
 .footer-links {
   display: flex;
-  display: -ms-flexbox;
-  -ms-flex-pack: center;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: .5rem;
@@ -293,28 +272,25 @@ svg {
 
 .site-main section,
 .site-main.page {
-  display: -ms-grid;
   display: grid;
   grid-gap: 2rem;
+  align-content: start;
 }
 
 @media only screen and (min-width: 700px) {
   .site-main section {
-    -ms-grid-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 @media only screen and (min-width: 700px) {
   .site-main section:first-child {
-    -ms-grid-columns: 2fr 1fr;
     grid-template-columns: 2fr 1fr;
   }
 }
 
 @media only screen and (min-width: 700px) {
   .home .site-main.page {
-    -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -340,9 +316,7 @@ img {
 
 .pagination {
   align-items: center;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
 }
 
 .pagination-item {
@@ -363,9 +337,7 @@ img {
 
 .site-main .pagination {
   align-items: center;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
   padding-bottom: 0;
 }
 
@@ -383,14 +355,12 @@ img {
 
 @media only screen and (min-width: 700px) {
   .span-2 {
-    -ms-grid-column: span 2;
     grid-column: span 2;
   }
 }
 
 @media only screen and (min-width: 700px) {
   .post:not(.case-study) section:not(:first-child) {
-    -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
   }
 }
