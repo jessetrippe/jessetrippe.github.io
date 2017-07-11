@@ -35,13 +35,13 @@ permalink: /ohboyy/
 </section>
 <section>
 	<div class="span-2">
-		<img src="/work-item-screens/ohboyy-1.png" alt="OhBoyy Screenshot 1">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/ohboyy-1.png" alt="OhBoyy Screenshot 1">
 	</div>
 	<div>
-		<img src="/work-item-screens/ohboyy-2.png" alt="OhBoyy Screenshot 2">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/ohboyy-2.png" alt="OhBoyy Screenshot 2">
 	</div>
 	<div>
-		<img src="/work-item-screens/ohboyy-3.png" alt="OhBoyy Wordmark">
-		<img src="/work-item-screens/ohboyy-4.jpg" alt="OhBoyy Packaging">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/ohboyy-3.png" alt="OhBoyy Wordmark">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/ohboyy-4.jpg" alt="OhBoyy Packaging">
 	</div>
 </section>

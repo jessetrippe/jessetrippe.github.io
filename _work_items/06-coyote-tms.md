@@ -35,21 +35,21 @@ permalink: /coyote-tms/
 </section>
 <section>
 	<div>
-		<img src="/work-item-screens/coyote-tms-1.png" alt="Coyote TMS Screenshot 1">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/coyote-tms-1.png" alt="Coyote TMS Screenshot 1">
 	</div>
 	<div>
-		<img src="/work-item-screens/coyote-tms-2.png" alt="Coyote TMS Screenshot 2">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/coyote-tms-2.png" alt="Coyote TMS Screenshot 2">
 	</div>
 	<div>
-		<img src="/work-item-screens/coyote-tms-3.png" alt="Coyote TMS Screenshot 3">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/coyote-tms-3.png" alt="Coyote TMS Screenshot 3">
 	</div>
 	<div>
-		<img src="/work-item-screens/coyote-tms-4.png" alt="Coyote TMS Screenshot 4">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/coyote-tms-4.png" alt="Coyote TMS Screenshot 4">
 	</div>
 	<div>
-		<img src="/work-item-screens/coyote-tms-5.png" alt="Coyote TMS Screenshot 5">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/coyote-tms-5.png" alt="Coyote TMS Screenshot 5">
 	</div>
 	<div>
-		<img src="/work-item-screens/coyote-tms-6.png" alt="Coyote TMS Screenshot 6">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/coyote-tms-6.png" alt="Coyote TMS Screenshot 6">
 	</div>
 </section>
