@@ -47,7 +47,7 @@ tag: case-study
 		<img src="/work-item-screens/amazon-dispatch-wireframe-07.png" alt="Amazon Dispatch Wireframe 7">
 		<img src="/work-item-screens/amazon-dispatch-wireframe-09.png" alt="Amazon Dispatch Wireframe 9">
 		<img src="/work-item-screens/amazon-dispatch-wireframe-11.png" alt="Amazon Dispatch Wireframe 11">
-		<img src="/work-item-screens/amazon-dispatch-wireframe-13a.png" alt="Amazon Dispatch Wireframe 13a">
+		<img src="/work-item-screens/amazon-dispatch-wireframe-13.png" alt="Amazon Dispatch Wireframe 13a">
 	</div>
 	<div>
 		<img src="/work-item-screens/amazon-dispatch-wireframe-02.png" alt="Amazon Dispatch Wireframe 2">
@@ -56,7 +56,7 @@ tag: case-study
 		<img src="/work-item-screens/amazon-dispatch-wireframe-08.png" alt="Amazon Dispatch Wireframe 8">
 		<img src="/work-item-screens/amazon-dispatch-wireframe-10.png" alt="Amazon Dispatch Wireframe 10">
 		<img src="/work-item-screens/amazon-dispatch-wireframe-12.png" alt="Amazon Dispatch Wireframe 12">
-		<img src="/work-item-screens/amazon-dispatch-wireframe-13b.png" alt="Amazon Dispatch Wireframe 13b">
+		<img src="/work-item-screens/amazon-dispatch-wireframe-14.png" alt="Amazon Dispatch Wireframe 13b">
 	</div>
 </section>
 <section>
