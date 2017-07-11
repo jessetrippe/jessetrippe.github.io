@@ -10,7 +10,7 @@ weight: 1
 <div>
 	{% include svg/ui-design.svg %}
 	<h2 class="h3">UI Design</h2>
-	<p>I simplify interfaces by asking questions and analyzing every scenario. This often leads to fixing things earlier in the process thus avoiding adding unncessary complexicty. Other times it leads to implementing a design that fits perfectly with what the user hopes to accomplish.</p>
+	<p>I simplify interfaces by asking questions and analyzing every scenario. This often leads to fixing things earlier in the process thus avoiding adding unnecessary complexity. Other times it leads to implementing a design that fits perfectly with what the user hopes to accomplish.</p>
 </div>
 <div>
 	{% include svg/ux-design.svg %}
