@@ -40,12 +40,12 @@ permalink: /brigitte-bell/
 </section>
 <section>
 	<div class="span-2">
-		<img src="https://jessetrippecdn.appspot.com/images/brigitte-1.png" alt="Brigitte Bell Screenshot 1">
+		<img src="/work-item-screens/brigitte-1.png" alt="Brigitte Bell Screenshot 1">
 	</div>
 	<div>
-		<img src="https://jessetrippecdn.appspot.com/images/brigitte-2.png" alt="Brigitte Bell Screenshot 2">
+		<img src="/work-item-screens/brigitte-2.png" alt="Brigitte Bell Screenshot 2">
 	</div>
 	<div>
-		<img src="https://jessetrippecdn.appspot.com/images/brigitte-3.png" alt="Brigitte Bell Screenshot 3">
+		<img src="/work-item-screens/brigitte-3.png" alt="Brigitte Bell Screenshot 3">
 	</div>
 </section>

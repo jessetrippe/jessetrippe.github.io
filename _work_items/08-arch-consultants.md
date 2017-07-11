@@ -35,12 +35,12 @@ permalink: /arch-consultants/
 </section>
 <section>
 	<div class="span-2">
-		<img src="https://jessetrippecdn.appspot.com/images/archltd-1.png" alt="ARCH Consultants Screenshot 1">
+		<img src="/work-item-screens/archltd-1.png" alt="ARCH Consultants Screenshot 1">
 	</div>
 	<div>
-		<img src="https://jessetrippecdn.appspot.com/images/archltd-2.png" alt="ARCH Consultants Screenshot 2">
+		<img src="/work-item-screens/archltd-2.png" alt="ARCH Consultants Screenshot 2">
 	</div>
 	<div>
-		<img src="https://jessetrippecdn.appspot.com/images/archltd-3.png" alt="ARCH Consultants Screenshot 2">
+		<img src="/work-item-screens/archltd-3.png" alt="ARCH Consultants Screenshot 2">
 	</div>
 </section>

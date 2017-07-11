@@ -35,12 +35,12 @@ permalink: /green-bridge-white-house/
 </section>
 <section>
 	<div class="span-2">
-		<img src="https://jessetrippecdn.appspot.com/images/gbwh-1.png" alt="Green Bridge White House Screenshot">
+		<img src="/work-item-screens/gbwh-1.png" alt="Green Bridge White House Screenshot">
 	</div>
 	<div>
-		<img src="https://jessetrippecdn.appspot.com/images/gbwh-2.png" alt="Green Bridge White House Business Cards">
+		<img src="/work-item-screens/gbwh-2.png" alt="Green Bridge White House Business Cards">
 	</div>
 	<div>
-		<img src="https://jessetrippecdn.appspot.com/images/gbwh-3.png" alt="Green Bridge White House Business Cards">
+		<img src="/work-item-screens/gbwh-3.png" alt="Green Bridge White House Business Cards">
 	</div>
 </section>

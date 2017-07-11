@@ -35,22 +35,22 @@ permalink: /northwind-farms/
 </section>
 <section>
 	<div>
-		<img src="https://jessetrippecdn.appspot.com/images/northwind-1.png" alt="Northwind Identity Casebook 1">
+		<img src="/work-item-screens/northwind-1.png" alt="Northwind Identity Casebook 1">
 	</div>
 	<div>
-		<img src="https://jessetrippecdn.appspot.com/images/northwind-2.png" alt="Northwind Identity Casebook 2">
-		<img src="https://jessetrippecdn.appspot.com/images/northwind-3.png" alt="Northwind Identity Casebook 4">
+		<img src="/work-item-screens/northwind-2.png" alt="Northwind Identity Casebook 2">
+		<img src="/work-item-screens/northwind-3.png" alt="Northwind Identity Casebook 4">
 	</div>
 	<div class="span-2">
-		<img src="https://jessetrippecdn.appspot.com/images/northwind-4.png" alt="Northwind Identity Casebook 3">
+		<img src="/work-item-screens/northwind-4.png" alt="Northwind Identity Casebook 3">
 	</div>
 	<div>
-		<img src="https://jessetrippecdn.appspot.com/images/northwind-5.png" alt="Northwind Identity Casebook 5">
+		<img src="/work-item-screens/northwind-5.png" alt="Northwind Identity Casebook 5">
 	</div>
 	<div>
-		<img src="https://jessetrippecdn.appspot.com/images/northwind-6.png" alt="Northwind Identity Casebook 6">
+		<img src="/work-item-screens/northwind-6.png" alt="Northwind Identity Casebook 6">
 	</div>
 	<div class="span-2">
-		<img src="https://jessetrippecdn.appspot.com/images/northwind-7.png" alt="Northwind Identity Business Cards">
+		<img src="/work-item-screens/northwind-7.png" alt="Northwind Identity Business Cards">
 	</div>
 </section>

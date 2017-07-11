@@ -35,12 +35,12 @@ permalink: /grillo-group/
 </section>
 <section>
 	<div class="span-2">
-		<img src="https://jessetrippecdn.appspot.com/images/grillo-1.png" alt="Grillo Group Screenshot 1">
+		<img src="/work-item-screens/grillo-1.png" alt="Grillo Group Screenshot 1">
 	</div>
 	<div>
-		<img src="https://jessetrippecdn.appspot.com/images/grillo-2.png" alt="Grillo Group Screenshot 2">
+		<img src="/work-item-screens/grillo-2.png" alt="Grillo Group Screenshot 2">
 	</div>
 	<div>
-		<img src="https://jessetrippecdn.appspot.com/images/grillo-3.png" alt="Grillo Group Screenshot 3">
+		<img src="/work-item-screens/grillo-3.png" alt="Grillo Group Screenshot 3">
 	</div>
 </section>
