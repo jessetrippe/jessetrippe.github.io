@@ -4,7 +4,7 @@ title: "Amazon Work Tracking"
 description: "Case study of Amazon's work tracking tool"
 permalink: /amazon-work-confirmation/
 tag: case-study
-weight: 10
+published: false
 ---
 
 <section>
