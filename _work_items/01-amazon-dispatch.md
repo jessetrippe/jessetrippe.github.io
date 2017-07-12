@@ -4,7 +4,6 @@ title: "Amazon Dispatch"
 description: "Case study of Amazon's dispatching and tracking tool"
 permalink: /amazon-dispatch/
 tag: case-study
-published: false
 ---
 
 <section>
