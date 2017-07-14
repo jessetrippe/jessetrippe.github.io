@@ -1,11 +1,9 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
-
 $dark-blue: #213444;
 $red: #f1615c;
 $dark-red: #cd534e;
 $gray: #d2d6d9;
+
+@charset "UTF-8";
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -175,8 +173,8 @@ a {
   text-decoration: none;
   transition: all .15s linear;
 
-  &:hover,
-  &:focus {
+  &::hover,
+  &::focus {
     color: $dark-red;
     outline: 0;
   }
@@ -380,13 +378,12 @@ img {
   position: relative;
   text-align: center;
   text-shadow: none;
-  -webkit-transition: all .15s linear;
   transition: all .15s linear;
   vertical-align: middle;
   white-space: nowrap;
 
-  &:focus,
-  &:hover {
+  &::focus,
+  &::hover {
     border-color: $dark-red;
     color: $dark-red;
     outline: none;

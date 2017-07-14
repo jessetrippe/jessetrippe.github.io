@@ -3,7 +3,12 @@
 <title>{{ page.title }} &middot; Jesse Trippe, Product Designer</title>
 <meta name="description" content="{{ page.description }}">
 <link rel="icon" type="image/png" href="https://jessetrippe-cdn-173419.appspot.com/favicon.png">
-<link rel="stylesheet" href="/css/main.css">
+<style type="text/css">
+  {% capture include_to_scssify %}
+    {% include main.scss %}
+  {% endcapture %}
+  {{ include_to_scssify | scssify }}
+</style>
 
 <script>
    WebFontConfig = {
