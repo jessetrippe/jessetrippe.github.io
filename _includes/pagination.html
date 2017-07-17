@@ -1,12 +1,12 @@
 <nav class="pagination">
     {% if page.previous.url %}
-        <a href="{{page.previous.url}}" class="pagination-item pagination-prev" title="Previous">{% include svg/prev.svg %}</a>
+        <a href="{{page.previous.url}}" class="pagination-prev" title="Previous">{% include svg/prev.svg %}</a>
     {% else %}
-    	<span aria-hidden="true" class="pagination-item pagination-prev is-disabled" title="Previous">{% include svg/prev.svg %}</span>
+    	<span aria-hidden="true" class="pagination-prev is-disabled" title="Previous">{% include svg/prev.svg %}</span>
     {% endif %}
     {% if page.next.url %}
-        <a href="{{page.next.url}}" class="pagination-item pagination-next" title="Next">{% include svg/next.svg %}</a>
+        <a href="{{page.next.url}}" class="pagination-next" title="Next">{% include svg/next.svg %}</a>
     {% else %}
-    	<span aria-hidden="true" class="pagination-item pagination-next is-disabled" title="Next">{% include svg/next.svg %}</span>
+    	<span aria-hidden="true" class="pagination-next is-disabled" title="Next">{% include svg/next.svg %}</span>
     {% endif %}
 </nav>

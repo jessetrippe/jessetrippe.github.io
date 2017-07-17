@@ -158,16 +158,6 @@ section + section {
   max-width: 34rem;
 }
 
-@media only screen and (min-width: 700px) {
-  .masthead-title {
-    grid-column: 1 / 3;
-  }
-}
-
-.home .masthead-title {
-  grid-column: 1 / 4;
-}
-
 a {
   color: $red;
   text-decoration: none;
@@ -192,8 +182,8 @@ svg {
   a {
     padding: .125rem 0 .5rem;
 
-    &[href="/about-me/"] {
-      margin: 0 1rem;
+    &:not(:first-child):not(:last-child) {
+      margin-right: 1rem;
     }
 
     &:first-child {
@@ -212,9 +202,7 @@ svg {
   .site-nav a:first-child {
     padding: .5rem 0;
   }
-}
 
-@media only screen and (min-width: 700px) {
   .site-nav a:first-child {
     flex-grow: 1;
     width: auto;
@@ -259,7 +247,7 @@ svg {
   }
 }
 
-.title-tag {
+.case-study-tag {
   background: $red;
   border-radius: .25rem;
   color: $dark-blue;
@@ -280,15 +268,11 @@ svg {
   .site-main section {
     grid-template-columns: 1fr 1fr 1fr;
   }
-}
 
-@media only screen and (min-width: 700px) {
   .site-main section:first-child {
     grid-template-columns: 2fr 1fr;
   }
-}
 
-@media only screen and (min-width: 700px) {
   .home .site-main.page {
     grid-template-columns: 1fr 1fr;
   }
@@ -318,7 +302,7 @@ img {
   display: flex;
 }
 
-.pagination-item {
+[class^="pagination-"] {
   color: $red;
 
   &.is-disabled {
