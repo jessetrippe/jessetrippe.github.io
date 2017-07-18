@@ -8,8 +8,8 @@ $gray: #d2d6d9;
 * {
   box-sizing: border-box;
 
-  &::before,
-  &::after {
+  &:before,
+  &:after {
     box-sizing: inherit;
   }
 }
@@ -142,8 +142,8 @@ a {
   text-decoration: none;
   transition: all .15s linear;
 
-  &::hover,
-  &::focus {
+  &:hover,
+  &:focus {
     color: $dark-red;
     outline: 0;
   }
@@ -343,8 +343,8 @@ img {
   vertical-align: middle;
   white-space: nowrap;
 
-  &::focus,
-  &::hover {
+  &:focus,
+  &:hover {
     border-color: $dark-red;
     color: $dark-red;
     outline: none;
