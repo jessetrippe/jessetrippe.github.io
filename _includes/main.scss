@@ -5,40 +5,12 @@ $gray: #d2d6d9;
 
 @charset "UTF-8";
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  margin: 0;
-  padding: 0;
-  vertical-align: baseline;
-}
-
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
 * {
   box-sizing: border-box;
-  position: relative;
 
   &::before,
   &::after {
     box-sizing: inherit;
-    position: inherit;
   }
 }
 
@@ -58,6 +30,7 @@ body {
   grid-template-columns: 1fr minmax(0, 40rem) 1fr;
   grid-template-rows: auto auto 1fr auto;
   min-height: 100%;
+  margin: 0;
 }
 
 .site-main,
@@ -104,9 +77,24 @@ body {
   max-width: 40rem;
 }
 
+p,
+td,
+th,
 ol,
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
 }
 
 h1,
@@ -138,15 +126,6 @@ h3 + p,
 p + ul,
 p + p {
   margin-top: 1rem;
-}
-
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3 {
-  font-family: 'Roboto Slab', serif;
 }
 
 section + section {
@@ -340,9 +319,7 @@ img {
   .span-2 {
     grid-column: span 2;
   }
-}
 
-@media only screen and (min-width: 700px) {
   .post:not(.case-study) section:not(:first-child) {
     grid-template-columns: 1fr 1fr;
   }
