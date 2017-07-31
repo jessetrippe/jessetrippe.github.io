@@ -14,7 +14,7 @@
   body {
     min-height: 100%;
     display: grid;
-    background-image: url("cliff.gif");
+    /* background-image: url("cliff.gif"); */
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -35,6 +35,13 @@
   }
   p {
     font-size:  90px;
+  }
+  .marc {
+    background-image: url("marc.gif");
+    background-size: auto 100%;
+  }
+  .cliff {
+    background-image: url("cliff.gif");
   }
   </style>
 </head>
@@ -72,6 +79,10 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "It's begun!";
   }
 }, 1000);
+
+var bgColorArray = ['cliff','marc'],
+selectBG = bgColorArray[Math.floor(Math.random() * bgColorArray.length)];
+document.body.classList.add(selectBG);
 </script>
 </body>
 </html>
