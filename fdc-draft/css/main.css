@@ -4,7 +4,7 @@ table {
 }
 
 .removed {
-    opacity: .35;
+    color: rgba(0,0,0,.35);
 }
 
 button {
@@ -26,6 +26,12 @@ display: inline-block;
         color: #fff;
     background-color: #007bff;
     border-color: #007bff;
+}
+
+.removed button {
+    color: #111;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
 }
 
 
