@@ -5,6 +5,7 @@ table {
 
 .removed {
     color: rgba(0,0,0,.35);
+    text-decoration: line-through;
 }
 
 button {
@@ -30,9 +31,12 @@ display: inline-block;
 }
 
 .removed button {
-    color: #111;
-    background-color: #f8f9fa;
-    border-color: #f8f9fa;
+font-weight: 400;
+    color: #007bff;
+    border-radius: 0;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
 }
 
 
@@ -49,7 +53,9 @@ th {
     border-bottom: 1px solid #ddd;
 }
 
-
+col:first-child {
+    width: 0;
+}
 
 
 
