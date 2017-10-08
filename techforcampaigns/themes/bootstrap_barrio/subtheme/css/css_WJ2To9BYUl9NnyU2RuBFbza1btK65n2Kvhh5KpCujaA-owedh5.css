@@ -1332,7 +1332,7 @@ p a:hover:not(.btn) {
 }
 
 .input-group-btn .btn {
-font-size: 13px;
+    font-size: 13px;
     padding: 10px;
 }
 
