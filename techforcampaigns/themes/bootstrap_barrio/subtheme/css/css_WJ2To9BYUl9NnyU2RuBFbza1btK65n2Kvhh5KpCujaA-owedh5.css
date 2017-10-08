@@ -1253,7 +1253,10 @@ blockquote {
     border: 0;
 }
 
-a:link:not(.btn),a:visited:not(.btn),a:hover:not(.btn),a:active:not(.btn) {
+a:link:not(.btn),
+a:visited:not(.btn),
+a:hover:not(.btn),
+a:active:not(.btn) {
     color: #3c7caa;
     transition: all .15s ease-in-out;
 }
@@ -1262,7 +1265,10 @@ a:hover:not(.btn) {
     color: rgba(60,124,170,.6);
 }
 
-p a:link:not(.btn),p a:visited:not(.btn),p a:hover:not(.btn),p a:active:not(.btn) {
+p a:link:not(.btn),
+p a:visited:not(.btn),
+p a:hover:not(.btn),
+p a:active:not(.btn) {
     text-decoration: none;
     padding-bottom: .05em;
     border-bottom: 1px solid rgba(60,124,170,.3);
@@ -1323,6 +1329,11 @@ p a:hover:not(.btn) {
 .btn-primary:hover,
 .btn-primary-alt:hover {
   box-shadow:inset 0 0 0 99999px rgba(0,0,0,.1);
+}
+
+.input-group-btn .btn {
+font-size: 13px;
+    padding: 10px;
 }
 
 .quote-container {
