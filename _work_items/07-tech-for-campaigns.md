@@ -43,13 +43,13 @@ tag: case-study
 		<p>On top of design tweaks, we decided to add email only sign-up to the site in order to allows non-tech users to stay up-to-date on the organization, start the volunteer sign-up process (as the submission success page is a version of the volunteer sign-up form), collects a database of people interested in volunteering that might help campaigns in the future, and expands their database of contacts to source from if the organization ever wanted to fund-raise.</p>
 	</div>
 	<div>
-		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-wireframe-01.png" alt="Tech for Campaigns Wireframes 1">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-wireframe-03.png" alt="Tech for Campaigns Wireframes 2">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-wireframe-04.png" alt="Tech for Campaigns Wireframes 3">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-wireframe-01.png" alt="Tech for Campaigns Phase One Wireframes 1">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-wireframe-03.png" alt="Tech for Campaigns Phase One Wireframes 2">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-wireframe-04.png" alt="Tech for Campaigns Phase One Wireframes 3">
 	</div>
 	<div>
-		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-wireframe-03.png" alt="Tech for Campaigns Wireframes 4">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-wireframe-02.png" alt="Tech for Campaigns Wireframes 5">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-wireframe-03.png" alt="Tech for Campaigns Phase One Wireframes 4">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-wireframe-02.png" alt="Tech for Campaigns Phase One Wireframes 5">
 	</div>
 </section>
 <section>
@@ -58,9 +58,9 @@ tag: case-study
 		<p>After getting approval of the wireframes and basic design direction I moved into Photoshop and Sketch to explore designs and ideas further. We settled on a final design for approval and implementation. We tested the new design and found a 13% increase in volunteer form submissions. We also added a significant amount of email-only users that will hopefully convert to volunteers in the future.</p>
 	</div>
 	<div class="span-2">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-01.png" alt="Tech for Campaigns 1">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-02.png" alt="Tech for Campaigns 2">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-03.png" alt="Tech for Campaigns 3">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-01.png" alt="Tech for Campaigns Phase One 1">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-02.png" alt="Tech for Campaigns Phase One 2">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-03.png" alt="Tech for Campaigns Phase One 3">
 	</div>
 </section>
 <section>
@@ -70,13 +70,13 @@ tag: case-study
 		<p>I thoughtfully split the form into four steps, designed a status bar, and added placeholders for intro text and icons. After a round of feedback from my team I saught approval from Tech for Campaigns' founders and moved into the final design phase.</p>
 	</div>
 	<div>
-		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-wireframe-01.png" alt="Tech for Campaigns Wireframes 1">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-wireframe-03.png" alt="Tech for Campaigns Wireframes 2">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-wireframe-04.png" alt="Tech for Campaigns Wireframes 3">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-two-wireframe-01.png" alt="Tech for Campaigns Phase Two Wireframes 1">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-two-wireframe-03.png" alt="Tech for Campaigns Phase Two Wireframes 2">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-two-wireframe-04.png" alt="Tech for Campaigns Phase Two Wireframes 3">
 	</div>
 	<div>
-		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-wireframe-03.png" alt="Tech for Campaigns Wireframes 4">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-wireframe-02.png" alt="Tech for Campaigns Wireframes 5">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-two-wireframe-03.png" alt="Tech for Campaigns Phase Two Wireframes 4">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-two-wireframe-02.png" alt="Tech for Campaigns Phase Two Wireframes 5">
 	</div>
 </section>
 <section>
@@ -85,9 +85,10 @@ tag: case-study
 		<p>I sent the wireframes to the Tech for Campaign's Marketing Team for title and helper text to be placed at the top of each step. After a few rounds of back-and-forth the team agreed on a set of icons I pitched. I rebuilt them in Illustrator and Sketch and added Tech for Campaigns' red and blue colors. While completing this work, the developer on the team built out the step-based form in Drupal. Once complete, I wrote the CSS needed to match my design and added the icons in SVG form. The team tested the form thouroughly and we launched. We're currently monitoring success metrics to ensure conversion increase and continue improving conversion.</p>
 	</div>
 	<div class="span-2">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-01.png" alt="Tech for Campaigns 1">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-02.png" alt="Tech for Campaigns 2">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-03.png" alt="Tech for Campaigns 3">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-two-01.png" alt="Tech for Campaigns Phase Two 1">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-two-02.png" alt="Tech for Campaigns Phase Two 2">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-two-03.png" alt="Tech for Campaigns Phase Two 3">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-two-04.png" alt="Tech for Campaigns Phase Two 4">
 	</div>
 </section>
 
