@@ -35,22 +35,22 @@ permalink: /northwind-farms/
 </section>
 <section>
 	<div>
-		<img src="https://jessetrippe-cdn-173419.appspot.com/northwind-1.png" alt="Northwind Identity Casebook 1">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-1.png" alt="Northwind Identity Casebook 1">
 	</div>
 	<div>
-		<img src="https://jessetrippe-cdn-173419.appspot.com/northwind-2.png" alt="Northwind Identity Casebook 2">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/northwind-3.png" alt="Northwind Identity Casebook 4">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-2.png" alt="Northwind Identity Casebook 2">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-3.png" alt="Northwind Identity Casebook 4">
 	</div>
 	<div class="span-2">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/northwind-4.png" alt="Northwind Identity Casebook 3">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-4.png" alt="Northwind Identity Casebook 3">
 	</div>
 	<div>
-		<img src="https://jessetrippe-cdn-173419.appspot.com/northwind-5.png" alt="Northwind Identity Casebook 5">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-5.png" alt="Northwind Identity Casebook 5">
 	</div>
 	<div>
-		<img src="https://jessetrippe-cdn-173419.appspot.com/northwind-6.png" alt="Northwind Identity Casebook 6">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-6.png" alt="Northwind Identity Casebook 6">
 	</div>
 	<div class="span-2">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/northwind-7.png" alt="Northwind Identity Business Cards">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-7.png" alt="Northwind Identity Business Cards">
 	</div>
 </section>

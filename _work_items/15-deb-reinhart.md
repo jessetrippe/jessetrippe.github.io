@@ -35,12 +35,12 @@ permalink: /deb-reinhart/
 </section>
 <section>
 	<div class="span-2">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/deb-reinhart-1.png" alt="Deb Reinhart Screenshot 1">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/deb-reinhart-1.png" alt="Deb Reinhart Screenshot 1">
 	</div>
 	<div>
-		<img src="https://jessetrippe-cdn-173419.appspot.com/deb-reinhart-2.png" alt="Deb Reinhart Screenshot 2">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/deb-reinhart-2.png" alt="Deb Reinhart Screenshot 2">
 	</div>
 	<div>
-		<img src="https://jessetrippe-cdn-173419.appspot.com/deb-reinhart-3.png" alt="Deb Reinhart Screenshot 3">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/deb-reinhart-3.png" alt="Deb Reinhart Screenshot 3">
 	</div>
 </section>

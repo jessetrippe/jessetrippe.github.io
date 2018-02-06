@@ -35,12 +35,12 @@ permalink: /hyde-park-bank/
 </section>
 <section>
 	<div class="span-2">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/hpb-1.png" alt="Hyde Park Bank Screen Shot 1">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/hpb-1.png" alt="Hyde Park Bank Screen Shot 1">
 	</div>
 	<div>
-		<img src="https://jessetrippe-cdn-173419.appspot.com/hpb-2.png" alt="Hyde Park Bank Screen Shot 2">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/hpb-2.png" alt="Hyde Park Bank Screen Shot 2">
 	</div>
 	<div>
-		<img src="https://jessetrippe-cdn-173419.appspot.com/hpb-3.png" alt="Hyde Park Bank Screen Shot 3">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/hpb-3.png" alt="Hyde Park Bank Screen Shot 3">
 	</div>
 </section>

@@ -40,12 +40,12 @@ permalink: /barack-obamas-tumblr/
 </section>
 <section>
 	<div class="span-2">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/barack-obama-tumblr-1.png" alt="Barack Obama's Tumblr Screenshot 1">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/barack-obama-tumblr-1.png" alt="Barack Obama's Tumblr Screenshot 1">
 	</div>
 	<div>
-		<img src="https://jessetrippe-cdn-173419.appspot.com/barack-obama-tumblr-2.png" alt="Barack Obama's Tumblr Screenshot 2">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/barack-obama-tumblr-2.png" alt="Barack Obama's Tumblr Screenshot 2">
 	</div>
 	<div>
-		<img src="https://jessetrippe-cdn-173419.appspot.com/barack-obama-tumblr-3.png" alt="Barack Obama's Tumblr Screenshot 3">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/barack-obama-tumblr-3.png" alt="Barack Obama's Tumblr Screenshot 3">
 	</div>
 </section>

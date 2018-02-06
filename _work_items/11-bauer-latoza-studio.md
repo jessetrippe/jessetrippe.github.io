@@ -40,15 +40,15 @@ permalink: /bauer-latoza-studio/
 </section>
 <section>
 	<div class="span-2">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/bauer-latoza-1.png" alt="Bauer Latoza Studio Screenshot 1">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/bauer-latoza-1.png" alt="Bauer Latoza Studio Screenshot 1">
 	</div>
 	<div>
-		<img src="https://jessetrippe-cdn-173419.appspot.com/bauer-latoza-3.png" alt="Bauer Latoza Studio Screenshot 2">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/bauer-latoza-3.png" alt="Bauer Latoza Studio Screenshot 2">
 	</div>
 	<div>
-		<img src="https://jessetrippe-cdn-173419.appspot.com/bauer-latoza-4.png" alt="Bauer Latoza Studio Screenshot 3">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/bauer-latoza-4.png" alt="Bauer Latoza Studio Screenshot 3">
 	</div>
 	<div class="span-2">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/bauer-latoza-2.png" alt="Bauer Latoza Studio Screenshot 4">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/bauer-latoza-2.png" alt="Bauer Latoza Studio Screenshot 4">
 	</div>
 </section>

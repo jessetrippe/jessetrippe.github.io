@@ -35,12 +35,12 @@ permalink: /carr-cialdella/
 </section>
 <section>
 	<div class="span-2">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/carrcialdella-1.png" alt="Carr Cialdella Screenshot 1">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/carrcialdella-1.png" alt="Carr Cialdella Screenshot 1">
 	</div>
 	<div>
-		<img src="https://jessetrippe-cdn-173419.appspot.com/carrcialdella-2.png" alt="Carr Cialdella Screenshot 2">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/carrcialdella-2.png" alt="Carr Cialdella Screenshot 2">
 	</div>
 	<div>
-		<img src="https://jessetrippe-cdn-173419.appspot.com/carrcialdella-3.png" alt="Carr Cialdella Screenshot 3">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/carrcialdella-3.png" alt="Carr Cialdella Screenshot 3">
 	</div>
 </section>

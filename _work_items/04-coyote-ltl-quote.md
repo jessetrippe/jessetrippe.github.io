@@ -41,12 +41,12 @@ tag: case-study
 		<p>Even though the business had a tight timeline of three months for development, walking stakeholders through paper and pen sketches exposed the lack of shared knowledge and unified vision for this tool. It forced the stakeholders to come to an agreement on what would and would not be included. Eventually the quick quote for unauthorized users was cut from this project.</p>
 	</div>
 	<div>
-		<img src="https://jessetrippe-cdn-173419.appspot.com/ltl-sketch-1.jpg" alt="LTL Quote Sketch 1">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/ltl-sketch-2.jpg" alt="LTL Quote Sketch 2">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/ltl-sketch-1.jpg" alt="LTL Quote Sketch 1">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/ltl-sketch-2.jpg" alt="LTL Quote Sketch 2">
 	</div>
 	<div>
-		<img src="https://jessetrippe-cdn-173419.appspot.com/ltl-sketch-3.jpg" alt="LTL Quote Sketch 3">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/ltl-sketch-4.jpg" alt="LTL Quote Sketch 4">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/ltl-sketch-3.jpg" alt="LTL Quote Sketch 3">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/ltl-sketch-4.jpg" alt="LTL Quote Sketch 4">
 	</div>
 </section>
 <section>
@@ -55,17 +55,17 @@ tag: case-study
 		<p>Early on we decided on a step form wizard. While I was designing workflow for this, our in-house development team started work on implementing a 3rd party API to collect and present carrier quotes. Combining the team's API findings and the stakeholders' evolving requirements based on mockup discussion and feedback meant much time was spent adding, moving, and removing fields from our form.</p>
 	</div>
 	<div>
-		<img src="https://jessetrippe-cdn-173419.appspot.com/ltl-moqup-0.png" alt="LTL Quote Moqup 1">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/ltl-moqup-1.png" alt="LTL Quote Moqup 2">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/ltl-moqup-2.png" alt="LTL Quote Moqup 3">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/ltl-moqup-3.png" alt="LTL Quote Moqup 4">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/ltl-moqup-4.png" alt="LTL Quote Moqup 5">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/ltl-moqup-0.png" alt="LTL Quote Moqup 1">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/ltl-moqup-1.png" alt="LTL Quote Moqup 2">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/ltl-moqup-2.png" alt="LTL Quote Moqup 3">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/ltl-moqup-3.png" alt="LTL Quote Moqup 4">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/ltl-moqup-4.png" alt="LTL Quote Moqup 5">
 	</div>
 	<div>
-		<img src="https://jessetrippe-cdn-173419.appspot.com/ltl-moqup-5.png" alt="LTL Quote Moqup 6">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/ltl-moqup-6.png" alt="LTL Quote Moqup 7">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/ltl-moqup-7.png" alt="LTL Quote Moqup 8">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/ltl-moqup-8.png" alt="LTL Quote Moqup 9">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/ltl-moqup-5.png" alt="LTL Quote Moqup 6">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/ltl-moqup-6.png" alt="LTL Quote Moqup 7">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/ltl-moqup-7.png" alt="LTL Quote Moqup 8">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/ltl-moqup-8.png" alt="LTL Quote Moqup 9">
 	</div>
 </section>
 <section>
@@ -75,7 +75,7 @@ tag: case-study
 		<p>This design also featured an unrefined version of the timeline that had navigation issue during user testing so a new design was implemented that improved on this slightly.</p>
 	</div>
 	<div class="span-2">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/ltl-initial-3b.png" alt="LTL Quote Initial Design">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/ltl-initial-3b.png" alt="LTL Quote Initial Design">
 	</div>
 </section>
 <section>
@@ -85,11 +85,11 @@ tag: case-study
 		<p>The tool was released first to a limited set of beta users and later to all of Coyote's shippers. It's now being used countless times daily.</p>
 	</div>
 	<div class="span-2">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/ltl-1.png" alt="LTL Quote Final Design 1">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/ltl-2.png" alt="LTL Quote Final Design 2">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/ltl-3.png" alt="LTL Quote Final Design 3">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/ltl-4.png" alt="LTL Quote Final Design 4">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/ltl-5.png" alt="LTL Quote Final Design 5">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/ltl-6.png" alt="LTL Quote Final Design 6">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/ltl-1.png" alt="LTL Quote Final Design 1">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/ltl-2.png" alt="LTL Quote Final Design 2">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/ltl-3.png" alt="LTL Quote Final Design 3">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/ltl-4.png" alt="LTL Quote Final Design 4">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/ltl-5.png" alt="LTL Quote Final Design 5">
+		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/ltl-6.png" alt="LTL Quote Final Design 6">
 	</div>
 </section>
