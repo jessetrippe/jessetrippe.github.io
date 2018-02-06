@@ -42,17 +42,6 @@ tag: case-study
 		<p>The amount of space dedicated to branding elements was disproportionate to the goals of the organization which distracted visitors from signing up and buried vital content that explained how the process worked. The link to the volunteer form, the most important link on the site, was getting lost within the rest of the navigation. The sign-up form asked a few questions that weren't being used by the org and looked unnecessarily long and daunting.</p>
 		<p>On top of design tweaks, we decided to add email only sign-up to the site in order to allows non-tech users to stay up-to-date on the organization, start the volunteer sign-up process (as the submission success page is a version of the volunteer sign-up form), collects a database of people interested in volunteering that might help campaigns in the future, and expands their database of contacts to source from if the organization ever wanted to fund-raise.</p>
 	</div>
-	<div class="span-2">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-01.png" alt="Tech for Campaigns Phase One 1">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-02.png" alt="Tech for Campaigns Phase One 2">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-03.png" alt="Tech for Campaigns Phase One 3">
-	</div>
-</section>
-<section>
-	<div>
-		<h2>Final Design Phase One</h2>
-		<p>After getting approval of the wireframes and basic design direction I moved into Photoshop and Sketch to explore designs and ideas further. We settled on a final design for approval and implementation. We tested the new design and found a 13% increase in volunteer form submissions. We also added a significant amount of email-only users that will hopefully convert to volunteers in the future.</p>
-	</div>
 	<div>
 		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-wireframe-01.png" alt="Tech for Campaigns Phase One Wireframes 1">
 		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-wireframe-03.png" alt="Tech for Campaigns Phase One Wireframes 2">
@@ -61,6 +50,17 @@ tag: case-study
 	<div>
 		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-wireframe-03.png" alt="Tech for Campaigns Phase One Wireframes 4">
 		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-wireframe-02.png" alt="Tech for Campaigns Phase One Wireframes 5">
+	</div>
+</section>
+<section>
+	<div>
+		<h2>Final Design Phase One</h2>
+		<p>After getting approval of the wireframes and basic design direction I moved into Photoshop and Sketch to explore designs and ideas further. We settled on a final design for approval and implementation. We tested the new design and found a 13% increase in volunteer form submissions. We also added a significant amount of email-only users that will hopefully convert to volunteers in the future.</p>
+	</div>
+	<div class="span-2">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-01.png" alt="Tech for Campaigns Phase One 1">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-02.png" alt="Tech for Campaigns Phase One 2">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-03.png" alt="Tech for Campaigns Phase One 3">
 	</div>
 </section>
 <section>
