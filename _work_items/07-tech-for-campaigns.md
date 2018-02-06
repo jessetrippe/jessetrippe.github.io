@@ -71,12 +71,11 @@ tag: case-study
 	</div>
 	<div>
 		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-two-wireframe-01.png" alt="Tech for Campaigns Phase Two Wireframes 1">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-two-wireframe-03.png" alt="Tech for Campaigns Phase Two Wireframes 2">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-two-wireframe-04.png" alt="Tech for Campaigns Phase Two Wireframes 3">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-two-wireframe-02.png" alt="Tech for Campaigns Phase Two Wireframes 2">
 	</div>
 	<div>
-		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-two-wireframe-03.png" alt="Tech for Campaigns Phase Two Wireframes 4">
-		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-two-wireframe-02.png" alt="Tech for Campaigns Phase Two Wireframes 5">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-two-wireframe-03.png" alt="Tech for Campaigns Phase Two Wireframes 3">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-two-wireframe-04.png" alt="Tech for Campaigns Phase Two Wireframes 4">
 	</div>
 </section>
 <section>
@@ -89,6 +88,7 @@ tag: case-study
 		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-two-02.png" alt="Tech for Campaigns Phase Two 2">
 		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-two-03.png" alt="Tech for Campaigns Phase Two 3">
 		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-two-04.png" alt="Tech for Campaigns Phase Two 4">
+		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-two-05.png" alt="Tech for Campaigns Phase Two 5">
 	</div>
 </section>
 
