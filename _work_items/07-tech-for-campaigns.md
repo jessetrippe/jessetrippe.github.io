@@ -81,7 +81,8 @@ tag: case-study
 <section>
 	<div>
 		<h2>Final Design Phase Two</h2>
-		<p>I sent the wireframes to the Tech for Campaign's Marketing Team for title and helper text to be placed at the top of each step. After a few rounds of back-and-forth the team agreed on a set of icons I pitched. I rebuilt them in Illustrator and Sketch and added Tech for Campaigns' red and blue colors. While completing this work, the developer on the team built out the step-based form in Drupal. Once complete, I wrote the CSS needed to match my design and added the icons in SVG form. The team tested the form thouroughly and we launched. We're currently monitoring success metrics to ensure conversion increase and continue improving conversion.</p>
+		<p>I sent the wireframes to the Tech for Campaign's Marketing Team for title and helper text to be placed at the top of each step. After a few rounds of back-and-forth the team agreed on a set of icons I pitched. I rebuilt them in Illustrator and Sketch and added Tech for Campaigns' red and blue colors. While completing this work, the developer on the team built out the step-based form in Drupal. Once complete, I wrote the CSS needed to match my design and added the icons in SVG form. The team tested the form thouroughly and we launched.</p>
+		<p>We're currently monitoring success metrics to ensure conversion increase and continue improving conversion. So far we've increased volunteer sign-ups over unique homepage visitors from 8% to 33% - a huge success!</p>
 	</div>
 	<div class="span-2">
 		<img src="https://jessetrippe-cdn-173419.appspot.com/tfc-two-01.png" alt="Tech for Campaigns Phase Two 1">
