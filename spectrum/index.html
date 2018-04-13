@@ -122,7 +122,7 @@
     </svg>
 
     <header class="navbar px-3 h5 font-weight-bold d-flex align-items-center box-shadow">
-        <button class="d-md-none d-lg-none ml-1 nav-item align-items-center font-weight-bold" data-toggle="popover" data-content="#mobile-navigation" data-placement="">
+        <button class="d-md-none d-lg-none ml-1 nav-item align-items-center font-weight-bold" data-toggle="popover" data-content="#mobile-navigation">
             <svg class="icon icon-large icon-menu float-left"><use xlink:href="#icon-menu"></use></svg>
         </button>
         <div class="py-2 logo-container text-center">
@@ -4128,6 +4128,8 @@
             </div>
         </div>
         <p class="my-4 text-center">Thoughts on our Contact Manager?<br><a class="link" href="">Let us know!</a></p>
+        <hr>
+        <p class="my-4 text-center">Care to see my design write-up?<br><button  data-toggle="popover" data-content="#design-write-up" class="link">Check it out!</button></p>
     </main>
 
     <div class="popover" id="action-menu">
@@ -4153,6 +4155,75 @@
         <a href="#" class="d-block py-2 link h1 link-clean text-center">Blog</a>
         <a href="#" class="d-block py-2 link h1 link-clean text-center">Client</a>
         <a href="#" class="d-block py-2 link h1 link-clean text-center">Features</a>
+    </div>
+
+    <div class="mobile-navigation pos-full-screen" id="design-write-up" style="overflow-y: scroll;">
+        <button class="p-3" data-toggle="popover" data-content="#design-write-up">
+            <svg class="icon icon-large icon-circle-with-cross text-muted"><use xlink:href="#icon-circle-with-cross"></use></svg>
+        </button>
+        <div class="mx-auto lg-size-2-of-3 md-size-3-of-4">
+            <h1 class="pb-1 text-center">Spectrum Design Write-up</h1>
+            <h2 class="text-center">Jesse Trippe</h2>
+            <div class="p-3">
+                <h3 class="mb-2">Critique</h3>
+                <ul>
+                    <li>Side-nav is visually dominant - both because of icons and because of dark color.</li>
+                    <li>Icons are hard to understand without instruction or definition.</li>
+                    <li>Lots of unused space due to both side-nav AND topbar.</li>
+                    <li>Overall color-scheme is slightly washed out.</li>
+                    <li>Because of washed-out color-scheme, some text is slightly difficult to scan/read.</li>
+                    <li>Client site link, dashboard, and feedback seem out of place.</li>
+                    <li>Table design is big, friendly, and usable.</li>
+                    <li>Actions-icons are repetitive and hard for a new user to understand.</li>
+                </ul>
+
+                <h3 class="mb-1 mt-3">UX Considerations & Decisions</h3>
+                <ul>
+                    <li>Removed side-nav in favor of top-nav.
+                        <ul>
+                            <li>Shortened page names.</li>
+                            <li>Moved help to upper right-hand corner.</li>
+                            <li>Add user avatar for friendliness and personalization.</li>
+                            <li>Moved feedback to bottom of the page.</li>
+                            <li>Moved settings inside of user dropdown.</li>
+                            <li>Moved sign-out inside of user dropdown.</li>
+                            <li>Added responsive menu that pushes extra menu items into overflow menu (could use usage data to determine which apps go into overflow menu).</li>
+                            <li>Move to hamburger menu on mobile and remove username.</li>
+                        </ul>
+                    </li>
+                    <li>Adjusted overall page colors for higher-contrast and making the actual content (in this case user rows) more readable.</li>
+                    <li>Increased font-size for legibility/readability.</li>
+                    <li>Moved action items into a dropdown
+                        <ul>
+                            <li>Frees up a lot of space in the table</li>
+                            <li>Allows for descriptions of action instead of just icon</li>
+                            <li>Thought about moving to a Gmail-type approach where hovering over the row revealed the button icons in the row (possibly overlayed on top of other cells to maintain space-savingings) but ultimately found the added benefit of text actions (instead of icons) to tip my choice to a dropdown. Could possibly prototype and test with users or A/B test.</li>
+                        </ul>
+                    </li>
+                    <li>Moved total count near pagination to be closer to relevant information.</li>
+                </ul>
+
+                <h3 class="mb-1 mt-3">Technology</h3>
+                <ul>
+                    <li>For this project, and many others, I use a SASSed version of SuitCSS http://suitcss.github.io/ to get started. I then stole bits and pieces from Bootstrap to fill in the gaps. Traditionally, I would steal more from Bootstrap's JS libraries but I thought I'd create some interaction JS to show-off basic jQuery/JS skills.</li>
+                    <li>I use Gridlover http://gridlover.net/ to create some basic typography rules.</li>
+                    <li>I used Entypo for icons, and Icomoon to build an SVG defs file.</li>
+                    <li>I used jQuery for interactions. Would normally try to write vanilla JS but...</li>
+                    <li>I used jQuery DataTables for table interactions - search/filter, column-sorting.</li>
+                </ul>
+
+                <h3 class="mb-1 mt-3">Opportunities</h3>
+                <ul class="mb-5">
+                    <li>Match Spectrum's UI typography.</li>
+                    <li>Would like to hear more about mobile usage stats to determine the best approach. Does Spectrum have a mobile app? If not, how often are users using the Contacts Manager on a mobile device? When they are, how/why are they using it? Is browse and filter still important or is finding a specific user and contacting them most important?</li>
+                    <li>Add tooltips to the Initial Contact icons to explain what they mean.</li>
+                    <li>Add subtle UI interaction animations.</li>
+                    <li>Write more accessible, semantic HTML.</li>
+                    <li>Spend more time with aligning icons - specifically in cells and buttons. Current implementation will not scale.</li>
+                    <li>More cross-browser testing. Currently built for Mac Chrome, quickly tested in Mac Safari, Opera, and Firefox.</li>
+                </ul>
+            </div>
+        </div>
     </div>
 
     <script src="js/jquery-3.2.1.min.js"></script>

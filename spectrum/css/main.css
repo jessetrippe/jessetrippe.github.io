@@ -403,8 +403,16 @@ ol ul {
   margin-top: 0;
   margin-bottom: 0; }
 
+ul {
+  list-style-type: circle;
+  padding-left: 1rem; }
+
+ul ul {
+  padding-left: 1rem;
+  list-style-type: square; }
+
 hr {
-  border: 1px solid;
+  border: 1px solid #dee2e6;
   margin: -1px 0; }
 
 sub,
