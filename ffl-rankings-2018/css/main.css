@@ -24,6 +24,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 1rem;
+  position: relative;
 }
 
 .player {
@@ -152,7 +153,9 @@ th {
 }
 
 .dataTables_filter {
-  position: sticky;
+  position: fixed;
+  left: 0;
+  right: 0;
   top: 0;
   z-index: 1000;
 }

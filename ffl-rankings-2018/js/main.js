@@ -17,6 +17,9 @@ $( document ).ready(function() {
     info: false
   });
 
+  var stickySearchHeight = $(".dataTables_filter").outerHeight();
+  $("#rank-list").css("top", stickySearchHeight);
+
   $("input[type='checkbox']").change( function(){
 
     if ($(this).closest("tr").hasClass("player-taken")) {
