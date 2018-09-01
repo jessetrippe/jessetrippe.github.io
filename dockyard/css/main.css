@@ -1,13 +1,13 @@
 :root {
   --body-bg-color: #edede8;
+  --base-font-color: #5b5b5b;
+  --base-ui-color: #cfcfcb;
+  --alt-ui-color: #4a4a4a;
   --button-bg-color: #dadfd2;
   --button-text-color: #146e4d;
   --button-hover-bg-color: #146e4d;
   --button-hover-text-color: #fff;
   --link-color: #0b5439;
-  --base-ui-color: #cfcfcb;
-  --alt-ui-color: #4a4a4a;
-  --base-font-color: #5b5b5b;
   --heading-font-color: #000;
   --muted-font-color: #767673;
 
