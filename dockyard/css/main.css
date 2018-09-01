@@ -97,10 +97,10 @@ a {
 }
 
 .site-title {
-  display: block;
-  width: 8rem;
   color: var(--heading-font-color);
+  display: block;
   font-weight: 500;
+  width: 8rem;
 }
 
 .product + .product {
@@ -114,8 +114,8 @@ a {
 }
 
 .product__image {
-  width: 100%;
   display: block;
+  width: 100%;
 }
 
 .product__title {
