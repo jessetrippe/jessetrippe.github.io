@@ -98,6 +98,7 @@ a {
   display: block;
   width: 8rem;
   color: var(--heading-font-color);
+  font-weight: 500;
 }
 
 .product + .product {
