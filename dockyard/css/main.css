@@ -1,0 +1,250 @@
+:root {
+  --breakpoint-md: 800px;
+  --breakpoint-lg: 1100px;
+
+  --body-bg-color: #edede8;
+  --button-bg-color: #dadfd2;
+  --button-text-color: #146e4d;
+  --button-hover-bg-color: #146e4d;
+  --button-hover-text-color: #fff;
+  --link-color: #0b5439;
+  --base-ui-color: #cfcfcb;
+  --alt-ui-color: #4a4a4a;
+  --base-font-color: #5b5b5b;
+  --heading-font-color: #000;
+  --muted-font-color: #767673;
+
+  --font-family-sans-serif: 'Proza Libre', sans-serif;
+  --font-family-serif: 'Cormorant Garamond', serif;
+}
+
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--body-bg-color);
+  border: 8px solid #fff;
+  color: var(--base-font-color);
+  font: normal 1rem/1.875 var(--font-family-sans-serif);
+  margin: 0;
+}
+
+#header,
+#main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem 3rem;
+}
+
+#main-content {
+  padding: 0 1rem 10rem;
+}
+
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+button,
+.button {
+  border: 0;
+  background-color: var(--button-bg-color);
+  font-size: .875rem;
+  font-weight: 600;
+  font-family: inherit;
+  padding: 1rem 1.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--button-text-color);
+  transition: color .15s cubic-bezier(0,0,0.5,1),
+              background-color .15s cubic-bezier(0,0,0.5,1);
+}
+
+button:focus,
+.button:focus {
+  outline: 0;
+  box-shadow: 0 0 0 .2rem rgba(20, 110, 77, .5);
+}
+
+button:hover,
+.button:hover {
+  background-color: var(--button-hover-bg-color);
+  color: var(--button-hover-text-color);
+  cursor: pointer;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.site-title {
+  display: block;
+  width: 8rem;
+  color: var(--heading-font-color);
+}
+
+.product + .product {
+  border-top: 1px solid var(--base-ui-color);
+  margin-top: 3.5rem;
+  padding-top: 3.5rem;
+}
+
+.product__image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1.75rem;
+  width: 100%;
+  display: block;
+}
+
+.product__title {
+  color: var(--heading-font-color);
+  display: block;
+  font-family: var(--font-family-serif);
+  font-size: 2.25rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.product__tag {
+  display: block;
+  font-size: .875rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: .25rem;
+  text-transform: uppercase;
+}
+
+.product__description {
+  margin-bottom: 1rem;
+}
+
+.product__links {
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="5" height="1" viewBox="0 0 5 1"><path fill="var(--alt-ui-color)" d="M0.5,1 C0.223857625,1 0,0.776142375 0,0.5 C0,0.223857625 0.223857625,0 0.5,0 L1.5,0 C1.77614237,0 2,0.223857625 2,0.5 C2,0.776142375 1.77614237,1 1.5,1 L0.5,1 Z"/></svg>') repeat-x bottom left;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.product__link {
+  align-items: center;
+  display: flex;
+}
+
+.product__link:not(.product__link--social) {
+  margin-bottom: 1.75rem;
+  min-width: 100%;
+}
+
+.product__link--social a {
+  margin-right: 1.25rem;
+  color: var(--muted-font-color);
+}
+
+.product__footer {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: middle;
+}
+
+.icon--arrow-right {
+  margin-left: .5rem;
+  vertical-align: baseline;
+}
+
+@media (min-width: 800px) {
+
+  body {
+    border-width: 18px;
+  }
+
+  #header,
+  #main-content {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  #header {
+    justify-content: initial;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .site-title {
+    width: 10.5rem;
+  }
+
+  .product {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    grid-column-gap: 2.5rem;
+    grid-template-columns: 50% auto;
+  }
+
+  .product__image {
+    grid-row: 1 / 4;
+    margin-bottom: 0;
+  }
+
+  .product + .product {
+    margin-top: 4.5rem;
+    padding-top: 4.5rem;
+  }
+
+  .product__title,
+  .product__description {
+    grid-column: 2;
+  }
+
+  .product__title {
+    font-size: 3.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .product__links {
+    margin-bottom: 2rem;
+    padding-bottom: 1.75rem;
+  }
+
+  .product__link:not(.product__link--social) {
+    margin-bottom: 0;
+    margin-right: auto;
+    min-width: auto;
+  }
+
+  .product__link--social a {
+    margin-left: .5rem;
+    margin-right: .5rem;
+  }
+}
+
+
+@media (min-width: 1100px) {
+  .product {
+    grid-template-columns: 58.5% auto;
+  }
+}
