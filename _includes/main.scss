@@ -328,7 +328,7 @@ img {
 .button {
   -webkit-backface-visibility: hidden;
   background: transparent;
-  border: 1px solid $red;
+  border: 1px solid var(--red);
   border-radius: 5px;
   color: var(--red;
   display: inline-block;
