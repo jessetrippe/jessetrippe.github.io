@@ -68,7 +68,7 @@ body {
 }
 
 .site-header {
-  color: var(--red;
+  color: var(--red);
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -136,7 +136,7 @@ section + section {
 }
 
 a {
-  color: var(--red;
+  color: var(--red);
   text-decoration: none;
   transition: all .15s linear;
 
@@ -226,7 +226,7 @@ svg {
 }
 
 .case-study-tag {
-  background: var(--red;
+  background: var(--red);
   border-radius: .25rem;
   color: var(--dark-blue);
   display: inline-block;
@@ -281,7 +281,7 @@ img {
 }
 
 [class^="pagination-"] {
-  color: var(--red;
+  color: var(--red);
 
   &.is-disabled {
     cursor: not-allowed;
@@ -289,8 +289,8 @@ img {
   }
 
   svg {
-    fill: var(--red;
-    stroke: var(--red;
+    fill: var(--red);
+    stroke: var(--red);
     height: 1.5rem;
     transition: background .15s linear;
     vertical-align: middle;
@@ -330,7 +330,7 @@ img {
   background: transparent;
   border: 1px solid var(--red);
   border-radius: 5px;
-  color: var(--red;
+  color: var(--red);
   display: inline-block;
   font: inherit;
   font-weight: 400;
