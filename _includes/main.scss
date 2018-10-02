@@ -1,20 +1,12 @@
-$dark-blue: #213444;
-$red: #f1615c;
-$dark-red: #cd534e;
-$gray: #d2d6d9;
-
-@charset "UTF-8";
-
-* {
-  box-sizing: border-box;
-
-  &:before,
-  &:after {
-    box-sizing: inherit;
-  }
+:root {
+  --dark-blue: #213444;
+  --red: #f1615c;
+  --dark-red: #cd534e;
+  --gray: #d2d6d9;
 }
 
 html {
+  box-sizing: border-box;
   font-size: 24px;
   height: 100%;
 
@@ -23,8 +15,14 @@ html {
   }
 }
 
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 body {
-  color: $dark-blue;
+  color: var(--dark-blue);
   display: grid;
   font: 400 .6666666667rem/1.5 Roboto, "Helvetica Neue", Helvetica, sans-serif;
   grid-template-columns: 1fr minmax(0, 40rem) 1fr;
@@ -52,12 +50,12 @@ body {
 }
 
 .site-header-container {
-  background: $dark-blue;
+  background: var(--dark-blue);
   grid-column: 1 / 4;
 }
 
 .site-footer-container {
-  border-top: 1px solid $gray;
+  border-top: 1px solid var(--gray);
   grid-column: 1 / 4;
 }
 
@@ -70,7 +68,7 @@ body {
 }
 
 .site-header {
-  color: $red;
+  color: var(--red;
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -138,20 +136,20 @@ section + section {
 }
 
 a {
-  color: $red;
+  color: var(--red;
   text-decoration: none;
   transition: all .15s linear;
 
   &:hover,
   &:focus {
-    color: $dark-red;
+    color: var(--dark-red);
     outline: 0;
   }
 }
 
 svg {
-  fill: $dark-blue;
-  stroke: $dark-blue;
+  fill: var(--dark-blue);
+  stroke: var(--dark-blue);
 }
 
 .site-nav {
@@ -228,9 +226,9 @@ svg {
 }
 
 .case-study-tag {
-  background: $red;
+  background: var(--red;
   border-radius: .25rem;
-  color: $dark-blue;
+  color: var(--dark-blue);
   display: inline-block;
   font-size: .6666666667rem;
   padding: 0 .25rem;
@@ -283,7 +281,7 @@ img {
 }
 
 [class^="pagination-"] {
-  color: $red;
+  color: var(--red;
 
   &.is-disabled {
     cursor: not-allowed;
@@ -291,8 +289,8 @@ img {
   }
 
   svg {
-    fill: $red;
-    stroke: $red;
+    fill: var(--red;
+    stroke: var(--red;
     height: 1.5rem;
     transition: background .15s linear;
     vertical-align: middle;
@@ -332,7 +330,7 @@ img {
   background: transparent;
   border: 1px solid $red;
   border-radius: 5px;
-  color: $red;
+  color: var(--red;
   display: inline-block;
   font: inherit;
   font-weight: 400;
@@ -347,8 +345,8 @@ img {
 
   &:focus,
   &:hover {
-    border-color: $dark-red;
-    color: $dark-red;
+    border-color: var(--dark-red);
+    color: var(--dark-red);
     outline: none;
   }
 }
@@ -360,7 +358,7 @@ td .button {
 .post {
 
   img {
-    border: 1px solid $gray;
+    border: 1px solid var(--gray);
     border-radius: 3px;
     box-shadow: 0 0 30px rgba(0, 0, 0, .025);
     vertical-align: top;
