@@ -5,12 +5,11 @@ description: "Tumblr design and templating for Barack Obama's campaign"
 permalink: /barack-obamas-tumblr/
 ---
 
-<section>
-	<h2 class="visually-hidden">Introduction</h2>
-	<div>
+<section class="grid grid-item-12/12">
+	<div class="grid-item-12/12 grid-item-7/12@md">
 		<p>I joined the Barack Obama Reelection Campaign as a Front-End Developer. My main responsibilities included the creation and maintenance of donation forms. This included front-end form validation, error handling, embedded video, mobile layout considerations, A/B testing and constant modifications and troubleshooting. I was also solely in charge of the development of Barack Obama's Tumblr blog which required learning Tumblr's templating language as well as defining mobile breakpoints and layouts.</p>
 	</div>
-	<div>
+	<aside class="project-meta grid-item-12/12 grid-item-5/12@md">
 		<table>
 			<tbody>
 				<tr>
@@ -36,16 +35,10 @@ permalink: /barack-obamas-tumblr/
 				</tr>
 			</tbody>
 		</table>
-	</div>
+	</aside>
 </section>
-<section>
-	<div class="span-2">
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/barack-obama-tumblr-1.png" alt="Barack Obama's Tumblr Screenshot 1">
-	</div>
-	<div>
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/barack-obama-tumblr-2.png" alt="Barack Obama's Tumblr Screenshot 2">
-	</div>
-	<div>
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/barack-obama-tumblr-3.png" alt="Barack Obama's Tumblr Screenshot 3">
-	</div>
+<section class="grid grid-item-12/12">
+		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/barack-obama-tumblr-1.png" alt="Barack Obama's Tumblr Screenshot 1">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/barack-obama-tumblr-2.png" alt="Barack Obama's Tumblr Screenshot 2">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/barack-obama-tumblr-3.png" alt="Barack Obama's Tumblr Screenshot 3">
 </section>

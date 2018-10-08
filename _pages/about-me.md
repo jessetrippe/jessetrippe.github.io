@@ -5,12 +5,13 @@ description: "Who I am and how I got here."
 permalink: /about-me/
 weight: 3
 ---
+<div class="grid-item-12/12 grid-item-7/12@md">
+  <p>Computer dork meets social butterfly. This unique personality of opposites allows me to successfully combine serious work skills while multi-tasking with style and ease. Combine the diplomacy of Madeline Albright with the humanitarian vision of President Jimmy Carter and add the flexibility of Spider-Man and you've got me.</p>
 
-Computer dork meets social butterfly. This unique personality of opposites allows me to successfully combine serious work skills while multi-tasking with style and ease. Combine the diplomacy of Madeline Albright with the humanitarian vision of President Jimmy Carter and add the flexibility of Spider-Man and you've got me.
+  <p>You've heard it all before—a young guy with small town Michigan roots moves to the big city to chase his dreams and mostly finds jobs stuffing envelopes and foaming lattes. So I hit the books and keyboard at
+  [The School of the Art Institute of Chicago](http://www.saic.edu/) for a BA in Fine Arts, and now I design and redesign in my sleep.</p>
 
-You've heard it all before—a young guy with small town Michigan roots moves to the big city to chase his dreams and mostly finds jobs stuffing envelopes and foaming lattes. So I hit the books and keyboard at 
-[The School of the Art Institute of Chicago](http://www.saic.edu/) for a BA in Fine Arts, and now I design and redesign in my sleep.
+  <p>I taught myself HTML & CSS, applied my knowledge to front-end web design and fell in love with building websites. After years of freelance work and a brief period with the Obama Reelection Campaign, I joined Coyote Logistics in 2011 and eventually grew into Lead Product Designer, building a massive web app and several mobile apps for Coyote's shippers and carriers.</p>
 
-I taught myself HTML & CSS, applied my knowledge to front-end web design and fell in love with building websites. After years of freelance work and a brief period with the Obama Reelection Campaign, I joined Coyote Logistics in 2011 and eventually grew into Lead Product Designer, building a massive web app and several mobile apps for Coyote's shippers and carriers.
-
-In 2016 I joined Amazon in Seattle, WA in their Human Centered Design department, focusing on delivery tools for drivers and partner companies.
+  <p>In 2016 I joined Amazon in Seattle, WA in their Human Centered Design department, focusing on delivery tools for drivers and partner companies.</p>
+</div>

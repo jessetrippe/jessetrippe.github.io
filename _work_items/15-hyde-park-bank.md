@@ -5,12 +5,11 @@ description: "Website for a Chicago bank"
 permalink: /hyde-park-bank/
 ---
 
-<section>
-	<h2 class="visually-hidden">Introduction</h2>
-	<div>
+<section class="grid grid-item-12/12">
+	<div class="grid-item-12/12 grid-item-7/12@md">
 		<p>Hyde Park Bank's website needed a makeover. Using previously created HTML files and other Photoshop files, I brought the entire site up to current web standards. I moved them away from the previously coded table based layout and finished the site that was on hold mid-production. Now the site is simpler for online customers to engage with content, including hours/location and an online banking demo created in Flash.</p>
 	</div>
-	<div>
+	<aside class="project-meta grid-item-12/12 grid-item-5/12@md">
 		<table>
 			<tbody>
 				<tr>
@@ -31,16 +30,10 @@ permalink: /hyde-park-bank/
 				</tr>
 			</tbody>
 		</table>
-	</div>
+	</aside>
 </section>
-<section>
-	<div class="span-2">
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/hpb-1.png" alt="Hyde Park Bank Screen Shot 1">
-	</div>
-	<div>
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/hpb-2.png" alt="Hyde Park Bank Screen Shot 2">
-	</div>
-	<div>
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/hpb-3.png" alt="Hyde Park Bank Screen Shot 3">
-	</div>
+<section class="grid grid-item-12/12">
+		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/hpb-1.png" alt="Hyde Park Bank Screen Shot 1">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/hpb-2.png" alt="Hyde Park Bank Screen Shot 2">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/hpb-3.png" alt="Hyde Park Bank Screen Shot 3">
 </section>

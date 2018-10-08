@@ -5,12 +5,11 @@ description: "Portfolio website for a Chicago interior design firm"
 permalink: /deb-reinhart/
 ---
 
-<section>
-	<h2 class="visually-hidden">Introduction</h2>
-	<div>
+<section class="grid grid-item-12/12">
+	<div class="grid-item-12/12 grid-item-7/12@md">
 		<p>Deb Reinhart Interior Design Group Inc. needed an elegant site to showcase their work and easily update it. With provided Photoshop files, I coded it so that nearly every item on the elegant site can be updated by the client through a WordPress backend, including their interior design blog.</p>
 	</div>
-	<div>
+	<aside class="project-meta grid-item-12/12 grid-item-5/12@md">
 		<table>
 			<tbody>
 				<tr>
@@ -31,16 +30,10 @@ permalink: /deb-reinhart/
 				</tr>
 			</tbody>
 		</table>
-	</div>
+	</aside>
 </section>
-<section>
-	<div class="span-2">
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/deb-reinhart-1.png" alt="Deb Reinhart Screenshot 1">
-	</div>
-	<div>
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/deb-reinhart-2.png" alt="Deb Reinhart Screenshot 2">
-	</div>
-	<div>
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/deb-reinhart-3.png" alt="Deb Reinhart Screenshot 3">
-	</div>
+<section class="grid grid-item-12/12">
+		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/deb-reinhart-1.png" alt="Deb Reinhart Screenshot 1">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/deb-reinhart-2.png" alt="Deb Reinhart Screenshot 2">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/deb-reinhart-3.png" alt="Deb Reinhart Screenshot 3">
 </section>

@@ -5,12 +5,11 @@ description: "Identity for a Burlington, WI garden center and farm"
 permalink: /northwind-farms/
 ---
 
-<section>
-	<h2 class="visually-hidden">Introduction</h2>
-	<div>
+<section class="grid grid-item-12/12">
+	<div class="grid-item-12/12 grid-item-7/12@md">
 		<p>Complete redesign from concept to brand for Wisconsin based Northwind Perennial Farm Nursery &amp; Garden. The project required extensive market research and historical analysis of the company. The final product communicated the research journey to creating a stunning new design while keeping Northwind's traditions as inspiration for guiding principles. The design included letterhead, logo, and brand book.</p>
 	</div>
-	<div>
+	<aside class="project-meta grid-item-12/12 grid-item-5/12@md">
 		<table>
 			<tbody>
 				<tr>
@@ -31,26 +30,14 @@ permalink: /northwind-farms/
 				</tr>
 			</tbody>
 		</table>
-	</div>
+	</aside>
 </section>
-<section>
-	<div>
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-1.png" alt="Northwind Identity Casebook 1">
-	</div>
-	<div>
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-2.png" alt="Northwind Identity Casebook 2">
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-3.png" alt="Northwind Identity Casebook 4">
-	</div>
-	<div class="span-2">
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-4.png" alt="Northwind Identity Casebook 3">
-	</div>
-	<div>
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-5.png" alt="Northwind Identity Casebook 5">
-	</div>
-	<div>
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-6.png" alt="Northwind Identity Casebook 6">
-	</div>
-	<div class="span-2">
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-7.png" alt="Northwind Identity Business Cards">
-	</div>
+<section class="grid grid-item-12/12">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-1.png" alt="Northwind Identity Casebook 1">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-2.png" alt="Northwind Identity Casebook 2">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-3.png" alt="Northwind Identity Casebook 4">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-4.png" alt="Northwind Identity Casebook 3">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-5.png" alt="Northwind Identity Casebook 5">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-6.png" alt="Northwind Identity Casebook 6">
+		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-7.png" alt="Northwind Identity Business Cards">
 </section>

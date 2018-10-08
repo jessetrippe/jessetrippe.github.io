@@ -5,12 +5,11 @@ description: "Branding, t-shirt, and website for a small design group"
 permalink: /ohboyy/
 ---
 
-<section>
-	<h2 class="visually-hidden">Introduction</h2>
-	<div>
+<section class="grid grid-item-12/12">
+	<div class="grid-item-12/12 grid-item-7/12@md">
 		<p>A friend and I started making killer homemade t-shirts. People always asked where we bought them and we morphed from there into a design/development company, small website with e-commerce functionality, logo and brand development, and a core product we love.</p>
 	</div>
-	<div>
+	<aside class="project-meta grid-item-12/12 grid-item-5/12@md">
 		<table>
 			<tbody>
 				<tr>
@@ -31,17 +30,11 @@ permalink: /ohboyy/
 				</tr>
 			</tbody>
 		</table>
-	</div>
+	</aside>
 </section>
-<section>
-	<div class="span-2">
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/ohboyy-1.png" alt="OhBoyy Screenshot 1">
-	</div>
-	<div>
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/ohboyy-2.png" alt="OhBoyy Screenshot 2">
-	</div>
-	<div>
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/ohboyy-3.png" alt="OhBoyy Wordmark">
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/ohboyy-4.jpg" alt="OhBoyy Packaging">
-	</div>
+<section class="grid grid-item-12/12">
+		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/ohboyy-1.png" alt="OhBoyy Screenshot 1">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/ohboyy-4.jpg" alt="OhBoyy Packaging">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/ohboyy-2.png" alt="OhBoyy Screenshot 2">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/ohboyy-3.png" alt="OhBoyy Wordmark">
 </section>

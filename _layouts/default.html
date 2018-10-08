@@ -1,49 +1,47 @@
----
-layout: compress
----
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    {% include header.html %}
-    {% if page.id %}
-        <meta name="robots" content="noindex, nofollow">
-    {% endif %}
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.title }}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% endif %}">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,500,600,700">
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/stylesheets/main.css">
 </head>
+
 <body class="{{ page.title | slugify }}">
+  <nav class="site-nav">
+    {% include nav.html %}
+  </nav>
 
-    <nav class="site-nav">
-        {% include nav.html %}
-    </nav>
-    <header class="site-header-container">
-        <div class="site-header">
-            <h1 class="h2 masthead-title">
-                {% if page.intro %}
-                    {{ page.intro }}
-                {% else %}
-                    {{ page.title }}
-                {% endif %}
-                {% if page.tag == "case-study" %}
-                    <span class="case-study-tag">Case Study</span>
-                {% endif %}
-            </h1>
-            {% if page.id %}
-                {% include pagination.html %}
-            {% endif %}
-        </div>
-    </header>
-    <main class="site-main {% if page.id %}post{% else %}page{% endif %}{% if page.tag == "case-study" %} case-study{% endif %}">
-        {{ content }}
+  <header class="site-header grid">
+    {% if page.title == 'Home' %}
+      <p class="site-header__lead display-4">Hello! I'm Jesse Trippe—a <span class="text-highlight">Product</span> and <span class="text-highlight">UX Designer</span> working at Amazon in <span class="text-nowrap">Seattle, WA.</span></p>
+    {% else %}
+      <h1 class="page-title display-4">
+          {{ page.title }}
+          {% if page.tag == "case-study" %}
+              <span class="case-study-tag h5">Case Study</span>
+          {% endif %}
+      </h1>
+    {% endif %}
+  </header>
 
-        {% if page.id %}
-            {% include pagination.html %}
-        {% endif %}
-    </main>
-    <footer class="site-footer-container">
-        <div class="site-footer">
-            {% include footer.html %}
-        </div>
-    </footer>
-    <script>!function(e,t,a,n,c,o){e.GoogleAnalyticsObject=n,e[n]||(e[n]=function(){(e[n].q=e[n].q||[]).push(arguments)}),e[n].l=+new Date,c=t.createElement(a),o=t.getElementsByTagName(a)[0],c.src="https://www.google-analytics.com/analytics.js",o.parentNode.insertBefore(c,o)}(window,document,"script","ga"),ga("create","UA-54788171-1","auto"),ga("send","pageview");</script>
+  <main class="site-main grid">
+    {{ content }}
+  </main>
+
+  {% if page.id %}
+      {% include pagination.html %}
+  {% endif %}
+
+  <footer class="site-footer">
+    <p>Let's talk.<br> <a href="mailto:jesse@jessetrippe.com">jesse@jessetrippe.com</a></p>
+  </footer>
+
+  <script src="{{site.baseurl}}/assets/javascripts/main.js"></script>
 
 </body>
 </html>

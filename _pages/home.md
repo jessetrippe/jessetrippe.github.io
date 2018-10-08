@@ -1,29 +1,23 @@
 ---
 layout: default
 title: "Home"
-description: "Website of Jesse Trippe—Product and UI Designer living in Seattle, WA, working at Amazon."
+description: "Website of Jesse Trippe—a Product and UX Designer working at Amazon in Seattle, WA."
 permalink: /
-intro: "Hello! I'm Jesse Trippe&mdash;a Product and UX Designer living in Seattle, WA, working at Amazon."
 weight: 1
 ---
 
-<div>
-	{% include svg/ui-design.svg %}
-	<h2 class="h3">UI Design</h2>
-	<p>I simplify interfaces by asking questions and analyzing every scenario. This often leads to fixing things earlier in the process thus avoiding adding unnecessary complexity. Other times it leads to implementing a design that fits perfectly with what the user hopes to accomplish.</p>
+<div class="skill-container">
+  <h2 class="mb-3 mt-3">UI Design</h2>
+  {% include svgs/ui-design.svg %}
+  <p>I discover a creative direction and build design systems that result in delightful and intuitive experiences that fit perfectly with what users hope to accomplish.</p>
 </div>
-<div>
-	{% include svg/ux-design.svg %}
-	<h2 class="h3">UX Design</h2>
-	<p>In order to deliver user experiences with as few barriers as possible, my design process usually involves pen and paper, online mockup tools, and user interviews and tests with the goal to fail fast and iterate. Once the flow has been decided I turn to Illustrator or Sketch for finishing touches.</p>
+<div class="skill-container">
+  <h2 class="mb-3 mt-3">UX Design</h2>
+  {% include svgs/ux-design.svg %}
+  <p>I define user flows of a product and deliver a meaningful user experiences through prototyping with the goal to fail fast and iterate.</p>
 </div>
-<div>
-	{% include svg/visual-design.svg %}
-	<h2 class="h3">Visual Design</h2>
-	<p>I'm passionate about designing beautiful, highly usable websites and apps that inspire curiosity in new customers without letting the existing ones fall by the wayside.</p>
-</div>
-<div>
-	{% include svg/development.svg %}
-	<h2 class="h3">Development</h2>
-	<p>Using current and modern standards, I take pixel-perfect designs and code them into working, full-fledged websites and apps that are highly accessible. My skill set includes HTML5, CSS3, jQuery, and WordPress.</p>
+<div class="skill-container">
+  <h2 class="mb-3 mt-3">Development</h2>
+  {% include svgs/development.svg %}
+  <p>With a strong focus on reliability, performance, and accessibility, I build scalable solutions for the Web using current and modern standards.</p>
 </div>

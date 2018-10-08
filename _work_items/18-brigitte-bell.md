@@ -5,12 +5,11 @@ description: "Website for a Chicago based law firm"
 permalink: /brigitte-bell/
 ---
 
-<section>
-	<h2 class="visually-hidden">Introduction</h2>
-	<div>
+<section class="grid grid-item-12/12">
+	<div class="grid-item-12/12 grid-item-7/12@md">
 		<p>With the help of another designer, I built Brigitte Bell a website to highlight their law services and provide client testimonials to prospective clients. The site is easily maintained using WordPress by myself and the staff at Brigitte Bell.</p>
 	</div>
-	<div>
+	<aside class="project-meta grid-item-12/12 grid-item-5/12@md">
 		<table>
 			<tbody>
 				<tr>
@@ -30,22 +29,16 @@ permalink: /brigitte-bell/
 					<td>September 2012</td>
 				</tr>
 				<tr>
-					<td colspan="2">
-						<a class="button button--inverted push-top" href="http://brigittebell.com">Visit the site</a>
-					</td>
+					<th class="text-left" colspan="2">
+						<a class="button mt-3" href="http://brigittebell.com">Visit the site</a>
+					</th>
 				</tr>
 			</tbody>
 		</table>
-	</div>
+	</aside>
 </section>
-<section>
-	<div class="span-2">
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/brigitte-1.png" alt="Brigitte Bell Screenshot 1">
-	</div>
-	<div>
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/brigitte-2.png" alt="Brigitte Bell Screenshot 2">
-	</div>
-	<div>
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/brigitte-3.png" alt="Brigitte Bell Screenshot 3">
-	</div>
+<section class="grid grid-item-12/12">
+		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/brigitte-1.png" alt="Brigitte Bell Screenshot 1">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/brigitte-2.png" alt="Brigitte Bell Screenshot 2">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/brigitte-3.png" alt="Brigitte Bell Screenshot 3">
 </section>

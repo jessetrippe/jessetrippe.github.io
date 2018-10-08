@@ -5,12 +5,11 @@ description: "Portfolio website for a Chicago photography studio"
 permalink: /carr-cialdella/
 ---
 
-<section>
-	<h2 class="visually-hidden">Introduction</h2>
-	<div>
+<section class="grid grid-item-12/12">
+	<div class="grid-item-12/12 grid-item-7/12@md">
 		<p>Carr Cialdella, an architectural and interiors photography studio, needed a home to showcase their beautiful photographs, advertise their small collection of books, and share their services with prospective clients. Along with another designer, I built a simple solution that accomplishes all three while also allowing easy updates by the Carr Cialdella team.</p>
 	</div>
-	<div>
+	<aside class="project-meta grid-item-12/12 grid-item-5/12@md">
 		<table>
 			<tbody>
 				<tr>
@@ -31,16 +30,11 @@ permalink: /carr-cialdella/
 				</tr>
 			</tbody>
 		</table>
-	</div>
+	</aside>
 </section>
-<section>
-	<div class="span-2">
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/carrcialdella-1.png" alt="Carr Cialdella Screenshot 1">
-	</div>
-	<div>
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/carrcialdella-2.png" alt="Carr Cialdella Screenshot 2">
-	</div>
-	<div>
-		<img src="//jessetrippe-cdn-173419.appspot.com/portfolio/carrcialdella-3.png" alt="Carr Cialdella Screenshot 3">
+<section class="grid grid-item-12/12">
+		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/carrcialdella-1.png" alt="Carr Cialdella Screenshot 1">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/carrcialdella-2.png" alt="Carr Cialdella Screenshot 2">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/carrcialdella-3.png" alt="Carr Cialdella Screenshot 3">
 	</div>
 </section>
