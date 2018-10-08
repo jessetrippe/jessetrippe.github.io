@@ -67,9 +67,6 @@ body {
   }
 }
 
-.home .site-header {
-}
-
 @media (min-width: 600px) {
   .home .site-header {
     padding-top: 4rem;
