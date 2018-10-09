@@ -203,6 +203,10 @@ a:hover {
   transform-origin: bottom left;
 }
 
+.site-nav > a:not(:nth-child(2)) {
+  margin-left: 1rem;
+}
+
 .skill-container {
   display: flex;
   flex-direction: column;
@@ -217,15 +221,11 @@ a:hover {
   order: -1;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 600px) {
 
   .skill-container + .skill-container {
     margin-top: 0;
   }
-}
-
-.site-nav > a:not(:nth-child(2)) {
-  margin-left: 1rem;
 }
 
 .site-header__lead {
