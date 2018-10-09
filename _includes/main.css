@@ -285,6 +285,11 @@ a:hover {
   cursor: not-allowed;
 }
 
+.pagination-next.is-disabled .pagination-text,
+.pagination-prev.is-disabled .pagination-text {
+  color: var(--base-ui-color);
+}
+
 .pagination-next.is-disabled svg,
 .pagination-prev.is-disabled svg {
   fill: var(--base-ui-color);
