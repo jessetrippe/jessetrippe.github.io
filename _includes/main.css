@@ -35,7 +35,6 @@ html {
 body {
   background-color: var(--highlight-color);
   border-top: .5rem solid var(--highlight-color);
-  color: var(--base-black-color);
   display: flex;
   flex-direction: column;
   font: normal .6667rem/1.5 var(--base-sans-font);
