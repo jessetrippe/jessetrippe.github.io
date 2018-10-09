@@ -382,11 +382,11 @@ tr:last-child th {
 }
 
 .grid {
+  align-content: start;
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
-  align-content: start;
+  grid-template-columns: repeat(12, 1fr);
 }
 
 @media (min-width: 900px) {
@@ -396,111 +396,36 @@ tr:last-child th {
   }
 }
 
-.grid-item-1\/12 {
-  grid-column: span 1;
-}
-
-.grid-item-2\/12 {
-  grid-column: span 2;
-}
-
-.grid-item-3\/12 {
-  grid-column: span 3;
-}
-
-.grid-item-4\/12 {
-  grid-column: span 4;
-}
-
-.grid-item-5\/12 {
-  grid-column: span 5;
-}
-
-.grid-item-6\/12 {
-  grid-column: span 6;
-}
-
-.grid-item-7\/12 {
-  grid-column: span 7;
-}
-
-.grid-item-8\/12 {
-  grid-column: span 8;
-}
-
-.grid-item-9\/12 {
-  grid-column: span 9;
-}
-
-.grid-item-10\/12 {
-  grid-column: span 10;
-}
-
-.grid-item-11\/12 {
-  grid-column: span 11;
-}
-
-.grid-item-12\/12 {
-  grid-column: span 12;
-}
+.grid-item-1\/12  { grid-column: span 1; }
+.grid-item-2\/12  { grid-column: span 2; }
+.grid-item-3\/12  { grid-column: span 3; }
+.grid-item-4\/12  { grid-column: span 4; }
+.grid-item-5\/12  { grid-column: span 5; }
+.grid-item-6\/12  { grid-column: span 6; }
+.grid-item-7\/12  { grid-column: span 7; }
+.grid-item-8\/12  { grid-column: span 8; }
+.grid-item-9\/12  { grid-column: span 9; }
+.grid-item-10\/12 { grid-column: span 10; }
+.grid-item-11\/12 { grid-column: span 11; }
+.grid-item-12\/12 { grid-column: span 12; }
 
 section + section {
   margin-top: 1rem;
 }
 
 @media (min-width: 600px) {
-
-  .grid-item-12\/12\@md {
-    background:  blue;
-  }
-
-  .grid-item-1\/12\@md {
-    grid-column: span 1;
-  }
-
-  .grid-item-2\/12\@md {
-    grid-column: span 2;
-  }
-
-  .grid-item-3\/12\@md {
-    grid-column: span 3;
-  }
-
-  .grid-item-4\/12\@md {
-    grid-column: span 4;
-  }
-
-  .grid-item-5\/12\@md {
-    grid-column: span 5;
-  }
-
-  .grid-item-6\/12\@md {
-    grid-column: span 6;
-  }
-
-  .grid-item-7\/12\@md {
-    grid-column: span 7;
-  }
-
-  .grid-item-8\/12\@md {
-    grid-column: span 8;
-  }
-
-  .grid-item-9\/12\@md {
-    grid-column: span 9;
-  }
-
-  .grid-item-10\/12\@md {
-    grid-column: span 10;
-  }
-
-  .grid-item-11\/12\@md {
-    grid-column: span 11;
-  }
-
-  .grid-item-12\/12\@md {
-    grid-column: span 12;
-  }
+  .grid-item-1\/12\@md  { grid-column: span 1; }
+  .grid-item-2\/12\@md  { grid-column: span 2; }
+  .grid-item-3\/12\@md  { grid-column: span 3; }
+  .grid-item-4\/12\@md  { grid-column: span 4; }
+  .grid-item-5\/12\@md  { grid-column: span 5; }
+  .grid-item-6\/12\@md  { grid-column: span 6; }
+  .grid-item-7\/12\@md  { grid-column: span 7; }
+  .grid-item-8\/12\@md  { grid-column: span 8; }
+  .grid-item-9\/12\@md  { grid-column: span 9; }
+  .grid-item-10\/12\@md { grid-column: span 10; }
+  .grid-item-11\/12\@md { grid-column: span 11; }
+  .grid-item-12\/12\@md { grid-column: span 12; }
 }
 
 .button {
