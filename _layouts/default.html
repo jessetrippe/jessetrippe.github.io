@@ -33,12 +33,12 @@ layout: compress
   </style>
 </head>
 
-<body class="{{ page.title | slugify }}">
+<body class="{{ page.title | slugify }} bg-hightlight">
   <nav class="site-nav">
     {% include nav.html %}
   </nav>
 
-  <header class="site-header grid">
+  <header class="site-header grid bg-white">
     {% if page.title == 'Home' %}
       <p class="site-header__lead display-4">Hello! I'm Jesse Trippe—a <span class="text-highlight">Product</span> and <span class="text-highlight">UX Designer</span> working at Amazon in <span class="text-nowrap">Seattle, WA.</span></p>
     {% else %}
@@ -51,7 +51,7 @@ layout: compress
     {% endif %}
   </header>
 
-  <main class="site-main grid">
+  <main class="site-main grid bg-white">
     {{ content }}
   </main>
 
@@ -59,7 +59,7 @@ layout: compress
       {% include pagination.html %}
   {% endif %}
 
-  <footer class="site-footer">
+  <footer class="site-footer bg-hightlight">
     <p>Let's talk.<br> <a href="mailto:jesse@jessetrippe.com">jesse@jessetrippe.com</a></p>
   </footer>
 

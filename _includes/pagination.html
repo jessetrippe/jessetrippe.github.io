@@ -1,12 +1,12 @@
-<div class="pagination">
+<div class="pagination bg-white">
   {% if page.previous.url %}
-      <a href="{{page.previous.url}}" class="pagination-prev" title="Previous">{% include svgs/prev.svg %} <span class="pagination-text">Previous</span></a>
+      <a href="{{page.previous.url}}" class="mb-5 pagination-prev" title="Previous">{% include svgs/prev.svg %} <span class="pagination-text">Previous</span></a>
   {% else %}
-    <span aria-hidden="true" class="pagination-prev is-disabled" title="Previous">{% include svgs/prev.svg %} <span class="pagination-text">Previous</span></span>
+    <span aria-hidden="true" class="mb-5 pagination-prev is-disabled" title="Previous">{% include svgs/prev.svg %} <span class="pagination-text">Previous</span></span>
   {% endif %}
   {% if page.next.url %}
-      <a href="{{page.next.url}}" class="pagination-next" title="Next"><span class="pagination-text">Next</span> {% include svgs/next.svg %}</a>
+      <a href="{{page.next.url}}" class="mb-5 pagination-next" title="Next"><span class="pagination-text">Next</span> {% include svgs/next.svg %}</a>
   {% else %}
-    <span aria-hidden="true" class="pagination-next is-disabled" title="Next"><span class="pagination-text">Next</span> {% include svgs/next.svg %}</span>
+    <span aria-hidden="true" class="mb-5 pagination-next is-disabled" title="Next"><span class="pagination-text">Next</span> {% include svgs/next.svg %}</span>
   {% endif %}
 </div>

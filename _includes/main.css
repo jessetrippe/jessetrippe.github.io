@@ -2,6 +2,7 @@
   --base-text-color: #666;
   --base-ui-color: #eee;
   --base-white-color: #fff;
+  --base-black-color: #000;
   --highlight-color: #80f;
   --highlight-color-dark: #408;
   --highlight-color-light: #e1bfff;
@@ -33,21 +34,23 @@ html {
 
 body {
   background-color: var(--highlight-color);
-  margin: 0;
-  font: normal .6667rem/1.5 var(--base-sans-font);
   border-top: .5rem solid var(--highlight-color);
+  color: var(--base-black-color);
   display: flex;
   flex-direction: column;
+  font: normal .6667rem/1.5 var(--base-sans-font);
+  margin: 0;
   min-height: 100%;
 }
 
 .site-main {
   flex: 1;
+  padding-bottom: 4rem;
 }
 
 .site-nav {
-  padding: 1rem 0 0;
   font-weight: 500;
+  padding: 1rem 0 0;
 }
 
 .site-title.h5 {
@@ -76,8 +79,6 @@ body {
 
 .site-footer {
   padding: 2rem 0;
-  background-color: var(--highlight-color);
-  color: var(--base-white-color);
 }
 
 .site-nav,
@@ -87,7 +88,6 @@ body {
 .pagination {
   padding-left: 1rem;
   padding-right: 1rem;
-  background: var(--base-white-color);
 }
 
 @media (min-width: 600px) {
@@ -105,14 +105,11 @@ body {
   .site-nav,
   .site-header,
   .site-main,
-  .site-footer {
+  .site-footer,
+  .pagination {
     padding-left: 4rem;
     padding-right: 4rem;
   }
-}
-
-.site-main {
-  margin-bottom: 4rem;
 }
 
 p {
@@ -329,7 +326,6 @@ a:hover {
     top: 50%;
     transform: translateY(-50%);
     left: 0;
-    margin-bottom: 2rem;
   }
 
   .pagination-next {
@@ -549,6 +545,10 @@ section + section {
 }
 
 .text-highlight { color: var(--highlight-color); }
+
+.bg-highlight { background-color: var(--highlight-color);
+  color: var(--base-white-color); }
+.bg-white { background-color: var(--base-white-color); color: var(--base-black-color); }
 
 .mb-1 { margin-bottom: .25rem; }
 .mb-2 { margin-bottom: .5rem; }
