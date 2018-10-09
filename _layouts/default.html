@@ -3,7 +3,7 @@ layout: compress
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" class="bg-highlight">
 
 <head>
   <meta charset="utf-8">
@@ -33,7 +33,7 @@ layout: compress
   </style>
 </head>
 
-<body class="{{ page.title | slugify }} bg-hightlight">
+<body class="{{ page.title | slugify }}">
   <nav class="site-nav bg-white">
     {% include nav.html %}
   </nav>
@@ -59,7 +59,7 @@ layout: compress
       {% include pagination.html %}
   {% endif %}
 
-  <footer class="site-footer bg-hightlight">
+  <footer class="site-footer">
     <p>Let's talk.<br> <a href="mailto:jesse@jessetrippe.com">jesse@jessetrippe.com</a></p>
   </footer>
 
