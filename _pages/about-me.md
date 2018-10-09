@@ -5,6 +5,7 @@ description: "Who I am and how I got here."
 permalink: /about-me/
 weight: 3
 ---
+
 <div class="grid-item-12/12 grid-item-8/12@md">
   <p>Computer dork meets social butterfly. This unique personality of opposites allows me to successfully combine serious work skills while multi-tasking with style and ease. Combine the diplomacy of Madeline Albright with the humanitarian vision of President Jimmy Carter and add the flexibility of Spider-Man and you've got me.</p>
 

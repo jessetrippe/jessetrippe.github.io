@@ -210,7 +210,6 @@ a:hover {
 .skill-container {
   display: flex;
   flex-direction: column;
-  grid-column: 1 / 13;
 }
 
 .skill-container + .skill-container {
