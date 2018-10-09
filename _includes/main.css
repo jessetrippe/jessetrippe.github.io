@@ -32,7 +32,7 @@ html {
 }
 
 body {
-  background-color: var(--base-white-color);
+  background-color: var(--highlight-color);
   margin: 0;
   font: normal .6667rem/1.5 var(--base-sans-font);
   border-top: .5rem solid var(--highlight-color);
@@ -87,6 +87,7 @@ body {
 .pagination {
   padding-left: 1rem;
   padding-right: 1rem;
+  background: --var(--highlight-color);
 }
 
 @media (min-width: 600px) {
@@ -312,6 +313,10 @@ a:hover {
   [class^="pagination-"]:hover svg {
     fill: var(--highlight-color);
     stroke: var(--highlight-color);
+  }
+
+  .pagination {
+    margin: 0;
   }
 
   .pagination-text {
