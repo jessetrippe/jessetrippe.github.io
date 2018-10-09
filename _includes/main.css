@@ -298,10 +298,6 @@ a:hover {
     stroke: var(--highlight-color);
   }
 
-  .pagination {
-    margin: 0;
-  }
-
   .pagination-text {
     display: none;
   }
@@ -377,8 +373,8 @@ tr:last-child th {
   margin-top: 1rem;
 }
 
-.hidden {
-  display: none;
+section + section {
+  margin-top: 1rem;
 }
 
 .grid {
@@ -408,10 +404,6 @@ tr:last-child th {
 .grid-item-10\/12 { grid-column: span 10; }
 .grid-item-11\/12 { grid-column: span 11; }
 .grid-item-12\/12 { grid-column: span 12; }
-
-section + section {
-  margin-top: 1rem;
-}
 
 @media (min-width: 600px) {
   .grid-item-1\/12\@md  { grid-column: span 1; }
@@ -453,6 +445,8 @@ section + section {
 }
 
 .text-highlight { color: var(--highlight-color); }
+.text-white { color: var(--base-white-color); }
+.text-black { color: var(--base-black-color); }
 
 .bg-highlight {
   background-color: var(--highlight-color);
@@ -490,3 +484,5 @@ section + section {
 
 .text-nowrap { white-space: nowrap; }
 .text-left { text-align: left; }
+
+.hidden { display: none; }
