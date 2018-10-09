@@ -260,40 +260,47 @@ a:hover {
   margin-left: auto;
 }
 
-[class^="pagination-"] svg {
+.pagination-next svg,
+.pagination-prev svg {
   fill: var(--highlight-color);
   stroke: var(--highlight-color);
   height: 1.25rem;
   transition: all .15s;
 }
 
-[class^="pagination-"]:hover svg {
+.pagination-next:hover svg,
+.pagination-prev:hover svg {
   fill: var(--highlight-color-dark);
   stroke: var(--highlight-color-dark);
 }
 
-[class^="pagination-"]:active svg {
+.pagination-next:active svg,
+.pagination-prev:active svg {
   fill: var(--highlight-color-dark);
   stroke: var(--highlight-color-dark);
 }
 
-[class^="pagination-"].is-disabled {
+.pagination-next.is-disabled,
+.pagination-prev.is-disabled {
   cursor: not-allowed;
 }
 
-[class^="pagination-"].is-disabled svg {
+.pagination-next.is-disabled svg,
+.pagination-prev.is-disabled svg {
   fill: var(--base-ui-color);
   stroke: var(--base-ui-color);
 }
 
 @media (min-width: 600px) {
 
-  [class^="pagination-"] svg {
+  .pagination-next.is-disabled svg,
+  .pagination-prev.is-disabled svg {
     fill: var(--highlight-color-light);
     stroke: var(--highlight-color-light);
   }
 
-  [class^="pagination-"]:hover svg {
+  .pagination-next:hover svg,
+  .pagination-prev:hover svg {
     fill: var(--highlight-color);
     stroke: var(--highlight-color);
   }
