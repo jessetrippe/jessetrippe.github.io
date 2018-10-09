@@ -373,12 +373,12 @@ tr:last-child th {
   padding-bottom: 1rem;
 }
 
-.hidden {
-  display: none;
-}
-
 .site-main p + p {
   margin-top: 1rem;
+}
+
+.hidden {
+  display: none;
 }
 
 .grid {
@@ -546,6 +546,18 @@ section + section {
 .mb-5 { margin-bottom: 2rem; }
 
 .mt-3 { margin-top: 1rem; }
+
+.pb-1 { padding-bottom: .25rem; }
+.pb-2 { padding-bottom: .5rem; }
+.pb-3 { padding-bottom: 1rem; }
+.pb-4 { padding-bottom: 1.5rem; }
+.pb-5 { padding-bottom: 2rem; }
+
+.pt-1 { padding-top: .25rem; }
+.pt-2 { padding-top: .5rem; }
+.pt-3 { padding-top: 1rem; }
+.pt-4 { padding-top: 1.5rem; }
+.pt-5 { padding-top: 2rem; }
 
 .text-nowrap { white-space: nowrap!important; }
 
