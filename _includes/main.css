@@ -87,7 +87,7 @@ body {
 .pagination {
   padding-left: 1rem;
   padding-right: 1rem;
-  background: --var(--base-white-color);
+  background: var(--base-white-color);
 }
 
 @media (min-width: 600px) {
@@ -329,6 +329,7 @@ a:hover {
     top: 50%;
     transform: translateY(-50%);
     left: 0;
+    margin-bottom: 2rem;
   }
 
   .pagination-next {
