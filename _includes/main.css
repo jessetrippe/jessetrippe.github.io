@@ -87,7 +87,7 @@ body {
 .pagination {
   padding-left: 1rem;
   padding-right: 1rem;
-  background: --var(--highlight-color);
+  background: --var(--base-white-color);
 }
 
 @media (min-width: 600px) {
