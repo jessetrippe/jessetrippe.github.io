@@ -325,12 +325,9 @@ a:hover {
   border-radius: .25rem;
   color: var(--base-white-color);
   display: inline-block;
+  font-weight: 500;
   padding: 0 .25rem;
   vertical-align: middle;
-}
-
-.page-title {
-  grid-column: 1 / 13;
 }
 
 .site-header {
