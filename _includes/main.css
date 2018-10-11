@@ -14,7 +14,7 @@
   font-size: var(--base-spacing-unit);
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
   :root {
     font-size: calc(var(--base-spacing-unit) * 1.125);
   }
@@ -41,6 +41,8 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+::selection { background: var(--highlight-color-light); }
 
 .site-main {
   flex: 1;
@@ -118,7 +120,7 @@ p {
 
 img {
   border-radius: .15rem;
-  border: 1px solid var(--base-ui-color);
+  border: .04rem solid var(--base-ui-color);
   box-shadow: 0 0 1rem rgba(0,0,0,0.025);
   width: 100%;
 }
@@ -153,7 +155,7 @@ h6, .h6    { font-size: 0.6666667rem; }
 a {
   color: var(--highlight-color);
   text-decoration: none;
-  transition: color .25s;
+  transition: color .2s;
 }
 
 a:hover {
@@ -180,25 +182,61 @@ a:hover {
 }
 
 .site-nav a:after,
-.site-footer a:after {
+.site-footer p a:after {
   background-color: var(--highlight-color);
   bottom: 0;
   content: '';
-  height: 2px;
+  height: .08rem;
   left: 0;
   position: absolute;
   transform-origin: bottom right;
   transform: scaleX(0);
-  transition: transform 0.25s ease-out;
+  transition: transform 0.2s ease-out;
   width: 100%;
 }
 
-.site-footer a:after {
+.site-footer {
+  display: flex;
+  align-items: center;
+}
+
+.site-footer p {
+  margin-right: auto;
+}
+
+.site-footer svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  fill: var(--base-white-color);
+  transition: all .2s;
+}
+
+.site-footer > a {
+  margin-left: .5rem;
+}
+
+@media (min-width: 600px) {
+
+  .site-footer svg {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .site-footer > a {
+    margin-left: 1rem;
+  }
+}
+
+.site-footer a:hover svg {
+  fill: var(--base-white-color);
+}
+
+.site-footer p a:after {
   background-color: var(--base-white-color);
 }
 
 .site-nav a:hover:after,
-.site-footer a:hover:after {
+.site-footer p a:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
@@ -231,7 +269,7 @@ a:hover {
   grid-column: 1 / 13;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
   .site-header__lead {
     grid-column: 2 / 12;
   }
@@ -265,7 +303,7 @@ a:hover {
   fill: var(--highlight-color);
   stroke: var(--highlight-color);
   height: 1.25rem;
-  transition: all .15s;
+  transition: all .2s;
 }
 
 .pagination-next:hover svg,
@@ -397,7 +435,7 @@ section + section {
   grid-template-columns: repeat(12, 1fr);
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
   .grid {
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
@@ -435,7 +473,7 @@ section + section {
 .button {
   -webkit-backface-visibility: hidden;
   background: transparent;
-  border: 2px solid var(--highlight-color);
+  border: .08rem solid var(--highlight-color);
   border-radius: .25rem;
   color: var(--highlight-color);
   display: inline-block;
@@ -446,7 +484,7 @@ section + section {
   position: relative;
   text-align: center;
   text-shadow: none;
-  transition: all .15s;
+  transition: all .2s;
   vertical-align: middle;
   white-space: nowrap;
 }

@@ -16,3 +16,7 @@ weight: 3
 
   <p>In 2016 I joined Amazon in Seattle, WA in their Human Centered Design department, focusing on delivery tools for drivers and partner companies.</p>
 </div>
+
+<div class="grid-item-12/12 grid-item-4/12@md">
+  <img src="/imgs/jesse.jpg">
+</div>
