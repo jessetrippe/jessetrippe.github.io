@@ -59,25 +59,6 @@ body {
   margin-bottom: .25rem;
 }
 
-@media (min-width: 600px) {
-  .site-title.h5 {
-    margin-bottom: 0;
-    margin-right: auto;
-  }
-
-  .site-nav {
-    align-items: center;
-    display: flex;
-  }
-}
-
-@media (min-width: 600px) {
-  .home .site-header {
-    padding-bottom: 4rem;
-    padding-top: 4rem;
-  }
-}
-
 .site-footer {
   padding: 2rem 0;
 }
@@ -89,28 +70,6 @@ body {
 .pagination {
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-@media (min-width: 600px) {
-  .site-nav,
-  .site-header,
-  .site-main,
-  .site-footer,
-  .pagination {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-}
-
-@media (min-width: 1000px) {
-  .site-nav,
-  .site-header,
-  .site-main,
-  .site-footer,
-  .pagination {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
 }
 
 p {
@@ -186,7 +145,7 @@ a:hover {
   background-color: var(--highlight-color);
   bottom: 0;
   content: '';
-  height: .08rem;
+  height: 2px;
   left: 0;
   position: absolute;
   transform-origin: bottom right;
@@ -213,18 +172,6 @@ a:hover {
 
 .site-footer > a {
   margin-left: .5rem;
-}
-
-@media (min-width: 600px) {
-
-  .site-footer svg {
-    height: 2rem;
-    width: 2rem;
-  }
-
-  .site-footer > a {
-    margin-left: 1rem;
-  }
 }
 
 .site-footer a:hover svg {
@@ -258,21 +205,8 @@ a:hover {
   order: -1;
 }
 
-@media (min-width: 600px) {
-
-  .skill-container + .skill-container {
-    margin-top: 0;
-  }
-}
-
 .site-header__lead {
   grid-column: 1 / 13;
-}
-
-@media (min-width: 1000px) {
-  .site-header__lead {
-    grid-column: 2 / 12;
-  }
 }
 
 .site-footer a {
@@ -334,38 +268,6 @@ a:hover {
   stroke: var(--base-ui-color);
 }
 
-@media (min-width: 600px) {
-
-  .pagination-next.is-disabled svg,
-  .pagination-prev.is-disabled svg {
-    fill: var(--highlight-color-light);
-    stroke: var(--highlight-color-light);
-  }
-
-  .pagination-next:hover svg,
-  .pagination-prev:hover svg {
-    fill: var(--highlight-color);
-    stroke: var(--highlight-color);
-  }
-
-  .pagination-text {
-    display: none;
-  }
-
-  .pagination-prev,
-  .pagination-next {
-    position: fixed;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 0;
-  }
-
-  .pagination-next {
-    left: unset;
-    right: 0;
-  }
-}
-
 .case-study-tag {
   background: var(--highlight-color);
   border-radius: .25rem;
@@ -383,12 +285,6 @@ a:hover {
 
 .project-meta {
   order: -1;
-}
-
-@media (min-width: 600px) {
-  .project-meta {
-    order: initial;
-  }
 }
 
 .project-meta table {
@@ -435,13 +331,6 @@ section + section {
   grid-template-columns: repeat(12, 1fr);
 }
 
-@media (min-width: 1000px) {
-  .grid {
-    grid-column-gap: 2rem;
-    grid-row-gap: 2rem;
-  }
-}
-
 .grid-item-1\/12  { grid-column: span 1; }
 .grid-item-2\/12  { grid-column: span 2; }
 .grid-item-3\/12  { grid-column: span 3; }
@@ -454,21 +343,6 @@ section + section {
 .grid-item-10\/12 { grid-column: span 10; }
 .grid-item-11\/12 { grid-column: span 11; }
 .grid-item-12\/12 { grid-column: span 12; }
-
-@media (min-width: 600px) {
-  .grid-item-1\/12\@md  { grid-column: span 1; }
-  .grid-item-2\/12\@md  { grid-column: span 2; }
-  .grid-item-3\/12\@md  { grid-column: span 3; }
-  .grid-item-4\/12\@md  { grid-column: span 4; }
-  .grid-item-5\/12\@md  { grid-column: span 5; }
-  .grid-item-6\/12\@md  { grid-column: span 6; }
-  .grid-item-7\/12\@md  { grid-column: span 7; }
-  .grid-item-8\/12\@md  { grid-column: span 8; }
-  .grid-item-9\/12\@md  { grid-column: span 9; }
-  .grid-item-10\/12\@md { grid-column: span 10; }
-  .grid-item-11\/12\@md { grid-column: span 11; }
-  .grid-item-12\/12\@md { grid-column: span 12; }
-}
 
 .button {
   -webkit-backface-visibility: hidden;
@@ -536,3 +410,145 @@ section + section {
 .text-left { text-align: left; }
 
 .hidden { display: none; }
+
+
+@media (min-width: 600px) {
+  .site-title.h5 {
+    margin-bottom: 0;
+    margin-right: auto;
+  }
+
+  .site-nav {
+    align-items: center;
+    display: flex;
+  }
+}
+
+@media (min-width: 600px) {
+  .home .site-header {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home .site-header {
+    padding-bottom: 15vh;
+    padding-top: 15vh;
+  }
+
+  .site-main {
+    padding-bottom: 6rem;
+  }
+
+  .display-4 {
+      font-size: 3rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .site-nav,
+  .site-header,
+  .site-main,
+  .site-footer,
+  .pagination {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .site-nav,
+  .site-header,
+  .site-main,
+  .site-footer,
+  .pagination {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media (min-width: 600px) {
+
+  .site-footer svg {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .site-footer > a {
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width: 600px) {
+
+  .skill-container + .skill-container {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .site-header__lead {
+    grid-column: 2 / 12;
+  }
+}
+
+@media (min-width: 600px) {
+
+  .pagination-next.is-disabled svg,
+  .pagination-prev.is-disabled svg {
+    fill: var(--highlight-color-light);
+    stroke: var(--highlight-color-light);
+  }
+
+  .pagination-next:hover svg,
+  .pagination-prev:hover svg {
+    fill: var(--highlight-color);
+    stroke: var(--highlight-color);
+  }
+
+  .pagination-text {
+    display: none;
+  }
+
+  .pagination-prev,
+  .pagination-next {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+  }
+
+  .pagination-next {
+    left: unset;
+    right: 0;
+  }
+}
+
+@media (min-width: 600px) {
+  .project-meta {
+    order: initial;
+  }
+}
+
+@media (min-width: 1000px) {
+  .grid {
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .grid-item-1\/12\@md  { grid-column: span 1; }
+  .grid-item-2\/12\@md  { grid-column: span 2; }
+  .grid-item-3\/12\@md  { grid-column: span 3; }
+  .grid-item-4\/12\@md  { grid-column: span 4; }
+  .grid-item-5\/12\@md  { grid-column: span 5; }
+  .grid-item-6\/12\@md  { grid-column: span 6; }
+  .grid-item-7\/12\@md  { grid-column: span 7; }
+  .grid-item-8\/12\@md  { grid-column: span 8; }
+  .grid-item-9\/12\@md  { grid-column: span 9; }
+  .grid-item-10\/12\@md { grid-column: span 10; }
+  .grid-item-11\/12\@md { grid-column: span 11; }
+  .grid-item-12\/12\@md { grid-column: span 12; }
+}
