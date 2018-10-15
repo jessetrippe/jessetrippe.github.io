@@ -18,5 +18,5 @@ weight: 3
 </div>
 
 <div class="grid-item-12/12 grid-item-4/12@md">
-  <img src="/imgs/jesse.jpg">
+  <img src="/imgs/jesse.jpg" alt="Jesse Trippe">
 </div>
