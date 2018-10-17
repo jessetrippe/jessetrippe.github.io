@@ -8,7 +8,7 @@ tag: case-study
 
 <section class="grid grid-item-12/12">
 	<div class="grid-item-12/12 grid-item-7/12@md">
-		<p>In 2018 Amazon launched a last-mile delivery program powered by entrepreneurs. These new companies needed a way to manage their drivers' schedules and communicate their capacity and schedules to Amazon. The needs of each user (Amazon, schedulers, and drivers) is often at odds with one another, forcing the team&mdash;consisting of a Product Manager, a developement team, and myself&mdash;to focus on how our tool could make meaningful strides to achieve the larger organization's goals.</p>
+		<p>In 2018 Amazon launched a last-mile delivery program powered by entrepreneurs. These new companies needed a way to manage their drivers' schedules and communicate their capacity and schedules to Amazon. The needs of each user (Amazon station operators, schedulers, and drivers) is often at odds with one another, forcing the team&mdash;consisting of a Product Manager, a developement team, and myself&mdash;to focus on how our tool could make meaningful strides to achieve the larger organization's goals.</p>
 		<p>The request was to move the daily and weekly offline process of accepting Amazon offered routes online in order to reduce errors and manual touch-points. We built a scrappy solution in 2017 to accomplish this task and began planning a more robust, user-centered solution to launch mid 2018.</p>
 	</div>
 	<aside class="project-meta grid-item-12/12 grid-item-5/12@md">
