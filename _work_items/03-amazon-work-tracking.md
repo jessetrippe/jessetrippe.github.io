@@ -9,7 +9,7 @@ tag: case-study
 <section class="grid grid-item-12/12">
 	<div class="grid-item-12/12 grid-item-7/12@md">
 		<p>Due to various unforeseen complications throughout the day, the work Amazon planned for 3rd-party courier companies to complete and eventually invoice Amazon for changed drastically. Amazon needed a tool to allow these companies to review and submit driver hours and route counts daily in order to reduce invoicing disputes, inaccuracies, and speed up payments from Amazon.</p>
-		<p>Prior to my involvement, this project launched in beta form to three UK delivery stations where it failed due too many untested assumptions ultimately being wrong. I was brought on to work with and mentor the initial designer in order to provide a solution that successfully met the users' and Amazon's needs for a work tracking tool. The redesign took around 3 months to complete and involved a visit to the UK with a prototype I built in HTML, CSS, and JavaScript to test with users using real data.</p>
+		<p>Prior to my involvement, this project launched in beta form to three UK delivery stations where it failed due too many untested assumptions ultimately being wrong. I was brought on to work with and mentor a junior designer in order to provide a solution that successfully met the users' and Amazon's needs for a work tracking tool. The redesign took around 3 months to complete and involved a visit to the UK with a prototype I built in HTML, CSS, and JavaScript to test with users using real data.</p>
 	</div>
 	<aside class="project-meta grid-item-12/12 grid-item-5/12@md">
 		<table>
