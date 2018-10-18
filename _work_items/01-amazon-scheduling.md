@@ -8,8 +8,8 @@ tag: case-study
 
 <section class="grid grid-item-12/12">
 	<div class="grid-item-12/12 grid-item-7/12@md">
-		<p>In 2018 Amazon launched a last-mile delivery program powered by entrepreneurs. These new companies needed a way to manage their drivers' schedules and communicate their capacity and schedules to Amazon. The needs of each user (Amazon station operators, schedulers, and drivers) is often at odds with one another, forcing the team&mdash;consisting of a Product Manager, a developement team, and myself&mdash;to focus on how our tool could make meaningful strides to achieve the larger organization's goals.</p>
-		<p>The request was to move the daily and weekly offline process of accepting Amazon offered routes online in order to reduce errors and manual touch-points. We built a scrappy solution in 2017 to accomplish this task and began planning a more robust, user-centered solution to launch mid 2018.</p>
+		<p>In 2018 Amazon launched a last-mile delivery program powered by entrepreneurs. These new companies needed a way to manage their drivers' schedules and communicate their capacity and schedules to Amazon. The needs of each user (Amazon station operators, schedulers, and drivers) is often at odds with one another, forcing the team&mdash;consisting of a Product Manager, a development team, and myself&mdash;to focus on how our tool could make meaningful strides to achieve the larger organization's goals.
+		<p>The request was to move the daily and weekly offline process of accepting Amazon offered routes online in order to reduce errors and manual touch-points. We built a scrappy solution in 2017 to accomplish this task and began planning a more robust, user-centered solution to launch mid-2018.</p>
 	</div>
 	<aside class="project-meta grid-item-12/12 grid-item-5/12@md">
 		<table>
@@ -37,7 +37,7 @@ tag: case-study
 <section class="grid grid-item-12/12">
 	<div class="grid-item-12/12 grid-item-4/12@md">
 		<h2 class="mb-3">Field Research</h2>
-		<p>After launching the scrappy version, I worked with a UX Researcher to develop an online and offline survey to test usage and assumptions. I visited various sites across North America and UK to observe and interview users about their usage of the tool and how they schedule their drivers. I sent an online version of the survey to companies in locations I was unable to travel to.</p>
+		<p>After launching the scrappy version, I worked with a UX Researcher to develop an online and offline survey to test usage and assumptions. I visited various sites across North America and the UK to observe and interview users about their usage of the tool and how they schedule their drivers. I sent an online version of the survey to companies in locations I was unable to travel to.</p>
 		<p>Most companies were using complex, brittle, online spreadsheets to schedule their drivers mostly because the tools were free and synced across multiple site locations. Separately, users found the process of providing Amazon their roster of drivers repetitive, redundant, and of little value to them.</p>
 	</div>
 	<div class="grid-item-12/12 grid-item-8/12@md grid">
@@ -60,7 +60,7 @@ tag: case-study
 <section class="grid grid-item-12/12">
 	<div class="grid-item-12/12 grid-item-4/12@md">
 		<h2 class="mb-3">Brainstorming</h2>
-		<p>We kicked off a design sprint to begin defining long-term vision for the product. Using survey results and research findings, the Product Manager, development team, and myself brainstormed using "how might me". We formed a problem statement that encompassed our users' challenges and organized "how might we" statements into categories, and eventually into features, and then set out to conduct competitive analysis to see how some of these problems were already being solved.</p>
+		<p>We kicked off a design sprint to begin defining the long-term vision. Using survey results and research findings, the Product Manager, development team, and myself brainstormed using "how might me". We formed a problem statement that encompassed our users' challenges and organized "how might we" statements into categories, and eventually into features, and then set out to conduct a competitive analysis to see how some of these problems were already being solved.</p>
 	</div>
 	<div class="grid-item-12/12 grid-item-8/12@md grid">
 		<img class="grid-item-4/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-brainstorming-01.jpg" alt="">
@@ -95,7 +95,7 @@ tag: case-study
 <section class="grid grid-item-12/12">
 	<div class="grid-item-12/12 grid-item-4/12@md">
 		<h2 class="mb-3">Wireframe Exploration</h2>
-		<p>We then began sketching solutions that involved both desktop and mobile experiences, and both driver and scheduler participation in the process. After a full day of sketching and countless iterations, I decided on a direction. We built a presenation with storyboards that highlighted the happy path solution and quickly mocked up low-fidelity wireframes present to leadership.</p>
+		<p>We then began sketching solutions that involved both desktop and mobile experiences, and both driver and scheduler participation in the process. After a full day of sketching and countless iterations, I decided on a direction. We built a presentation with storyboards that highlighted the happy path solution and quickly mocked up low-fidelity wireframes present to leadership.</p>
 	</div>
 	<div class="grid-item-12/12 grid-item-8/12@md grid">
 		<img class="grid-item-4/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-01.png" alt="">
@@ -141,9 +141,9 @@ tag: case-study
 	<div class="grid-item-12/12 grid-item-4/12@md">
 		<h2 class="mb-3">Final Design</h2>
 		<p>After getting leadership buy-in I built a prototype using our team's pattern library, Sketch, and Invision and took to the field for testing. We also conducted multiple interviews at bi-weekly video conference meetings with schedulers.</p>
-		<p>User feedback was overall positive and helped us prioritize and add additional features we hadn't yet thought of. I made many changes based on their feedback&mdash;mostly with accompanying training text, help material, and empty states&mdash;as many were confused by the naming of certain processes and tasks.</p>
-		<p>The product team, development team, and myself developed a launch plan that released necessary features first, with additional screens and features coming out in phases. With each feature release we headed back into the field for research and to confirm future feature priority. The development team began connecting the prototype to the backend which the development team had been building throughout this process.</p>
-		<p>In Fall of 2018 we completed launch of the desktop scheduling experience which consisted of a weekly scheduling template, a weekly and daily scheduling view, the ability to schedule time-off, and the ability to filter each view based on various parameters. The team is now focusing on the driver facing mobile experience to receive and makes changes to schedules. This is being readied for mid-2019.</p>
+		<p>User feedback was overall positive and helped us prioritize and add additional features we hadn't yet thought of. I made many changes based on their feedback—mostly with accompanying training text, help material, and empty states—as many were confused by the naming of certain processes and tasks.</p>
+		<p>The product team, development team, and I developed a launch plan that released the necessary features first, with additional screens and features coming out in phases. With each feature release, we headed back into the field for research and to confirm future feature priority. The development team began connecting the prototype to the backend which the development team had been building throughout this process.</p>
+		<p>In Fall of 2018, we completed the launch of the desktop scheduling experience which consisted of a weekly scheduling template, a weekly and daily scheduling view, the ability to schedule time-off, and the ability to filter each view based on various parameters. The team is now focusing on the driver facing mobile experience to receive and makes changes to schedules. This is being readied for mid-2019.</p>
 	</div>
 	<div class="grid-item-12/12 grid-item-8/12@md grid">
 		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-final-01.png" alt="">
