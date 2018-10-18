@@ -14,7 +14,7 @@ weight: 1
 <div class="skill-container grid-item-12/12 grid-item-4/12@md">
   <h2 class="mb-3 mt-3">UX Design</h2>
   {% include svgs/ux-design.svg %}
-  <p>I define user flows of a product and deliver a meaningful user experiences through prototyping with the goal to fail fast and iterate.</p>
+  <p>I define user flows of a product and deliver meaningful user experiences through prototyping with the goal to fail fast and iterate.</p>
 </div>
 <div class="skill-container grid-item-12/12 grid-item-4/12@md">
   <h2 class="mb-3 mt-3">Development</h2>
