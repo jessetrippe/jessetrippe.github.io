@@ -153,3 +153,4 @@ tag: case-study
 		<img class="grid-item-12/12" src="{{ site.cdn }}/amazon-scheduling-final-05.png" alt="">
 	</div>
 </section>
+<img class="lazy" src="" data-src="image-to-lazy-load-1x.jpg" alt="I'm an image!">
