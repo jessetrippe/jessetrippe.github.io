@@ -2,7 +2,7 @@
 layout: default
 title: "Selected Work"
 permalink: /selected-work/
-weight: 2
+order: 2
 ---
 
 Selected Work

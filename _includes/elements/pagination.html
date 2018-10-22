@@ -1,0 +1,10 @@
+{% if page.previous.url %}
+  <a href="{{page.previous.url}}" class="mb-5 pagination-prev" title="Previous">{% include vectors/prev.svg %} <span class="pagination-text">Previous</span></a>
+{% else %}
+  <span aria-hidden="true" class="mb-5 pagination-prev is-disabled" title="Previous">{% include vectors/prev.svg %} <span class="pagination-text">Previous</span></span>
+{% endif %}
+{% if page.next.url %}
+  <a href="{{page.next.url}}" class="mb-5 pagination-next" title="Next"><span class="pagination-text">Next</span> {% include vectors/next.svg %}</a>
+{% else %}
+  <span aria-hidden="true" class="mb-5 pagination-next is-disabled" title="Next"><span class="pagination-text">Next</span> {% include vectors/next.svg %}</span>
+{% endif %}

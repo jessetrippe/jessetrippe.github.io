@@ -3,7 +3,7 @@ layout: default
 title: "About Me"
 description: "Who I am and how I got here."
 permalink: /about-me/
-weight: 3
+order: 3
 ---
 
 <div class="grid-item-12/12 grid-item-8/12@md">

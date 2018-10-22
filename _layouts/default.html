@@ -19,23 +19,19 @@ layout: compress
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
   <script>
-    WebFont.load({
-      google: {
-        families: ['IBM+Plex+Sans:400,500,700']
-      }
-    });
+    {% include scripts/webfont.js %}
   </script>
 
   <style>
-    {% include main.css %}
+    {% include styles/main.css %}
   </style>
 </head>
 
 <body class="{{ page.title | slugify }}">
   <nav class="site-nav bg-white">
-    {% include nav.html %}
+    {% include elements/nav.html %}
   </nav>
 
   <header class="site-header grid bg-white">
@@ -57,24 +53,30 @@ layout: compress
 
   {% if page.id %}
     <div class="pagination bg-white">
-      {% include pagination.html %}
+      {% include elements/pagination.html %}
     </div>
   {% endif %}
 
   <footer class="site-footer">
     <p>Let's talk.<br> <a href="mailto:jesse@jessetrippe.com">jesse@jessetrippe.com</a></p>
     <a href="https://linkedin.com/in/jessetrippe/">
-      {% include svgs/linkedin.svg %}
+      {% include vectors/linkedin.svg %}
     </a>
     <a href="https://www.instagram.com/jessetrippe/">
-      {% include svgs/instagram.svg %}
+      {% include vectors/instagram.svg %}
     </a>
     <a href="https://twitter.com/jessetrippe">
-      {% include svgs/twitter.svg %}
+      {% include vectors/twitter.svg %}
     </a>
   </footer>
 
-  <script>!function(e,t,a,n,c,o){e.GoogleAnalyticsObject=n,e[n]||(e[n]=function(){(e[n].q=e[n].q||[]).push(arguments)}),e[n].l=+new Date,c=t.createElement(a),o=t.getElementsByTagName(a)[0],c.src="https://www.google-analytics.com/analytics.js",o.parentNode.insertBefore(c,o)}(window,document,"script","ga"),ga("create","UA-54788171-1","auto"),ga("send","pageview");</script>
+  <script>
+    {% include scripts/lazyload.js %}
+  </script>
+
+  <script>
+    {% include scripts/google-analytics.js %}
+  </script>
 
 </body>
 </html>
