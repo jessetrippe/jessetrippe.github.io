@@ -1,9 +1,9 @@
 title: Jesse Trippe, Product and UX Designer
-cdn: test
+cdn: //jessetrippe-cdn-173419.appspot.com/portfolio/
 
 include: ['_pages']
 
-exclude: [presentation, sprout-social]
+exclude: [archive]
 
 plugins:
 - jekyll-autoprefixer
