@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Coyote My Tasks"
-description: "Case study of task management added to Coyote's TMS"
+description: "Case study of Coyote's task management dashboard"
 permalink: /coyote-my-tasks/
 tag: case-study
 ---
