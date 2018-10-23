@@ -7,7 +7,7 @@ permalink: /barack-obamas-tumblr/
 
 <section class="grid grid-item-12/12">
 	<div class="grid-item-12/12 grid-item-7/12@md">
-		<p>I joined the Barack Obama Reelection Campaign as a Front-End Developer. My main responsibilities included the creation and maintenance of donation forms. This included front-end form validation, error handling, embedded video, mobile layout considerations, A/B testing and constant modifications and troubleshooting. I was also solely in charge of the development of Barack Obama's Tumblr blog which required learning Tumblr's templating language as well as defining mobile breakpoints and layouts.</p>
+		<p>I joined the Barack Obama Reelection Campaign as a Front-End Developer. My main responsibilities included the creation and maintenance of donation forms. This included front-end form validation, error handling, embedded video, mobile layout considerations, A/B testing, and constant modifications and troubleshooting. I was also solely in charge of the development of Barack Obama's Tumblr blog which required learning Tumblr's templating language as well as defining mobile breakpoints and layouts.</p>
 	</div>
 	<aside class="project-meta grid-item-12/12 grid-item-5/12@md">
 		<table>
@@ -29,9 +29,9 @@ permalink: /barack-obamas-tumblr/
 					<td>September 2011</td>
 				</tr>
 				<tr>
-					<td colspan="2">
-						<a class="button button--inverted push-top" href="http://barackobama.tumblr.com">Visit the site</a>
-					</td>
+					<th colspan="2" class="text-left pt-3">
+						<a class="button" href="http://barackobama.tumblr.com">Visit the site</a>
+					</th>
 				</tr>
 			</tbody>
 		</table>

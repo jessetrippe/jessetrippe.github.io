@@ -442,6 +442,7 @@ section + section {
   .site-footer > a {
     margin-left: 1rem;
   }
+
   .skill-container + .skill-container {
     margin-top: 0;
   }

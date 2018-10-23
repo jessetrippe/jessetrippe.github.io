@@ -7,7 +7,7 @@ permalink: /ohboyy/
 
 <section class="grid grid-item-12/12">
 	<div class="grid-item-12/12 grid-item-7/12@md">
-		<p>A friend and I started making killer homemade t-shirts. People always asked where we bought them and we morphed from there into a design/development company, small website with e-commerce functionality, logo and brand development, and a core product we love.</p>
+		<p>A friend and I started making killer homemade t-shirts. People always asked where we bought them and we morphed from there into a design/development company, a small website with e-commerce functionality, logo and brand development, and a core product we love.</p>
 	</div>
 	<aside class="project-meta grid-item-12/12 grid-item-5/12@md">
 		<table>

@@ -29,8 +29,8 @@ permalink: /bauer-latoza-studio/
 					<td>March 2011</td>
 				</tr>
 				<tr>
-					<th colspan="2" class="text-left">
-						<a class="button mt-3" href="http://www.bauerlatozastudio.com">Visit the site</a>
+					<th colspan="2" class="text-left pt-3">
+						<a class="button" href="http://www.bauerlatozastudio.com">Visit the site</a>
 					</th>
 				</tr>
 			</tbody>
