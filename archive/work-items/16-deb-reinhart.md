@@ -33,7 +33,7 @@ permalink: /deb-reinhart/
 	</aside>
 </section>
 <section class="grid grid-item-12/12">
-		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/deb-reinhart-1.png" alt="Deb Reinhart Screenshot 1">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/deb-reinhart-2.png" alt="Deb Reinhart Screenshot 2">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/deb-reinhart-3.png" alt="Deb Reinhart Screenshot 3">
+		<img class="grid-item-12/12" src="{{ site.cdn }}/deb-reinhart-1.png" alt="Deb Reinhart Screenshot 1">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/deb-reinhart-2.png" alt="Deb Reinhart Screenshot 2">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/deb-reinhart-3.png" alt="Deb Reinhart Screenshot 3">
 </section>

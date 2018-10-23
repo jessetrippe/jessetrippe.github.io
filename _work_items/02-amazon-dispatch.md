@@ -40,20 +40,20 @@ tag: case-study
 		<p>In order to define our users and their needs for this tool, a Product Manager and I traveled to different delivery stations to observe users (painfully) completing dispatching tasks. We also had meetings with Amazon operations teams to understand their needs and then developed a timeline and scope for the project. I wireframed a handful of ideas, and, along with the Product Manager, decided on a design approach to move forward with. I then took these wireframes to a local delivery station to test my assumptions and get feedback.</p>
 	</div>
 	<div class="grid-item-12/12 grid-item-8/12@md grid">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-01.png" alt="Amazon Dispatch Wireframe 1">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-02.png" alt="Amazon Dispatch Wireframe 2">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-03.png" alt="Amazon Dispatch Wireframe 3">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-04.png" alt="Amazon Dispatch Wireframe 4">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-05.png" alt="Amazon Dispatch Wireframe 5">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-06.png" alt="Amazon Dispatch Wireframe 6">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-07.png" alt="Amazon Dispatch Wireframe 7">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-08.png" alt="Amazon Dispatch Wireframe 8">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-09.png" alt="Amazon Dispatch Wireframe 9">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-10.png" alt="Amazon Dispatch Wireframe 10">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-11.png" alt="Amazon Dispatch Wireframe 11">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-12.png" alt="Amazon Dispatch Wireframe 12">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-13.png" alt="Amazon Dispatch Wireframe 13a">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-14.png" alt="Amazon Dispatch Wireframe 13b">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/amazon-dispatch-wireframe-01.png" alt="Amazon Dispatch Wireframe 1">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/amazon-dispatch-wireframe-02.png" alt="Amazon Dispatch Wireframe 2">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/amazon-dispatch-wireframe-03.png" alt="Amazon Dispatch Wireframe 3">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/amazon-dispatch-wireframe-04.png" alt="Amazon Dispatch Wireframe 4">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/amazon-dispatch-wireframe-05.png" alt="Amazon Dispatch Wireframe 5">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/amazon-dispatch-wireframe-06.png" alt="Amazon Dispatch Wireframe 6">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/amazon-dispatch-wireframe-07.png" alt="Amazon Dispatch Wireframe 7">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/amazon-dispatch-wireframe-08.png" alt="Amazon Dispatch Wireframe 8">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/amazon-dispatch-wireframe-09.png" alt="Amazon Dispatch Wireframe 9">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/amazon-dispatch-wireframe-10.png" alt="Amazon Dispatch Wireframe 10">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/amazon-dispatch-wireframe-11.png" alt="Amazon Dispatch Wireframe 11">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/amazon-dispatch-wireframe-12.png" alt="Amazon Dispatch Wireframe 12">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/amazon-dispatch-wireframe-13.png" alt="Amazon Dispatch Wireframe 13a">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/amazon-dispatch-wireframe-14.png" alt="Amazon Dispatch Wireframe 13b">
 	</div>
 </section>
 <section class="grid grid-item-12/12">
@@ -62,9 +62,9 @@ tag: case-study
 		<p>The final tool allows dispatchers to see where routes are, where drivers are, and quickly spot and triage exceptions. This enables 3rd-party companies to establish and more fully optimize their operations. The final designs were taken to a delivery station and presented to users for further feedback. This feedback influenced changes that were either implemented into the product or added to a future feature list.</p>
 	</div>
 	<div class="grid-item-12/12 grid-item-8/12@md grid">
-		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-01.png" alt="Amazon Dispatch Final Design 1">
-		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-02.png" alt="Amazon Dispatch Final Design 2">
-		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-03.png" alt="Amazon Dispatch Final Design 3">
-		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-04.png" alt="Amazon Dispatch Final Design 4">
+		<img class="grid-item-12/12" src="{{ site.cdn }}/amazon-dispatch-01.png" alt="Amazon Dispatch Final Design 1">
+		<img class="grid-item-12/12" src="{{ site.cdn }}/amazon-dispatch-02.png" alt="Amazon Dispatch Final Design 2">
+		<img class="grid-item-12/12" src="{{ site.cdn }}/amazon-dispatch-03.png" alt="Amazon Dispatch Final Design 3">
+		<img class="grid-item-12/12" src="{{ site.cdn }}/amazon-dispatch-04.png" alt="Amazon Dispatch Final Design 4">
 	</div>
 </section>

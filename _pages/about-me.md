@@ -17,5 +17,5 @@ order: 3
 </div>
 
 <div class="grid-item-12/12 grid-item-4/12@md">
-  <img src="//jessetrippe-cdn-173419.appspot.com/portfolio/jesse.jpg" alt="Jesse Trippe">
+  <img src="{{ site.cdn }}/jesse.jpg" alt="Jesse Trippe">
 </div>

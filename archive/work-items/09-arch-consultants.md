@@ -33,7 +33,7 @@ permalink: /arch-consultants/
 	</aside>
 </section>
 <section class="grid grid-item-12/12">
-		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/archltd-1.png" alt="ARCH Consultants Screenshot 1">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/archltd-2.png" alt="ARCH Consultants Screenshot 2">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/archltd-3.png" alt="ARCH Consultants Screenshot 2">
+		<img class="grid-item-12/12" src="{{ site.cdn }}/archltd-1.png" alt="ARCH Consultants Screenshot 1">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/archltd-2.png" alt="ARCH Consultants Screenshot 2">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/archltd-3.png" alt="ARCH Consultants Screenshot 2">
 </section>

@@ -41,10 +41,10 @@ tag: case-study
 		<p>After minimal user testing, we found the navigation hard to use and not very discoverable. We talked through the problem more and came to the conclusion that gambling on the design of the navigation was too risky. Instead, we built a new tab called Visibility to show larger trends of a customer's freight network. The charts and map on this page made for a great demo.</p>
 	</div>
 	<div class="grid-item-12/12 grid-item-8/12@md grid">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/howl-sketch-1.jpg" alt="Howl Sketch 1">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/howl-sketch-2.jpg" alt="Howl Sketch 2">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/howl-sketch-3.jpg" alt="Howl Sketch 3">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/howl-sketch-4.jpg" alt="Howl Sketch 4">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/howl-sketch-1.jpg" alt="Howl Sketch 1">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/howl-sketch-2.jpg" alt="Howl Sketch 2">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/howl-sketch-3.jpg" alt="Howl Sketch 3">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/howl-sketch-4.jpg" alt="Howl Sketch 4">
 	</div>
 </section>
 <section class="grid grid-item-12/12">
@@ -54,10 +54,10 @@ tag: case-study
 		<p>While the development team started building out the backend services and the framework in Ionic and AngularJS, I built a working prototype with actual content and started testing it with users. Eventually, this code was merged with the development team's framework, as it was also built on Ionic, and is now in the production version of the app. During this round of user testing, I discovered our menus were way too deep for external customer users and vital load information was far too many taps away for it to be useful. I modified the prototype and final design to feature contact information and primary load information directly on the load details screen.</p>
 	</div>
 	<div class="grid-item-12/12 grid-item-8/12@md grid">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/howl-moqup-1.png" alt="Howl Moqup 1">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/howl-moqup-2.png" alt="Howl Moqup 2">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/howl-moqup-3.png" alt="Howl Moqup 3">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/howl-moqup-4.png" alt="Howl Moqup 4">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/howl-moqup-1.png" alt="Howl Moqup 1">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/howl-moqup-2.png" alt="Howl Moqup 2">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/howl-moqup-3.png" alt="Howl Moqup 3">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/howl-moqup-4.png" alt="Howl Moqup 4">
 	</div>
 </section>
 <section class="grid grid-item-12/12">
@@ -66,9 +66,9 @@ tag: case-study
 		<p>The final app features Coyote's signature green along with bright charts, graphs, and maps. It features a familiar, easily discoverable menu and each section of the app has been simplified to eliminate unnecessary depth in the navigation.</p>
 	</div>
 	<div class="grid-item-12/12 grid-item-8/12@md grid">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/howl-1.png" alt="Howl Final Design 1">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/howl-2.png" alt="Howl Final Design 2">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/howl-3.png" alt="Howl Final Design 3">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/howl-4.png" alt="Howl Final Design 4">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/howl-1.png" alt="Howl Final Design 1">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/howl-2.png" alt="Howl Final Design 2">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/howl-3.png" alt="Howl Final Design 3">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/howl-4.png" alt="Howl Final Design 4">
 	</div>
 </section>

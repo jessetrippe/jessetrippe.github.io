@@ -33,7 +33,7 @@ permalink: /grillo-group/
 	</aside>
 </section>
 <section class="grid grid-item-12/12">
-		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/grillo-1.png" alt="Grillo Group Screenshot 1">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/grillo-2.png" alt="Grillo Group Screenshot 2">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/grillo-3.png" alt="Grillo Group Screenshot 3">
+		<img class="grid-item-12/12" src="{{ site.cdn }}/grillo-1.png" alt="Grillo Group Screenshot 1">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/grillo-2.png" alt="Grillo Group Screenshot 2">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/grillo-3.png" alt="Grillo Group Screenshot 3">
 </section>

@@ -40,7 +40,7 @@ tag: case-study
 		<p>The paper and pen phase of this project was quick and used to explore a few solutions to the problem. The team met and decided on one design idea. Requirements gathering was easy as most of the tasks were already defined in other areas of the app. The hard part here was deciding when a task became important enough to warrant a spot on this page as there are many tasks required by any given carrier user on our website.</p>
 	</div>
 	<div class="grid-item-12/12 grid-item-8/12@md grid">
-		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/my-tasks-sketch-1.jpg" alt="My Tasks Sketch 1">
+		<img class="grid-item-12/12" src="{{ site.cdn }}/my-tasks-sketch-1.jpg" alt="My Tasks Sketch 1">
 	</div>
 </section>
 <section class="grid grid-item-12/12">
@@ -49,9 +49,9 @@ tag: case-study
 		<p>After putting together wireframes of our solution and running user tests with carrier and the reps that manually track them, we quickly found a problem with our solution—while gathering all the tasks into one, easy to use interface solved half the problem, sending them to other areas of the site to complete the task slowed them down. So we decided to implement an actionable sidebar to complete each task without having to leave this page.</p>
 	</div>
 	<div class="grid-item-12/12 grid-item-8/12@md grid">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/my-tasks-moqup-0.png" alt="My Tasks Moqup 1">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/my-tasks-moqup-1.png" alt="My Tasks Moqup 2">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/my-tasks-moqup-2.png" alt="My Tasks Moqup 3">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/my-tasks-moqup-0.png" alt="My Tasks Moqup 1">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/my-tasks-moqup-1.png" alt="My Tasks Moqup 2">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/my-tasks-moqup-2.png" alt="My Tasks Moqup 3">
 	</div>
 </section>
 <section class="grid grid-item-12/12">
@@ -61,6 +61,6 @@ tag: case-study
 		<p>With the release of each phase, the amount of self-tracking increased, eventually surpassing our 40% goal. Other parts of the business have seen this feature and are now developing their own "My Tasks" pages to help solve similar problems.</p>
 	</div>
 	<div class="grid-item-12/12 grid-item-8/12@md grid">
-		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/my-tasks-1.png" alt="My Tasks Final Design">
+		<img class="grid-item-12/12" src="{{ site.cdn }}/my-tasks-1.png" alt="My Tasks Final Design">
 	</div>
 </section>

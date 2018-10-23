@@ -33,11 +33,11 @@ permalink: /northwind-farms/
 	</aside>
 </section>
 <section class="grid grid-item-12/12">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-1.png" alt="Northwind Identity Casebook 1">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-2.png" alt="Northwind Identity Casebook 2">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-3.png" alt="Northwind Identity Casebook 4">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-4.png" alt="Northwind Identity Casebook 3">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-5.png" alt="Northwind Identity Casebook 5">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-6.png" alt="Northwind Identity Casebook 6">
-		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/northwind-7.png" alt="Northwind Identity Business Cards">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/northwind-1.png" alt="Northwind Identity Casebook 1">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/northwind-2.png" alt="Northwind Identity Casebook 2">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/northwind-3.png" alt="Northwind Identity Casebook 4">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/northwind-4.png" alt="Northwind Identity Casebook 3">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/northwind-5.png" alt="Northwind Identity Casebook 5">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/northwind-6.png" alt="Northwind Identity Casebook 6">
+		<img class="grid-item-12/12" src="{{ site.cdn }}/northwind-7.png" alt="Northwind Identity Business Cards">
 </section>

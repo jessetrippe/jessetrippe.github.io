@@ -33,7 +33,7 @@ permalink: /green-bridge-white-house/
 	</aside>
 </section>
 <section class="grid grid-item-12/12">
-		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/gbwh-1.png" alt="Green Bridge White House Screenshot">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/gbwh-2.png" alt="Green Bridge White House Business Cards">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/gbwh-3.png" alt="Green Bridge White House Business Cards">
+		<img class="grid-item-12/12" src="{{ site.cdn }}/gbwh-1.png" alt="Green Bridge White House Screenshot">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/gbwh-2.png" alt="Green Bridge White House Business Cards">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/gbwh-3.png" alt="Green Bridge White House Business Cards">
 </section>

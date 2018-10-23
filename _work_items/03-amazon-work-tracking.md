@@ -41,11 +41,11 @@ tag: case-study
 		<p>I wireframed layouts that organized the collection of work in different ways and then reached out to the same beta testers for feedback. I used the wireframes to ensure the right information was being displayed to complete the task without overwhelming them with unnecessary stats and metrics.</p>
 	</div>
 	<div class="grid-item-12/12 grid-item-8/12@md grid">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-work-tracking-wireframe-01.png" alt="Amazon Work Tracking Wireframe 1">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-work-tracking-wireframe-02.png" alt="Amazon Work Tracking Wireframe 2">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-work-tracking-wireframe-03.png" alt="Amazon Work Tracking Wireframe 5">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-work-tracking-wireframe-04.png" alt="Amazon Work Tracking Wireframe 3">
-		<img class="grid-item-6/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-work-tracking-wireframe-05.png" alt="Amazon Work Tracking Wireframe 4">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/amazon-work-tracking-wireframe-01.png" alt="Amazon Work Tracking Wireframe 1">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/amazon-work-tracking-wireframe-02.png" alt="Amazon Work Tracking Wireframe 2">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/amazon-work-tracking-wireframe-03.png" alt="Amazon Work Tracking Wireframe 5">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/amazon-work-tracking-wireframe-04.png" alt="Amazon Work Tracking Wireframe 3">
+		<img class="grid-item-6/12" src="{{ site.cdn }}/amazon-work-tracking-wireframe-05.png" alt="Amazon Work Tracking Wireframe 4">
 	</div>
 </section>
 <section class="grid grid-item-12/12">
@@ -54,8 +54,8 @@ tag: case-study
 		<p>Once the wireframe and overall approach were settled, we divided the design work between both designers and built pixel-perfect designs while syncing often. Because of the failures of the initial launch, after the design was somewhat complete, I built a working prototype using actual data, HTML, CSS, and JavaScript and traveled to the UK to test at the three beta stations. The new tool succeeded where the previous failed and also proved far more efficient. We collected feedback and made changes to many of the smaller details but overall the prototype and design were successful.</p>
 	</div>
 	<div class="grid-item-12/12 grid-item-8/12@md grid">
-		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-work-tracking-01.png" alt="Amazon Work Tracking Final Design 1">
-		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-work-tracking-02.png" alt="Amazon Work Tracking Final Design 2">
-		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/amazon-work-tracking-03.png" alt="Amazon Work Tracking Final Design 3">
+		<img class="grid-item-12/12" src="{{ site.cdn }}/amazon-work-tracking-01.png" alt="Amazon Work Tracking Final Design 1">
+		<img class="grid-item-12/12" src="{{ site.cdn }}/amazon-work-tracking-02.png" alt="Amazon Work Tracking Final Design 2">
+		<img class="grid-item-12/12" src="{{ site.cdn }}/amazon-work-tracking-03.png" alt="Amazon Work Tracking Final Design 3">
 	</div>
 </section>

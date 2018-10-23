@@ -43,11 +43,11 @@ tag: case-study
 		<p>On top of design tweaks, we added an email only sign-up form to allow non-tech visitors to receive organization updates via email. This created a database of visitors that could be vetted and, in some cases with the right work experience, converted into volunteers. It also created a pool of non-tech volunteers that could be used for more traditional campaigning or fundraising.</p>
 	</div>
 	<div class="grid-item-12/12 grid-item-8/12@md grid">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/tfc-wireframe-01.png" alt="Tech for Campaigns Phase One Wireframes 1">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/tfc-wireframe-03.png" alt="Tech for Campaigns Phase One Wireframes 2">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/tfc-wireframe-04.png" alt="Tech for Campaigns Phase One Wireframes 3">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/tfc-wireframe-03.png" alt="Tech for Campaigns Phase One Wireframes 4">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/tfc-wireframe-02.png" alt="Tech for Campaigns Phase One Wireframes 5">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/tfc-wireframe-01.png" alt="Tech for Campaigns Phase One Wireframes 1">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/tfc-wireframe-03.png" alt="Tech for Campaigns Phase One Wireframes 2">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/tfc-wireframe-04.png" alt="Tech for Campaigns Phase One Wireframes 3">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/tfc-wireframe-03.png" alt="Tech for Campaigns Phase One Wireframes 4">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/tfc-wireframe-02.png" alt="Tech for Campaigns Phase One Wireframes 5">
 	</div>
 </section>
 <section class="grid grid-item-12/12">
@@ -56,9 +56,9 @@ tag: case-study
 		<p>After getting approval of the wireframes and basic design direction I moved into Photoshop and Sketch to explore designs and ideas further. We settled on a final design for approval and implementation. We tested the new design and found a 13% increase in volunteer form submissions. We also added a significant amount of email-only users that will hopefully convert to volunteers in the future.</p>
 	</div>
 	<div class="grid-item-12/12 grid-item-8/12@md grid">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/tfc-01.png" alt="Tech for Campaigns Phase One 1">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/tfc-02.png" alt="Tech for Campaigns Phase One 2">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/tfc-03.png" alt="Tech for Campaigns Phase One 3">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/tfc-01.png" alt="Tech for Campaigns Phase One 1">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/tfc-02.png" alt="Tech for Campaigns Phase One 2">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/tfc-03.png" alt="Tech for Campaigns Phase One 3">
 	</div>
 </section>
 <section class="grid grid-item-12/12">
@@ -68,10 +68,10 @@ tag: case-study
 		<p>I thoughtfully split the form into four steps, designed a status bar, and added placeholders for intro text and icons. After a round of feedback from my team, I sought approval from Tech for Campaigns' founders and moved into the final design phase.</p>
 	</div>
 	<div class="grid-item-12/12 grid-item-8/12@md grid">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/tfc-two-wireframe-01.png" alt="Tech for Campaigns Phase Two Wireframes 1">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/tfc-two-wireframe-02.png" alt="Tech for Campaigns Phase Two Wireframes 2">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/tfc-two-wireframe-03.png" alt="Tech for Campaigns Phase Two Wireframes 3">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/tfc-two-wireframe-04.png" alt="Tech for Campaigns Phase Two Wireframes 4">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/tfc-two-wireframe-01.png" alt="Tech for Campaigns Phase Two Wireframes 1">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/tfc-two-wireframe-02.png" alt="Tech for Campaigns Phase Two Wireframes 2">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/tfc-two-wireframe-03.png" alt="Tech for Campaigns Phase Two Wireframes 3">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/tfc-two-wireframe-04.png" alt="Tech for Campaigns Phase Two Wireframes 4">
 	</div>
 </section>
 <section class="grid grid-item-12/12">
@@ -81,11 +81,11 @@ tag: case-study
 		<p>We're currently monitoring success metrics to ensure conversion increase and continue improving conversion. So far we've increased volunteer sign-ups over unique homepage visitors from 8% to 33%&mdash;a huge success!</p>
 	</div>
 	<div class="grid-item-12/12 grid-item-8/12@md grid">
-		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/tfc-two-01.png" alt="Tech for Campaigns Phase Two 1">
-		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/tfc-two-02.png" alt="Tech for Campaigns Phase Two 2">
-		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/tfc-two-03.png" alt="Tech for Campaigns Phase Two 3">
-		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/tfc-two-04.png" alt="Tech for Campaigns Phase Two 4">
-		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/tfc-two-05.png" alt="Tech for Campaigns Phase Two 5">
+		<img class="grid-item-12/12" src="{{ site.cdn }}/tfc-two-01.png" alt="Tech for Campaigns Phase Two 1">
+		<img class="grid-item-12/12" src="{{ site.cdn }}/tfc-two-02.png" alt="Tech for Campaigns Phase Two 2">
+		<img class="grid-item-12/12" src="{{ site.cdn }}/tfc-two-03.png" alt="Tech for Campaigns Phase Two 3">
+		<img class="grid-item-12/12" src="{{ site.cdn }}/tfc-two-04.png" alt="Tech for Campaigns Phase Two 4">
+		<img class="grid-item-12/12" src="{{ site.cdn }}/tfc-two-05.png" alt="Tech for Campaigns Phase Two 5">
 	</div>
 </section>
 

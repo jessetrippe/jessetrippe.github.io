@@ -33,8 +33,8 @@ permalink: /ohboyy/
 	</aside>
 </section>
 <section class="grid grid-item-12/12">
-		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/ohboyy-1.png" alt="OhBoyy Screenshot 1">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/ohboyy-4.jpg" alt="OhBoyy Packaging">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/ohboyy-2.png" alt="OhBoyy Screenshot 2">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/ohboyy-3.png" alt="OhBoyy Wordmark">
+		<img class="grid-item-12/12" src="{{ site.cdn }}/ohboyy-1.png" alt="OhBoyy Screenshot 1">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/ohboyy-4.jpg" alt="OhBoyy Packaging">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/ohboyy-2.png" alt="OhBoyy Screenshot 2">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/ohboyy-3.png" alt="OhBoyy Wordmark">
 </section>

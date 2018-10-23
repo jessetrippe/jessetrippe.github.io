@@ -33,8 +33,8 @@ permalink: /carr-cialdella/
 	</aside>
 </section>
 <section class="grid grid-item-12/12">
-		<img class="grid-item-12/12" src="//jessetrippe-cdn-173419.appspot.com/portfolio/carrcialdella-1.png" alt="Carr Cialdella Screenshot 1">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/carrcialdella-2.png" alt="Carr Cialdella Screenshot 2">
-		<img class="grid-item-12/12 grid-item-6/12@md" src="//jessetrippe-cdn-173419.appspot.com/portfolio/carrcialdella-3.png" alt="Carr Cialdella Screenshot 3">
+		<img class="grid-item-12/12" src="{{ site.cdn }}/carrcialdella-1.png" alt="Carr Cialdella Screenshot 1">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/carrcialdella-2.png" alt="Carr Cialdella Screenshot 2">
+		<img class="grid-item-12/12 grid-item-6/12@md" src="{{ site.cdn }}/carrcialdella-3.png" alt="Carr Cialdella Screenshot 3">
 	</div>
 </section>
