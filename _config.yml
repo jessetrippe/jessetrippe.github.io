@@ -3,7 +3,7 @@ cdn: //jessetrippe-cdn-173419.appspot.com/portfolio
 
 include: ['_pages']
 
-exclude: [archive]
+# exclude: [archive]
 
 plugins:
 - jekyll-autoprefixer
