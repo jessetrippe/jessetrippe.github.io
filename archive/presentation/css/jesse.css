@@ -61,6 +61,13 @@ small {
 	white-space: nowrap;
 }
 
+.grid,
+.grid *,
+.grid *:before,
+.grid *:after {
+  box-sizing: border-box;
+}
+
 /* Grid */
 .grid:after {
   clear: both;
@@ -207,5 +214,5 @@ small {
 .reveal h6,
 .reveal {
   color: #213444;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
