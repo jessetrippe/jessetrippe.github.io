@@ -140,6 +140,25 @@ tag: case-study
 </section>
 <section class="grid grid-item-12/12">
 	<div class="grid-item-12/12 grid-item-4/12@md">
+		<h2 class="mb-3">Component Design</h2>
+		<p>After getting leadership buy-in I started working on the final design and iterating on each of the components. The design team already had an established pattern library but many of the components weren't addressed (e.g. we had an input form date-picker but not a browsable calendar, we had basic tables but nothing that could represent work within a cell, etc.).</p>
+		<p>For the calendar, I started with the pattern library's date-picker and began iterating. The new calendar had to show week number, day selected, week selected, and notifications or tasks on a given day. At first, I created a few versions and took them into the field. I tried to stick closely to the large, blockie, bright style of the rest of the pattern library which the design team was in favor of with colors representing different severity of tasks.</p>
+		<p>After taking it to the field, discussing the tasks required on each day with users, we eliminated the severity and stuck with an on/off for tasks. I saw the calendar was taking up unproportional amount of space so I played with simply using an input field. This ultimately wouldn't work as the days needed communicate tasks.</p>
+		<p>I interviewed a hanful of users to discuss the importance of the week number. All of the users I interviewed said the date picker provided little to no importance so I removed it. After removing it the space seemed to work but the calendar's bright color blocks were still drawing too much attention on an already busy page. I began creating a new version that dialed down the size and brightness of our indicators. I did some scrappy user-testing in the office and users were still able to tell which days needed attention and which did not. I built a working prototype in CodePen for the engineering team and stayed close while they built it.</p>
+	</div>
+	<div class="grid-item-12/12 grid-item-8/12@md grid">
+		<img data-ignore-src="{{ site.cdn }}/blank.gif" class="grid-item-6/12" src="{{ site.cdn }}/amazon-scheduling-calendar-picker.png" alt="Amazon Scheduling 1">
+		<img data-ignore-src="{{ site.cdn }}/blank.gif" class="grid-item-6/12" src="{{ site.cdn }}/amazon-scheduling-calendar-color-block.png" alt="Amazon Scheduling 2">
+		<img data-ignore-src="{{ site.cdn }}/blank.gif" class="grid-item-6/12" src="{{ site.cdn }}/amazon-scheduling-calendar-in-context.png" alt="Amazon Scheduling 3">
+		<img data-ignore-src="{{ site.cdn }}/blank.gif" class="grid-item-6/12" src="{{ site.cdn }}/amazon-scheduling-calendar-on-off.png" alt="Amazon Scheduling 4">
+		<img data-ignore-src="{{ site.cdn }}/blank.gif" class="grid-item-6/12" src="{{ site.cdn }}/amazon-scheduling-calendar-no-week.png" alt="Amazon Scheduling 5">
+		<img data-ignore-src="{{ site.cdn }}/blank.gif" class="grid-item-6/12" src="{{ site.cdn }}/amazon-scheduling-calendar-no-date-picker.png" alt="Amazon Scheduling 5">
+		<img data-ignore-src="{{ site.cdn }}/blank.gif" class="grid-item-6/12" src="{{ site.cdn }}/amazon-scheduling-calendar-final.png" alt="Amazon Scheduling 5">
+		<img data-ignore-src="{{ site.cdn }}/blank.gif" class="grid-item-12/12" src="{{ site.cdn }}/amazon-scheduling-outstanding-iteration.png" alt="Amazon Scheduling 5">
+	</div>
+</section>
+<section class="grid grid-item-12/12">
+	<div class="grid-item-12/12 grid-item-4/12@md">
 		<h2 class="mb-3">Final Design</h2>
 		<p>After getting leadership buy-in I built a prototype using our team's pattern library, Sketch, and Invision and took to the field for testing. We also conducted multiple interviews at bi-weekly video conference meetings with schedulers.</p>
 		<p>User feedback was overall positive and helped us prioritize and add additional features we hadn't yet thought of. I made many changes based on their feedback—mostly with accompanying training text, help material, and empty states—as many were confused by the naming of certain processes and tasks.</p>
