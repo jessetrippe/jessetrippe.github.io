@@ -28,6 +28,11 @@ permalink: /shuffl/
 					<th>Date</th>
 					<td>February 2019</td>
 				</tr>
+				<tr>
+					<th colspan="2" class="text-left pt-3">
+						<a class="button" href="https://shuffllunch.com/">Visit the site</a>
+					</th>
+				</tr>
 			</tbody>
 		</table>
 	</aside>
