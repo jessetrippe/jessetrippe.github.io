@@ -4,3 +4,4 @@ _site
 amazon
 boarding-pass
 *.scssc
+.DS_Store
