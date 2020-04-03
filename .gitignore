@@ -5,3 +5,5 @@ amazon
 boarding-pass
 *.scssc
 .DS_Store
+Gemfile.lock
+Gemfile
