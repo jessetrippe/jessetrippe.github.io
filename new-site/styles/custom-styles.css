@@ -1,4 +1,196 @@
+/* Front matter is necessary for Jekyll */
 
-.test {
-	background: blue;
+#avatar {
+  mix-blend-mode: multiply;
+  -webkit-filter: grayscale(100%) contrast(1);
+          filter: grayscale(100%) contrast(1);
+  transition: all 1s;
+}
+
+#avatar:hover {
+  mix-blend-mode: initial;
+  -webkit-filter: initial;
+          filter: initial;
+}
+
+.has-modal-full-viewport {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.has-modal-full-viewport body {
+  height: 100%;
+  overflow: hidden;
+}
+
+.work-item-content section + section {
+  margin-top: 10rem;
+}
+
+p + p,
+h2 + p {
+  margin-top: 1.5rem;
+}
+
+.filter-shadow {
+  -webkit-filter: drop-shadow(0 1px 1px rgba(0,0,0,.3));
+          filter: drop-shadow(0 1px 1px rgba(0,0,0,.3));
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1280px) {
+}
+
+html {
+  background: #FF01FB;
+  color: #FFFEFF;
+  border-top: solid 1rem #FF01FB;
+  border-bottom: solid 1rem #FF01FB;
+}
+
+body {
+  background: #000300;
+}
+
+.button-ghost {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #FF01FB;
+  color: #FF01FB;
+}
+
+.button-ghost:hover {
+  background: #FF01FB;
+  color: #000300;
+}
+
+.cerulean {
+  color: #02A9EA;
+}
+
+.text-link {
+  color: #FFE7FE;
+}
+
+.text-link:hover {
+  color: #FFB9FD;
+}
+
+.case-study {
+  border-radius: 4px;
+  background: hsl(301, 99%, 20%);
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0 .3rem;
+  font-size: 1rem;
+  color: #FFD0FE;
+  display: inline-block;
+  letter-spacing: 0;
+}
+
+.work-items button {
+  border: 0;
+  position: relative;
+}
+
+.work-items button:hover {
+  transform: scale(1.05);
+  z-index: 10;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+			    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.work-items button:nth-child(5) {
+  background-color: #000000
+}
+
+.work-items button:nth-child(3) {
+  background-color: #0B000B
+}
+
+.work-items button:nth-child(6) {
+  background-color: #1B001A
+}
+
+.work-items button:nth-child(7) {
+  background-color: #200120
+}
+
+.work-items button:nth-child(8) {
+  background-color: #140113
+}
+
+.work-items button:nth-chi) {
+  background-color: #190118
+}
+
+.work-items button:nth-child(10) {
+  background-color: #140014
+}
+
+.work-items button:nth-child(15) {
+  background-color: #2A002A
+}
+
+.work-items button:nth-child(14) {
+  background-color: #190019
+}
+
+.work-items button:nth-child(13) {
+  background-color: #000000
+}
+
+.work-items button:nth-child(11) {
+  background-color: #0B000B
+}
+
+.work-items button:nth-child(16) {
+  background-color: #100010
+}
+
+.work-items button:nth-child(17) {
+  background-color: #150015
+}
+
+.work-items button:nth-child(18) {
+  background-color: #1B001A
+}
+
+.work-items button:nth-child(19) {
+  background-color: #200120
+}
+
+.work-items button:nth-child(20) {
+  background-color: #260125
+}
+
+.work-items button:nth-child(1) {
+  background-color: #190118
+}
+
+.work-items button:nth-child(2) {
+  background-color: #140014
+}
+
+.work-items button:nth-child(12) {
+  background-color: #1f001f
+}
+
+.work-items button:nth-child(14) {
+  background-color: #190019
+}
+
+.work-items button:nth-child(4) {
+  background-color: #190019
+}
+
+.work-items button {
+  background: linear-gradient(145deg, #190019 0%, #000 100%);
 }
