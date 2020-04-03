@@ -1,0 +1,48 @@
+       __                       ______     _                
+      / /__  _____________     /_  __/____(_)___  ____  ___ 
+ __  / / _ \/ ___/ ___/ _ \     / / / ___/ / __ \/ __ \/ _ \
+/ /_/ /  __(__  |__  )  __/    / / / /  / / /_/ / /_/ /  __/
+\____/\___/____/____/\___/    /_/ /_/  /_/ .___/ .___/\___/ 
+                                        /_/   /_/
+
+The person, technology & tools behind this site.
+
+
+TECHNOLOGY
+----------
+
+SUIT CSS - Style tools for UI components
+suitcss.github.io
+
+Jekyll - Static site generator
+jekyllrb.com
+
+Sass - CSS pre-processor
+sass-lang.com
+
+Gulp - Task automation
+gulpjs.com
+
+GitHub - Code collaboration & hosting
+github.com
+
+
+TOOLS
+-----
+
+Sublime Text - Text editor
+sublimetext.com
+
+Sketch - Graphics editor
+sketchapp.com
+
+Illustrator - Graphics editor
+adobe.com
+
+
+FONTS
+-----
+
+Roboto
+by Christian Robertson
+fonts.google.com/specimen/Roboto
