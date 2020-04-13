@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Jesse Trippe | Product and UX Designer</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,53 +12,227 @@
   <!-- Place favicon.ico in the root directory -->
 
   <script src="//ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-  <script src="./scripts/webfont.js"></script>
+  <script src="/scripts/webfont.js"></script>
 
-  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="/styles/main.css">
 </head>
 
 <body class="font-sans text-lg">
 
-    <nav class="absolute w-full flex items-center justify-between flex-wrap py-6 px-8 lg:px-16 xl:px-32">
-	<div class="flex items-center flex-shrink-0 text-white mr-6 text-2xl font-medium pr-6">Jesse Trippe</div>
-	<div class="block lg:hidden">
-		<button id="menu-toggle" class="flex items-center px-3 py-2 border rounded text-red-200 border-red-400 hover:text-white hover:border-white">
-			<svg class="h-5 w-5" id="hamburger-menu-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+    <header class="mast py-5 px-8 items-center fixed z-20 top-0 inset-x-0" role="banner" style="background: #000300;">
+    <span class="site-logo">
+        <a class="link-logo text-2xl font-medium" href="/#">Jesse Trippe</a>
+    </span>
+    <button class="nav-toggle flex lg:hidden items-center button-ghost py-2 px-3 transition duration-150" aria-expanded="false">
+        <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
 	<path fill="currentColor" d="M16.4 9H3.6c-.55 0-.6.45-.6 1s.05 1 .6 1h12.8c.55 0 .6-.45.6-1s-.05-1-.6-1zm0 4H3.6c-.55 0-.6.45-.6 1s.05 1 .6 1h12.8c.55 0 .6-.45.6-1s-.05-1-.6-1zM3.6 7h12.8c.55 0 .6-.45.6-1s-.05-1-.6-1H3.6c-.55 0-.6.45-.6 1s.05 1 .6 1z" />
 </svg>
-			<svg class="h-5 w-5 hidden" id="close-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-  <path fill="currentColor" d="M13.82 4.77l-9.05 9.05c-.4.39-.11.74.28 1.13.4.4.74.67 1.13.28l9.05-9.05c.4-.39.11-.74-.28-1.13-.4-.4-.74-.67-1.13-.28zm1.41 9.05L6.18 4.77c-.39-.4-.74-.11-1.13.28-.4.4-.67.74-.28 1.13l9.05 9.05c.39.4.74.11 1.13-.28.4-.4.67-.74.28-1.13z" />
+        <!-- Menu -->
+    </button>
+    <nav class="nav-primary" hidden="">
+        <button class="nav-close p-3 fixed top-0 right-0 lg:hidden">
+            <svg class="w-10 h-10 filter-shadow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12">
+    <path fill="currentColor" d="M10.56 1.08l.36.36c.1.1.1.26 0 .37L6.73 6l4.2 4.2c.1.1.1.26 0 .36l-.37.36c-.1.1-.26.1-.37 0L6 6.73l-4.2 4.2c-.1.1-.26.1-.36 0l-.36-.37a.26.26 0 010-.37L5.27 6l-4.2-4.2a.26.26 0 010-.36l.37-.36c.1-.1.26-.1.37 0L6 5.27l4.2-4.2c.1-.1.26-.1.36 0z" />
 </svg>
 
-		</button>
+        </button>
+        <ul class="nav-list items-center">
+            <li class="nav-item">
+                <a class="nav-link block py-1 lg:mr-8" href="/#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link block py-1 lg:mr-8" href="/#work">Work</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link block py-1 lg:mr-8" href="/#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link block py-1 lg:mr-8" href="/#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mt-8 lg:mt-0 button-ghost text-base lg:py-3 lg:px-5 lg:text-sm py-4 px-6 transition duration-150" href="/jesse-trippe-resume.pdf" download="">Resume</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<header id="home" class="min-h-screen grid content-center py-32 px-8">
+    <div class="container mx-auto">
+        <h2 class="font-bold text-6xl leading-snug mb-8 pt-8 xl:w-7/8">Hello! I'm <span class="whitespace-no-wrap"><span class="text-gradient" style="color: #FFA2FD;">Jesse Trippe</span>&mdash;</span>a Product and <span class="whitespace-no-wrap">UX Designer</span> working in <span class="whitespace-no-wrap">Seattle, WA.</span></h2>
+        <p>
+        	<button class="button-ghost py-4 px-6 transition duration-150" data-clipboard-content="jesse@jessetrippe.com">Get in touch</button>
+        </p>
+    </div>
+</header>
+
+<section id="experience" class="min-h-screen content-center container mx-auto grid lg:grid-cols-3 gap-10 text-xl mx-auto py-32 px-8" style="grid-auto-rows: min-content;">
+	<div class="lg:col-span-3 flex items-center justify-center mb-12">
+		<div class="w-1/4 h-px" style="background: #740173;" aria-hidden="true"></div>
+		<h2 class="px-4 text-5xl font-semibold">The work I do</h2>
+		<div class="w-1/4 h-px" style="background: #740173;" aria-hidden="true"></div>
 	</div>
-	<div id="nav-list" class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-		<div class="lg:flex-grow font-mono lg:flex justify-end">
-			<a href="#about" class="block mt-6 lg:inline-block lg:mt-0 text-link transition duration-150 mr-4 xl:mr-8">About</a>
-			<a href="#work" class="block mt-4 lg:inline-block lg:mt-0 text-link transition duration-150 mr-4 xl:mr-8">Work</a>
-			<a href="#contact" class="block mt-4 lg:inline-block lg:mt-0 text-link transition duration-150 mr-4 xl:mr-8">Contact</a>
-		</div>
-		<div>
-			<a href="#" class="text-sm button-ghost font-semibold py-3 px-5 rounded inline-block transition duration-150">Resume</a>
-		</div>
-	</div>
-</nav>
-<section class="min-h-screen flex flex-col justify-center container mx-auto py-32 px-8 lg:px-16 xl:px-32">
-	<h2 class="font-bold text-6xl leading-snug mb-8">Hello! I'm <span class="" style="color: #FFA2FD;">Jesse Trippe</span>&mdash;a Product and UX Designer working in Seattle, WA.</h2>
 	<div>
-		<a href="mailto:jesse@jessetrippe.com" class="button-ghost font-semibold py-4 px-6 rounded inline-block transition duration-150">Get in touch</a>
+		<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+	<rect fill="#fff" width="92" height="92" y="4" rx=".5"></rect>
+	<path fill="#000" d="M4 24h84v68H4z"></path>
+	<path fill="#fff" d="M42.704 51.872a2 2 0 1 1-1.408-3.744l32-12a2 2 0 0 1 1.408 3.744l-32 12z"></path>
+	<rect fill="#fff" width="12" height="12" x="32" y="44" rx=".5"></rect>
+	<rect fill="#fff" width="12" height="12" x="72" y="32" rx=".5"></rect>
+	<rect fill="#fff" width="16" height="40" x="8" y="32" rx=".5"></rect>
+	<path fill="#000" d="M4 8h84v12H4z"></path>
+	<path fill="#E1BFFF" d="M36 48h4v4h-4v-4zM12 36h8v8h-8v-8zm0 12h8v8h-8v-8zm0 12h8v8h-8v-8zm64-24h4v4h-4v-4z"></path>
+	<path fill="#80F" fill-opacity=".25" d="M56 76h20v4H56z"></path>
+	<path fill="#fff" d="M78 64a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H54a2 2 0 0 1-2-2V62a2 2 0 0 1 2-2h6a2 2 0 0 1 1.416.584L64.828 64H78z"></path>
+	<path fill="#000" d="M56 80h20V68H64a2 2 0 0 1-1.416-.584L59.172 64H56v16z"></path>
+	<path fill="#fff" d="M10 16a2 2 0 1 1 0-4h4a2 2 0 1 1 0 4h-4zm12 0a2 2 0 1 1 0-4h4a2 2 0 1 1 0 4h-4z"></path>
+	<rect fill="#fff" width="8" height="4" x="20" y="12" rx=".5"></rect>
+	<rect fill="#fff" width="8" height="4" x="8" y="12" rx=".5"></rect>
+	<path fill="#E1BFFF" d="M56 76h20v4H56z"></path>
+</svg>
+
+		<h2 class="font-semibold text-4xl mt-6">UI Design</h2>
+		<p>I discover a creative direction and build design systems that result in delightful and intuitive experiences that fit perfectly with what users hope to accomplish.</p>
+	</div>
+	<div class="my-16 lg:my-0">
+		<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+	<path fill="#E1BFFF" d="M38 4h8v24h-8z"></path>
+	<path fill="#FFF" d="M38 30a2 2 0 0 1 1.896 2.632l-4 12A2 2 0 0 1 34 46H14a2 2 0 0 1-1.896-2.632l4-12A2 2 0 0 1 18 30h20z"></path>
+	<path fill="#E1BFFF" d="M35.224 34H19.44l-2.664 8H32.56z"></path>
+	<path fill="#FFF" d="M38 50a2 2 0 0 1 1.896 2.632l-4 12A2 2 0 0 1 34 66H14a2 2 0 0 1-1.896-2.632l4-12A2 2 0 0 1 18 50h20z"></path>
+	<path fill="#E1BFFF" d="M19.44 54l-2.664 8H32.56l2.664-8z"></path>
+	<path fill="#FFF" d="M38 70a2 2 0 0 1 1.896 2.632l-4 12A2 2 0 0 1 34 86H14a2 2 0 0 1-1.896-2.632l4-12A2 2 0 0 1 18 70h20z"></path>
+	<path fill="#E1BFFF" d="M19.44 74l-2.664 8H32.56l2.664-8z"></path>
+	<path fill="#FFF" d="M4 94h38a2 2 0 1 1 0 4H2a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h44a2 2 0 0 1 1.416.584l24 24A2 2 0 0 1 72 28v28a2 2 0 1 1-4 0V28.828L45.172 6H4v88z"></path>
+	<path fill="#FFF" d="M48 26h22a2 2 0 1 1 0 4H46a2 2 0 0 1-2-2V4a2 2 0 1 1 4 0v22zm0 12H36.8a2 2 0 1 1 0-4H50a2 2 0 0 1 2 2v40a2 2 0 0 1-2 2H36.8a2 2 0 1 1 0-4H48V38z"></path>
+	<path fill="#FFF" d="M36.8 58a2 2 0 1 1 0-4H62a2 2 0 1 1 0 4H36.8zm18.184 25.784l29.2-29.2a2 2 0 0 1 2.832 0l8.4 8.4a2 2 0 0 1 0 2.832l-29.2 29.2a2 2 0 0 1-.984.536l-10.8 2.4a2 2 0 0 1-2.384-2.384l2.4-10.8a2 2 0 0 1 .536-.984z"></path>
+	<path fill="#000" d="M56.636 93.364l7.16-1.592L91.172 64.4 85.6 58.828 58.228 86.204z"></path>
+	<path fill="#E1BFFF" d="M88.384 61.616l2.788 2.784-27.376 27.372-7.16 1.592z"></path>
+</svg>
+		<h2 class="font-semibold text-4xl mt-6">UX Design</h2>
+		<p>I define user flows of a product and deliver meaningful user experiences through prototyping with the goal to fail fast and iterate.</p>
+	</div>
+	<div>
+		<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+	<rect fill="#FFF" width="92" height="76" y="6" rx=".5"></rect>
+	<rect fill="#FFF" width="36" height="4" x="28" y="90" rx=".5"></rect>
+	<path fill="#000" d="M4 10h84v52H4V10zm0 56h84v12H4V66z"></path>
+	<path fill="#FFF" d="M44 78h4v16h-4z"></path>
+	<path fill="#E1BFFF" d="M88 10v52H4z"></path>
+	<path fill="#FFF" d="M42 74a2 2 0 1 1 0-4h8a2 2 0 1 1 0 4h-8z"></path>
+	<rect fill="#FFF" width="12" height="4" x="40" y="70" rx=".5"></rect>
+	<path fill="#FFF" d="M22 29.968L23.696 27 22 24.032 20.304 27 22 29.968zm-5.736-3.96l4-7a2 2 0 0 1 3.472 0l4 7a2 2 0 0 1 0 1.984l-4 7a2 2 0 0 1-3.472 0l-4-7a2 2 0 0 1 0-1.984zM34 49.968L35.696 47 34 44.032 32.304 47 34 49.968zm-5.736-3.96l4-7a2 2 0 0 1 3.472 0l4 7a2 2 0 0 1 0 1.984l-4 7a2 2 0 0 1-3.472 0l-4-7a2 2 0 0 1 0-1.984zM62 49.968L63.696 47 62 44.032 60.304 47 62 49.968zm-5.736-3.96l4-7a2 2 0 0 1 3.472 0l4 7a2 2 0 0 1 0 1.984l-4 7a2 2 0 0 1-3.472 0l-4-7a2 2 0 0 1 0-1.984zm-8.432-16.04L49.528 27l-1.696-2.968L46.136 27l1.696 2.968zm-5.736-3.96l4-7a2 2 0 0 1 3.472 0l4 7a2 2 0 0 1 0 1.984l-4 7a2 2 0 0 1-3.472 0l-4-7a2 2 0 0 1 0-1.984zM58.6 20.576l2-2a2 2 0 0 1 3.416 1.416v14h-4v-10a2 2 0 0 1-1.412-3.416H58.6zm3.416-.584a2 2 0 0 1 2 2v12c0 2.664-4 2.664-4 0v-14h2zm-31.416.584l2-2a2 2 0 0 1 3.416 1.416v14h-4v-10a2 2 0 0 1-1.412-3.416H30.6zm3.416-.584a2 2 0 0 1 2 2v12c0 2.664-4 2.664-4 0v-14h2zm36.584.584l2-2a2 2 0 0 1 3.416 1.416v14h-4v-10a2 2 0 0 1-1.412-3.416H70.6zm3.416-.584a2 2 0 0 1 2 2v12c0 2.664-4 2.664-4 0v-14h2zM70.6 40.576l2-2a2 2 0 0 1 3.416 1.416v14h-4v-10a2 2 0 0 1-1.412-3.416H70.6zm3.416-.584a2 2 0 0 1 2 2v12c0 2.664-4 2.664-4 0v-14h2zm-29.576.584l2-2a2 2 0 0 1 3.416 1.416v14h-4v-10a2 2 0 0 1-1.416-3.416zm3.416-.584a2 2 0 0 1 2 2v12c0 2.668-4 2.668-4 0v-14h2zm-29.416.584l2-2a2 2 0 0 1 3.416 1.416v14h-4v-10a2 2 0 0 1-1.416-3.416zm3.416-.584a2 2 0 0 1 2 2v12c0 2.668-4 2.668-4 0v-14h2z"></path>
+</svg>
+
+		<h2 class="font-semibold text-4xl mt-6">Development</h2>
+		<p>With a strong focus on reliability, performance, and accessibility, I build scalable solutions for the Web using current and modern standards.</p>
 	</div>
 </section>
-<section id="about" class="container mx-auto py-32 px-8 lg:px-16 xl:px-32">
-	<div class="md:w-2/3 flex items-center mb-12 relative">
-		<h2 class="leading-none pr-4 text-5xl font-semibold">About Me</h2>
+
+<section id="work" class="min-h-screen grid items-center py-32">
+	<div class="container mx-auto px-8 text-center flex items-center mb-12">
+		<div class="flex-1 h-px" style="background: #740173;" aria-hidden="true"></div>
+		<h1 class="text-5xl font-bold px-4">Some things I've built</h1>
 		<div class="flex-1 h-px" style="background: #740173;" aria-hidden="true"></div>
 	</div>
-	<div class="grid grid-cols-12 gap-10 text-xl">
-		<div class="md:order-last col-span-8 col-start-3 md:col-span-5 lg:col-span-4 lg:col-start-9 xl:col-span-3 xl:col-start-10">
-			<img src="./images/avatar.jpg" id="avatar" alt="Jesse Trippe's Avatar" class="rounded w-full" />
+	<div class="work-items grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mb-20" style="grid-auto-rows: 1fr">
+		
+			<a href="/01-amazon-scheduling/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative">
+				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Amazon Scheduling</h2>
+				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Case study of Amazon's 3rd party driver scheduling tool.</h2>
+				<h2 class="case-study mt-5">Case Study</h2>
+			</a>
+		
+			<a href="/02-amazon-dispatch/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative">
+				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Amazon Dispatch</h2>
+				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Amazon's delivery partners needed a tool to track and monitor driver location, progress, route, and stop information.</h2>
+				<h2 class="case-study mt-5">Case Study</h2>
+			</a>
+		
+			<a href="/03-amazon-work-tracking/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative">
+				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Amazon Work Tracking</h2>
+				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Amazon needed a tool for delivery partners to submit hours, mileage, and route counts daily in order to get paid.</h2>
+				<h2 class="case-study mt-5">Case Study</h2>
+			</a>
+		
+			<a href="/04-coyote-howl/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative">
+				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Coyote Howl</h2>
+				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Coyote needed a customer-focused mobile app to give shippers visibility and insight into their freight network.</h2>
+				<h2 class="case-study mt-5">Case Study</h2>
+			</a>
+		
+			<a href="/05-coyote-ltl-quote/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative">
+				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Coyote LTL Quote</h2>
+				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">A less than truckload (LTL) quoting and shipping tool so Coyote Logistics could remain competitive in the market.</h2>
+				<h2 class="case-study mt-5">Case Study</h2>
+			</a>
+		
+			<a href="/06-shuffl/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative">
+				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Shuffl</h2>
+				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Website and branding for a small Slack app aimed to keep remote teams connected by pairing random employees up for lunch.</h2>
+				
+			</a>
+		
+			<a href="/07-coyote-my-tasks/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative">
+				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Coyote My Tasks</h2>
+				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">A dashboard that presents Coyote customers with high level freight information, tasks and todo items, and a quick way to complete them.</h2>
+				<h2 class="case-study mt-5">Case Study</h2>
+			</a>
+		
+			<a href="/08-coyote-tms/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative">
+				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Coyote TMS</h2>
+				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Large web platform and application for shippers and trucking companies to manage freight.</h2>
+				
+			</a>
+		
+			<a href="/09-tech-for-campaigns/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative">
+				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Tech for Campaigns</h2>
+				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">A sign-up form to collect volunteers' basic contact information, specific market expertise, and their technical background.</h2>
+				<h2 class="case-study mt-5">Case Study</h2>
+			</a>
+		
+			<a href="/10-barack%20obamas-tumblr/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative">
+				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Barack Obama's Tumblr</h2>
+				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Desktop and mobile template designs for Barack Obama's 2012 reelection campaign's Tumblr page.</h2>
+				
+			</a>
+		
+			<a href="/11-ohboyy/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative">
+				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">OhBoyy</h2>
+				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Branding, t-shirt, and website for a small group of friends trying their hand at online t-shirt sales.</h2>
+				
+			</a>
+		
+			<a href="/12-bauer-latoza-studio/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative">
+				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Bauer Latoza Studio</h2>
+				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Brochure and portfolio website for Chicago architecture firm specializing in historic preservation.</h2>
+				
+			</a>
+		
+			<a href="/13-green-bridge-white-house/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative">
+				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Green Bridge White House</h2>
+				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Identity, website, and blog for a contemporary and modern interior design company located in Denver, CO.</h2>
+				
+			</a>
+		
+			<a href="/14-northwind-farms/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative">
+				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Northwind Farms</h2>
+				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Identity and brand book for a Burlington, WI garden center and farm.</h2>
+				
+			</a>
+		
+	</div>
+</section>
+
+<section id="about" class="min-h-screen grid content-center py-32 px-8" style="grid-auto-rows: min-content;">
+	<div class="container mx-auto grid grid-cols-12 gap-10 text-xl">
+		<div class="col-span-12 flex items-center">
+			<h2 class="pr-4 text-5xl font-semibold">A few things about me</h2>
+			<div class="flex-1 h-px" style="background: #740173;" aria-hidden="true"></div>
 		</div>
-		<div class="col-span-12 md:col-span-7">
+		<div class="row-start-2 md:order-last col-span-8 col-start-3 md:col-span-5 lg:col-span-4 lg:col-start-9 xl:col-span-3 xl:col-start-10 self-start">
+			<img src="/images/avatar.jpg" alt="Jesse Trippe" class="rounded w-full" height="400" width="400" />
+		</div>
+		<div class="row-start-2 col-span-12 md:col-span-7 self-start">
 			<p>Computer dork meets social butterfly. This unique personality of opposites allows me to successfully combine serious work skills while multi-tasking with style and ease. Combine the diplomacy of Madeline Albright with the humanitarian vision of President Jimmy Carter and add the flexibility of Spider-Man and you've got me.</p>
 			<p>You've heard it all before&mdash;a young guy with small town Michigan roots moves to the big city to chase his dreams and mostly finds jobs stuffing envelopes and foaming lattes. So I hit the books and keyboard at The School of the Art Institute of Chicago for a BA in Fine Arts, and now I design and redesign in my sleep.</p>
 			<p>I taught myself HTML &amp; CSS, applied my knowledge to front-end web design and fell in love with building websites. After years of freelance work and a brief period with the Obama Reelection Campaign, I joined Coyote Logistics in 2011 and eventually grew into Lead Product Designer, building a massive web app and several mobile apps for Coyote's customer's.</p>
@@ -66,1312 +240,18 @@
 		</div>
 	</div>
 </section>
-<section id="work" class="py-32">
-	<div class="container mx-auto px-8 lg:px-16 xl:px-32 text-center flex items-center mb-12">
-		<div class="flex-1 h-px" style="background: #740173;" aria-hidden="true"></div>
-		<h1 class="text-5xl font-bold px-4">Some Things I've Built</h1>
-		<div class="flex-1 h-px" style="background: #740173;" aria-hidden="true"></div>
-	</div>
-	<div class="work-items md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mb-20" style="grid-auto-rows: 1fr">
-		
-			<button class="relative border-gray-700 border-b work-item-trigger hover:bg-indigo-900 hover:scale-125 w-full text-left px-16 py-24 transition duration-150 align-top" data-toggle="work-item" data-target="#amazon-scheduling">
-				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Amazon Scheduling</h2>
-				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Case study of Amazon's driver scheduling tool</h2>
-				<h2 class="case-study mt-5">Case Study</h2>
-			</button>
-		
-			<button class="relative border-gray-700 border-b work-item-trigger hover:bg-indigo-900 hover:scale-125 w-full text-left px-16 py-24 transition duration-150 align-top" data-toggle="work-item" data-target="#amazon-dispatch">
-				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Amazon Dispatch</h2>
-				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Amazon's delivery partners needed a tool to track and monitor driver location, progress, route, and stop information.</h2>
-				<h2 class="case-study mt-5">Case Study</h2>
-			</button>
-		
-			<button class="relative border-gray-700 border-b work-item-trigger hover:bg-indigo-900 hover:scale-125 w-full text-left px-16 py-24 transition duration-150 align-top" data-toggle="work-item" data-target="#amazon-work-tracking">
-				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Amazon Work Tracking</h2>
-				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Amazon needed a tool for delivery partners to submit hours, mileage, and route counts daily in order to get paid.</h2>
-				<h2 class="case-study mt-5">Case Study</h2>
-			</button>
-		
-			<button class="relative border-gray-700 border-b work-item-trigger hover:bg-indigo-900 hover:scale-125 w-full text-left px-16 py-24 transition duration-150 align-top" data-toggle="work-item" data-target="#coyote-howl">
-				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Coyote Howl</h2>
-				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Coyote needed a customer-focused mobile app to give shippers visibility and insight into their freight network.</h2>
-				<h2 class="case-study mt-5">Case Study</h2>
-			</button>
-		
-			<button class="relative border-gray-700 border-b work-item-trigger hover:bg-indigo-900 hover:scale-125 w-full text-left px-16 py-24 transition duration-150 align-top" data-toggle="work-item" data-target="#coyote-ltl-quote">
-				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Coyote LTL Quote</h2>
-				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">A less than truckload (LTL) quoting and shipping tool so Coyote Logistics could remain competitive in the market.</h2>
-				<h2 class="case-study mt-5">Case Study</h2>
-			</button>
-		
-			<button class="relative border-gray-700 border-b work-item-trigger hover:bg-indigo-900 hover:scale-125 w-full text-left px-16 py-24 transition duration-150 align-top" data-toggle="work-item" data-target="#shuffl">
-				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Shuffl</h2>
-				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Website for a small Slack app</h2>
-				
-			</button>
-		
-			<button class="relative border-gray-700 border-b work-item-trigger hover:bg-indigo-900 hover:scale-125 w-full text-left px-16 py-24 transition duration-150 align-top" data-toggle="work-item" data-target="#coyote-my-tasks">
-				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Coyote My Tasks</h2>
-				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">A dashboard that presents Coyote customers with high level freight information, tasks and todo items, and a quick way to complete them.</h2>
-				<h2 class="case-study mt-5">Case Study</h2>
-			</button>
-		
-			<button class="relative border-gray-700 border-b work-item-trigger hover:bg-indigo-900 hover:scale-125 w-full text-left px-16 py-24 transition duration-150 align-top" data-toggle="work-item" data-target="#coyote-tms">
-				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Coyote TMS</h2>
-				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Large website application for freight management</h2>
-				
-			</button>
-		
-			<button class="relative border-gray-700 border-b work-item-trigger hover:bg-indigo-900 hover:scale-125 w-full text-left px-16 py-24 transition duration-150 align-top" data-toggle="work-item" data-target="#tech-for-campaigns">
-				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Tech for Campaigns</h2>
-				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">A sign-up form to collect volunteers' basic contact information, specific market expertise, and their technical background.</h2>
-				<h2 class="case-study mt-5">Case Study</h2>
-			</button>
-		
-			<button class="relative border-gray-700 border-b work-item-trigger hover:bg-indigo-900 hover:scale-125 w-full text-left px-16 py-24 transition duration-150 align-top" data-toggle="work-item" data-target="#barack-obama-s-tumblr">
-				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Barack Obama's Tumblr</h2>
-				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Tumblr design and templating for Barack Obama's campaign</h2>
-				
-			</button>
-		
-			<button class="relative border-gray-700 border-b work-item-trigger hover:bg-indigo-900 hover:scale-125 w-full text-left px-16 py-24 transition duration-150 align-top" data-toggle="work-item" data-target="#ohboyy">
-				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">OhBoyy</h2>
-				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Branding, t-shirt, and website for a small design group</h2>
-				
-			</button>
-		
-			<button class="relative border-gray-700 border-b work-item-trigger hover:bg-indigo-900 hover:scale-125 w-full text-left px-16 py-24 transition duration-150 align-top" data-toggle="work-item" data-target="#bauer-latoza-studio">
-				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Bauer Latoza Studio</h2>
-				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Website for Chicago architecture firm</h2>
-				
-			</button>
-		
-			<button class="relative border-gray-700 border-b work-item-trigger hover:bg-indigo-900 hover:scale-125 w-full text-left px-16 py-24 transition duration-150 align-top" data-toggle="work-item" data-target="#green-bridge-white-house">
-				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Green Bridge White House</h2>
-				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Identity and website for a Denver interious design company</h2>
-				
-			</button>
-		
-			<button class="relative border-gray-700 border-b work-item-trigger hover:bg-indigo-900 hover:scale-125 w-full text-left px-16 py-24 transition duration-150 align-top" data-toggle="work-item" data-target="#northwind-farms">
-				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Northwind Farms</h2>
-				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Identity for a Burlington, WI garden center and farm</h2>
-				
-			</button>
-		
-	</div>
-</section>
-<section id="contact" class="py-32 text-center mx-auto max-w-2xl">
-	<h1 class="text-6xl font-bold mb-8" style="color: #FFE7FE;">Get In Touch</h1>
-	<p class="mb-16 text-xl">Although I'm not currently looking for freelance opportunities, my inbox is always open. Whether for a potential project or just to say hi, I'll try my best to answer your email!</p>
-	<a href="mailto:jesse@jessetrippe.com" class="button-ghost font-semibold py-4 px-6 rounded inline-block transition duration-150">Say hello</a>
-</section>
 
-<div class="hidden fixed inset-0 overflow-scroll z-10" id="work-item-container" style="background: #180117;">
-	<button class="p-3 fixed top-0 right-0" id="close-work-item" data-toggle="work-item" data-target="#">
-		<svg class="h-8 w-8 filter-shadow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12">
-    <path fill="currentColor" d="M10.56 1.08l.36.36c.1.1.1.26 0 .37L6.73 6l4.2 4.2c.1.1.1.26 0 .36l-.37.36c-.1.1-.26.1-.37 0L6 6.73l-4.2 4.2c-.1.1-.26.1-.36 0l-.36-.37a.26.26 0 010-.37L5.27 6l-4.2-4.2a.26.26 0 010-.36l.37-.36c.1-.1.26-.1.37 0L6 5.27l4.2-4.2c.1-.1.26-.1.36 0z" />
-</svg>
-
-	</button>
-	<div class="container mx-auto px-8 lg:px-16 xl:px-32 py-32">
-		
-			<div class="hidden js-work-item-container" id="amazon-scheduling">
-				<h2 class="text-6xl mb-8 font-bold leading-tight">Amazon Scheduling <span class="rounded text-2xl uppercase px-2 text-white align-middle whitespace-no-wrap" style="color: #D101CE;background: #2F012E;">Case Study</span></h2>
-				<section class="grid grid-cols-12 gap-10 text-xl pb-20">
-	<div class="col-span-12 md:order-last md:col-span-5 lg:col-span-4 lg:col-start-9">
-		<aside class="text-black p-8 rounded" style="background:#FFD0FE">
-			<table>
-				<tbody>
-					<tr>
-						<th class="pr-8 text-right font-bold">Client</th>
-						<td>Amazon</td>
-					</tr>
-					<tr>
-						<th class="pr-8 pt-1 text-right font-bold">Media</th>
-						<td class="pt-1">Website</td>
-					</tr>
-					<tr>
-						<th class="pr-8 pt-1 text-right font-bold">Role</th>
-						<td class="pt-1">Designer</td>
-					</tr>
-					<tr>
-						<th class="pr-8 pt-1 text-right font-bold">Date</th>
-						<td class="pt-1">2018</td>
-					</tr>
-				</tbody>
-			</table>
-		</aside>
+<footer id="contact" class="site-footer min-h-screen grid content-center py-32 px-8">
+	<div class="mx-auto max-w-2xl text-center">
+		<h1 class="text-6xl font-bold mb-8 text-gradient">Get In Touch</h1>
+		<p class="mb-12 text-xl">Although I'm not currently looking for freelance opportunities, my inbox is always open. Whether for a potential project or just to say hi, I'll try my best to answer your email!</p>
+		<p><button data-clipboard-content="jesse@jessetrippe.com" class="button-ghost py-4 px-8 transition duration-150">Say hello</button></p>
 	</div>
-	<div class="col-span-12 md:col-span-7">
-		<p>In 2018 Amazon launched a last-mile delivery program powered by entrepreneurs. These new companies needed a way to manage their drivers' schedules and communicate their capacity and schedules to Amazon. The needs of each user (Amazon station operators, schedulers, and drivers) is often at odds with one another, forcing the team—consisting of a Product Manager, a development team, and myself—to focus on how our tool could make meaningful strides to achieve the larger organization's goals.</p>
-		<p>The request was to move the daily and weekly offline process of accepting Amazon offered routes online in order to reduce errors and manual touch-points. We built a scrappy solution in 2017 to accomplish this task and began planning a more robust, user-centered solution to launch mid-2018.</p>
-	</div>
-</section>
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 md:col-span-1">
-		<h2 class="text-4xl font-bold">Field Research</h2>
-		<p>After launching the scrappy version, I worked with a UX Researcher to develop an online and offline survey to test usage and assumptions. I visited various sites across North America and the UK to observe and interview users about their usage of the tool and how they schedule their drivers. I sent an online version of the survey to companies in locations I was unable to travel to.</p>
-		<p>Most companies were using complex, brittle, online spreadsheets to schedule their drivers mostly because the tools were free and synced across multiple site locations. Separately, users found the process of providing Amazon their roster of drivers repetitive, redundant, and of little value to them.</p>
-	</div>
-	<div class="col-span-3 md:col-span-2 grid gap-10 grid-cols-3">
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-field-research-01.jpg" alt="Amazon Scheduling Field Research 1" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-field-research-02.jpg" alt="Amazon Scheduling Field Research 2" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-field-research-03.jpg" alt="Amazon Scheduling Field Research 3" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-field-research-04.jpg" alt="Amazon Scheduling Field Research 4" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-field-research-05.jpg" alt="Amazon Scheduling Field Research 5" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-field-research-06.jpg" alt="Amazon Scheduling Field Research 6" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-field-research-07.jpg" alt="Amazon Scheduling Field Research 7" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-field-research-08.jpg" alt="Amazon Scheduling Field Research 8" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-field-research-09.jpg" alt="Amazon Scheduling Field Research 9" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-field-research-10.jpg" alt="Amazon Scheduling Field Research 10" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-field-research-11.jpg" alt="Amazon Scheduling Field Research 11" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-field-research-12.jpg" alt="Amazon Scheduling Field Research 12" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-field-research-13.jpg" alt="Amazon Scheduling Field Research 13" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-field-research-14.jpg" alt="Amazon Scheduling Field Research 14" />
-	</div>
-</section>
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 md:col-span-1">
-		<h2 class="text-4xl font-bold">Brainstorming</h2>
-		<p>We kicked off a design sprint to begin defining the long-term vision. Using survey results and research findings, the Product Manager, development team, and myself brainstormed using "how might me". We formed a problem statement that encompassed our users' challenges and organized "how might we" statements into categories, and eventually into features, and then set out to conduct a competitive analysis to see how some of these problems were already being solved.</p>
-	</div>
-	<div class="col-span-3 md:col-span-2 grid gap-10 grid-cols-3">
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-brainstorming-01.jpg" alt="Amazon Scheduling Brainstorming 1" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-brainstorming-02.jpg" alt="Amazon Scheduling Brainstorming 2" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-brainstorming-03.jpg" alt="Amazon Scheduling Brainstorming 3" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-brainstorming-04.jpg" alt="Amazon Scheduling Brainstorming 4" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-brainstorming-05.jpg" alt="Amazon Scheduling Brainstorming 5" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-brainstorming-06.jpg" alt="Amazon Scheduling Brainstorming 6" />
-	</div>
-</section>
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 md:col-span-1">
-		<h2 class="text-4xl font-bold">Competitive Research</h2>
-		<p>I interviewed teams across Amazon who are already solving this problem and researched other 3rd party tools. After presenting my findings to the product, design, and tech teams, we came to the conclusion that building a robust, Amazon Shipping scheduling tool would solve both the users' and Amazon's needs.</p>
-	</div>
-	<div class="col-span-3 md:col-span-2 grid gap-10 grid-cols-3">
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-competitive-research-01.jpg" alt="Amazon Scheduling Competitive Research 1" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-competitive-research-02.jpg" alt="Amazon Scheduling Competitive Research 2" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-competitive-research-03.jpg" alt="Amazon Scheduling Competitive Research 3" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-competitive-research-04.jpg" alt="Amazon Scheduling Competitive Research 4" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-competitive-research-05.jpg" alt="Amazon Scheduling Competitive Research 5" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-competitive-research-06.png" alt="Amazon Scheduling Competitive Research 6" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-competitive-research-07.png" alt="Amazon Scheduling Competitive Research 7" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-competitive-research-08.png" alt="Amazon Scheduling Competitive Research 8" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-competitive-research-09.png" alt="Amazon Scheduling Competitive Research 9" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-competitive-research-10.png" alt="Amazon Scheduling Competitive Research 10" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-competitive-research-11.png" alt="Amazon Scheduling Competitive Research 11" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-competitive-research-12.png" alt="Amazon Scheduling Competitive Research 12" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-competitive-research-13.png" alt="Amazon Scheduling Competitive Research 13" />
-	</div>
-</section>
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 md:col-span-1">
-		<h2 class="text-4xl font-bold">Wireframe Exploration</h2>
-		<p>We then began sketching solutions that involved both desktop and mobile experiences, and both driver and scheduler participation in the process. After a full day of sketching and countless iterations, I decided on a direction. We built a presentation with storyboards that highlighted the happy path solution and quickly mocked up low-fidelity wireframes present to leadership.</p>
-	</div>
-	<div class="col-span-3 md:col-span-2 grid gap-10 grid-cols-4">
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-01.png" alt="Amazon Scheduling Wireframe 1" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-02.png" alt="Amazon Scheduling Wireframe 2" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-03.png" alt="Amazon Scheduling Wireframe 3" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-04.png" alt="Amazon Scheduling Wireframe 4" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-05.png" alt="Amazon Scheduling Wireframe 5" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-06.png" alt="Amazon Scheduling Wireframe 6" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-07.png" alt="Amazon Scheduling Wireframe 7" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-08.png" alt="Amazon Scheduling Wireframe 8" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-09.png" alt="Amazon Scheduling Wireframe 9" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-10.png" alt="Amazon Scheduling Wireframe 10" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-11.png" alt="Amazon Scheduling Wireframe 11" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-12.png" alt="Amazon Scheduling Wireframe 12" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-13.png" alt="Amazon Scheduling Wireframe 13" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-14.png" alt="Amazon Scheduling Wireframe 14" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-15.png" alt="Amazon Scheduling Wireframe 15" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-16.png" alt="Amazon Scheduling Wireframe 16" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-17.png" alt="Amazon Scheduling Wireframe 17" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-18.png" alt="Amazon Scheduling Wireframe 18" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-19.png" alt="Amazon Scheduling Wireframe 19" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-20.png" alt="Amazon Scheduling Wireframe 20" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-21.png" alt="Amazon Scheduling Wireframe 21" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-22.png" alt="Amazon Scheduling Wireframe 22" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-23.png" alt="Amazon Scheduling Wireframe 23" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-24.png" alt="Amazon Scheduling Wireframe 24" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-25.png" alt="Amazon Scheduling Wireframe 25" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-26.png" alt="Amazon Scheduling Wireframe 26" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-27.png" alt="Amazon Scheduling Wireframe 27" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-28.png" alt="Amazon Scheduling Wireframe 28" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-29.png" alt="Amazon Scheduling Wireframe 29" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-30.png" alt="Amazon Scheduling Wireframe 30" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-31.png" alt="Amazon Scheduling Wireframe 31" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-32.png" alt="Amazon Scheduling Wireframe 32" />
-		<img loading="lazy" class="col-span-2 rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-33.png" alt="Amazon Scheduling Wireframe 33" />
-		<img loading="lazy" class="col-span-2 rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-34.png" alt="Amazon Scheduling Wireframe 34" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-35.png" alt="Amazon Scheduling Wireframe 35" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-36.png" alt="Amazon Scheduling Wireframe 36" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-wireframe-37.png" alt="Amazon Scheduling Wireframe 37" />
-	</div>
-</section>
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 md:col-span-1 row-span-2">
-		<h2 class="text-4xl font-bold">Component Design</h2>
-		<p>After getting leadership buy-in I started working on the final design and iterating on each of the components. The design team already had an established pattern library but many of the components weren't addressed (e.g. we had an input form date-picker but not a browsable calendar, we had basic tables but nothing that could represent work within a cell, etc.).</p>
-		<p>For the calendar, I started with the pattern library's date-picker and began iterating. The new calendar had to show week number, day selected, week selected, and notifications or tasks on a given day. At first, I created a few versions and took them into the field. I tried to stick closely to the large, blockie, bright style of the rest of the pattern library which the design team was in favor of with colors representing different severity of tasks.</p>
-		<p>After taking it to the field, discussing the tasks required on each day with users, we eliminated the severity and stuck with an on/off for tasks. I saw the calendar was taking up unproportional amount of space so I played with simply using an input field. This ultimately wouldn't work as the days needed communicate tasks.</p>
-		<p>I interviewed a hanful of users to discuss the importance of the week number. All of the users I interviewed said the date picker provided little to no importance so I removed it. After removing it the space seemed to work but the calendar's bright color blocks were still drawing too much attention on an already busy page. I began creating a new version that dialed down the size and brightness of our indicators. I did some scrappy user-testing in the office and users were still able to tell which days needed attention and which did not. I built a working prototype in CodePen for the engineering team and stayed close while they built it.</p>
-		<p>Also during testing, I found that users weren't able to quickly see which tasks were required on the page - the outstanding work section was getting lost and then, even when users were spotting it, some were confused about what action to take. I created a few different versions to dial-up visuals on those sections and added tooltips to explain what they're for. We also added hours and locations to the table of drivers after receiving user feedback and iterated on how to show over-time hours.</p>
-	</div>
-	<div class="col-span-3 md:col-span-2 grid gap-10 grid-cols-2">
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-calendar-picker.png" alt="Amazon Scheduling 1" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-calendar-color-block.png" alt="Amazon Scheduling 2" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-calendar-in-context.png" alt="Amazon Scheduling 3" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-calendar-on-off.png" alt="Amazon Scheduling 4" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-calendar-no-week.png" alt="Amazon Scheduling 5" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-calendar-no-date-picker.png" alt="Amazon Scheduling 5" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-calendar-final.png" alt="Amazon Scheduling 5" />
-		<img loading="lazy" class="rounded shadow-xl col-span-2" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-outstanding-iteration.png" alt="Amazon Scheduling 5" />
-	</div>
-</section>
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 md:col-span-1">
-		<h2 class="text-4xl font-bold">Final Design</h2>
-		<p>After getting leadership buy-in I built a prototype using our team's pattern library, Sketch, and Invision and took to the field for testing. We also conducted multiple interviews at bi-weekly video conference meetings with schedulers.</p>
-		<p>User feedback was overall positive and helped us prioritize and add additional features we hadn't yet thought of. I made many changes based on their feedback—mostly with accompanying training text, help material, and empty states—as many were confused by the naming of certain processes and tasks.</p>
-		<p>The product team, development team, and I developed a launch plan that released the necessary features first, with additional screens and features coming out in phases. With each feature release, we headed back into the field for research and to confirm future feature priority. The development team began connecting the prototype to the backend which the development team had been building throughout this process.</p>
-		<p>In Fall of 2018, we completed the launch of the desktop scheduling experience which consisted of a weekly scheduling template, a weekly and daily scheduling view, the ability to schedule time-off, and the ability to filter each view based on various parameters. The team is now focusing on the driver facing mobile experience to receive and makes changes to schedules. This is being readied for mid-2019.</p>
-	</div>
-	<div class="col-span-3 md:col-span-2 grid gap-10">
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-final-01.png" alt="Amazon Scheduling 1" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-final-02.png" alt="Amazon Scheduling 2" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-final-03.png" alt="Amazon Scheduling 3" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-final-04.png" alt="Amazon Scheduling 4" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-scheduling-final-05.png" alt="Amazon Scheduling 5" />
-	</div>
-</section>
-
-<footer class="pt-20 flex items-center justify-center">
-  
-  
-  
-    <button data-toggle="work-item-jump" data-target="#amazon-dispatch" class="text-2xl flex items-center" style="color:#FF01FB">Next <svg class="ml-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M14 15.5V12H1V8h13V4.5l5.25 5.5z" />
-  &lt;/g&gt;
-</svg>
-</button>
-  
 </footer>
-
-			</div>
-		
-			<div class="hidden js-work-item-container" id="amazon-dispatch">
-				<h2 class="text-6xl mb-8 font-bold leading-tight">Amazon Dispatch <span class="rounded text-2xl uppercase px-2 text-white align-middle whitespace-no-wrap" style="color: #D101CE;background: #2F012E;">Case Study</span></h2>
-				<section class="grid grid-cols-12 gap-10 text-xl pb-20">
-	<div class="col-span-12 md:order-last md:col-span-5 lg:col-span-4 lg:col-start-9">
-		<aside class="text-black p-8 rounded" style="background:#FFD0FE">
-			<table>
-				<tbody>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Client</th>
-						<td>Amazon</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Media</th>
-						<td>Website</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Role</th>
-						<td>Designer</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Date</th>
-						<td>2017</td>
-					</tr>
-				</tbody>
-			</table>
-		</aside>
-	</div>
-	<div class="col-span-12 md:col-span-7">
-		<p>Among Amazon's many delivery solutions is a network of 3rd-party courier companies delivering from Amazon-branded vans to customers' doors. Dispatchers at these companies had to be on-site at Amazon delivery stations to complete dispatching tasks and were largely blind to their fleets' progress. They needed a tool to monitor location, progress, route, and stop information and Amazon needed a tool to collect daily rosters. The new tool had to combine features and information that was previously spread among many different, clunky tools in an efficient and simple way.</p>
-		<p>The Product Manager was new to Amazon's shipping space so my logistics expertise, business knowledge, and field observations were vital to defining all aspects of this tool. From receiving the project to launching in beta form, the project took 6 months and is being used by all Amazon 3rd-party dispatchers and managers across North America. The tool will launch worldwide in early 2018.</p>
-	</div>
-</section>
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 md:col-span-1">
-		<h2 class="text-4xl font-bold">Wireframes</h2>
-		<p>In order to define our users and their needs for this tool, a Product Manager and I traveled to different delivery stations to observe users (painfully) completing dispatching tasks. We also had meetings with Amazon operations teams to understand their needs and then developed a timeline and scope for the project. I wireframed a handful of ideas, and, along with the Product Manager, decided on a design approach to move forward with. I then took these wireframes to a local delivery station to test my assumptions and get feedback.</p>
-	</div>
-	<div class="col-span-3 md:col-span-2 grid gap-10 grid-cols-2">
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-01.png" alt="Amazon Dispatch Wireframe 1" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-02.png" alt="Amazon Dispatch Wireframe 2" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-03.png" alt="Amazon Dispatch Wireframe 3" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-04.png" alt="Amazon Dispatch Wireframe 4" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-05.png" alt="Amazon Dispatch Wireframe 5" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-06.png" alt="Amazon Dispatch Wireframe 6" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-07.png" alt="Amazon Dispatch Wireframe 7" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-08.png" alt="Amazon Dispatch Wireframe 8" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-09.png" alt="Amazon Dispatch Wireframe 9" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-10.png" alt="Amazon Dispatch Wireframe 10" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-11.png" alt="Amazon Dispatch Wireframe 11" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-12.png" alt="Amazon Dispatch Wireframe 12" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-13.png" alt="Amazon Dispatch Wireframe 13a" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-wireframe-14.png" alt="Amazon Dispatch Wireframe 13b" />
-	</div>
-</section>
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 md:col-span-1">
-		<h2 class="text-4xl font-bold">Final Design</h2>
-		<p>The final tool allows dispatchers to see where routes are, where drivers are, and quickly spot and triage exceptions. This enables 3rd-party companies to establish and more fully optimize their operations. The final designs were taken to a delivery station and presented to users for further feedback. This feedback influenced changes that were either implemented into the product or added to a future feature list.</p>
-	</div>
-	<div class="col-span-3 md:col-span-2 grid gap-10">
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-01.png" alt="Amazon Dispatch Final Design 1" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-02.png" alt="Amazon Dispatch Final Design 2" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-03.png" alt="Amazon Dispatch Final Design 3" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-dispatch-04.png" alt="Amazon Dispatch Final Design 4" />
-	</div>
-</section>
-
-<footer class="pt-20 flex items-center justify-center">
-  
-    <button data-toggle="work-item-jump" data-target="#amazon-scheduling" class="text-2xl flex items-center" style="color:#FF01FB"><svg class="mr-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M6.25 15.5V12h13V8h-13V4.5L1 10z" />
-</svg>
- Previous</button>
-  
-  
-    <span class="mx-8" aria-hidden="true">&nbsp;</span>
-  
-  
-    <button data-toggle="work-item-jump" data-target="#amazon-work-tracking" class="text-2xl flex items-center" style="color:#FF01FB">Next <svg class="ml-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M14 15.5V12H1V8h13V4.5l5.25 5.5z" />
-  &lt;/g&gt;
-</svg>
-</button>
-  
-</footer>
-
-
-			</div>
-		
-			<div class="hidden js-work-item-container" id="amazon-work-tracking">
-				<h2 class="text-6xl mb-8 font-bold leading-tight">Amazon Work Tracking <span class="rounded text-2xl uppercase px-2 text-white align-middle whitespace-no-wrap" style="color: #D101CE;background: #2F012E;">Case Study</span></h2>
-				<section class="grid grid-cols-12 gap-10 text-xl pb-20">
-	<div class="col-span-12 md:order-last md:col-span-5 lg:col-span-4 lg:col-start-9">
-		<aside class="text-black p-8 rounded" style="background:#FFD0FE">
-			<table>
-				<tbody>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Client</th>
-						<td>Amazon</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Media</th>
-						<td>Website</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Role</th>
-						<td>Designer</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Date</th>
-						<td>2016–2017</td>
-					</tr>
-				</tbody>
-			</table>
-		</aside>
-	</div>
-	<div class="col-span-12 md:col-span-7">
-		<p>Due to various unforeseen complications throughout the day, the work Amazon planned for 3rd-party courier companies to complete and eventually invoice Amazon for changed drastically. Amazon needed a tool to allow these companies to review and submit driver hours and route counts daily in order to reduce invoicing disputes, inaccuracies, and speed up payments from Amazon.</p>
-		<p>Prior to my involvement, this project launched in beta form to three UK delivery stations where it failed because too many untested assumptions proved to be wrong. I was brought on to work with and mentor a junior designer in order to provide a solution that successfully met the users' and Amazon's needs for a work tracking tool. The redesign took around 3 months to complete and involved a visit to the UK with a prototype I built in HTML, CSS, and JavaScript to test with users using real data.</p>
-	</div>
-</section>
-
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 md:col-span-1">
-		<h2 class="text-4xl font-bold">Wireframes</h2>
-		<p>After getting up to speed on the goals of the product and how the beta failed, the initial designer and I conducted several interviews with beta testers to uncover pain points and frustrations. The beta failed due to an assumption about how users collect, record, and maintain daily route counts and mileage so the new solution had to support all the various ways this was being done.</p>
-		<p>I wireframed layouts that organized the collection of work in different ways and then reached out to the same beta testers for feedback. I used the wireframes to ensure the right information was being displayed to complete the task without overwhelming them with unnecessary stats and metrics.</p>
-	</div>
-	<div class="col-span-3 md:col-span-2 grid gap-10 grid-cols-2">
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-work-tracking-wireframe-01.png" alt="Amazon Work Tracking Wireframe 1" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-work-tracking-wireframe-02.png" alt="Amazon Work Tracking Wireframe 2" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-work-tracking-wireframe-03.png" alt="Amazon Work Tracking Wireframe 5" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-work-tracking-wireframe-04.png" alt="Amazon Work Tracking Wireframe 3" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-work-tracking-wireframe-05.png" alt="Amazon Work Tracking Wireframe 4" />
-	</div>
-</section>
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 md:col-span-1">
-		<h2 class="text-4xl font-bold">Final Design &amp; Prototype</h2>
-		<p>Once the wireframe and overall approach were settled, we divided the design work between both designers and built pixel-perfect designs while syncing often. Because of the failures of the initial launch, after the design was somewhat complete, I built a working prototype using actual data, HTML, CSS, and JavaScript and traveled to the UK to test at the three beta stations. The new tool succeeded where the previous failed and also proved far more efficient. We collected feedback and made changes to many of the smaller details but overall the prototype and design were successful.</p>
-	</div>
-	<div class="col-span-3 md:col-span-2 grid gap-10">
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-work-tracking-01.png" alt="Amazon Work Tracking Final Design 1" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-work-tracking-02.png" alt="Amazon Work Tracking Final Design 2" />
-		<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/amazon-work-tracking-03.png" alt="Amazon Work Tracking Final Design 3" />
-	</div>
-</section>
-
-<footer class="pt-20 flex items-center justify-center">
-  
-    <button data-toggle="work-item-jump" data-target="#amazon-dispatch" class="text-2xl flex items-center" style="color:#FF01FB"><svg class="mr-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M6.25 15.5V12h13V8h-13V4.5L1 10z" />
-</svg>
- Previous</button>
-  
-  
-    <span class="mx-8" aria-hidden="true">&nbsp;</span>
-  
-  
-    <button data-toggle="work-item-jump" data-target="#coyote-howl" class="text-2xl flex items-center" style="color:#FF01FB">Next <svg class="ml-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M14 15.5V12H1V8h13V4.5l5.25 5.5z" />
-  &lt;/g&gt;
-</svg>
-</button>
-  
-</footer>
-
-			</div>
-		
-			<div class="hidden js-work-item-container" id="coyote-howl">
-				<h2 class="text-6xl mb-8 font-bold leading-tight">Coyote Howl <span class="rounded text-2xl uppercase px-2 text-white align-middle whitespace-no-wrap" style="color: #D101CE;background: #2F012E;">Case Study</span></h2>
-				<section class="grid grid-cols-12 gap-10 text-xl pb-20">
-	<div class="col-span-12 md:order-last md:col-span-5 lg:col-span-4 lg:col-start-9">
-		<aside class="text-black p-8 rounded" style="background:#FFD0FE">
-			<table>
-				<tbody>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Client</th>
-						<td>Coyote Logistics</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Media</th>
-						<td>Mobile App</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Role</th>
-						<td>Designer, Front-End Developer</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Date</th>
-						<td>2014–2015</td>
-					</tr>
-				</tbody>
-			</table>
-		</aside>
-	</div>
-	<div class="col-span-12 md:col-span-7">
-		<p>Along with Coyote's mobile development team, a Product Manager, and a Stakeholder, I designed and help build Coyote Howl&mdash;a customer-focused mobile app to give shippers visibility and insight into their freight network. The app was built from start to finish in about 3 months, launching first internally to sales reps and later externally to customers.</p>
-		<p>Howl's purpose was twofold: first, to give shippers a tool to help manage and view their day-to-day freight; and secondly, to provide customer sales reps with a tool to help sell Coyote to potential customers.</p>
-	</div>
-</section>
-
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 md:col-span-1">
-		<h2 class="text-4xl font-bold">Sketches</h2>
-		<p>The requirements asked for an already established set of features (tracking information, filtering and searching of shipments, Coyote rep contact information, and notifications on shipment status changes (e.g. when a load has been delivered) as well as some aspect to that could be highlighted during sales demos. For the latter request, we initially focused on a new type of navigation which would provide a fun interactive element throughout the app.</p>
-		<p>After minimal user testing, we found the navigation hard to use and not very discoverable. We talked through the problem more and came to the conclusion that gambling on the design of the navigation was too risky. Instead, we built a new tab called Visibility to show larger trends of a customer's freight network. The charts and map on this page made for a great demo.</p>
-	</div>
-	<div class="col-span-3 md:col-span-2 grid gap-10 grid-cols-2">
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/howl-sketch-1.jpg" alt="Howl Sketch 1" />
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/howl-sketch-2.jpg" alt="Howl Sketch 2" />
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/howl-sketch-3.jpg" alt="Howl Sketch 3" />
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/howl-sketch-4.jpg" alt="Howl Sketch 4" />
-	</div>
-</section>
-
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 md:col-span-1">
-		<h2 class="text-4xl font-bold">Wireframes</h2>
-		<p>I built wireframes and presented it to the user stakeholders, sales stakeholders, and development team to make sure everyone was aware of the content and functionality being asked for and built.</p>
-		<p>While the development team started building out the backend services and the framework in Ionic and AngularJS, I built a working prototype with actual content and started testing it with users. Eventually, this code was merged with the development team's framework, as it was also built on Ionic, and is now in the production version of the app. During this round of user testing, I discovered our menus were way too deep for external customer users and vital load information was far too many taps away for it to be useful. I modified the prototype and final design to feature contact information and primary load information directly on the load details screen.</p>
-	</div>
-	<div class="col-span-3 md:col-span-2 grid gap-10 grid-cols-2">
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/howl-moqup-1.png" alt="Howl Moqup 1" />
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/howl-moqup-2.png" alt="Howl Moqup 2" />
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/howl-moqup-3.png" alt="Howl Moqup 3" />
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/howl-moqup-4.png" alt="Howl Moqup 4" />
-	</div>
-</section>
-
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 md:col-span-1">
-		<h2 class="text-4xl font-bold">Final Design</h2>
-		<p>The final app features Coyote's signature green along with bright charts, graphs, and maps. It features a familiar, easily discoverable menu and each section of the app has been simplified to eliminate unnecessary depth in the navigation.</p>
-	</div>
-	<div class="col-span-3 md:col-span-2 grid gap-10 grid-cols-2">
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/howl-1.png" alt="Howl Final Design 1" />
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/howl-2.png" alt="Howl Final Design 2" />
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/howl-3.png" alt="Howl Final Design 3" />
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/howl-4.png" alt="Howl Final Design 4" />
-	</div>
-</section>
-
-<footer class="pt-20 flex items-center justify-center">
-  
-    <button data-toggle="work-item-jump" data-target="#amazon-work-tracking" class="text-2xl flex items-center" style="color:#FF01FB"><svg class="mr-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M6.25 15.5V12h13V8h-13V4.5L1 10z" />
-</svg>
- Previous</button>
-  
-  
-    <span class="mx-8" aria-hidden="true">&nbsp;</span>
-  
-  
-    <button data-toggle="work-item-jump" data-target="#coyote-ltl-quote" class="text-2xl flex items-center" style="color:#FF01FB">Next <svg class="ml-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M14 15.5V12H1V8h13V4.5l5.25 5.5z" />
-  &lt;/g&gt;
-</svg>
-</button>
-  
-</footer>
-
-			</div>
-		
-			<div class="hidden js-work-item-container" id="coyote-ltl-quote">
-				<h2 class="text-6xl mb-8 font-bold leading-tight">Coyote LTL Quote <span class="rounded text-2xl uppercase px-2 text-white align-middle whitespace-no-wrap" style="color: #D101CE;background: #2F012E;">Case Study</span></h2>
-				<section class="grid grid-cols-12 gap-10 text-xl pb-20">
-	<div class="col-span-12 md:order-last md:col-span-5 lg:col-span-4 lg:col-start-9">
-		<aside class="text-black p-8 rounded" style="background:#FFD0FE">
-			<table>
-				<tbody>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Client</th>
-						<td>Coyote Logistics</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Media</th>
-						<td>Website</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Role</th>
-						<td>Designer, Front-End Developer</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Date</th>
-						<td>Summer 2015</td>
-					</tr>
-				</tbody>
-			</table>
-		</aside>
-	</div>
-	<div class="col-span-12 md:col-span-7">
-		<p>Coyote was losing significant business because it lacked a less than truckload (LTL) quoting and shipping tool. I worked with a Business Analyst, a Product Manager, an overseas development team, and various stakeholders&mdash;some familiar and others brand new to the world of LTL. The tool was built over the course of 4 months within Coyote.com, Coyote's web app for shippers and carriers.</p>
-		<p>The requirements shifted often, first as a tool for potential customers to quote shipments, and later restricted to customers already partnered with Coyote to quote and book LTL shipments. My role included requirements gathering, user testing, front-end development, and design.</p>
-	</div>
-</section>
-
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 md:col-span-1">
-		<h2 class="text-4xl font-bold">Sketches</h2>
-		<p>Even though the business had a tight timeline of three months for development, walking stakeholders through paper and pen sketches exposed the lack of shared knowledge and unified vision for this tool. It forced the stakeholders to come to an agreement on what would and would not be included. Eventually, the quick quote for unauthorized users was cut from this project.</p>
-	</div>
-	<div class="col-span-3 md:col-span-2 grid gap-10 grid-cols-2">
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/ltl-sketch-1.jpg" alt="LTL Quote Sketch 1" />
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/ltl-sketch-2.jpg" alt="LTL Quote Sketch 2" />
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/ltl-sketch-3.jpg" alt="LTL Quote Sketch 3" />
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/ltl-sketch-4.jpg" alt="LTL Quote Sketch 4" />
-	</div>
-</section>
-
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 md:col-span-1">
-		<h2 class="text-4xl font-bold">Wireframes</h2>
-		<p>Early on we decided on a step form wizard. While I was designing workflow for this, our in-house development team started work on implementing a 3rd party API to collect and present carrier quotes. Combining the team's API findings and the stakeholders' evolving requirements based on mockup discussion and feedback meant much time was spent adding, moving, and removing fields from our form.</p>
-	</div>
-	<div class="col-span-3 md:col-span-2 grid gap-10 grid-cols-2">
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/ltl-moqup-0.png" alt="LTL Quote Moqup 1" />
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/ltl-moqup-1.png" alt="LTL Quote Moqup 2" />
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/ltl-moqup-2.png" alt="LTL Quote Moqup 3" />
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/ltl-moqup-3.png" alt="LTL Quote Moqup 4" />
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/ltl-moqup-4.png" alt="LTL Quote Moqup 5" />
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/ltl-moqup-5.png" alt="LTL Quote Moqup 6" />
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/ltl-moqup-6.png" alt="LTL Quote Moqup 7" />
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/ltl-moqup-7.png" alt="LTL Quote Moqup 8" />
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/ltl-moqup-8.png" alt="LTL Quote Moqup 9" />
-	</div>
-</section>
-
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 md:col-span-1">
-		<h2 class="text-4xl font-bold">Early Design</h2>
-		<p>I built a working prototype on Bootstrap that roughly matched our app and began user testing various form designs. Initially, I designed a step that combined pickup and delivery details with the summary but user testing proved this to be quite confusing so each step was moved to its own page.</p>
-		<p>This design also featured an unrefined version of the timeline that had navigation issue during user testing so a new design was implemented that improved on this slightly.</p>
-	</div>
-	<div class="col-span-3 md:col-span-2 grid gap-10">
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/ltl-initial-3b.png" alt="LTL Quote Initial Design" />
-	</div>
-</section>
-
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 md:col-span-1">
-		<h2 class="text-4xl font-bold">Final Design</h2>
-		<p>Once the API requirements had been resolved, the Pune team built out a rough version of the step form wizard which I later refined and added animations and transitions to. I also ran a few user tests and revealed usability issues regarding shipping to an already saved address verse creating a new one which was worked out.</p>
-		<p>The tool was released first to a limited set of beta users and later to all of Coyote's shippers. It's now being used countless times daily.</p>
-	</div>
-	<div class="col-span-3 md:col-span-2 grid gap-10">
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/ltl-1.png" alt="LTL Quote Final Design 1" />
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/ltl-2.png" alt="LTL Quote Final Design 2" />
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/ltl-3.png" alt="LTL Quote Final Design 3" />
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/ltl-4.png" alt="LTL Quote Final Design 4" />
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/ltl-5.png" alt="LTL Quote Final Design 5" />
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/ltl-6.png" alt="LTL Quote Final Design 6" />
-	</div>
-</section>
-
-<footer class="pt-20 flex items-center justify-center">
-  
-    <button data-toggle="work-item-jump" data-target="#coyote-howl" class="text-2xl flex items-center" style="color:#FF01FB"><svg class="mr-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M6.25 15.5V12h13V8h-13V4.5L1 10z" />
-</svg>
- Previous</button>
-  
-  
-    <span class="mx-8" aria-hidden="true">&nbsp;</span>
-  
-  
-    <button data-toggle="work-item-jump" data-target="#shuffl" class="text-2xl flex items-center" style="color:#FF01FB">Next <svg class="ml-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M14 15.5V12H1V8h13V4.5l5.25 5.5z" />
-  &lt;/g&gt;
-</svg>
-</button>
-  
-</footer>
-
-			</div>
-		
-			<div class="hidden js-work-item-container" id="shuffl">
-				<h2 class="text-6xl mb-8 font-bold leading-tight">Shuffl</h2>
-				<section class="grid grid-cols-12 gap-10 text-xl pb-20">
-	<div class="col-span-12 md:order-last md:col-span-5 lg:col-span-4 lg:col-start-9">
-		<aside class="text-black p-8 rounded" style="background:#FFD0FE">
-			<table>
-				<tbody>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Client</th>
-						<td>Shuffl</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Media</th>
-						<td>Website</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Role</th>
-						<td>Designer, Front-End Developer, Copy-Writer</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Date</th>
-						<td>February 2019</td>
-					</tr>
-					<tr>
-						<th colspan="2" class="text-left pt-3">
-							<a class="button" href="https://shuffllunch.com/">Visit the site</a>
-						</th>
-					</tr>
-				</tbody>
-			</table>
-		</aside>
-	</div>
-	<div class="col-span-12 md:col-span-7">
-		<p>A friend built a small Slack app that paired employees together and set up a day and time to get lunch as a way to promote inter-office communication. As the product grew in usage and time passed, the tool's marketing website began to collect dust informationally and visually. I gave the website a refresh of both the content and the design. This improved the visitor to install ratio drastically and made the owner much more proud of their app.</p>
-	</div>
-</section>
-
-<section class="grid grid-cols-3 gap-10 py-20">
-	<img loading="lazy" class="rounded shadow-xl col-span-2" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/shuffl-1.png" alt="Shuffl Screen Shot 1" />
-	<img loading="lazy" class="rounded shadow-xl row-span-4" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/shuffl-2.png" alt="Shuffl Screen Shot 2" />
-	<img loading="lazy" class="rounded shadow-xl col-span-2" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/shuffl-3.png" alt="Shuffl Screen Shot 3" />
-	<img loading="lazy" class="rounded shadow-xl col-span-2" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/shuffl-4.png" alt="Shuffl Screen Shot 4" />
-</section>
-
-<footer class="pt-20 flex items-center justify-center">
-  
-    <button data-toggle="work-item-jump" data-target="#coyote-ltl-quote" class="text-2xl flex items-center" style="color:#FF01FB"><svg class="mr-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M6.25 15.5V12h13V8h-13V4.5L1 10z" />
-</svg>
- Previous</button>
-  
-  
-    <span class="mx-8" aria-hidden="true">&nbsp;</span>
-  
-  
-    <button data-toggle="work-item-jump" data-target="#coyote-my-tasks" class="text-2xl flex items-center" style="color:#FF01FB">Next <svg class="ml-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M14 15.5V12H1V8h13V4.5l5.25 5.5z" />
-  &lt;/g&gt;
-</svg>
-</button>
-  
-</footer>
-
-			</div>
-		
-			<div class="hidden js-work-item-container" id="coyote-my-tasks">
-				<h2 class="text-6xl mb-8 font-bold leading-tight">Coyote My Tasks <span class="rounded text-2xl uppercase px-2 text-white align-middle whitespace-no-wrap" style="color: #D101CE;background: #2F012E;">Case Study</span></h2>
-				<section class="grid grid-cols-12 gap-10 text-xl pb-20">
-	<div class="col-span-12 md:order-last md:col-span-5 lg:col-span-4 lg:col-start-9">
-		<aside class="text-black p-8 rounded" style="background:#FFD0FE">
-			<table>
-				<tbody>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Client</th>
-						<td>Coyote Logistics</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Media</th>
-						<td>Website</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Role</th>
-						<td>Designer, Front-End Developer</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Date</th>
-						<td>July 2015</td>
-					</tr>
-				</tbody>
-			</table>
-		</aside>
-	</div>
-	<div class="col-span-12 md:col-span-7">
-		<p>Coyote provides shippers with up-to-the-minute delivery tracking information through web and mobile apps. Location information is provided by drivers using Coyote's mobile app or website but if carriers fail to do this, Coyote representatives have to call drivers for location updates, taking time away from booking new freight.</p>
-		<p>Stakeholders predicted that an improved experience and workflow for updating loads could double self-tracking to 40%. This problem was given to me, a Stakeholder, a Business Analyst, and a development team in Pune, Maharashtra, India to solve. Our solution was a landing page where users are presented with outstanding tasks and a quick way to complete them.</p>
-	</div>
-</section>
-
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 md:col-span-1">
-		<h2 class="text-4xl font-bold">Sketches</h2>
-		<p>The paper and pen phase of this project was quick and used to explore a few solutions to the problem. The team met and decided on one design idea. Requirements gathering was easy as most of the tasks were already defined in other areas of the app. The hard part here was deciding when a task became important enough to warrant a spot on this page as there are many tasks required by any given carrier user on our website.</p>
-	</div>
-	<div class="col-span-3 md:col-span-2 grid gap-10">
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/my-tasks-sketch-1.jpg" alt="My Tasks Sketch 1" />
-	</div>
-</section>
-
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 md:col-span-1">
-		<h2 class="text-4xl font-bold">Wireframes</h2>
-		<p>After putting together wireframes of our solution and running user tests with carrier and the reps that manually track them, we quickly found a problem with our solution—while gathering all the tasks into one, easy to use interface solved half the problem, sending them to other areas of the site to complete the task slowed them down. So we decided to implement an actionable sidebar to complete each task without having to leave this page.</p>
-	</div>
-	<div class="col-span-3 md:col-span-2 grid gap-10 grid-cols-2">
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/my-tasks-moqup-0.png" alt="My Tasks Moqup 1" />
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/my-tasks-moqup-1.png" alt="My Tasks Moqup 2" />
-		<img loading="lazy" class="grid-item-6/12" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/my-tasks-moqup-2.png" alt="My Tasks Moqup 3" />
-	</div>
-</section>
-
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 md:col-span-1">
-		<h2 class="text-4xl font-bold">Final Design</h2>
-		<p>Adding an actionable sidebar increased the effort to complete this project considerably so we built the project in phases, allowing other projects and features to take priority in between.</p>
-		<p>With the release of each phase, the amount of self-tracking increased, eventually surpassing our 40% goal. Other parts of the business have seen this feature and are now developing their own "My Tasks" pages to help solve similar problems.</p>
-	</div>
-	<div class="col-span-3 md:col-span-2 grid gap-10">
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/my-tasks-1.png" alt="My Tasks Final Design" />
-	</div>
-</section>
-
-<footer class="pt-20 flex items-center justify-center">
-  
-    <button data-toggle="work-item-jump" data-target="#shuffl" class="text-2xl flex items-center" style="color:#FF01FB"><svg class="mr-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M6.25 15.5V12h13V8h-13V4.5L1 10z" />
-</svg>
- Previous</button>
-  
-  
-    <span class="mx-8" aria-hidden="true">&nbsp;</span>
-  
-  
-    <button data-toggle="work-item-jump" data-target="#coyote-tms" class="text-2xl flex items-center" style="color:#FF01FB">Next <svg class="ml-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M14 15.5V12H1V8h13V4.5l5.25 5.5z" />
-  &lt;/g&gt;
-</svg>
-</button>
-  
-</footer>
-
-			</div>
-		
-			<div class="hidden js-work-item-container" id="coyote-tms">
-				<h2 class="text-6xl mb-8 font-bold leading-tight">Coyote TMS</h2>
-				<section class="grid grid-cols-12 gap-10 text-xl pb-20">
-	<div class="col-span-12 md:order-last md:col-span-5 lg:col-span-4 lg:col-start-9">
-		<aside class="text-black p-8 rounded" style="background:#FFD0FE">
-			<table>
-				<tbody>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Client</th>
-						<td>Coyote Logistics</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Media</th>
-						<td>Website</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Role</th>
-						<td>Designer, Front-End Developer</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Date</th>
-						<td>2012–2015</td>
-					</tr>
-				</tbody>
-			</table>
-		</aside>
-	</div>
-	<div class="col-span-12 md:col-span-7">
-		<p>My position at Coyote allowed me to work on many projects, the largest of which is their business-to-business Transportation Management System (TMS). Working with a team of over 20 developers, I was responsible for every page's overall design and user interface, the implementation, development, and maintenance of the app's CSS framework and HTML, and the occasional copy-writing. This required great team-working and communication skills as well as an extremely acute attention to detail. As with most projects at Coyote, my responsibilities on this project grew to span across many roles including Business Analyst, Quality Assurance Tester, and User Experience Designer.</p>
-	</div>
-</section>
-
-<section class="grid grid-cols-2 gap-10 py-20">
-	<img loading="lazy" class="rounded shadow-xl col-span-2" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/coyote-tms-1.png" alt="Coyote TMS Screenshot 1" />
-	<img loading="lazy" class="rounded shadow-xl col-span-2" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/coyote-tms-2.png" alt="Coyote TMS Screenshot 2" />
-	<img loading="lazy" class="rounded shadow-xl col-span-2" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/coyote-tms-3.png" alt="Coyote TMS Screenshot 3" />
-	<img loading="lazy" class="rounded shadow-xl col-span-2" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/coyote-tms-4.png" alt="Coyote TMS Screenshot 4" />
-	<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/coyote-tms-5.png" alt="Coyote TMS Screenshot 5" />
-	<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/coyote-tms-6.png" alt="Coyote TMS Screenshot 6" />
-</section>
-
-<footer class="pt-20 flex items-center justify-center">
-  
-    <button data-toggle="work-item-jump" data-target="#coyote-my-tasks" class="text-2xl flex items-center" style="color:#FF01FB"><svg class="mr-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M6.25 15.5V12h13V8h-13V4.5L1 10z" />
-</svg>
- Previous</button>
-  
-  
-    <span class="mx-8" aria-hidden="true">&nbsp;</span>
-  
-  
-    <button data-toggle="work-item-jump" data-target="#tech-for-campaigns" class="text-2xl flex items-center" style="color:#FF01FB">Next <svg class="ml-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M14 15.5V12H1V8h13V4.5l5.25 5.5z" />
-  &lt;/g&gt;
-</svg>
-</button>
-  
-</footer>
-
-			</div>
-		
-			<div class="hidden js-work-item-container" id="tech-for-campaigns">
-				<h2 class="text-6xl mb-8 font-bold leading-tight">Tech for Campaigns <span class="rounded text-2xl uppercase px-2 text-white align-middle whitespace-no-wrap" style="color: #D101CE;background: #2F012E;">Case Study</span></h2>
-				<section class="grid grid-cols-12 gap-10 text-xl pb-20">
-	<div class="col-span-12 md:order-last md:col-span-5 lg:col-span-4 lg:col-start-9">
-		<aside class="text-black p-8 rounded" style="background:#FFD0FE">
-			<table>
-				<tbody>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Client</th>
-						<td>Tech for Campaigns</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Media</th>
-						<td>Website</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Role</th>
-						<td>Designer, Front-End Developer</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Date</th>
-						<td>Summer 2017</td>
-					</tr>
-				</tbody>
-			</table>
-		</aside>
-	</div>
-	<div class="col-span-12 md:col-span-7">
-		<p>In June of 2018, I was selected to join a growth team at Tech for Campaigns, an organization that assigns tech volunteers to teams and pairs them with local, state, and national campaigns in need of tech-related help. Our team, consisting of myself as UX designer, a Developer, a Social Marketing Manager, and a Product Manager were tasked with growing the database of volunteers.</p>
-	</div>
-</section>
-
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 md:col-span-1 row-span-2">
-		<h2 class="text-4xl font-bold">Wireframes Phase One</h2>
-		<p>After an introductory meeting, I went through the Tech for Campaigns website and sign-up flow and outlined problems and opportunities that likely affected volunteer sign-up completion. I wrote a sentence or two describing my findings and initial thoughts on solving them and presented these during a brainstorming session. We then established a goal to significantly increase Tech for Campaigns' form completion percentage.</p>
-		<p>The team decided to split the project into two phases and test along the way. The first phase was auditing for and removing unused form fields. I then repositioned the fields on the large form in a more organized, thoughtful way grouping related fields and sectioning them off from others. The second phase involved moving to a form-wizard and adding design elements that spark interest and assist completion.</p>
-		<p>I wireframed the first phase and got approval from the founders. I then moved into Photoshop/Sketch and, in the case of the sign-up form, began making changes to the production site.</p>
-		<p>The amount of space dedicated to branding elements was disproportionate to the goals of the organization which distracted visitors from signing up and buried vital content that explained how the process worked. The link to the volunteer form, the most important link on the site, was getting lost within the rest of the navigation. The sign-up form asked a few questions that weren't being used by the org and looked unnecessarily long and daunting.</p>
-		<p>On top of design tweaks, we added an email only sign-up form to allow non-tech visitors to receive organization updates via email. This created a database of visitors that could be vetted and, in some cases with the right work experience, converted into volunteers. It also created a pool of non-tech volunteers that could be used for more traditional campaigning or fundraising.</p>
-	</div>
-	<div class="col-span-3 md:col-span-2 grid gap-10 grid-cols-2">
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/tfc-wireframe-01.png" alt="Tech for Campaigns Phase One Wireframes 1" />
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/tfc-wireframe-03.png" alt="Tech for Campaigns Phase One Wireframes 2" />
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/tfc-wireframe-04.png" alt="Tech for Campaigns Phase One Wireframes 3" />
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/tfc-wireframe-03.png" alt="Tech for Campaigns Phase One Wireframes 4" />
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/tfc-wireframe-02.png" alt="Tech for Campaigns Phase One Wireframes 5" />
-	</div>
-</section>
-
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 md:col-span-1">
-		<h2 class="text-4xl font-bold">Final Design Phase One</h2>
-		<p>After getting approval of the wireframes and basic design direction I moved into Photoshop and Sketch to explore designs and ideas further. We settled on a final design for approval and implementation. We tested the new design and found a 13% increase in volunteer form submissions. We also added a significant amount of email-only users that will hopefully convert to volunteers in the future.</p>
-	</div>
-	<div class="col-span-3 md:col-span-2 grid gap-10">
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/tfc-01.png" alt="Tech for Campaigns Phase One 1" />
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/tfc-02.png" alt="Tech for Campaigns Phase One 2" />
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/tfc-03.png" alt="Tech for Campaigns Phase One 3" />
-	</div>
-</section>
-
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 md:col-span-1 row-span-2">
-		<h2 class="text-4xl font-bold">Wireframes Phase Two</h2>
-		<p>After implemention and testing of phase one completed, work began on transforming the one-page form into a multi-step wizard. Our assumption was by grouping related fields and ordering steps sequentially we'd reduce cognitive load and increase conversion.</p>
-		<p>I thoughtfully split the form into four steps, designed a status bar, and added placeholders for intro text and icons. After a round of feedback from my team, I sought approval from Tech for Campaigns' founders and moved into the final design phase.</p>
-	</div>
-	<div class="col-span-3 md:col-span-2 grid gap-10 grid-cols-2">
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/tfc-two-wireframe-01.png" alt="Tech for Campaigns Phase Two Wireframes 1" />
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/tfc-two-wireframe-02.png" alt="Tech for Campaigns Phase Two Wireframes 2" />
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/tfc-two-wireframe-03.png" alt="Tech for Campaigns Phase Two Wireframes 3" />
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/tfc-two-wireframe-04.png" alt="Tech for Campaigns Phase Two Wireframes 4" />
-	</div>
-</section>
-
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 md:col-span-1">
-		<h2 class="text-4xl font-bold">Final Design Phase Two</h2>
-		<p>I sent the wireframes to the Tech for Campaign's Marketing Team for title and helper text to be placed at the top of each step. After a few rounds of back-and-forth, the team agreed on a set of icons I pitched. I rebuilt them in Illustrator and Sketch and added Tech for Campaigns' red and blue colors. While completing this work, the developer on the team built out the step-based form in Drupal. Once complete, I wrote the CSS needed to match my design and added the icons in SVG form. The team tested the form thoroughly and we launched.</p>
-		<p>We're currently monitoring success metrics to ensure conversion increase and continue improving conversion. So far we've increased volunteer sign-ups over unique homepage visitors from 8% to 33%&mdash;a huge success!</p>
-	</div>
-	<div class="col-span-3 md:col-span-2 grid gap-10">
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/tfc-two-01.png" alt="Tech for Campaigns Phase Two 1" />
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/tfc-two-02.png" alt="Tech for Campaigns Phase Two 2" />
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/tfc-two-03.png" alt="Tech for Campaigns Phase Two 3" />
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/tfc-two-04.png" alt="Tech for Campaigns Phase Two 4" />
-		<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/tfc-two-05.png" alt="Tech for Campaigns Phase Two 5" />
-	</div>
-</section>
-
-<footer class="pt-20 flex items-center justify-center">
-  
-    <button data-toggle="work-item-jump" data-target="#coyote-tms" class="text-2xl flex items-center" style="color:#FF01FB"><svg class="mr-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M6.25 15.5V12h13V8h-13V4.5L1 10z" />
-</svg>
- Previous</button>
-  
-  
-    <span class="mx-8" aria-hidden="true">&nbsp;</span>
-  
-  
-    <button data-toggle="work-item-jump" data-target="#barack-obama-s-tumblr" class="text-2xl flex items-center" style="color:#FF01FB">Next <svg class="ml-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M14 15.5V12H1V8h13V4.5l5.25 5.5z" />
-  &lt;/g&gt;
-</svg>
-</button>
-  
-</footer>
-
-			</div>
-		
-			<div class="hidden js-work-item-container" id="barack-obama-s-tumblr">
-				<h2 class="text-6xl mb-8 font-bold leading-tight">Barack Obama's Tumblr</h2>
-				<section class="grid grid-cols-12 gap-10 text-xl pb-20">
-	<div class="col-span-12 md:order-last md:col-span-5 lg:col-span-4 lg:col-start-9">
-		<aside class="text-black p-8 rounded" style="background:#FFD0FE">
-			<table>
-				<tbody>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Client</th>
-						<td>Barack Obama Reelection Campaign</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Media</th>
-						<td>Website</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Role</th>
-						<td>Designer, Front-End Developer</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Date</th>
-						<td>September 2011</td>
-					</tr>
-					<tr>
-						<th colspan="2" class="text-left pt-3">
-							<a class="button" href="http://barackobama.tumblr.com">Visit the site</a>
-						</th>
-					</tr>
-				</tbody>
-			</table>
-		</aside>
-	</div>
-	<div class="col-span-12 md:col-span-7">
-		<p>I joined the Barack Obama Reelection Campaign as a Front-End Developer. My main responsibilities included the creation and maintenance of donation forms. This included front-end form validation, error handling, embedded video, mobile layout considerations, A/B testing, and constant modifications and troubleshooting. I was also solely in charge of the development of Barack Obama's Tumblr blog which required learning Tumblr's templating language as well as defining mobile breakpoints and layouts.</p>
-	</div>
-</section>
-
-<section class="grid grid-cols-2 gap-10 py-20">
-	<img loading="lazy" class="rounded shadow-xl col-span-2" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/barack-obama-tumblr-1.png" alt="Barack Obama's Tumblr Screenshot 1" />
-	<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/barack-obama-tumblr-2.png" alt="Barack Obama's Tumblr Screenshot 2" />
-	<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/barack-obama-tumblr-3.png" alt="Barack Obama's Tumblr Screenshot 3" />
-</section>
-
-<footer class="pt-20 flex items-center justify-center">
-  
-    <button data-toggle="work-item-jump" data-target="#tech-for-campaigns" class="text-2xl flex items-center" style="color:#FF01FB"><svg class="mr-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M6.25 15.5V12h13V8h-13V4.5L1 10z" />
-</svg>
- Previous</button>
-  
-  
-    <span class="mx-8" aria-hidden="true">&nbsp;</span>
-  
-  
-    <button data-toggle="work-item-jump" data-target="#ohboyy" class="text-2xl flex items-center" style="color:#FF01FB">Next <svg class="ml-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M14 15.5V12H1V8h13V4.5l5.25 5.5z" />
-  &lt;/g&gt;
-</svg>
-</button>
-  
-</footer>
-
-			</div>
-		
-			<div class="hidden js-work-item-container" id="ohboyy">
-				<h2 class="text-6xl mb-8 font-bold leading-tight">OhBoyy</h2>
-				<section class="grid grid-cols-12 gap-10 text-xl pb-20">
-	<div class="col-span-12 md:order-last md:col-span-5 lg:col-span-4 lg:col-start-9">
-		<aside class="text-black p-8 rounded" style="background:#FFD0FE">
-			<table>
-				<tbody>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Client</th>
-						<td>OhBoyy</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Media</th>
-						<td>Website, Identity, T-Shirt, Packaging</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Role</th>
-						<td>Designer, Front-End Developer, Copy-Writer</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Date</th>
-						<td>April 2011</td>
-					</tr>
-				</tbody>
-			</table>
-		</aside>
-	</div>
-	<div class="col-span-12 md:col-span-7">
-		<p>A friend and I started making killer homemade t-shirts. People always asked where we bought them and we morphed from there into a design/development company, a small website with e-commerce functionality, logo and brand development, and a core product we love.</p>
-	</div>
-</section>
-
-<section class="grid grid-cols-3 gap-10 py-20">
-	<img loading="lazy" class="rounded shadow-xl col-span-3 w-full" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/ohboyy-1.png" alt="OhBoyy Screenshot 1" />
-	<img loading="lazy" class="rounded shadow-xl col-span-2 row-span-2" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/ohboyy-2.png" alt="OhBoyy Screenshot 2" />
-	<img loading="lazy" class="rounded shadow-xl " src="https://jessetrippe-cdn-173419.appspot.com/portfolio/ohboyy-4.jpg" alt="OhBoyy Packaging" />
-	<img loading="lazy" class="" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/ohboyy-3.png" alt="OhBoyy Wordmark" />
-</section>
-
-<footer class="pt-20 flex items-center justify-center">
-  
-    <button data-toggle="work-item-jump" data-target="#barack-obama-s-tumblr" class="text-2xl flex items-center" style="color:#FF01FB"><svg class="mr-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M6.25 15.5V12h13V8h-13V4.5L1 10z" />
-</svg>
- Previous</button>
-  
-  
-    <span class="mx-8" aria-hidden="true">&nbsp;</span>
-  
-  
-    <button data-toggle="work-item-jump" data-target="#bauer-latoza-studio" class="text-2xl flex items-center" style="color:#FF01FB">Next <svg class="ml-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M14 15.5V12H1V8h13V4.5l5.25 5.5z" />
-  &lt;/g&gt;
-</svg>
-</button>
-  
-</footer>
-
-			</div>
-		
-			<div class="hidden js-work-item-container" id="bauer-latoza-studio">
-				<h2 class="text-6xl mb-8 font-bold leading-tight">Bauer Latoza Studio</h2>
-				<section class="grid grid-cols-12 gap-10 text-xl pb-20">
-	<div class="col-span-12 md:order-last md:col-span-5 lg:col-span-4 lg:col-start-9">
-		<aside class="text-black p-8 rounded" style="background:#FFD0FE">
-			<table>
-				<tbody>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Client</th>
-						<td>Bauer Latoza Studio</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Media</th>
-						<td>Website</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Role</th>
-						<td>Designer, Front-End Developer</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Date</th>
-						<td>March 2011</td>
-					</tr>
-					<tr>
-						<th colspan="2" class="text-left pt-3">
-							<a class="button" href="http://www.bauerlatozastudio.com">Visit the site</a>
-						</th>
-					</tr>
-				</tbody>
-			</table>
-		</aside>
-	</div>
-	<div class="col-span-12 md:col-span-7">
-		<p>Working with the content of an original website, I designed and coded an extensive portfolio and blog for Chicago architecture firm BauerLatoza Studio. The final design needed to fit within the company's already designed logo, letterhead, invoicing and marketing materials. The results is a site with modern navigation, improved overall functionality and, of course, easier on the eyes without getting in the way of their work.</p>
-	</div>
-</section>
-
-<section class="grid grid-cols-2 gap-10 py-20">
-	<img loading="lazy" class="rounded shadow-xl col-span-2" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/bauer-latoza-1.png" alt="Bauer Latoza Studio Screenshot 1" />
-	<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/bauer-latoza-3.png" alt="Bauer Latoza Studio Screenshot 2" />
-	<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/bauer-latoza-4.png" alt="Bauer Latoza Studio Screenshot 3" />
-	<img loading="lazy" class="rounded shadow-x col-span-2" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/bauer-latoza-2.png" alt="Bauer Latoza Studio Screenshot 4" />
-</section>
-
-<footer class="pt-20 flex items-center justify-center">
-  
-    <button data-toggle="work-item-jump" data-target="#ohboyy" class="text-2xl flex items-center" style="color:#FF01FB"><svg class="mr-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M6.25 15.5V12h13V8h-13V4.5L1 10z" />
-</svg>
- Previous</button>
-  
-  
-    <span class="mx-8" aria-hidden="true">&nbsp;</span>
-  
-  
-    <button data-toggle="work-item-jump" data-target="#green-bridge-white-house" class="text-2xl flex items-center" style="color:#FF01FB">Next <svg class="ml-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M14 15.5V12H1V8h13V4.5l5.25 5.5z" />
-  &lt;/g&gt;
-</svg>
-</button>
-  
-</footer>
-
-			</div>
-		
-			<div class="hidden js-work-item-container" id="green-bridge-white-house">
-				<h2 class="text-6xl mb-8 font-bold leading-tight">Green Bridge White House</h2>
-				<section class="grid grid-cols-12 gap-10 text-xl pb-20">
-	<div class="col-span-12 md:order-last md:col-span-5 lg:col-span-4 lg:col-start-9">
-		<aside class="text-black p-8 rounded" style="background:#FFD0FE">
-			<table>
-				<tbody>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Client</th>
-						<td>Kelli Holtz, Interior Designer</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Media</th>
-						<td>Identity, Website</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Role</th>
-						<td>Designer, Front-End Developer</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Date</th>
-						<td>April 2010</td>
-					</tr>
-				</tbody>
-			</table>
-		</aside>
-	</div>
-	<div class="col-span-12 md:col-span-7">
-		<p>Green Bridge, White House needed a home. As interior designers, they knew how to fill it with their concepts and photos, but needed the framework to create within. I designed and developed their logo, business cards, and blog to represent who they are.</p>
-	</div>
-</section>
-
-<section class="grid grid-cols-2 gap-10 py-20">
-	<img loading="lazy" class="rounded shadow-xl col-span-2" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/gbwh-1.png" alt="Green Bridge White House Screenshot" />
-	<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/gbwh-2.png" alt="Green Bridge White House Business Cards" />
-	<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/gbwh-3.png" alt="Green Bridge White House Business Cards" />
-</section>
-
-<footer class="pt-20 flex items-center justify-center">
-  
-    <button data-toggle="work-item-jump" data-target="#bauer-latoza-studio" class="text-2xl flex items-center" style="color:#FF01FB"><svg class="mr-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M6.25 15.5V12h13V8h-13V4.5L1 10z" />
-</svg>
- Previous</button>
-  
-  
-    <span class="mx-8" aria-hidden="true">&nbsp;</span>
-  
-  
-    <button data-toggle="work-item-jump" data-target="#northwind-farms" class="text-2xl flex items-center" style="color:#FF01FB">Next <svg class="ml-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M14 15.5V12H1V8h13V4.5l5.25 5.5z" />
-  &lt;/g&gt;
-</svg>
-</button>
-  
-</footer>
-
-			</div>
-		
-			<div class="hidden js-work-item-container" id="northwind-farms">
-				<h2 class="text-6xl mb-8 font-bold leading-tight">Northwind Farms</h2>
-				<section class="grid grid-cols-12 gap-10 text-xl pb-20">
-	<div class="col-span-12 md:order-last md:col-span-5 lg:col-span-4 lg:col-start-9">
-		<aside class="text-black p-8 rounded" style="background:#FFD0FE">
-			<table>
-				<tbody>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Client</th>
-						<td>Northwind Perennial Farm</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Media</th>
-						<td>Identity, Business Cards, 8.5&#8243;&times;11&#8243; Casebook</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Role</th>
-						<td>Designer, Photographer</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Date</th>
-						<td>March 2008</td>
-					</tr>
-				</tbody>
-			</table>
-		</aside>
-	</div>
-	<div class="col-span-12 md:col-span-7">
-		<p>Complete redesign from concept to brand for Wisconsin based Northwind Perennial Farm Nursery &amp; Garden. The project required extensive market research and historical analysis of the company. The final product communicated the research journey to creating a stunning new design while keeping Northwind's traditions as inspiration for guiding principles. The design included letterhead, logo, and brand book.</p>
-	</div>
-</section>
-
-<section class="grid grid-cols-2 gap-10 py-20">
-	<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/northwind-1.png" alt="Northwind Identity Casebook 1" />
-	<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/northwind-2.png" alt="Northwind Identity Casebook 2" />
-	<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/northwind-3.png" alt="Northwind Identity Casebook 4" />
-	<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/northwind-4.png" alt="Northwind Identity Casebook 3" />
-	<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/northwind-5.png" alt="Northwind Identity Casebook 5" />
-	<img loading="lazy" class="rounded shadow-xl" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/northwind-6.png" alt="Northwind Identity Casebook 6" />
-	<img loading="lazy" class="rounded shadow-xl col-span-2" src="https://jessetrippe-cdn-173419.appspot.com/portfolio/northwind-7.png" alt="Northwind Identity Business Cards" />
-</section>
-
-<footer class="pt-20 flex items-center justify-center">
-  
-    <button data-toggle="work-item-jump" data-target="#green-bridge-white-house" class="text-2xl flex items-center" style="color:#FF01FB"><svg class="mr-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-    <path fill="currentColor" d="M6.25 15.5V12h13V8h-13V4.5L1 10z" />
-</svg>
- Previous</button>
-  
-  
-  
-</footer>
-
-			</div>
-		
-	</div>
-</div>
 
     
-    <script src="./scripts/jquery-3.4.1.min.js"></script>
-    <script src="./scripts/main.js"></script>
+    <script src="/scripts/jquery-3.4.1.min.js"></script>
+    <script src="/scripts/main.js"></script>
 
 </body>
 </html>
