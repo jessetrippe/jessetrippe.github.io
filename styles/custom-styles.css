@@ -1,0 +1,211 @@
+/* Front matter is necessary for Jekyll */
+
+.jekyll-throw-away-class {
+  background: blue;
+}
+
+html {
+  background: #FF01FB;
+  color: #FFFEFF;
+}
+
+body {
+  background: #000300;
+}
+
+.has-modal-full-viewport {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.has-modal-full-viewport body {
+  height: 100%;
+  overflow: hidden;
+}
+
+.work-item-content section + section {
+  margin-top: 10rem;
+}
+
+p + p,
+h2 + p {
+  margin-top: 1.5rem;
+}
+
+.filter-shadow {
+  -webkit-filter: drop-shadow(0 1px 1px rgba(0,0,0,.3));
+          filter: drop-shadow(0 1px 1px rgba(0,0,0,.3));
+}
+
+.button-ghost {
+  border: 2px solid #FF01FB;
+  border-radius: 0.25rem;
+  color: #FF01FB;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.button-ghost:hover {
+  background: #FF01FB;
+  color: #000300;
+}
+
+.text-link {
+  color: #FFE7FE;
+}
+
+.text-link:hover {
+  color: #FFB9FD;
+}
+
+.case-study {
+  border-radius: 4px;
+  background: hsl(301, 99%, 20%);
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0 .3rem;
+  font-size: 1rem;
+  color: #FFD0FE;
+  display: inline-block;
+}
+
+.text-gradient {
+  background: linear-gradient(145deg, #FF8BFD 0%, #BA01B7 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.work-items > a {
+  background: linear-gradient(145deg, #240123 0%, #000 100%);
+}
+
+.work-items > a:hover {
+  background: linear-gradient(145deg, #2F012E 0%, #180117 100%);
+}
+
+.nav-primary,
+.nav-list {
+  display: flex;
+}
+
+.site-footer {
+  border-bottom-width: 1rem;
+  border-color: #FF01FB;
+}
+
+.mast {
+  border-top-width: 1rem;
+  border-color: #FF01FB;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+  .nav-close,
+	.nav-toggle {
+    display: block;
+  }
+
+  .nav-primary {
+    background: #000300;
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10;
+  }
+
+  .nav-primary[hidden] {
+    display: none;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    font-size: 2.5rem;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+[data-clipboard-content] {
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  transition: transform .1s;
+}
+
+[data-clipboard-content]:focus {
+  outline: 0;
+}
+
+[data-clipboard-content]:active {
+  transform: scale(.98);
+}
+
+[data-clipboard-content].is-animating {
+  -webkit-animation: scale 1s;
+          animation: scale 1s;
+}
+
+[data-clipboard-content]:before {
+  content: "Email copied";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: grid;
+  place-items: center;
+  background: #FFA2FD;
+  color: #FF01FB;
+  opacity: 0;
+  z-index: 10;
+  transition: opacity .15s;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+
+[data-clipboard-content].is-animating:before {
+  opacity: 1;
+}
+
+@-webkit-keyframes scale {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 1, 251,.9);
+  }
+
+  30% {
+    transform: scale(1.05);
+  }
+
+  60% {
+    transform: scale(1);
+  }
+
+  100% {
+    box-shadow: 0 0 0 1em transparent;
+  }
+}
+
+@keyframes scale {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 1, 251,.9);
+  }
+
+  30% {
+    transform: scale(1.05);
+  }
+
+  60% {
+    transform: scale(1);
+  }
+
+  100% {
+    box-shadow: 0 0 0 1em transparent;
+  }
+}
