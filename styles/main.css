@@ -642,18 +642,6 @@ body {
   background: #000300;
 }
 
-.has-modal-full-viewport {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.has-modal-full-viewport body {
-  height: 100%;
-  overflow: hidden;
-}
-
 .work-item-content section + section {
   margin-top: 10rem;
 }
@@ -679,14 +667,6 @@ h2 + p {
 .button-ghost:hover {
   background: #FF01FB;
   color: #000300;
-}
-
-.text-link {
-  color: #FFE7FE;
-}
-
-.text-link:hover {
-  color: #FFB9FD;
 }
 
 .case-study {
@@ -837,6 +817,27 @@ h2 + p {
   100% {
     box-shadow: 0 0 0 1em transparent;
   }
+}
+
+.animated-underline {
+  position: relative;
+}
+
+.animated-underline:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom:	0;
+  left: 0;
+  background-color: #FF01FB;
+  visibility: hidden;
+  transition: all 0.15s ease-in-out 0s;
+}
+
+.animated-underline:hover:after {
+  visibility: visible;
+  width: 100%;
 }
 
 .sr-only {
