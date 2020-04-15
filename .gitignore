@@ -1,9 +1,0 @@
-.sass-cache/**.*
-app.yaml
-_site
-amazon
-boarding-pass
-*.scssc
-.DS_Store
-Gemfile.lock
-Gemfile
