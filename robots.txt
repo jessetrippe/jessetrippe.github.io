@@ -1,5 +1,2 @@
 User-agent: *
-Disallow: /coyote-howl/
-Disallow: /coyote-tms/
-Disallow: /coyote-ltl-quote/
-Disallow: /coyote-my-tasks/
+disallow: /
