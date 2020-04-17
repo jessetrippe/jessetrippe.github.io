@@ -717,7 +717,7 @@ h2 + p {
   position: absolute;
   width: 0;
   height: 2px;
-  bottom:	0;
+  bottom:	2px;
   left: 0;
   background-color: #FF01FB;
   visibility: hidden;
@@ -1095,6 +1095,10 @@ h2 + p {
 
 .right-0 {
   right: 0;
+}
+
+.resize {
+  resize: both;
 }
 
 .shadow-xl {
