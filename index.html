@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="bg-magenta-500 text-magenta-white">
 
 <head>
   <meta charset="utf-8">
@@ -37,9 +37,9 @@
   <link rel="stylesheet" href="/styles/main.css">
 </head>
 
-<body class="font-sans text-lg">
+<body class="font-sans text-lg bg-magenta-black">
 
-    <header class="headline mast py-5 px-8 items-center fixed z-20 top-0 inset-x-0" role="banner" style="background: #000300;">
+    <header class="flex justify-between py-5 px-8 items-center fixed z-20 top-0 inset-x-0 bg-magenta-black border-magenta-500 border-t-16" role="banner">
     <span class="site-logo">
         <a class="link-logo text-2xl font-medium" href="/#">Jesse Trippe</a>
     </span>
@@ -47,27 +47,26 @@
         <svg class="w-5 h-5"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
 	<path fill="currentColor" d="M16.4 9H3.6c-.55 0-.6.45-.6 1s.05 1 .6 1h12.8c.55 0 .6-.45.6-1s-.05-1-.6-1zm0 4H3.6c-.55 0-.6.45-.6 1s.05 1 .6 1h12.8c.55 0 .6-.45.6-1s-.05-1-.6-1zM3.6 7h12.8c.55 0 .6-.45.6-1s-.05-1-.6-1H3.6c-.55 0-.6.45-.6 1s.05 1 .6 1z"/>
 </svg>
-        <!-- Menu -->
     </button>
-    <nav class="nav-primary" hidden>
+    <nav class="nav-primary flex bg-magenta-black fixed inset-0 z-10 lg:static" hidden>
         <button class="nav-close p-3 fixed top-0 right-0 lg:hidden">
             <svg class="w-10 h-10 filter-shadow"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12">
     <path fill="currentColor" d="M10.56 1.08l.36.36c.1.1.1.26 0 .37L6.73 6l4.2 4.2c.1.1.1.26 0 .36l-.37.36c-.1.1-.26.1-.37 0L6 6.73l-4.2 4.2c-.1.1-.26.1-.36 0l-.36-.37a.26.26 0 010-.37L5.27 6l-4.2-4.2a.26.26 0 010-.36l.37-.36c.1-.1.26-.1.37 0L6 5.27l4.2-4.2c.1-.1.26-.1.36 0z"/>
 </svg>
 
         </button>
-        <ul class="nav-list items-center">
+        <ul class="nav-list flex flex-col lg:flex-row lg:text-lg justify-center items-center w-full text-4xl">
             <li>
-                <a class="animated-underline block py-1 lg:mr-8" href="/#experience">Experience</a>
+                <a class="animated-underline relative block py-1 lg:mr-8" href="/#experience">Experience</a>
             </li>
             <li>
-                <a class="animated-underline block py-1 lg:mr-8" href="/#work">Work</a>
+                <a class="animated-underline relative block py-1 lg:mr-8" href="/#work">Work</a>
             </li>
             <li>
-                <a class="animated-underline block py-1 lg:mr-8" href="/#about">About</a>
+                <a class="animated-underline relative block py-1 lg:mr-8" href="/#about">About</a>
             </li>
             <li>
-                <a class="animated-underline block py-1 lg:mr-8" href="/#contact">Contact</a>
+                <a class="animated-underline relative block py-1 lg:mr-8" href="/#contact">Contact</a>
             </li>
             <li>
                 <a class="nav-link mt-8 lg:mt-0 button-ghost text-base lg:py-3 lg:px-5 lg:text-sm py-4 px-6 transition duration-150" href="/jesse-trippe-resume.pdf" download>Resume</a>
@@ -83,6 +82,18 @@
         <p>
         	<button class="button-ghost py-4 px-6 transition duration-150" data-clipboard-content="jesse@jessetrippe.com">Get in touch</button>
         </p>
+        <div class="flex">
+			<div class="bg-magenta-100 p-10 flex-1"></div>
+			<div class="bg-magenta-200 p-10 flex-1"></div>
+			<div class="bg-magenta-300 p-10 flex-1"></div>
+			<div class="bg-magenta-400 p-10 flex-1"></div>
+			<div class="bg-magenta-500 p-10 flex-1"></div>
+			<div class="bg-magenta-600 p-10 flex-1"></div>
+			<div class="bg-magenta-700 p-10 flex-1"></div>
+			<div class="bg-magenta-800 p-10 flex-1"></div>
+			<div class="bg-magenta-900 p-10 flex-1"></div>
+			<div class="bg-magenta-black p-10 flex-1"></div>
+        </div>
     </div>
 </header>
 
@@ -161,31 +172,31 @@
 			<a href="/amazon-scheduling/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative">
 				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Amazon Scheduling</h2>
 				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Case study of Amazon's 3rd party driver scheduling tool.</h2>
-				<h2 class="case-study mt-5">Case Study</h2>
+				<h2 class="inline-block rounded font-bold text-magenta-200 bg-magenta-800 px-1 uppercase mt-5">Case Study</h2>
 			</a>
 		
 			<a href="/amazon-dispatch/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative">
 				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Amazon Dispatch</h2>
 				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Amazon's delivery partners needed a tool to track and monitor driver location, progress, route, and stop information.</h2>
-				<h2 class="case-study mt-5">Case Study</h2>
+				<h2 class="inline-block rounded font-bold text-magenta-200 bg-magenta-800 px-1 uppercase mt-5">Case Study</h2>
 			</a>
 		
 			<a href="/amazon-work-tracking/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative">
 				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Amazon Work Tracking</h2>
 				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Amazon needed a tool for delivery partners to submit hours, mileage, and route counts daily in order to get paid.</h2>
-				<h2 class="case-study mt-5">Case Study</h2>
+				<h2 class="inline-block rounded font-bold text-magenta-200 bg-magenta-800 px-1 uppercase mt-5">Case Study</h2>
 			</a>
 		
 			<a href="/coyote-howl/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative">
 				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Coyote Howl</h2>
 				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">Coyote needed a customer-focused mobile app to give shippers visibility and insight into their freight network.</h2>
-				<h2 class="case-study mt-5">Case Study</h2>
+				<h2 class="inline-block rounded font-bold text-magenta-200 bg-magenta-800 px-1 uppercase mt-5">Case Study</h2>
 			</a>
 		
 			<a href="/coyote-ltl-quote/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative">
 				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Coyote LTL Quote</h2>
 				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">A less than truckload (LTL) quoting and shipping tool so Coyote Logistics could remain competitive in the market.</h2>
-				<h2 class="case-study mt-5">Case Study</h2>
+				<h2 class="inline-block rounded font-bold text-magenta-200 bg-magenta-800 px-1 uppercase mt-5">Case Study</h2>
 			</a>
 		
 			<a href="/shuffl/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative">
@@ -197,7 +208,7 @@
 			<a href="/coyote-my-tasks/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative">
 				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Coyote My Tasks</h2>
 				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">A dashboard that presents Coyote customers with high level freight information, tasks and todo items, and a quick way to complete them.</h2>
-				<h2 class="case-study mt-5">Case Study</h2>
+				<h2 class="inline-block rounded font-bold text-magenta-200 bg-magenta-800 px-1 uppercase mt-5">Case Study</h2>
 			</a>
 		
 			<a href="/coyote-tms/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative">
@@ -209,7 +220,7 @@
 			<a href="/tech-for-campaigns/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative">
 				<h2 class="text-3xl mb-3 font-bold leading-tight" style="color:#FFE7FE;">Tech for Campaigns</h2>
 				<h2 class="text-xl opacity-75" style="color:#FFE7FE;">A sign-up form to collect volunteers' basic contact information, specific market expertise, and their technical background.</h2>
-				<h2 class="case-study mt-5">Case Study</h2>
+				<h2 class="inline-block rounded font-bold text-magenta-200 bg-magenta-800 px-1 uppercase mt-5">Case Study</h2>
 			</a>
 		
 			<a href="/barack-obamas-tumblr/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative">
