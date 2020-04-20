@@ -1373,8 +1373,16 @@ h2 + p {
   color: hsl(301, 100%, 84%);
 }
 
+.text-magenta-600 {
+  color: hsl(301, 100%, 40%);
+}
+
 .text-magenta-white {
   color: hsl(301, 100%, 99%);
+}
+
+.hover\:text-magenta-500:hover {
+  color: hsl(301, 100%, 50%);
 }
 
 .text-base {
