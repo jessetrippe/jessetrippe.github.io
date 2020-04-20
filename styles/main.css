@@ -588,7 +588,7 @@ h2 + p {
 }
 
 @media (max-width: 1024px) {
-  .nav-primary[hidden] {
+  #nav-primary[hidden] {
     display: none;
   }
 }

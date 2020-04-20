@@ -27,7 +27,7 @@ h2 + p {
 } .work-items > a:hover {
   background: linear-gradient(145deg, #2F012E 0%, #180117 100%);
 } @media (max-width: 1024px) {
-  .nav-primary[hidden] {
+  #nav-primary[hidden] {
     display: none;
   }
 } [data-clipboard-content]:focus {

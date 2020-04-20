@@ -24,22 +24,20 @@
 <body class="font-sans text-lg bg-magenta-black">
 
     <header class="flex justify-between py-5 px-8 items-center fixed z-20 top-0 inset-x-0 bg-magenta-black border-magenta-500 border-t-16" role="banner">
-    <span class="site-logo">
-        <a class="link-logo text-2xl font-medium" href="/#">Jesse Trippe</a>
-    </span>
-    <button class="nav-toggle flex lg:hidden items-center button-ghost py-2 px-3 transition duration-150" aria-expanded="false">
+    <a class="text-2xl font-medium" href="/#">Jesse Trippe</a>
+    <button id="nav-toggle" class="flex lg:hidden items-center button-ghost py-2 px-3 transition duration-150" aria-expanded="false">
         <svg class="w-5 h-5"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
 	<path fill="currentColor" d="M16.4 9H3.6c-.55 0-.6.45-.6 1s.05 1 .6 1h12.8c.55 0 .6-.45.6-1s-.05-1-.6-1zm0 4H3.6c-.55 0-.6.45-.6 1s.05 1 .6 1h12.8c.55 0 .6-.45.6-1s-.05-1-.6-1zM3.6 7h12.8c.55 0 .6-.45.6-1s-.05-1-.6-1H3.6c-.55 0-.6.45-.6 1s.05 1 .6 1z"/>
 </svg>
     </button>
-    <nav class="nav-primary flex bg-magenta-black fixed inset-0 z-10 lg:static" hidden>
-        <button class="nav-close p-3 fixed top-0 right-0 lg:hidden">
+    <nav id="nav-primary" class="flex bg-magenta-black fixed inset-0 z-10 lg:static" hidden>
+        <button id="nav-close" class="p-3 fixed top-0 right-0 lg:hidden">
             <svg class="w-10 h-10 filter-shadow"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12">
     <path fill="currentColor" d="M10.56 1.08l.36.36c.1.1.1.26 0 .37L6.73 6l4.2 4.2c.1.1.1.26 0 .36l-.37.36c-.1.1-.26.1-.37 0L6 6.73l-4.2 4.2c-.1.1-.26.1-.36 0l-.36-.37a.26.26 0 010-.37L5.27 6l-4.2-4.2a.26.26 0 010-.36l.37-.36c.1-.1.26-.1.37 0L6 5.27l4.2-4.2c.1-.1.26-.1.36 0z"/>
 </svg>
 
         </button>
-        <ul class="nav-list flex flex-col lg:flex-row lg:text-lg justify-center items-center w-full text-4xl">
+        <ul class="flex flex-col lg:flex-row lg:text-lg justify-center items-center w-full text-4xl">
             <li>
                 <a class="animated-underline relative block py-1 lg:mr-8" href="/#experience">Experience</a>
             </li>
@@ -53,7 +51,7 @@
                 <a class="animated-underline relative block py-1 lg:mr-8" href="/#contact">Contact</a>
             </li>
             <li>
-                <a class="nav-link mt-8 lg:mt-0 button-ghost text-base lg:py-3 lg:px-5 lg:text-sm py-4 px-6 transition duration-150" href="/jesse-trippe-resume.pdf" download>Resume</a>
+                <a class="mt-8 lg:mt-0 button-ghost text-base lg:py-3 lg:px-5 lg:text-sm py-4 px-6 transition duration-150" href="/jesse-trippe-resume.pdf" download>Resume</a>
             </li>
         </ul>
     </nav>
@@ -315,12 +313,12 @@ $(document).ready(function() {
 	};
 });
 
-$(".nav-toggle").click(function() {
-	$(".nav-primary").removeAttr("hidden").removeClass("is-collapsed");
+$("#nav-toggle").click(function() {
+	$("#nav-primary").removeAttr("hidden").removeClass("is-collapsed");
 });
 
-$(".nav-close").click(function() {
-	$(".nav-primary").addClass("is-collapsed").attr("hidden", true);
+$("#nav-close").click(function() {
+	$("#nav-primary").addClass("is-collapsed").attr("hidden", true);
 });
 
 $(window).on('load resize scroll', function() {

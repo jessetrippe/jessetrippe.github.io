@@ -197,12 +197,12 @@ $(document).ready(function() {
 	};
 });
 
-$(".nav-toggle").click(function() {
-	$(".nav-primary").removeAttr("hidden").removeClass("is-collapsed");
+$("#nav-toggle").click(function() {
+	$("#nav-primary").removeAttr("hidden").removeClass("is-collapsed");
 });
 
-$(".nav-close").click(function() {
-	$(".nav-primary").addClass("is-collapsed").attr("hidden", true);
+$("#nav-close").click(function() {
+	$("#nav-primary").addClass("is-collapsed").attr("hidden", true);
 });
 
 $(window).on('load resize scroll', function() {
