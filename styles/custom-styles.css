@@ -9,15 +9,6 @@ h2 + p {
           filter: drop-shadow(0 1px 1px rgba(0,0,0,.3));
 } .border-t-16 { border-top-width: 16px;
 } .border-b-16 { border-bottom-width: 16px;
-} .button-ghost {
-  border: 2px solid #FF01FB;
-  border-radius: 0.25rem;
-  color: #FF01FB;
-  font-weight: 600;
-  display: inline-block;
-} .button-ghost:hover {
-  background: #FF01FB;
-  color: #000300;
 } .text-gradient {
   background: linear-gradient(145deg, #FF8BFD 0%, #BA01B7 80%);
   -webkit-background-clip: text;

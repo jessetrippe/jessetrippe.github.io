@@ -560,19 +560,6 @@ h2 + p {
 .border-b-16 { border-bottom-width: 16px;
 }
 
-.button-ghost {
-  border: 2px solid #FF01FB;
-  border-radius: 0.25rem;
-  color: #FF01FB;
-  font-weight: 600;
-  display: inline-block;
-}
-
-.button-ghost:hover {
-  background: #FF01FB;
-  color: #000300;
-}
-
 .text-gradient {
   background: linear-gradient(145deg, #FF8BFD 0%, #BA01B7 80%);
   -webkit-background-clip: text;
@@ -949,12 +936,20 @@ h2 + p {
   background-color: hsl(301, 100%, 1%);
 }
 
+.hover\:bg-magenta-500:hover {
+  background-color: hsl(301, 100%, 50%);
+}
+
 .border-magenta-500 {
   border-color: hsl(301, 100%, 50%);
 }
 
 .rounded {
   border-radius: 0.25rem;
+}
+
+.border-2 {
+  border-width: 2px;
 }
 
 .border {
@@ -1377,6 +1372,10 @@ h2 + p {
   color: hsl(301, 100%, 84%);
 }
 
+.text-magenta-500 {
+  color: hsl(301, 100%, 50%);
+}
+
 .text-magenta-600 {
   color: hsl(301, 100%, 40%);
 }
@@ -1387,6 +1386,10 @@ h2 + p {
 
 .hover\:text-magenta-500:hover {
   color: hsl(301, 100%, 50%);
+}
+
+.hover\:text-magenta-black:hover {
+  color: hsl(301, 100%, 1%);
 }
 
 .text-base {
