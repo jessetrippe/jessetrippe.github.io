@@ -557,6 +557,9 @@ h2 + p {
 .border-t-16 { border-top-width: 16px;
 }
 
+.border-b-16 { border-bottom-width: 16px;
+}
+
 .button-ghost {
   border: 2px solid #FF01FB;
   border-radius: 0.25rem;
