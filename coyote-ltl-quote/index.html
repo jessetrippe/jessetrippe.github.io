@@ -235,21 +235,6 @@ $("#nav-toggle").click(function() {
 $("#nav-close").click(function() {
 	$("#nav-primary").addClass("is-collapsed").attr("hidden", true);
 });
-
-$(window).on('load resize scroll', function() {
-
-	var element = $('[data-is-reveal]');
-	var elementTop = element.offset().top;
-	var elementBottom = elementTop + $(this).outerHeight();
-	var viewportTop = $(window).scrollTop();
-	var viewportBottom = viewportTop + $(window).height();
-
-    if (elementBottom > viewportTop && elementTop < viewportBottom) {
-    	console.log("in viewport");
-    } else {
-        console.log("out of viewport");
-    }
-});
 </script>
     <script>window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-54788171-1', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')</script>

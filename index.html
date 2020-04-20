@@ -51,18 +51,17 @@
                 <a class="animated-underline relative block py-1 lg:mr-8" href="/#contact">Contact</a>
             </li>
             <li>
-                <a class="mt-8 lg:mt-0 button-ghost text-base lg:py-3 lg:px-5 lg:text-sm py-4 px-6 transition duration-150" href="/jesse-trippe-resume.pdf" download>Resume</a>
+                <a class="mt-8 lg:mt-0 border-2 border-magenta-500 text-magenta-500 hover:bg-magenta-500 hover:text-magenta-black font-semibold rounded transition duration-150 inline-block text-base lg:py-3 lg:px-5 lg:text-sm py-4 px-6" href="/jesse-trippe-resume.pdf" download>Resume</a>
             </li>
         </ul>
     </nav>
 </header>
 
-
-<header id="home" class="min-h-screen grid content-center py-32 px-8" data-is-reveal="true">
+<header id="home" class="min-h-screen grid content-center py-32 px-8">
     <div class="container mx-auto">
         <h2 class="font-bold text-6xl leading-snug mb-8 pt-8 xl:w-7/8">Hello! I'm <span class="whitespace-no-wrap"><span class="text-gradient">Jesse Trippe</span>&mdash;</span>a Product and <span class="whitespace-no-wrap">UX Designer</span> working in <span class="whitespace-no-wrap">Seattle, WA.</span></h2>
         <p>
-        	<button class="button-ghost border-2 border-magenta-500 text-magenta-500 hover:bg-magenta-500 hover:text-magenta-black font-semibold rounded py-4 px-6 transition duration-150 relative select-none" data-clipboard-content="jesse@jessetrippe.com">Get in touch</button>
+        	<button class="border-2 border-magenta-500 text-magenta-500 hover:bg-magenta-500 hover:text-magenta-black font-semibold rounded py-4 px-6 transition duration-150 relative select-none" data-clipboard-content="jesse@jessetrippe.com">Get in touch</button>
         </p>
     </div>
 </header>
@@ -319,21 +318,6 @@ $("#nav-toggle").click(function() {
 
 $("#nav-close").click(function() {
 	$("#nav-primary").addClass("is-collapsed").attr("hidden", true);
-});
-
-$(window).on('load resize scroll', function() {
-
-	var element = $('[data-is-reveal]');
-	var elementTop = element.offset().top;
-	var elementBottom = elementTop + $(this).outerHeight();
-	var viewportTop = $(window).scrollTop();
-	var viewportBottom = viewportTop + $(window).height();
-
-    if (elementBottom > viewportTop && elementTop < viewportBottom) {
-    	console.log("in viewport");
-    } else {
-        console.log("out of viewport");
-    }
 });
 </script>
     <script>window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
