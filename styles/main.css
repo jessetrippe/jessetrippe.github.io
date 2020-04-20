@@ -939,40 +939,12 @@ h2 + p {
   }
 }
 
-.bg-magenta-100 {
-  background-color: hsl(301, 100%, 95%);
-}
-
-.bg-magenta-200 {
-  background-color: hsl(301, 100%, 84%);
-}
-
-.bg-magenta-300 {
-  background-color: hsl(301, 100%, 73%);
-}
-
-.bg-magenta-400 {
-  background-color: hsl(301, 100%, 62%);
-}
-
 .bg-magenta-500 {
   background-color: hsl(301, 100%, 50%);
 }
 
-.bg-magenta-600 {
-  background-color: hsl(301, 100%, 40%);
-}
-
-.bg-magenta-700 {
-  background-color: hsl(301, 100%, 30%);
-}
-
 .bg-magenta-800 {
   background-color: hsl(301, 100%, 20%);
-}
-
-.bg-magenta-900 {
-  background-color: hsl(301, 100%, 10%);
 }
 
 .bg-magenta-black {
@@ -1222,10 +1194,6 @@ h2 + p {
 
 .p-8 {
   padding: 2rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
 }
 
 .py-1 {
