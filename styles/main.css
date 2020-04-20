@@ -593,15 +593,6 @@ h2 + p {
   }
 }
 
-[data-clipboard-content] {
-  position: relative;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  transition: transform .1s;
-}
-
 [data-clipboard-content]:focus {
   outline: 0;
 }
@@ -1420,6 +1411,13 @@ h2 + p {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.select-none {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .align-top {

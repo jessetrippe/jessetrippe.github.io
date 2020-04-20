@@ -30,13 +30,6 @@ h2 + p {
   .nav-primary[hidden] {
     display: none;
   }
-} [data-clipboard-content] {
-  position: relative;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  transition: transform .1s;
 } [data-clipboard-content]:focus {
   outline: 0;
 } [data-clipboard-content]:active {
