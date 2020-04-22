@@ -238,10 +238,13 @@ $(window).on('load resize scroll', function() {
 
 	    if (elementBottom > viewportTop && elementTop < viewportBottom) {
         	$(this).attr("data-reveal","true");
+
+			$(this).one('webkitAnimationEnd oanimationend msAnimationEnd animationend', function(e) {
+				$(this).removeAttr("data-reveal data-reveal-from data-reveal-duration data-reveal-delay");
+		    });
     	};
 	});
 });
-
 </script>
     <script>window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-54788171-1', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')</script>
