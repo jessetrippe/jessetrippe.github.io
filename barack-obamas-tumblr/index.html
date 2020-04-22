@@ -187,6 +187,23 @@ $("#nav-toggle").click(function() {
 $("#nav-close").click(function() {
 	$("#nav-primary").addClass("is-collapsed").attr("hidden", true);
 });
+
+$(window).on('load resize scroll', function() {
+
+    var viewportTop = $(window).scrollTop();
+    var viewportBottom = viewportTop + $(window).height();
+
+	$("[data-reveal=''],[data-reveal='false']").each(function() {
+
+	    var elementTop = $(this).offset().top;
+	    var elementBottom = elementTop + $(this).outerHeight();
+
+	    if (elementBottom > viewportTop && elementTop < viewportBottom) {
+        	$(this).attr("data-reveal","true");
+    	};
+	});
+});
+
 </script>
     <script>window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-54788171-1', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')</script>

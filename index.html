@@ -24,7 +24,7 @@
 <body class="font-sans text-lg bg-magenta-black">
 
     <header class="flex justify-between py-5 px-8 items-center fixed z-20 top-0 inset-x-0 bg-magenta-black border-magenta-500 border-t-16" role="banner">
-    <a class="text-2xl font-medium" href="/#">Jesse Trippe</a>
+    <a class="text-2xl font-medium" href="/#"  data-reveal="">Jesse Trippe</a>
     <button id="nav-toggle" class="flex lg:hidden items-center border-2 border-magenta-500 text-magenta-500 hover:bg-magenta-500 hover:text-magenta-black font-semibold rounded py-2 px-3 transition duration-150" aria-expanded="false">
         <svg class="w-5 h-5"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
 	<path fill="currentColor" d="M16.4 9H3.6c-.55 0-.6.45-.6 1s.05 1 .6 1h12.8c.55 0 .6-.45.6-1s-.05-1-.6-1zm0 4H3.6c-.55 0-.6.45-.6 1s.05 1 .6 1h12.8c.55 0 .6-.45.6-1s-.05-1-.6-1zM3.6 7h12.8c.55 0 .6-.45.6-1s-.05-1-.6-1H3.6c-.55 0-.6.45-.6 1s.05 1 .6 1z"/>
@@ -39,19 +39,19 @@
         </button>
         <ul class="flex flex-col lg:flex-row lg:text-lg justify-center items-center w-full text-4xl">
             <li>
-                <a class="animated-underline relative block py-1 lg:mr-8" href="/#experience">Experience</a>
+                <a class="animated-underline relative block py-1 lg:mr-8" href="/#experience" data-reveal="" data-reveal-from="top" data-reveal-delay="100">Experience</a>
             </li>
             <li>
-                <a class="animated-underline relative block py-1 lg:mr-8" href="/#work">Work</a>
+                <a class="animated-underline relative block py-1 lg:mr-8" href="/#work" data-reveal="" data-reveal-from="top" data-reveal-delay="200">Work</a>
             </li>
             <li>
-                <a class="animated-underline relative block py-1 lg:mr-8" href="/#about">About</a>
+                <a class="animated-underline relative block py-1 lg:mr-8" href="/#about" data-reveal="" data-reveal-from="top" data-reveal-delay="300">About</a>
             </li>
             <li>
-                <a class="animated-underline relative block py-1 lg:mr-8" href="/#contact">Contact</a>
+                <a class="animated-underline relative block py-1 lg:mr-8" href="/#contact" data-reveal="" data-reveal-from="top" data-reveal-delay="400">Contact</a>
             </li>
             <li>
-                <a class="mt-8 lg:mt-0 border-2 border-magenta-500 text-magenta-500 hover:bg-magenta-500 hover:text-magenta-black font-semibold rounded transition duration-150 inline-block text-base lg:py-3 lg:px-5 lg:text-sm py-4 px-6" href="/jesse-trippe-resume.pdf" download>Resume</a>
+                <a class="mt-8 lg:mt-0 border-2 border-magenta-500 text-magenta-500 hover:bg-magenta-500 hover:text-magenta-black font-semibold rounded transition duration-150 inline-block text-base lg:py-3 lg:px-5 lg:text-sm py-4 px-6" href="/jesse-trippe-resume.pdf" download  data-reveal="" data-reveal-from="top" data-reveal-delay="500">Resume</a>
             </li>
         </ul>
     </nav>
@@ -59,20 +59,22 @@
 
 <header id="home" class="min-h-screen grid content-center py-32 px-8">
     <div class="container mx-auto">
-        <h2 class="font-bold text-6xl leading-snug mb-8 pt-8 xl:w-7/8">Hello! I'm <span class="whitespace-no-wrap"><span class="text-gradient">Jesse Trippe</span>&mdash;</span>a Product and <span class="whitespace-no-wrap">UX Designer</span> working in <span class="whitespace-no-wrap">Seattle, WA.</span></h2>
-        <p>
+    	<h2 class="text-2xl" data-reveal data-reveal-from="bottom" data-reveal-delay="800">Nice to meet you!</h2>
+    	<h2 class="text-6xl font-bold leading-tight mb-12 text-gradient" data-reveal data-reveal-from="bottom" data-reveal-delay="800">I'm Jesse Trippe.</h2>
+    	<p class="text-2xl mb-12 md:w-9/12 lg:w-8/12 xl:w-7/12" data-reveal data-reveal-from="bottom" data-reveal-delay="900">I'm a UX Designer building and designing phenomenal websites, complex web applications, and large-scale platforms based in Seattle, WA.</p>
+    	<p class="pt-3 m-0" data-reveal data-reveal-from="bottom" data-reveal-delay="1000">
         	<button class="border-2 border-magenta-500 text-magenta-500 hover:bg-magenta-500 hover:text-magenta-black font-semibold rounded py-4 px-6 transition duration-150 relative select-none" data-clipboard-content="jesse@jessetrippe.com">Get in touch</button>
         </p>
     </div>
 </header>
 
 <section id="experience" class="min-h-screen content-center container mx-auto grid lg:grid-cols-3 gap-10 text-xl mx-auto py-32 px-8">
-	<div class="lg:col-span-3 flex items-center justify-center mb-12">
+	<div class="lg:col-span-3 flex items-center justify-center mb-12" data-reveal data-reveal-from="top" data-reveal-delay="100">
 		<div class="w-1/4 h-px bg-magenta-700" aria-hidden="true"></div>
 		<h2 class="px-4 text-5xl font-semibold whitespace-no-wrap">The work I do</h2>
 		<div class="w-1/4 h-px bg-magenta-700" aria-hidden="true"></div>
 	</div>
-	<div>
+	<div data-reveal data-reveal-from="bottom" data-reveal-delay="300">
 		<svg    xmlns="http://www.w3.org/2000/svg" width="100" height="100">
 	<rect fill="#fff" width="92" height="92" y="4" rx=".5"></rect>
 	<path fill="#000" d="M4 24h84v68H4z"></path>
@@ -94,7 +96,7 @@
 		<h2 class="font-semibold text-4xl mt-6">UI Design</h2>
 		<p>I discover a creative direction and build design systems that result in delightful and intuitive experiences that fit perfectly with what users hope to accomplish.</p>
 	</div>
-	<div class="my-16 lg:my-0">
+	<div class="my-16 lg:my-0" data-reveal data-reveal-from="bottom" data-reveal-delay="500">
 		<svg   xmlns="http://www.w3.org/2000/svg" width="100" height="100">
 	<path fill="#E1BFFF" d="M38 4h8v24h-8z"></path>
 	<path fill="#FFF" d="M38 30a2 2 0 0 1 1.896 2.632l-4 12A2 2 0 0 1 34 46H14a2 2 0 0 1-1.896-2.632l4-12A2 2 0 0 1 18 30h20z"></path>
@@ -112,7 +114,7 @@
 		<h2 class="font-semibold text-4xl mt-6">UX Design</h2>
 		<p>I define user flows of a product and deliver meaningful user experiences through prototyping with the goal to fail fast and iterate.</p>
 	</div>
-	<div>
+	<div data-reveal data-reveal-from="bottom" data-reveal-delay="700">
 		<svg   xmlns="http://www.w3.org/2000/svg" width="100" height="100">
 	<rect fill="#FFF" width="92" height="76" y="6" rx=".5"></rect>
 	<rect fill="#FFF" width="36" height="4" x="28" y="90" rx=".5"></rect>
@@ -129,94 +131,93 @@
 	</div>
 </section>
 
-
 <section id="work" class="min-h-screen grid items-center py-32">
-	<div class="container mx-auto px-8 text-center flex items-center mb-12">
+	<div class="container mx-auto px-8 text-center flex items-center mb-12" data-reveal data-reveal-from="top" data-reveal-delay="100">
 		<div class="flex-1 h-px bg-magenta-700" aria-hidden="true"></div>
 		<h1 class="text-5xl font-bold px-4">Some things I've built</h1>
 		<div class="flex-1 h-px bg-magenta-700" aria-hidden="true"></div>
 	</div>
 	<div class="work-items grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mb-20" style="grid-auto-rows: 1fr">
 		
-			<a href="/amazon-scheduling/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100">
+			<a href="/amazon-scheduling/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100" data-reveal data-reveal-from="bottom" data-reveal-delay="300">
 				<h2 class="text-3xl mb-3 font-bold leading-tight">Amazon Scheduling</h2>
 				<h2 class="text-xl">Case study of Amazon's 3rd party driver scheduling tool.</h2>
 				<h2 class="inline-block rounded font-bold text-magenta-200 bg-magenta-800 px-1 uppercase mt-5">Case Study</h2>
 			</a>
 		
-			<a href="/amazon-dispatch/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100">
+			<a href="/amazon-dispatch/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100" data-reveal data-reveal-from="bottom" data-reveal-delay="300">
 				<h2 class="text-3xl mb-3 font-bold leading-tight">Amazon Dispatch</h2>
 				<h2 class="text-xl">Amazon's delivery partners needed a tool to track and monitor driver location, progress, route, and stop information.</h2>
 				<h2 class="inline-block rounded font-bold text-magenta-200 bg-magenta-800 px-1 uppercase mt-5">Case Study</h2>
 			</a>
 		
-			<a href="/amazon-work-tracking/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100">
+			<a href="/amazon-work-tracking/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100" data-reveal data-reveal-from="bottom" data-reveal-delay="300">
 				<h2 class="text-3xl mb-3 font-bold leading-tight">Amazon Work Tracking</h2>
 				<h2 class="text-xl">Amazon needed a tool for delivery partners to submit hours, mileage, and route counts daily in order to get paid.</h2>
 				<h2 class="inline-block rounded font-bold text-magenta-200 bg-magenta-800 px-1 uppercase mt-5">Case Study</h2>
 			</a>
 		
-			<a href="/coyote-howl/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100">
+			<a href="/coyote-howl/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100" data-reveal data-reveal-from="bottom" data-reveal-delay="300">
 				<h2 class="text-3xl mb-3 font-bold leading-tight">Coyote Howl</h2>
 				<h2 class="text-xl">Coyote needed a customer-focused mobile app to give shippers visibility and insight into their freight network.</h2>
 				<h2 class="inline-block rounded font-bold text-magenta-200 bg-magenta-800 px-1 uppercase mt-5">Case Study</h2>
 			</a>
 		
-			<a href="/coyote-ltl-quote/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100">
+			<a href="/coyote-ltl-quote/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100" data-reveal data-reveal-from="bottom" data-reveal-delay="300">
 				<h2 class="text-3xl mb-3 font-bold leading-tight">Coyote LTL Quote</h2>
 				<h2 class="text-xl">A less than truckload (LTL) quoting and shipping tool so Coyote Logistics could remain competitive in the market.</h2>
 				<h2 class="inline-block rounded font-bold text-magenta-200 bg-magenta-800 px-1 uppercase mt-5">Case Study</h2>
 			</a>
 		
-			<a href="/shuffl/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100">
+			<a href="/shuffl/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100" data-reveal data-reveal-from="bottom" data-reveal-delay="300">
 				<h2 class="text-3xl mb-3 font-bold leading-tight">Shuffl</h2>
 				<h2 class="text-xl">Website and branding for a small Slack app aimed to keep remote teams connected by pairing random employees up for lunch.</h2>
 				
 			</a>
 		
-			<a href="/coyote-my-tasks/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100">
+			<a href="/coyote-my-tasks/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100" data-reveal data-reveal-from="bottom" data-reveal-delay="300">
 				<h2 class="text-3xl mb-3 font-bold leading-tight">Coyote My Tasks</h2>
 				<h2 class="text-xl">A dashboard that presents Coyote customers with high level freight information, tasks and todo items, and a quick way to complete them.</h2>
 				<h2 class="inline-block rounded font-bold text-magenta-200 bg-magenta-800 px-1 uppercase mt-5">Case Study</h2>
 			</a>
 		
-			<a href="/coyote-tms/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100">
+			<a href="/coyote-tms/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100" data-reveal data-reveal-from="bottom" data-reveal-delay="300">
 				<h2 class="text-3xl mb-3 font-bold leading-tight">Coyote TMS</h2>
 				<h2 class="text-xl">Large web platform and application for shippers and trucking companies to manage freight.</h2>
 				
 			</a>
 		
-			<a href="/tech-for-campaigns/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100">
+			<a href="/tech-for-campaigns/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100" data-reveal data-reveal-from="bottom" data-reveal-delay="300">
 				<h2 class="text-3xl mb-3 font-bold leading-tight">Tech for Campaigns</h2>
 				<h2 class="text-xl">A sign-up form to collect volunteers' basic contact information, specific market expertise, and their technical background.</h2>
 				<h2 class="inline-block rounded font-bold text-magenta-200 bg-magenta-800 px-1 uppercase mt-5">Case Study</h2>
 			</a>
 		
-			<a href="/barack-obamas-tumblr/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100">
+			<a href="/barack-obamas-tumblr/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100" data-reveal data-reveal-from="bottom" data-reveal-delay="300">
 				<h2 class="text-3xl mb-3 font-bold leading-tight">Barack Obama's Tumblr</h2>
 				<h2 class="text-xl">Desktop and mobile template designs for Barack Obama's 2012 reelection campaign's Tumblr page.</h2>
 				
 			</a>
 		
-			<a href="/ohboyy/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100">
+			<a href="/ohboyy/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100" data-reveal data-reveal-from="bottom" data-reveal-delay="300">
 				<h2 class="text-3xl mb-3 font-bold leading-tight">OhBoyy</h2>
 				<h2 class="text-xl">Branding, t-shirt, and website for a small group of friends trying their hand at online t-shirt sales.</h2>
 				
 			</a>
 		
-			<a href="/bauer-latoza-studio/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100">
+			<a href="/bauer-latoza-studio/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100" data-reveal data-reveal-from="bottom" data-reveal-delay="300">
 				<h2 class="text-3xl mb-3 font-bold leading-tight">Bauer Latoza Studio</h2>
 				<h2 class="text-xl">Brochure and portfolio website for Chicago architecture firm specializing in historic preservation.</h2>
 				
 			</a>
 		
-			<a href="/green-bridge-white-house/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100">
+			<a href="/green-bridge-white-house/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100" data-reveal data-reveal-from="bottom" data-reveal-delay="300">
 				<h2 class="text-3xl mb-3 font-bold leading-tight">Green Bridge White House</h2>
 				<h2 class="text-xl">Identity, website, and blog for a contemporary and modern interior design company located in Denver, CO.</h2>
 				
 			</a>
 		
-			<a href="/northwind-farms/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100">
+			<a href="/northwind-farms/" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100" data-reveal data-reveal-from="bottom" data-reveal-delay="300">
 				<h2 class="text-3xl mb-3 font-bold leading-tight">Northwind Farms</h2>
 				<h2 class="text-xl">Identity and brand book for a Burlington, WI garden center and farm.</h2>
 				
@@ -227,14 +228,14 @@
 
 <section id="about" class="min-h-screen grid content-center py-32 px-8">
 	<div class="container mx-auto grid grid-cols-12 gap-10 text-xl">
-		<div class="col-span-12 flex items-center">
-			<h2 class="pr-4 text-5xl font-semibold">A few things about me</h2>
-			<div class="flex-1 h-px bg-magenta-700" aria-hidden="true"></div>
+		<div class="col-span-12 flex items-center" data-reveal data-reveal-from="top" data-reveal-delay="100">
+			<h2 class="w-full sm:w-auto sm:pr-4 text-5xl font-semibold text-center">A few things <span class="whitespace-no-wrap">about me</span></h2>
+			<div class="flex-1 sm:h-px bg-magenta-700" aria-hidden="true"></div>
 		</div>
-		<div class="row-start-2 md:order-last col-span-8 col-start-3 md:col-span-5 lg:col-span-4 lg:col-start-9 xl:col-span-3 xl:col-start-10 self-start">
+		<div class="md:order-last col-span-8 col-start-3 md:col-span-5 lg:col-span-4 lg:col-start-9 xl:col-span-3 xl:col-start-10 self-start" data-reveal data-reveal-from="bottom" data-reveal-delay="300">
 			<img  src="/images/avatar.jpg" alt="Jesse Trippe" class="rounded w-full" height="400" width="400">
 		</div>
-		<div class="row-start-2 col-span-12 md:col-span-7 self-start">
+		<div class="col-span-12 md:col-span-7 self-start" data-reveal data-reveal-from="bottom" data-reveal-delay="500">
 			<p>Computer dork meets social butterfly. This unique personality of opposites allows me to successfully combine serious work skills while multi-tasking with style and ease. Combine the diplomacy of Madeline Albright with the humanitarian vision of President Jimmy Carter and add the flexibility of Spider-Man and you've got me.</p>
 			<p>You've heard it all before&mdash;a young guy with small town Michigan roots moves to the big city to chase his dreams and mostly finds jobs stuffing envelopes and foaming lattes. So I hit the books and keyboard at The School of the Art Institute of Chicago for a BA in Fine Arts, and now I design and redesign in my sleep.</p>
 			<p>I taught myself HTML & CSS, applied my knowledge to front-end web design and fell in love with building websites. After years of freelance work and a brief period with the Obama Reelection Campaign, I joined Coyote Logistics in 2011 and eventually grew into Lead Product Designer, building a massive web app and several mobile apps for Coyote's customer's.</p>
@@ -243,8 +244,8 @@
 	</div>
 </section>
 
-<footer id="contact" class="site-footer min-h-screen grid content-center py-32 px-8 border-magenta-500 border-b-16">
-	<div class="mx-auto max-w-2xl text-center">
+<footer id="contact" class="site-footer min-h-screen grid content-center py-32 px-8 border-magenta-500 border-b-16" data-reveal data-reveal-from="bottom" data-reveal-delay="100">
+	<div class="mx-auto max-w-2xl text-center" data-reveal data-reveal-from="bottom" data-reveal-delay="500">
 		<h1 class="text-6xl font-bold mb-8 text-gradient">Get In Touch</h1>
 		<p class="mb-12 text-xl">Although I'm not currently looking for freelance opportunities, my inbox is always open. Whether for a potential project or just to say hi, I'll try my best to answer your email!</p>
 		<p><button data-clipboard-content="jesse@jessetrippe.com" class="border-2 border-magenta-500 text-magenta-500 hover:bg-magenta-500 hover:text-magenta-black font-semibold rounded py-4 px-8 transition duration-150 relative select-none">Say hello</button></p>
@@ -319,6 +320,23 @@ $("#nav-toggle").click(function() {
 $("#nav-close").click(function() {
 	$("#nav-primary").addClass("is-collapsed").attr("hidden", true);
 });
+
+$(window).on('load resize scroll', function() {
+
+    var viewportTop = $(window).scrollTop();
+    var viewportBottom = viewportTop + $(window).height();
+
+	$("[data-reveal=''],[data-reveal='false']").each(function() {
+
+	    var elementTop = $(this).offset().top;
+	    var elementBottom = elementTop + $(this).outerHeight();
+
+	    if (elementBottom > viewportTop && elementTop < viewportBottom) {
+        	$(this).attr("data-reveal","true");
+    	};
+	});
+});
+
 </script>
     <script>window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-54788171-1', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')</script>
